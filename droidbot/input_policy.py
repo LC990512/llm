@@ -657,6 +657,7 @@ class TaskPolicy(UtgBasedInputPolicy):
         self.__nav_target = None
         self.__nav_num_steps = -1
         self.step = step
+        self.task = extracted_info[step-1]['task']
         self.extracted_info = extracted_info
         self.__num_restarts = 0
         self.__num_steps_outside = 0
@@ -665,6 +666,7 @@ class TaskPolicy(UtgBasedInputPolicy):
         self.__random_explore = random_input
         self.__action_history = []
         self.api = api
+
 
     #lccc
     def start(self, input_manager):
@@ -699,7 +701,7 @@ class TaskPolicy(UtgBasedInputPolicy):
             self.action_count += 1
             if finish == 1:
                 self.step += 1
-                self.task = self.extracted_info[self.step-1]
+                self.task = self.extracted_info[self.step-1]['task']
                
 
 
@@ -842,11 +844,11 @@ class TaskPolicy(UtgBasedInputPolicy):
     #     return r.content.decode()
 
     def _get_action_with_match(self, current_state, action_history):
-        task = f"I'm using a smartphone to {self.task}"
         history_prompt = f'I have already completed the following steps, which should not be performed again: \n ' + ';\n '.join(action_history)
         view_descs, candidate_actions = current_state.get_described_actions()
-        splitted_task = task.split()
+        splitted_task = self.task.split()
         selected_action = None
+        finish = 0
         for idx in range(0, len(view_descs)):
             flag = 1
             for word in splitted_task:
@@ -855,8 +857,9 @@ class TaskPolicy(UtgBasedInputPolicy):
                     flag = 0
             if flag == 1:
                 selected_action = candidate_actions[idx]
+                finish = 1
                 print(f'lccc _get_action_with_match end: {view_descs[idx]}')
-        return selected_action, candidate_actions
+        return finish, selected_action, candidate_actions
 
     def _get_action_with_LLM(self, current_state, action_history):
         task_prompt = f"I'm using a smartphone to {self.task}"

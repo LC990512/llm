@@ -77,19 +77,19 @@ def process_files(directory, filename):
 
     extracted_info = []
     with open(os.path.join(directory, filename), 'r') as file:
-        # extracted_info.append({
-        #     'app': "apps/" + file_prefix + ".apk",
-        #     'function': file_suffix,
-        #     'step_number': 1,
-        #     'event_or_assertion': "Event",
-        #     'task': "Open the '{}' app".format(file_prefix),
-        #     'status': -1
-        # })
+        extracted_info.append({
+            'app': "apps/" + file_prefix + ".apk",
+            'function': file_suffix,
+            'step_number': 1,
+            'event_or_assertion': "Event",
+            'task': "Open the '{}' app".format(file_prefix),
+            'status': -1
+        })
         for line in file:
             match = pattern.match(line)
             if match:
                 # 提取数字，Event/Assertion 和 task
-                step_number = int(match.group(1))
+                step_number = int(match.group(1))+1
                 event_or_assertion = match.group(2)
                 task = match.group(3)
                 status = 1 
@@ -97,6 +97,7 @@ def process_files(directory, filename):
                 step_number = int(line.split(":")[0].split("Test Step ")[1])
                 event_or_assertion = general_step.splitlines()[step_number-1].split(")")[0].split("(")[1]
                 task = general_step.splitlines()[step_number-1].split(") ")[1]
+                step_number += 1
                 status = -1
 
             # 将提取的信息添加到列表
@@ -159,7 +160,7 @@ def main():
             print(f"Task: {item['task']}")
             print(f"Status: {item['status']}\n")
 
-        #explore(extracted_info)
+        explore(extracted_info)
 
 if __name__ == "__main__":
     main()

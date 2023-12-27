@@ -1,0 +1,252 @@
+--------- beginning of main
+12-27 17:08:43.722  5770  5770 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 17:08:43.735  5770  5770 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 17:08:43.735  5770  5770 E android.os.Debug: failed to load memtrack module: -2
+12-27 17:08:43.736  5770  5770 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 17:08:44.078  5785  5785 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 17:08:44.091  5785  5785 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 17:08:44.091  5785  5785 E android.os.Debug: failed to load memtrack module: -2
+12-27 17:08:44.092  5785  5785 I Radio-JNI: register_android_hardware_Radio DONE
+--------- beginning of system
+12-27 17:08:44.103  3961  5324 I ActivityManager: Killing 4752:com.google.android.apps.maps/u0a39 (adj 15): empty #17
+12-27 17:08:44.591  5809  5809 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 17:08:44.596  4856  4862 I art     : Debugger is no longer active
+12-27 17:08:44.604  5809  5809 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 17:08:44.604  5809  5809 E android.os.Debug: failed to load memtrack module: -2
+12-27 17:08:44.605  5809  5809 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 17:08:44.610  5809  5809 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=122623, downTime=122623, deviceId=-1, source=0x101 }
+12-27 17:08:44.616  5809  5809 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=122623, downTime=122623, deviceId=-1, source=0x101 }
+12-27 17:08:44.719  4872  4878 I art     : Debugger is no longer active
+12-27 17:08:44.951  5832  5832 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 17:08:44.967  5832  5832 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 17:08:44.967  5832  5832 E android.os.Debug: failed to load memtrack module: -2
+12-27 17:08:44.968  5832  5832 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 17:08:44.972  5832  5832 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=122986, downTime=122986, deviceId=-1, source=0x101 }
+12-27 17:08:44.974  5832  5832 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=122986, downTime=122986, deviceId=-1, source=0x101 }
+12-27 17:08:45.217  4955  4961 I art     : Debugger is no longer active
+12-27 17:08:45.226  3961  4058 I ActivityManager: Waited long enough for: ServiceRecord{4432823 u0 com.google.android.calendar/com.android.calendar.alerts.InitAlarmsService}
+12-27 17:08:45.331  5850  5850 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 17:08:45.350  5850  5850 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 17:08:45.350  5850  5850 E android.os.Debug: failed to load memtrack module: -2
+12-27 17:08:45.351  5850  5850 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 17:08:45.361  5850  5850 I art     : System.exit called, status: 0
+12-27 17:08:45.361  5850  5850 I AndroidRuntime: VM exiting with result code 0.
+12-27 17:08:45.655  5880  5880 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 17:08:45.669  5880  5880 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 17:08:45.669  5880  5880 E android.os.Debug: failed to load memtrack module: -2
+12-27 17:08:45.670  5880  5880 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 17:08:45.675  3961  4413 I ActivityManager: Force stopping com.thomsonreuters.reuters appid=10091 user=0: from pid 5880
+12-27 17:08:45.675  3961  4413 I ActivityManager: Killing 5479:com.thomsonreuters.reuters/u0a91 (adj 5): stop com.thomsonreuters.reuters
+12-27 17:08:45.694  5007  5043 I art     : Debugger is no longer active
+12-27 17:08:45.711  3961  4413 W ActivityManager: Scheduling restart of crashed service com.thomsonreuters.reuters/com.chartbeat.androidsdk.ChartbeatService in 1000ms
+12-27 17:08:45.712  3961  4413 I ActivityManager:   Force stopping service ServiceRecord{1feed59 u0 com.thomsonreuters.reuters/com.chartbeat.androidsdk.ChartbeatService}
+12-27 17:08:45.712  3961  5324 W ActivityManager: Spurious death for ProcessRecord{eb42f0f 0:com.thomsonreuters.reuters/u0a91}, curProc for 5479: null
+12-27 17:08:45.961  3961  4114 W ActivityManager: Unable to start service Intent { act=com.google.android.gms.drive.ApiService.RESET_AFTER_BOOT flg=0x4 cmp=com.google.android.gms/.drive.api.ApiService (has extras) } U=0: not found
+12-27 17:08:45.966  4872  5084 I Vision  : Requesting optional module download of ocr.
+12-27 17:08:45.966  4872  5084 I Vision  : Exceeded maximum feature download tries for ocr
+12-27 17:08:45.966  4872  5084 W Vision  : Request of optional module download of ocr failed.
+12-27 17:08:45.967  4872  5084 I Vision  : Checking for download completion for 133980 -- ocr
+12-27 17:08:46.021  5897  5897 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 17:08:46.035  5897  5897 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 17:08:46.035  5897  5897 E android.os.Debug: failed to load memtrack module: -2
+12-27 17:08:46.035  5897  5897 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 17:08:46.039  5897  5897 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=124053, downTime=124053, deviceId=-1, source=0x101 }
+12-27 17:08:46.040  5897  5897 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=124053, downTime=124053, deviceId=-1, source=0x101 }
+12-27 17:08:46.041  3961  4119 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.Launcher (has extras)} from uid 1000 on display 0
+12-27 17:08:46.086  5117  5174 I art     : Debugger is no longer active
+12-27 17:08:46.143  5135  5195 I art     : Debugger is no longer active
+12-27 17:08:46.609  5287  5331 I art     : Debugger is no longer active
+12-27 17:08:46.635  5292  5341 I art     : Debugger is no longer active
+12-27 17:08:46.666  5300  5357 I art     : Debugger is no longer active
+12-27 17:08:46.919  5400  5424 I art     : Debugger is no longer active
+12-27 17:08:47.097  5451  5463 I art     : Debugger is no longer active
+12-27 17:08:47.478  5560  5577 I art     : Debugger is no longer active
+12-27 17:08:50.090  4443  4828 W Nearby  : Failed attempt #3 out of 3 for RestoreDeviceName [CONTEXT service_id=49 ]
+12-27 17:08:50.090  4443  4828 W Nearby  : java.lang.IllegalStateException: BluetoothAdapter not ready yet!
+12-27 17:08:50.090  4443  4828 W Nearby  : 	at ajpy.d(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+12-27 17:08:50.090  4443  4828 W Nearby  : 	at ajpx.run(Unknown Source)
+12-27 17:08:50.090  4443  4828 W Nearby  : 	at bwuj.call(Unknown Source)
+12-27 17:08:50.090  4443  4828 W Nearby  : 	at bwuo.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+12-27 17:08:50.090  4443  4828 W Nearby  : 	at bwuo.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):9)
+12-27 17:08:50.090  4443  4828 W Nearby  : 	at ajpw.run(Unknown Source)
+12-27 17:08:50.090  4443  4828 W Nearby  : 	at java.lang.Thread.run(Thread.java:818)
+12-27 17:08:50.090  4443  4828 W Nearby  : 	at sow.run(Unknown Source)
+12-27 17:08:50.090  4443  4828 W Nearby  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+12-27 17:08:50.090  4443  4828 W Nearby  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+12-27 17:08:50.090  4443  4828 W Nearby  : 	at sux.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+12-27 17:08:50.090  4443  4828 W Nearby  : 	at java.lang.Thread.run(Thread.java:818)
+12-27 17:08:55.984  4872  5977 I Vision  : Requesting optional module download of ocr.
+12-27 17:08:55.987  4872  5977 I Vision  : Checking for download completion for 144000 -- ocr
+12-27 17:08:55.992  4872  5977 I ChimeraConfigurator: Starting update, reason: 4 urgentFeatures: vision.ocr:-1
+12-27 17:08:55.993  4872  5977 E ConfigFileUtils: Failed to read config file: /data/data/com.google.android.gms/app_chimera/next_container.pb: open failed: ENOENT (No such file or directory)
+12-27 17:08:55.998  4872  5976 I Authzen : [DeviceStateSyncManager] The server is in sync with current state. Nothing to do
+12-27 17:08:56.017  4872  5977 I ChmraDebugLogger: [73] 1801
+12-27 17:08:56.019  4872  5977 I ChmraDebugLogger: [30] [VisionOcr.optional:202414000400] permitMetered=true,
+12-27 17:08:56.021  4872  5977 W ChimeraConfigService: Retry attempt was throttled.
+12-27 17:08:56.673  5710  5716 I art     : Debugger is no longer active
+12-27 17:09:00.233  3961  4687 I ActivityManager: Killing 5287:com.google.android.gms.ui/u0a8 (adj 15): empty #17
+12-27 17:09:03.028  3961  5700 I ActivityManager: Killing 5292:com.google.android.apps.photos:CameraShortcut/u0a44 (adj 15): empty #17
+12-27 17:09:05.997  4872  6011 I Vision  : Requesting optional module download of ocr.
+12-27 17:09:05.997  4872  6011 I Vision  : Checking for download completion for 154010 -- ocr
+12-27 17:09:06.015  4443  4829 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.checkin.CheckinService started execution. cause:4 exec_start_elapsed_seconds: 144 [CONTEXT service_id=218 ]
+12-27 17:09:06.026  4443  4705 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.checkin.CheckinService finished executing. cause:4 result: 3 elapsed_millis: 16 uptime_millis: 16 exec_start_elapsed_seconds: 144 [CONTEXT service_id=218 ]
+12-27 17:09:06.048  4443  4829 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.auth.account.be.legacy.AuthCronService started execution. cause:5 exec_start_elapsed_seconds: 144 [CONTEXT service_id=218 ]
+12-27 17:09:06.052  4443  4705 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.auth.account.be.legacy.AuthCronService finished executing. cause:5 result: 3 elapsed_millis: 6 uptime_millis: 6 exec_start_elapsed_seconds: 144 [CONTEXT service_id=218 ]
+12-27 17:09:16.006  4872  6031 I Vision  : Requesting optional module download of ocr.
+12-27 17:09:16.008  4872  6031 I Vision  : Checking for download completion for 164022 -- ocr
+12-27 17:09:26.021  4872  6068 I Vision  : Requesting optional module download of ocr.
+12-27 17:09:26.021  4872  6068 I Vision  : Checking for download completion for 174035 -- ocr
+12-27 17:09:27.219  3961  5700 I MediaFocusControl:  AudioFocus  abandonAudioFocus() from android.media.AudioManager@6338138com.android.music.MediaPlaybackService$3@e9d4511
+12-27 17:09:33.029  3961  5071 I ActivityManager: Killing 4589:com.android.music/u0a40 (adj 15): empty #17
+12-27 17:09:36.033  4872  6088 I Vision  : Requesting optional module download of ocr.
+12-27 17:09:36.034  4872  6088 I Vision  : Checking for download completion for 184047 -- ocr
+12-27 17:09:46.053  4872  6112 I Vision  : Requesting optional module download of ocr.
+12-27 17:09:46.053  4872  6112 I Vision  : Exceeded maximum feature download tries for ocr
+12-27 17:09:46.053  4872  6112 W Vision  : Request of optional module download of ocr failed.
+12-27 17:09:46.054  4872  6112 I Vision  : Checking for download completion for 194067 -- ocr
+12-27 17:09:47.177  3961  4406 W AlarmManagerService: Unable to set rtc to 1703668187: No such device
+12-27 17:09:47.202  4872  6114 I SystemUpdate: [Installation,ReceiverIntentOperation] Received intent: Intent { act=android.intent.action.TIME_SET flg=0x24000010 cmp=com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver }.
+12-27 17:09:47.232  4872  6112 I SystemUpdate: [Execution,InstallationEventIntentOperation] Handling event of type 6.
+12-27 17:09:47.234  4872  6119 I SystemUpdate: [Execution,InstallationIntentOperation] Received intent: Intent { act=com.google.android.gms.update.INSTALL_UPDATE cat=[targeted_intent_op_prefix:.update.execution.InstallationIntentOperation] cmp=com.google.android.gms/.chimera.GmsIntentOperationService }.
+12-27 17:09:47.243  4872  6119 I SystemUpdate: [Execution,ExecutionManager] Action finished-execution executed for 0.00 seconds.
+12-27 17:09:47.243  4872  6114 W SystemUpdate: [Config,SystemUpdatePolicyCompat] Error getting device policy. This might be WAI given that there is a bug in Android framework API.
+12-27 17:09:51.760  4872  5147 I CastDatabase: Saving the database
+12-27 17:09:51.763  4872  5147 I SQLiteCastStore: [CastNetworkInfo] saved: 0, skipped: 0, [CastDeviceInfo]: saved 0, skipped 0, [Paired Guest Mode DeviceInfo] saved: 0, skipped: 0. [ProbedNetworks]: saved 0, skipped: 0, [ProbedSocketAddress]: saved 0, skipped: 0, [Network-Device pairs]: saved: 0
+12-27 17:09:52.249  3961  4457 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:09:56.856  4872  6114 I Vision  : Requesting optional module download of ocr.
+12-27 17:09:56.859  4872  6114 I Vision  : Checking for download completion for 204077 -- ocr
+12-27 17:09:56.862  4872  6114 I ChimeraConfigurator: Starting update, reason: 4 urgentFeatures: vision.ocr:-1
+12-27 17:09:56.862  4872  6114 E ConfigFileUtils: Failed to read config file: /data/data/com.google.android.gms/app_chimera/next_container.pb: open failed: ENOENT (No such file or directory)
+12-27 17:09:56.871  4872  6114 I ChmraDebugLogger: [73] 1801
+12-27 17:09:56.872  4872  6114 I ChmraDebugLogger: [30] [VisionOcr.optional:202414000400] permitMetered=true,
+12-27 17:09:56.873  4872  6114 W ChimeraConfigService: Retry attempt was throttled.
+12-27 17:10:06.870  4872  6192 I Vision  : Requesting optional module download of ocr.
+12-27 17:10:06.870  4872  6192 I Vision  : Checking for download completion for 214089 -- ocr
+12-27 17:10:06.886  4443  4829 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.checkin.CheckinService started execution. cause:4 exec_start_elapsed_seconds: 204 [CONTEXT service_id=218 ]
+12-27 17:10:06.889  4443  4705 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.checkin.CheckinService finished executing. cause:4 result: 3 elapsed_millis: 10 uptime_millis: 10 exec_start_elapsed_seconds: 204 [CONTEXT service_id=218 ]
+12-27 17:10:06.903  4443  4829 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.clearcut.uploader.QosUploaderService started execution. cause:5 exec_start_elapsed_seconds: 204 [CONTEXT service_id=218 ]
+12-27 17:10:06.921  4443  4705 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk:classes6.dex for method byte[] bqaj.b(java.io.File)
+12-27 17:10:06.921  4443  4705 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk:classes2.dex for method java.lang.Object rdz.create(java.lang.Object)
+12-27 17:10:06.921  4443  4705 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk:classes6.dex for method byte[] bqaj.b(java.io.File)
+12-27 17:10:06.921  4443  4705 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk:classes2.dex for method java.lang.Object rdz.create(java.lang.Object)
+12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: Failed to read and parse PlayLoggerContext file /data/user/0/com.google.android.gms/files/clearcut/0/STREAMZ_GCM/-688646406/play_logger_context.pb
+12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/clearcut/0/STREAMZ_GCM/-688646406/play_logger_context.pb: open failed: ENOENT (No such file or directory)
+12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at libcore.io.IoBridge.open(IoBridge.java:452)
+12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at java.io.FileInputStream.<init>(FileInputStream.java:76)
+12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at bqai.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at bqai.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at bqaj.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315))
+12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at rel.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315):39)
+12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at rdz.create(:com.google.android.gms@202414019@20.24.14 (040400-319035315))
+12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at android.util.LruCache.get(LruCache.java:132)
+12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at rel.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):101)
+12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at com.google.android.gms.clearcut.uploader.QosUploaderChimeraService.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):60)
+12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at com.google.android.gms.clearcut.uploader.QosUploaderChimeraService.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at aeme.call(Unknown Source)
+12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at soy.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315):12)
+12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at soy.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):7)
+12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at sux.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at java.lang.Thread.run(Thread.java:818)
+12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at libcore.io.Posix.open(Native Method)
+12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at libcore.io.IoBridge.open(IoBridge.java:438)
+12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	... 18 more
+12-27 17:10:06.926  3961  4413 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:10:11.957  4443  4705 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-27 17:10:11.958  4443  4705 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk:classes3.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+12-27 17:10:11.958  4443  4705 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+12-27 17:10:11.958  4443  4705 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315))
+12-27 17:10:12.338  4443  4705 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-27 17:10:12.339  4443  4705 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk:classes3.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+12-27 17:10:12.339  4443  4705 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+12-27 17:10:12.339  4443  4705 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315))
+12-27 17:10:12.457  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:10:12.459  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:10:12.460  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:10:12.462  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:10:12.464  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:10:12.465  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:10:12.466  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:10:12.468  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:10:12.469  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:10:12.471  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:10:12.472  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:10:12.473  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:10:12.474  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:10:12.476  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:10:12.477  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:10:12.478  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:10:12.479  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:10:12.480  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:10:12.482  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:10:12.483  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:10:12.484  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:10:12.485  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:10:12.486  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:10:12.487  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:10:12.488  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:10:12.490  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:10:12.491  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:10:12.495  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 17:10:12.661  4443  4705 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk:classes6.dex for method byte[] bqaj.b(java.io.File)
+12-27 17:10:12.663  4443  4705 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk:classes6.dex for method byte[] bqaj.b(java.io.File)
+12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: Failed to read PLC file /data/user/0/com.google.android.gms/files/clearcut/0/STREAMZ_GCM/-688646406/play_logger_context.pb
+12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/clearcut/0/STREAMZ_GCM/-688646406/play_logger_context.pb: open failed: ENOENT (No such file or directory)
+12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at libcore.io.IoBridge.open(IoBridge.java:452)
+12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at java.io.FileInputStream.<init>(FileInputStream.java:76)
+12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at bqai.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at bqai.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at bqaj.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315))
+12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at rel.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315):39)
+12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at rel.i(:com.google.android.gms@202414019@20.24.14 (040400-319035315):7)
+12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at com.google.android.gms.clearcut.uploader.QosUploaderChimeraService.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):172)
+12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at com.google.android.gms.clearcut.uploader.QosUploaderChimeraService.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at aeme.call(Unknown Source)
+12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at soy.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315):12)
+12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at soy.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):7)
+12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at sux.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at java.lang.Thread.run(Thread.java:818)
+12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at libcore.io.Posix.open(Native Method)
+12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at libcore.io.IoBridge.open(IoBridge.java:438)
+12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	... 16 more
+12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: /data/user/0/com.google.android.gms/files/clearcut/0/STREAMZ_GCM/-688646406/play_logger_context.pb could not be deleted.
+12-27 17:10:12.671  4443  4829 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.clearcut.uploader.QosUploaderService finished executing. cause:5 result: 1 elapsed_millis: 5775 uptime_millis: 5775 exec_start_elapsed_seconds: 204 [CONTEXT service_id=218 ]
+12-27 17:10:12.681  4443  4793 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.mobiledataplan.service.PeriodicUpdaterService started execution. cause:5 exec_start_elapsed_seconds: 209 [CONTEXT service_id=218 ]
+12-27 17:10:12.721  4443  4793 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.mobiledataplan.service.PeriodicUpdaterService finished executing. cause:5 result: 1 elapsed_millis: 43 uptime_millis: 43 exec_start_elapsed_seconds: 209 [CONTEXT service_id=218 ]
+12-27 17:10:12.729  4443  4793 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.auth.account.be.legacy.AuthCronService started execution. cause:5 exec_start_elapsed_seconds: 209 [CONTEXT service_id=218 ]
+12-27 17:10:12.937  4443  4828 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk for method java.lang.Object hwr.a(hwx)
+12-27 17:10:12.937  4443  4828 W GLSUser : [AppCertManager] Failed to get security token.
+12-27 17:10:12.937  4443  4828 W GLSUser : java.io.IOException: Invalid scope
+12-27 17:10:12.937  4443  4828 W GLSUser : 	at adiw.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315):23)
+12-27 17:10:12.937  4443  4828 W GLSUser : 	at adiw.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):18)
+12-27 17:10:12.937  4443  4828 W GLSUser : 	at adiw.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):11)
+12-27 17:10:12.937  4443  4828 W GLSUser : 	at hwy.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):17)
+12-27 17:10:12.937  4443  4828 W GLSUser : 	at hww.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):45)
+12-27 17:10:12.937  4443  4828 W GLSUser : 	at hwr.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315))
+12-27 17:10:12.937  4443  4828 W GLSUser : 	at hwu.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):10)
+12-27 17:10:12.937  4443  4828 W GLSUser : 	at gbi.call(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+12-27 17:10:12.937  4443  4828 W GLSUser : 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+12-27 17:10:12.937  4443  4828 W GLSUser : 	at soy.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315):12)
+12-27 17:10:12.937  4443  4828 W GLSUser : 	at soy.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):7)
+12-27 17:10:12.937  4443  4828 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+12-27 17:10:12.937  4443  4828 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+12-27 17:10:12.937  4443  4828 W GLSUser : 	at sux.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+12-27 17:10:12.937  4443  4828 W GLSUser : 	at java.lang.Thread.run(Thread.java:818)
+12-27 17:10:12.938  4443  4828 I Auth    : [ReflectiveChannelBinder] Successfully bound channel!
+12-27 17:10:12.948  4443  4828 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-27 17:10:12.948  4443  4828 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk:classes3.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+12-27 17:10:12.948  4443  4828 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk for method java.lang.Object hwr.a(hwx)
+12-27 17:10:12.948  4443  4828 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+12-27 17:10:12.948  4443  4828 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315))
+12-27 17:10:13.267  4443  4828 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-27 17:10:13.267  4443  4828 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk:classes3.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+12-27 17:10:13.267  4443  4828 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk for method java.lang.Object hwr.a(hwx)

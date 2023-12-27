@@ -106,7 +106,7 @@ def process_files(directory, filename):
                 'function': file_suffix,
                 'step_number': step_number,
                 'event_or_assertion': event_or_assertion,
-                'task': process_line(task) + " in {} app.".format(file_prefix),
+                'task': process_line(task), #+ " in {} app.".format(file_prefix),
                 'status': status
             })
     return extracted_info
@@ -149,7 +149,7 @@ def main():
     directory_path = "../step2/result_steps_text"
     file_list = sorted([f for f in os.listdir(directory_path) if f.endswith('.txt')])
     for filename in file_list:
-        if filename != "reuters_TextSize.txt":
+        if filename != "fivemiles_SignIn.txt":
             continue
         extracted_info = process_files(directory_path, filename)
         for item in extracted_info:

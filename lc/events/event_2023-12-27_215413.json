@@ -1,0 +1,50 @@
+{
+  "tag": "2023-12-27_215413",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.android.launcher3:id/icon",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": "5miles",
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.android.launcher3",
+      "text": "5miles",
+      "bounds": [
+        [
+          44,
+          264
+        ],
+        [
+          292,
+          549
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 23,
+      "temp_id": 25,
+      "size": "248*285",
+      "signature": "[class]android.widget.TextView[resource_id]com.android.launcher3:id/icon[text]5miles[enabled,,]",
+      "view_str": "ef1e8f95fb8f8b0413df504161b896c3",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.android.launcher3:id/icon"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "c28f144a576a3ddb9ad62defa1f7c979",
+  "stop_state": "49d88a505a4f2f1e7f589efe2106eedc",
+  "event_str": "TouchEvent(state=c28f144a576a3ddb9ad62defa1f7c979, view=ef1e8f95fb8f8b0413df504161b896c3(Launcher/TextView-5miles))"
+}

@@ -1,0 +1,50 @@
+{
+  "tag": "2023-12-27_214005",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": "Apps",
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.android.launcher3",
+      "text": null,
+      "bounds": [
+        [
+          452,
+          1799
+        ],
+        [
+          628,
+          2013
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 43,
+      "temp_id": 46,
+      "size": "176*214",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]None[enabled,,]",
+      "view_str": "1bec2a9dc0933bb84b0fc5177ed83b3a",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "077f848c5041a944f8623f9108d6f469",
+  "stop_state": "b1448da85236ea1377043a0c3e54bb30",
+  "event_str": "TouchEvent(state=077f848c5041a944f8623f9108d6f469, view=1bec2a9dc0933bb84b0fc5177ed83b3a(Launcher/TextView-))"
+}

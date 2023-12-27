@@ -1,0 +1,50 @@
+{
+  "tag": "2023-12-27_184050",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.android.launcher3:id/icon",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": "Calendar",
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.android.launcher3",
+      "text": "Calendar",
+      "bounds": [
+        [
+          44,
+          549
+        ],
+        [
+          292,
+          834
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 22,
+      "temp_id": 28,
+      "size": "248*285",
+      "signature": "[class]android.widget.TextView[resource_id]com.android.launcher3:id/icon[text]Calendar[enabled,,]",
+      "view_str": "bc86bba069ffd0a5f7f7d0f31c16ff62",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.android.launcher3:id/icon"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "623e59b42260072bdcc7fac1083cd1c2",
+  "stop_state": "5feedff2d5c095cca28f705c0a4fb69e",
+  "event_str": "TouchEvent(state=623e59b42260072bdcc7fac1083cd1c2, view=bc86bba069ffd0a5f7f7d0f31c16ff62(Launcher/TextView-Calendar))"
+}

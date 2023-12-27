@@ -1,252 +1,929 @@
 --------- beginning of main
-12-27 17:08:43.722  5770  5770 E cutils-trace: Error opening trace file: No such file or directory (2)
-12-27 17:08:43.735  5770  5770 E memtrack: Couldn't load memtrack module (No such file or directory)
-12-27 17:08:43.735  5770  5770 E android.os.Debug: failed to load memtrack module: -2
-12-27 17:08:43.736  5770  5770 I Radio-JNI: register_android_hardware_Radio DONE
-12-27 17:08:44.078  5785  5785 E cutils-trace: Error opening trace file: No such file or directory (2)
-12-27 17:08:44.091  5785  5785 E memtrack: Couldn't load memtrack module (No such file or directory)
-12-27 17:08:44.091  5785  5785 E android.os.Debug: failed to load memtrack module: -2
-12-27 17:08:44.092  5785  5785 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:22:48.320  2095  2095 I GAv4-SVC: Google Analytics 202.4.14 is starting up.
+12-27 22:22:48.743  2974  2974 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:22:48.752  2974  2974 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:22:48.752  2974  2974 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:22:48.753  2974  2974 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:22:49.036  2982  2982 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:22:49.044  2982  2982 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:22:49.044  2982  2982 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:22:49.045  2982  2982 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:22:49.430  3006  3006 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:22:49.439  3006  3006 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:22:49.439  3006  3006 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:22:49.439  3006  3006 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:22:49.443  3006  3006 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=11452, downTime=11452, deviceId=-1, source=0x101 }
+12-27 22:22:49.446  3006  3006 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=11452, downTime=11452, deviceId=-1, source=0x101 }
+12-27 22:22:49.737  3021  3021 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:22:49.747  3021  3021 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:22:49.747  3021  3021 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:22:49.748  3021  3021 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:22:49.751  3021  3021 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=11761, downTime=11761, deviceId=-1, source=0x101 }
+12-27 22:22:49.753  3021  3021 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=11761, downTime=11761, deviceId=-1, source=0x101 }
+12-27 22:22:50.045  3038  3038 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:22:50.061  3038  3038 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:22:50.061  3038  3038 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:22:50.061  3038  3038 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:22:50.067  3038  3038 I art     : System.exit called, status: 0
+12-27 22:22:50.067  3038  3038 I AndroidRuntime: VM exiting with result code 0.
+12-27 22:22:50.182   889   968 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-27 22:22:50.183  3064  3064 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:22:50.186   889   889 E EGL_emulation: tid 889: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
 --------- beginning of system
-12-27 17:08:44.103  3961  5324 I ActivityManager: Killing 4752:com.google.android.apps.maps/u0a39 (adj 15): empty #17
-12-27 17:08:44.591  5809  5809 E cutils-trace: Error opening trace file: No such file or directory (2)
-12-27 17:08:44.596  4856  4862 I art     : Debugger is no longer active
-12-27 17:08:44.604  5809  5809 E memtrack: Couldn't load memtrack module (No such file or directory)
-12-27 17:08:44.604  5809  5809 E android.os.Debug: failed to load memtrack module: -2
-12-27 17:08:44.605  5809  5809 I Radio-JNI: register_android_hardware_Radio DONE
-12-27 17:08:44.610  5809  5809 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=122623, downTime=122623, deviceId=-1, source=0x101 }
-12-27 17:08:44.616  5809  5809 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=122623, downTime=122623, deviceId=-1, source=0x101 }
-12-27 17:08:44.719  4872  4878 I art     : Debugger is no longer active
-12-27 17:08:44.951  5832  5832 E cutils-trace: Error opening trace file: No such file or directory (2)
-12-27 17:08:44.967  5832  5832 E memtrack: Couldn't load memtrack module (No such file or directory)
-12-27 17:08:44.967  5832  5832 E android.os.Debug: failed to load memtrack module: -2
-12-27 17:08:44.968  5832  5832 I Radio-JNI: register_android_hardware_Radio DONE
-12-27 17:08:44.972  5832  5832 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=122986, downTime=122986, deviceId=-1, source=0x101 }
-12-27 17:08:44.974  5832  5832 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=122986, downTime=122986, deviceId=-1, source=0x101 }
-12-27 17:08:45.217  4955  4961 I art     : Debugger is no longer active
-12-27 17:08:45.226  3961  4058 I ActivityManager: Waited long enough for: ServiceRecord{4432823 u0 com.google.android.calendar/com.android.calendar.alerts.InitAlarmsService}
-12-27 17:08:45.331  5850  5850 E cutils-trace: Error opening trace file: No such file or directory (2)
-12-27 17:08:45.350  5850  5850 E memtrack: Couldn't load memtrack module (No such file or directory)
-12-27 17:08:45.350  5850  5850 E android.os.Debug: failed to load memtrack module: -2
-12-27 17:08:45.351  5850  5850 I Radio-JNI: register_android_hardware_Radio DONE
-12-27 17:08:45.361  5850  5850 I art     : System.exit called, status: 0
-12-27 17:08:45.361  5850  5850 I AndroidRuntime: VM exiting with result code 0.
-12-27 17:08:45.655  5880  5880 E cutils-trace: Error opening trace file: No such file or directory (2)
-12-27 17:08:45.669  5880  5880 E memtrack: Couldn't load memtrack module (No such file or directory)
-12-27 17:08:45.669  5880  5880 E android.os.Debug: failed to load memtrack module: -2
-12-27 17:08:45.670  5880  5880 I Radio-JNI: register_android_hardware_Radio DONE
-12-27 17:08:45.675  3961  4413 I ActivityManager: Force stopping com.thomsonreuters.reuters appid=10091 user=0: from pid 5880
-12-27 17:08:45.675  3961  4413 I ActivityManager: Killing 5479:com.thomsonreuters.reuters/u0a91 (adj 5): stop com.thomsonreuters.reuters
-12-27 17:08:45.694  5007  5043 I art     : Debugger is no longer active
-12-27 17:08:45.711  3961  4413 W ActivityManager: Scheduling restart of crashed service com.thomsonreuters.reuters/com.chartbeat.androidsdk.ChartbeatService in 1000ms
-12-27 17:08:45.712  3961  4413 I ActivityManager:   Force stopping service ServiceRecord{1feed59 u0 com.thomsonreuters.reuters/com.chartbeat.androidsdk.ChartbeatService}
-12-27 17:08:45.712  3961  5324 W ActivityManager: Spurious death for ProcessRecord{eb42f0f 0:com.thomsonreuters.reuters/u0a91}, curProc for 5479: null
-12-27 17:08:45.961  3961  4114 W ActivityManager: Unable to start service Intent { act=com.google.android.gms.drive.ApiService.RESET_AFTER_BOOT flg=0x4 cmp=com.google.android.gms/.drive.api.ApiService (has extras) } U=0: not found
-12-27 17:08:45.966  4872  5084 I Vision  : Requesting optional module download of ocr.
-12-27 17:08:45.966  4872  5084 I Vision  : Exceeded maximum feature download tries for ocr
-12-27 17:08:45.966  4872  5084 W Vision  : Request of optional module download of ocr failed.
-12-27 17:08:45.967  4872  5084 I Vision  : Checking for download completion for 133980 -- ocr
-12-27 17:08:46.021  5897  5897 E cutils-trace: Error opening trace file: No such file or directory (2)
-12-27 17:08:46.035  5897  5897 E memtrack: Couldn't load memtrack module (No such file or directory)
-12-27 17:08:46.035  5897  5897 E android.os.Debug: failed to load memtrack module: -2
-12-27 17:08:46.035  5897  5897 I Radio-JNI: register_android_hardware_Radio DONE
-12-27 17:08:46.039  5897  5897 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=124053, downTime=124053, deviceId=-1, source=0x101 }
-12-27 17:08:46.040  5897  5897 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=124053, downTime=124053, deviceId=-1, source=0x101 }
-12-27 17:08:46.041  3961  4119 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.Launcher (has extras)} from uid 1000 on display 0
-12-27 17:08:46.086  5117  5174 I art     : Debugger is no longer active
-12-27 17:08:46.143  5135  5195 I art     : Debugger is no longer active
-12-27 17:08:46.609  5287  5331 I art     : Debugger is no longer active
-12-27 17:08:46.635  5292  5341 I art     : Debugger is no longer active
-12-27 17:08:46.666  5300  5357 I art     : Debugger is no longer active
-12-27 17:08:46.919  5400  5424 I art     : Debugger is no longer active
-12-27 17:08:47.097  5451  5463 I art     : Debugger is no longer active
-12-27 17:08:47.478  5560  5577 I art     : Debugger is no longer active
-12-27 17:08:50.090  4443  4828 W Nearby  : Failed attempt #3 out of 3 for RestoreDeviceName [CONTEXT service_id=49 ]
-12-27 17:08:50.090  4443  4828 W Nearby  : java.lang.IllegalStateException: BluetoothAdapter not ready yet!
-12-27 17:08:50.090  4443  4828 W Nearby  : 	at ajpy.d(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
-12-27 17:08:50.090  4443  4828 W Nearby  : 	at ajpx.run(Unknown Source)
-12-27 17:08:50.090  4443  4828 W Nearby  : 	at bwuj.call(Unknown Source)
-12-27 17:08:50.090  4443  4828 W Nearby  : 	at bwuo.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
-12-27 17:08:50.090  4443  4828 W Nearby  : 	at bwuo.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):9)
-12-27 17:08:50.090  4443  4828 W Nearby  : 	at ajpw.run(Unknown Source)
-12-27 17:08:50.090  4443  4828 W Nearby  : 	at java.lang.Thread.run(Thread.java:818)
-12-27 17:08:50.090  4443  4828 W Nearby  : 	at sow.run(Unknown Source)
-12-27 17:08:50.090  4443  4828 W Nearby  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
-12-27 17:08:50.090  4443  4828 W Nearby  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
-12-27 17:08:50.090  4443  4828 W Nearby  : 	at sux.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
-12-27 17:08:50.090  4443  4828 W Nearby  : 	at java.lang.Thread.run(Thread.java:818)
-12-27 17:08:55.984  4872  5977 I Vision  : Requesting optional module download of ocr.
-12-27 17:08:55.987  4872  5977 I Vision  : Checking for download completion for 144000 -- ocr
-12-27 17:08:55.992  4872  5977 I ChimeraConfigurator: Starting update, reason: 4 urgentFeatures: vision.ocr:-1
-12-27 17:08:55.993  4872  5977 E ConfigFileUtils: Failed to read config file: /data/data/com.google.android.gms/app_chimera/next_container.pb: open failed: ENOENT (No such file or directory)
-12-27 17:08:55.998  4872  5976 I Authzen : [DeviceStateSyncManager] The server is in sync with current state. Nothing to do
-12-27 17:08:56.017  4872  5977 I ChmraDebugLogger: [73] 1801
-12-27 17:08:56.019  4872  5977 I ChmraDebugLogger: [30] [VisionOcr.optional:202414000400] permitMetered=true,
-12-27 17:08:56.021  4872  5977 W ChimeraConfigService: Retry attempt was throttled.
-12-27 17:08:56.673  5710  5716 I art     : Debugger is no longer active
-12-27 17:09:00.233  3961  4687 I ActivityManager: Killing 5287:com.google.android.gms.ui/u0a8 (adj 15): empty #17
-12-27 17:09:03.028  3961  5700 I ActivityManager: Killing 5292:com.google.android.apps.photos:CameraShortcut/u0a44 (adj 15): empty #17
-12-27 17:09:05.997  4872  6011 I Vision  : Requesting optional module download of ocr.
-12-27 17:09:05.997  4872  6011 I Vision  : Checking for download completion for 154010 -- ocr
-12-27 17:09:06.015  4443  4829 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.checkin.CheckinService started execution. cause:4 exec_start_elapsed_seconds: 144 [CONTEXT service_id=218 ]
-12-27 17:09:06.026  4443  4705 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.checkin.CheckinService finished executing. cause:4 result: 3 elapsed_millis: 16 uptime_millis: 16 exec_start_elapsed_seconds: 144 [CONTEXT service_id=218 ]
-12-27 17:09:06.048  4443  4829 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.auth.account.be.legacy.AuthCronService started execution. cause:5 exec_start_elapsed_seconds: 144 [CONTEXT service_id=218 ]
-12-27 17:09:06.052  4443  4705 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.auth.account.be.legacy.AuthCronService finished executing. cause:5 result: 3 elapsed_millis: 6 uptime_millis: 6 exec_start_elapsed_seconds: 144 [CONTEXT service_id=218 ]
-12-27 17:09:16.006  4872  6031 I Vision  : Requesting optional module download of ocr.
-12-27 17:09:16.008  4872  6031 I Vision  : Checking for download completion for 164022 -- ocr
-12-27 17:09:26.021  4872  6068 I Vision  : Requesting optional module download of ocr.
-12-27 17:09:26.021  4872  6068 I Vision  : Checking for download completion for 174035 -- ocr
-12-27 17:09:27.219  3961  5700 I MediaFocusControl:  AudioFocus  abandonAudioFocus() from android.media.AudioManager@6338138com.android.music.MediaPlaybackService$3@e9d4511
-12-27 17:09:33.029  3961  5071 I ActivityManager: Killing 4589:com.android.music/u0a40 (adj 15): empty #17
-12-27 17:09:36.033  4872  6088 I Vision  : Requesting optional module download of ocr.
-12-27 17:09:36.034  4872  6088 I Vision  : Checking for download completion for 184047 -- ocr
-12-27 17:09:46.053  4872  6112 I Vision  : Requesting optional module download of ocr.
-12-27 17:09:46.053  4872  6112 I Vision  : Exceeded maximum feature download tries for ocr
-12-27 17:09:46.053  4872  6112 W Vision  : Request of optional module download of ocr failed.
-12-27 17:09:46.054  4872  6112 I Vision  : Checking for download completion for 194067 -- ocr
-12-27 17:09:47.177  3961  4406 W AlarmManagerService: Unable to set rtc to 1703668187: No such device
-12-27 17:09:47.202  4872  6114 I SystemUpdate: [Installation,ReceiverIntentOperation] Received intent: Intent { act=android.intent.action.TIME_SET flg=0x24000010 cmp=com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver }.
-12-27 17:09:47.232  4872  6112 I SystemUpdate: [Execution,InstallationEventIntentOperation] Handling event of type 6.
-12-27 17:09:47.234  4872  6119 I SystemUpdate: [Execution,InstallationIntentOperation] Received intent: Intent { act=com.google.android.gms.update.INSTALL_UPDATE cat=[targeted_intent_op_prefix:.update.execution.InstallationIntentOperation] cmp=com.google.android.gms/.chimera.GmsIntentOperationService }.
-12-27 17:09:47.243  4872  6119 I SystemUpdate: [Execution,ExecutionManager] Action finished-execution executed for 0.00 seconds.
-12-27 17:09:47.243  4872  6114 W SystemUpdate: [Config,SystemUpdatePolicyCompat] Error getting device policy. This might be WAI given that there is a bug in Android framework API.
-12-27 17:09:51.760  4872  5147 I CastDatabase: Saving the database
-12-27 17:09:51.763  4872  5147 I SQLiteCastStore: [CastNetworkInfo] saved: 0, skipped: 0, [CastDeviceInfo]: saved 0, skipped 0, [Paired Guest Mode DeviceInfo] saved: 0, skipped: 0. [ProbedNetworks]: saved 0, skipped: 0, [ProbedSocketAddress]: saved 0, skipped: 0, [Network-Device pairs]: saved: 0
-12-27 17:09:52.249  3961  4457 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:09:56.856  4872  6114 I Vision  : Requesting optional module download of ocr.
-12-27 17:09:56.859  4872  6114 I Vision  : Checking for download completion for 204077 -- ocr
-12-27 17:09:56.862  4872  6114 I ChimeraConfigurator: Starting update, reason: 4 urgentFeatures: vision.ocr:-1
-12-27 17:09:56.862  4872  6114 E ConfigFileUtils: Failed to read config file: /data/data/com.google.android.gms/app_chimera/next_container.pb: open failed: ENOENT (No such file or directory)
-12-27 17:09:56.871  4872  6114 I ChmraDebugLogger: [73] 1801
-12-27 17:09:56.872  4872  6114 I ChmraDebugLogger: [30] [VisionOcr.optional:202414000400] permitMetered=true,
-12-27 17:09:56.873  4872  6114 W ChimeraConfigService: Retry attempt was throttled.
-12-27 17:10:06.870  4872  6192 I Vision  : Requesting optional module download of ocr.
-12-27 17:10:06.870  4872  6192 I Vision  : Checking for download completion for 214089 -- ocr
-12-27 17:10:06.886  4443  4829 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.checkin.CheckinService started execution. cause:4 exec_start_elapsed_seconds: 204 [CONTEXT service_id=218 ]
-12-27 17:10:06.889  4443  4705 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.checkin.CheckinService finished executing. cause:4 result: 3 elapsed_millis: 10 uptime_millis: 10 exec_start_elapsed_seconds: 204 [CONTEXT service_id=218 ]
-12-27 17:10:06.903  4443  4829 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.clearcut.uploader.QosUploaderService started execution. cause:5 exec_start_elapsed_seconds: 204 [CONTEXT service_id=218 ]
-12-27 17:10:06.921  4443  4705 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk:classes6.dex for method byte[] bqaj.b(java.io.File)
-12-27 17:10:06.921  4443  4705 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk:classes2.dex for method java.lang.Object rdz.create(java.lang.Object)
-12-27 17:10:06.921  4443  4705 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk:classes6.dex for method byte[] bqaj.b(java.io.File)
-12-27 17:10:06.921  4443  4705 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk:classes2.dex for method java.lang.Object rdz.create(java.lang.Object)
-12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: Failed to read and parse PlayLoggerContext file /data/user/0/com.google.android.gms/files/clearcut/0/STREAMZ_GCM/-688646406/play_logger_context.pb
-12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/clearcut/0/STREAMZ_GCM/-688646406/play_logger_context.pb: open failed: ENOENT (No such file or directory)
-12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at libcore.io.IoBridge.open(IoBridge.java:452)
-12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at java.io.FileInputStream.<init>(FileInputStream.java:76)
-12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at bqai.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
-12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at bqai.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
-12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at bqaj.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315))
-12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at rel.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315):39)
-12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at rdz.create(:com.google.android.gms@202414019@20.24.14 (040400-319035315))
-12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at android.util.LruCache.get(LruCache.java:132)
-12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at rel.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):101)
-12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at com.google.android.gms.clearcut.uploader.QosUploaderChimeraService.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):60)
-12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at com.google.android.gms.clearcut.uploader.QosUploaderChimeraService.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
-12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at aeme.call(Unknown Source)
-12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
-12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at soy.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315):12)
-12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at soy.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):7)
-12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
-12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
-12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at sux.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
-12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at java.lang.Thread.run(Thread.java:818)
-12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
-12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at libcore.io.Posix.open(Native Method)
-12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
-12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	at libcore.io.IoBridge.open(IoBridge.java:438)
-12-27 17:10:06.921  4443  4705 E CCTFlatFileLogStore: 	... 18 more
-12-27 17:10:06.926  3961  4413 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:10:11.957  4443  4705 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
-12-27 17:10:11.958  4443  4705 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk:classes3.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
-12-27 17:10:11.958  4443  4705 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
-12-27 17:10:11.958  4443  4705 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315))
-12-27 17:10:12.338  4443  4705 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
-12-27 17:10:12.339  4443  4705 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk:classes3.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
-12-27 17:10:12.339  4443  4705 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
-12-27 17:10:12.339  4443  4705 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315))
-12-27 17:10:12.457  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:10:12.459  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:10:12.460  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:10:12.462  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:10:12.464  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:10:12.465  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:10:12.466  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:10:12.468  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:10:12.469  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:10:12.471  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:10:12.472  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:10:12.473  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:10:12.474  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:10:12.476  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:10:12.477  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:10:12.478  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:10:12.479  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:10:12.480  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:10:12.482  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:10:12.483  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:10:12.484  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:10:12.485  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:10:12.486  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:10:12.487  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:10:12.488  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:10:12.490  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:10:12.491  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:10:12.495  3961  4144 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
-12-27 17:10:12.661  4443  4705 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk:classes6.dex for method byte[] bqaj.b(java.io.File)
-12-27 17:10:12.663  4443  4705 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk:classes6.dex for method byte[] bqaj.b(java.io.File)
-12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: Failed to read PLC file /data/user/0/com.google.android.gms/files/clearcut/0/STREAMZ_GCM/-688646406/play_logger_context.pb
-12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/clearcut/0/STREAMZ_GCM/-688646406/play_logger_context.pb: open failed: ENOENT (No such file or directory)
-12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at libcore.io.IoBridge.open(IoBridge.java:452)
-12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at java.io.FileInputStream.<init>(FileInputStream.java:76)
-12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at bqai.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
-12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at bqai.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
-12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at bqaj.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315))
-12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at rel.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315):39)
-12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at rel.i(:com.google.android.gms@202414019@20.24.14 (040400-319035315):7)
-12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at com.google.android.gms.clearcut.uploader.QosUploaderChimeraService.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):172)
-12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at com.google.android.gms.clearcut.uploader.QosUploaderChimeraService.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
-12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at aeme.call(Unknown Source)
-12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
-12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at soy.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315):12)
-12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at soy.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):7)
-12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
-12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
-12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at sux.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
-12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at java.lang.Thread.run(Thread.java:818)
-12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
-12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at libcore.io.Posix.open(Native Method)
-12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
-12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	at libcore.io.IoBridge.open(IoBridge.java:438)
-12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: 	... 16 more
-12-27 17:10:12.663  4443  4705 E CCTFlatFileLogStore: /data/user/0/com.google.android.gms/files/clearcut/0/STREAMZ_GCM/-688646406/play_logger_context.pb could not be deleted.
-12-27 17:10:12.671  4443  4829 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.clearcut.uploader.QosUploaderService finished executing. cause:5 result: 1 elapsed_millis: 5775 uptime_millis: 5775 exec_start_elapsed_seconds: 204 [CONTEXT service_id=218 ]
-12-27 17:10:12.681  4443  4793 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.mobiledataplan.service.PeriodicUpdaterService started execution. cause:5 exec_start_elapsed_seconds: 209 [CONTEXT service_id=218 ]
-12-27 17:10:12.721  4443  4793 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.mobiledataplan.service.PeriodicUpdaterService finished executing. cause:5 result: 1 elapsed_millis: 43 uptime_millis: 43 exec_start_elapsed_seconds: 209 [CONTEXT service_id=218 ]
-12-27 17:10:12.729  4443  4793 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.auth.account.be.legacy.AuthCronService started execution. cause:5 exec_start_elapsed_seconds: 209 [CONTEXT service_id=218 ]
-12-27 17:10:12.937  4443  4828 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk for method java.lang.Object hwr.a(hwx)
-12-27 17:10:12.937  4443  4828 W GLSUser : [AppCertManager] Failed to get security token.
-12-27 17:10:12.937  4443  4828 W GLSUser : java.io.IOException: Invalid scope
-12-27 17:10:12.937  4443  4828 W GLSUser : 	at adiw.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315):23)
-12-27 17:10:12.937  4443  4828 W GLSUser : 	at adiw.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):18)
-12-27 17:10:12.937  4443  4828 W GLSUser : 	at adiw.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):11)
-12-27 17:10:12.937  4443  4828 W GLSUser : 	at hwy.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):17)
-12-27 17:10:12.937  4443  4828 W GLSUser : 	at hww.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):45)
-12-27 17:10:12.937  4443  4828 W GLSUser : 	at hwr.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315))
-12-27 17:10:12.937  4443  4828 W GLSUser : 	at hwu.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):10)
-12-27 17:10:12.937  4443  4828 W GLSUser : 	at gbi.call(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
-12-27 17:10:12.937  4443  4828 W GLSUser : 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
-12-27 17:10:12.937  4443  4828 W GLSUser : 	at soy.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315):12)
-12-27 17:10:12.937  4443  4828 W GLSUser : 	at soy.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):7)
-12-27 17:10:12.937  4443  4828 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
-12-27 17:10:12.937  4443  4828 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
-12-27 17:10:12.937  4443  4828 W GLSUser : 	at sux.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
-12-27 17:10:12.937  4443  4828 W GLSUser : 	at java.lang.Thread.run(Thread.java:818)
-12-27 17:10:12.938  4443  4828 I Auth    : [ReflectiveChannelBinder] Successfully bound channel!
-12-27 17:10:12.948  4443  4828 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
-12-27 17:10:12.948  4443  4828 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk:classes3.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
-12-27 17:10:12.948  4443  4828 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk for method java.lang.Object hwr.a(hwx)
-12-27 17:10:12.948  4443  4828 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
-12-27 17:10:12.948  4443  4828 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315))
-12-27 17:10:13.267  4443  4828 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
-12-27 17:10:13.267  4443  4828 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk:classes3.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
-12-27 17:10:13.267  4443  4828 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk for method java.lang.Object hwr.a(hwx)
+12-27 22:22:50.371  3070  3070 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:22:50.381  3070  3070 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:22:50.381  3070  3070 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:22:50.381  3070  3070 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:22:50.506  1244  1255 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:22:50.547  2706  2738 I GAV2    : Thread[GAThread,5,main]: No campaign data found.
+12-27 22:22:50.745  3090  3090 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:22:50.755  3090  3090 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:22:50.755  3090  3090 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:22:50.756  3090  3090 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:22:50.759  1244  1565 I ActivityManager: Force stopping com.thirdrock.fivemiles appid=10064 user=0: from pid 3090
+12-27 22:22:50.759  1244  1565 I ActivityManager: Killing 2175:com.thirdrock.fivemiles/u0a64 (adj 11): stop com.thirdrock.fivemiles
+12-27 22:22:50.806  1244  2876 W ActivityManager: Spurious death for ProcessRecord{9d90aa5 0:com.thirdrock.fivemiles/u0a64}, curProc for 2175: null
+12-27 22:22:51.070  3104  3104 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:22:51.079  3104  3104 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:22:51.079  3104  3104 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:22:51.079  3104  3104 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:22:51.082  3104  3104 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=13092, downTime=13092, deviceId=-1, source=0x101 }
+12-27 22:22:51.083  3104  3104 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_HOME, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=13092, downTime=13092, deviceId=-1, source=0x101 }
+12-27 22:22:51.084  1244  1281 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher3/.Launcher (has extras)} from uid 1000 on display 0
+12-27 22:22:52.398   889  1013 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-27 22:22:52.398  3126  3126 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:22:52.402   889   889 E EGL_emulation: tid 889: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+12-27 22:22:52.573  3132  3132 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:22:52.581  3132  3132 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:22:52.581  3132  3132 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:22:52.582  3132  3132 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:22:54.800  1244  1282 I InputReader: Reconfiguring input devices.  changes=0x00000010
+12-27 22:22:54.816  1729  3161 I UpdateIcingCorporaServi: Updating corpora: APPS=com.google.android.gms, CONTACTS=MAYBE
+12-27 22:22:54.819  1606  3158 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
+12-27 22:22:54.822  1606  3159 I Fitness : OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package:com.google.android.gms flg=0x4000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
+12-27 22:22:54.832  2095  2900 I Icing   : updateResources: need to parse acek{com.google.android.gms}
+12-27 22:22:54.835  2095  2349 I GmscoreIpa: Using regular flags by method 2 [CONTEXT service_id=255 ]
+12-27 22:22:54.843  1729  3161 I UpdateIcingCorporaServi: UpdateCorporaTask done [took 27 ms] updated apps [took 27 ms] 
+12-27 22:22:54.958  1244  1250 I art     : Debugger is no longer active
+12-27 22:22:55.861  2095  2380 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+12-27 22:22:55.871  2095  2380 I Icing   : Indexing done com.google.android.gms-apps
+12-27 22:22:56.782  1329  1379 I art     : Debugger is no longer active
+12-27 22:22:56.860  1341  1517 I art     : Debugger is no longer active
+12-27 22:22:57.072  1588  1662 I art     : Debugger is no longer active
+12-27 22:22:57.072  1580  1664 I art     : Debugger is no longer active
+12-27 22:22:57.072  1544  1668 I art     : Debugger is no longer active
+12-27 22:22:57.096  1568  1696 I art     : Debugger is no longer active
+12-27 22:22:57.096  1606  1697 I art     : Debugger is no longer active
+12-27 22:22:57.119  1598  1717 I art     : Debugger is no longer active
+12-27 22:22:57.174  1624  1744 I art     : Debugger is no longer active
+12-27 22:22:57.217  1655  1762 I art     : Debugger is no longer active
+12-27 22:22:57.321  1729  1791 I art     : Debugger is no longer active
+12-27 22:22:57.425  1779  1828 I art     : Debugger is no longer active
+12-27 22:22:57.447  1606  3179 I qtaguid : Failed write_ctrl(t -1 3458768941931823104 -1) res=-1 errno=9
+12-27 22:22:57.447  1606  3179 I qtaguid : Tagging socket -1 with tag 3000040700000000(805307399) for uid -1 failed errno=-9
+12-27 22:22:57.447  1606  3179 I NetworkManagementSocketTagger: tagSocketFd(-1, 805307399, -1) failed with errno-9
+12-27 22:22:57.779  1606  3179 E GCM     : Missing checkin config file
+12-27 22:22:57.779  1606  3179 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
+12-27 22:22:57.782  1606  3179 E GCM     : Missing checkin config file
+12-27 22:22:57.782  1606  3179 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
+12-27 22:22:57.785  1606  3179 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+12-27 22:22:57.785  1606  3179 W WakeLock: GCM_HB_ALARM counter does not exist
+12-27 22:22:57.799  1606  3184 I qtaguid : Failed write_ctrl(t -1 3458768941931823104 -1) res=-1 errno=9
+12-27 22:22:57.799  1606  3184 I qtaguid : Tagging socket -1 with tag 3000040700000000(805307399) for uid -1 failed errno=-9
+12-27 22:22:57.799  1606  3184 I NetworkManagementSocketTagger: tagSocketFd(-1, 805307399, -1) failed with errno-9
+12-27 22:22:57.971   889  1013 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-27 22:22:57.971  3196  3196 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:22:57.974   889   889 E EGL_emulation: tid 889: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+12-27 22:22:58.018  1991  2032 I art     : Debugger is no longer active
+12-27 22:22:58.145  3201  3201 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:22:58.154  3201  3201 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:22:58.154  3201  3201 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:22:58.154  3201  3201 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:22:58.270  2078  2086 I art     : Debugger is no longer active
+12-27 22:22:58.300  1606  3184 E GCM     : Missing checkin config file
+12-27 22:22:58.300  1606  3184 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
+12-27 22:22:58.301  1606  3184 E GCM     : Missing checkin config file
+12-27 22:22:58.301  1606  3184 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
+12-27 22:22:58.302  1606  3184 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+12-27 22:22:58.302  1606  3184 W WakeLock: GCM_HB_ALARM counter does not exist
+12-27 22:22:58.423  2095  2103 I art     : Debugger is no longer active
+12-27 22:22:58.538   889   968 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-27 22:22:58.538  3231  3231 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:22:58.542   889   889 E EGL_emulation: tid 889: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+12-27 22:22:58.601  2120  2134 I art     : Debugger is no longer active
+12-27 22:22:58.716  3237  3237 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:22:58.725  3237  3237 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:22:58.725  3237  3237 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:22:58.726  3237  3237 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:22:58.763  2142  2154 I art     : Debugger is no longer active
+12-27 22:22:58.909  2164  2181 I art     : Debugger is no longer active
+12-27 22:22:59.322  1244  1258 I ActivityManager: Waited long enough for: ServiceRecord{61b0f8f u0 com.google.android.calendar/com.android.calendar.alerts.InitAlarmsService}
+12-27 22:22:59.593  2407  2413 I art     : Debugger is no longer active
+12-27 22:22:59.992  2439  2474 I art     : Debugger is no longer active
+12-27 22:23:00.249  2509  2566 I art     : Debugger is no longer active
+12-27 22:23:00.380  2552  2587 I art     : Debugger is no longer active
+12-27 22:23:00.623  2607  2637 I art     : Debugger is no longer active
+12-27 22:23:00.846  2671  2685 I art     : Debugger is no longer active
+12-27 22:23:00.944  1244  1258 I ActivityManager: Waited long enough for: ServiceRecord{ccfc7d8 u0 com.thomsonreuters.reuters/com.chartbeat.androidsdk.ChartbeatService}
+12-27 22:23:01.000  2706  2715 I art     : Debugger is no longer active
+12-27 22:23:01.004  2095  3263 I Authzen : [DeviceStateSyncManager] The server is in sync with current state. Nothing to do
+12-27 22:23:01.007  1606  2632 E GCM     : Missing checkin config file
+12-27 22:23:01.007  1606  2632 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
+12-27 22:23:01.189  2749  2759 I art     : Debugger is no longer active
+12-27 22:23:01.372  2771  2802 I art     : Debugger is no longer active
+12-27 22:23:02.002  1244  2025 W AlarmManagerService: Unable to set rtc to 1703686982: No such device
+12-27 22:23:03.909   889   968 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-27 22:23:03.909  3280  3280 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:03.912   889   889 E EGL_emulation: tid 889: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+12-27 22:23:04.082  3286  3286 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:04.104  3286  3286 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:23:04.104  3286  3286 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:23:04.104  3286  3286 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:23:04.473  1606  2019 W Nearby  : Failed attempt #3 out of 3 for RestoreDeviceName [CONTEXT service_id=49 ]
+12-27 22:23:04.473  1606  2019 W Nearby  : java.lang.IllegalStateException: BluetoothAdapter not ready yet!
+12-27 22:23:04.473  1606  2019 W Nearby  : 	at ajpy.d(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+12-27 22:23:04.473  1606  2019 W Nearby  : 	at ajpx.run(Unknown Source)
+12-27 22:23:04.473  1606  2019 W Nearby  : 	at bwuj.call(Unknown Source)
+12-27 22:23:04.473  1606  2019 W Nearby  : 	at bwuo.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+12-27 22:23:04.473  1606  2019 W Nearby  : 	at bwuo.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):9)
+12-27 22:23:04.473  1606  2019 W Nearby  : 	at ajpw.run(Unknown Source)
+12-27 22:23:04.473  1606  2019 W Nearby  : 	at java.lang.Thread.run(Thread.java:818)
+12-27 22:23:04.473  1606  2019 W Nearby  : 	at sow.run(Unknown Source)
+12-27 22:23:04.473  1606  2019 W Nearby  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+12-27 22:23:04.473  1606  2019 W Nearby  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+12-27 22:23:04.473  1606  2019 W Nearby  : 	at sux.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+12-27 22:23:04.473  1606  2019 W Nearby  : 	at java.lang.Thread.run(Thread.java:818)
+12-27 22:23:04.623  3326  3326 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:04.632  3326  3326 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:23:04.632  3326  3326 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:23:04.632  3326  3326 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:23:04.635  3326  3326 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1906.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=26493, downTime=26493, deviceId=0, source=0x1002 }
+12-27 22:23:04.637  3326  3326 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1906.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=26493, downTime=26493, deviceId=0, source=0x1002 }
+12-27 22:23:04.648  3326  3326 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1906.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=26506, downTime=26506, deviceId=0, source=0x1002 }
+12-27 22:23:04.666  3326  3326 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1906.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=26525, downTime=26525, deviceId=0, source=0x1002 }
+12-27 22:23:04.684  3326  3326 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1906.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=26542, downTime=26542, deviceId=0, source=0x1002 }
+12-27 22:23:04.699  3326  3326 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1906.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=26557, downTime=26557, deviceId=0, source=0x1002 }
+12-27 22:23:04.709  2095  2499 I CheckinCompat: Done disabling old GoogleServicesFramework version [CONTEXT service_id=130 ]
+12-27 22:23:04.728  3326  3326 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1906.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=26587, downTime=26587, deviceId=0, source=0x1002 }
+12-27 22:23:04.749  3326  3326 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1906.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=26607, downTime=26607, deviceId=0, source=0x1002 }
+12-27 22:23:04.770  3326  3326 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1906.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=26628, downTime=26628, deviceId=0, source=0x1002 }
+12-27 22:23:04.791  3326  3326 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1906.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=26649, downTime=26649, deviceId=0, source=0x1002 }
+12-27 22:23:04.808  3326  3326 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1906.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=26666, downTime=26666, deviceId=0, source=0x1002 }
+12-27 22:23:04.827  3326  3326 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1906.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=26685, downTime=26685, deviceId=0, source=0x1002 }
+12-27 22:23:04.847  3326  3326 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1906.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=26705, downTime=26705, deviceId=0, source=0x1002 }
+12-27 22:23:04.853  1244  1298 W AudioTrack: AUDIO_OUTPUT_FLAG_FAST denied by client; transfer 4, track 48000 Hz, output 44100 Hz
+12-27 22:23:06.174   889  1013 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-27 22:23:06.175  3410  3410 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:06.178   889   889 E EGL_emulation: tid 889: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+12-27 22:23:06.370  3418  3418 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:06.380  3418  3418 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:23:06.380  3418  3418 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:23:06.380  3418  3418 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:23:11.770   889   968 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-27 22:23:11.771  3454  3454 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:11.774   889   889 E EGL_emulation: tid 889: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+12-27 22:23:11.964  3460  3460 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:11.973  3460  3460 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:23:11.973  3460  3460 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:23:11.974  3460  3460 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:23:14.487  1244  2025 I ActivityManager: Killing 2407:com.android.managedprovisioning/u0a10 (adj 15): empty #17
+12-27 22:23:17.089   889   968 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-27 22:23:17.089  3499  3499 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:17.093   889   889 E EGL_emulation: tid 889: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+12-27 22:23:17.284  3505  3505 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:17.293  3505  3505 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:23:17.293  3505  3505 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:23:17.293  3505  3505 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:23:17.419  2095  2499 I GCM-GMS : Registering GMS 745476177629
+12-27 22:23:17.422  1606  2605 E GCM     : Missing checkin config file
+12-27 22:23:17.422  1606  2605 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
+12-27 22:23:17.423  2095  2499 W GCM-GMS : Failed to get registration: java.io.IOException: AUTHENTICATION_FAILED
+12-27 22:23:17.799  3547  3547 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:17.808  3547  3547 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:23:17.808  3547  3547 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:23:17.809  3547  3547 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:23:17.811  3547  3547 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=168.0, y[0]=406.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=39670, downTime=39670, deviceId=0, source=0x1002 }
+12-27 22:23:17.813  3547  3547 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=168.0, y[0]=406.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=39670, downTime=39670, deviceId=0, source=0x1002 }
+12-27 22:23:17.820  3547  3547 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=168.0, y[0]=406.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=39679, downTime=39679, deviceId=0, source=0x1002 }
+12-27 22:23:17.838  3547  3547 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=168.0, y[0]=406.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=39696, downTime=39696, deviceId=0, source=0x1002 }
+12-27 22:23:17.856  3547  3547 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=168.0, y[0]=406.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=39714, downTime=39714, deviceId=0, source=0x1002 }
+12-27 22:23:17.876  3547  3547 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=168.0, y[0]=406.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=39734, downTime=39734, deviceId=0, source=0x1002 }
+12-27 22:23:17.893  3547  3547 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=168.0, y[0]=406.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=39751, downTime=39751, deviceId=0, source=0x1002 }
+12-27 22:23:17.911  3547  3547 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=168.0, y[0]=406.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=39770, downTime=39770, deviceId=0, source=0x1002 }
+12-27 22:23:17.929  3547  3547 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=168.0, y[0]=406.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=39787, downTime=39787, deviceId=0, source=0x1002 }
+12-27 22:23:17.946  3547  3547 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=168.0, y[0]=406.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=39804, downTime=39804, deviceId=0, source=0x1002 }
+12-27 22:23:17.962  3547  3547 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=168.0, y[0]=406.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=39820, downTime=39820, deviceId=0, source=0x1002 }
+12-27 22:23:17.982  3547  3547 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=168.0, y[0]=406.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=39841, downTime=39841, deviceId=0, source=0x1002 }
+12-27 22:23:17.999  3547  3547 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=168.0, y[0]=406.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=39858, downTime=39858, deviceId=0, source=0x1002 }
+12-27 22:23:18.017  3547  3547 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=168.0, y[0]=406.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=39875, downTime=39875, deviceId=0, source=0x1002 }
+12-27 22:23:18.018  1244  1414 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.thirdrock.fivemiles/com.insthub.fivemiles.Activity.GuidePagerActivity (has extras)} from uid 10009 on display 0
+12-27 22:23:18.028  1244  1258 W BroadcastQueue: Permission Denial: receiving Intent { act=com.android.launcher3.action.LAUNCH flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$GmsExternalReceiver requires com.android.launcher3.permission.RECEIVE_LAUNCH_BROADCASTS due to sender com.android.launcher3 (uid 10009)
+12-27 22:23:18.028  1244  1258 W BroadcastQueue: Permission Denial: broadcasting Intent { act=com.android.launcher3.action.LAUNCH flg=0x10 (has extras) } from com.android.launcher3 (pid=1588, uid=10009) requires com.google.android.launcher.permission.RECEIVE_LAUNCH_BROADCASTS due to receiver com.google.android.googlequicksearchbox/com.google.android.search.core.icingsync.ApplicationLaunchReceiver
+12-27 22:23:18.061  1244  1414 I ActivityManager: Start proc 3556:com.thirdrock.fivemiles/u0a64 for activity com.thirdrock.fivemiles/com.insthub.fivemiles.Activity.GuidePagerActivity
+12-27 22:23:18.161  3556  3556 I MultiDex: VM with version 2.1.0 has multidex support
+12-27 22:23:18.161  3556  3556 I MultiDex: Installing application
+12-27 22:23:18.161  3556  3556 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+12-27 22:23:18.161  3556  3556 I MultiDex: Installing application
+12-27 22:23:18.161  3556  3556 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+12-27 22:23:18.164  1588  1743 E Surface : getSlotFromBufferLocked: unknown buffer: 0x73fb14bba0
+12-27 22:23:18.173  3556  3556 I FirebaseInitProvider: FirebaseApp initialization successful
+12-27 22:23:18.174  3556  3556 I CrashlyticsInitProvider: CrashlyticsInitProvider skipping initialization
+12-27 22:23:18.178  3556  3556 W e.j.Q   : You haven't set a value for AdvertiserIDCollectionEnabled. Set the flag to TRUE if you want to collect Advertiser ID for better advertising and analytics results. To request user consent before collecting data, set the flag value to FALSE, then change to TRUE once user consent is received. Learn more: https://developers.facebook.com/docs/app-events/getting-started-app-events-android#disable-auto-events.
+12-27 22:23:18.178  3556  3575 I FA      : App measurement is starting up, version: 14710
+12-27 22:23:18.178  3556  3575 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+12-27 22:23:18.178  3556  3575 I FA      : To enable faster debug mode event logging run:
+12-27 22:23:18.178  3556  3575 I FA      :   adb shell setprop debug.firebase.analytics.app com.thirdrock.fivemiles
+12-27 22:23:18.219  3556  3608 W AndroidMySdk: Please see the GitLab docs if you need to manually initialize WorkManager.
+12-27 22:23:18.238  3556  3556 I art     : Rejecting re-init on previously-failed class java.lang.Class<b.h.a.g$f>
+12-27 22:23:18.238  3556  3556 I art     : Rejecting re-init on previously-failed class java.lang.Class<b.h.a.g$f>
+12-27 22:23:18.246  3556  3622 I fb-UnpackingSoSource: dso store is up-to-date: /data/user/0/com.thirdrock.fivemiles/lib-main
+12-27 22:23:18.262  3556  3556 I CrashlyticsCore: Initializing Crashlytics Core 2.7.0.33
+12-27 22:23:18.271  3556  3641 W ResourceType: No package identifier when getting value for resource number 0x00000000
+12-27 22:23:18.292  3556  3658 I WebViewFactory: Loading com.google.android.webview version 44.0.2403.117 (code 246011750)
+12-27 22:23:18.301  3556  3658 W System  : ClassLoader referenced unknown path: /system/app/WebViewGoogle/lib/arm64
+12-27 22:23:18.303  3556  3658 I LibraryLoader: Time to load native libraries: 1 ms (timestamps 161-162)
+12-27 22:23:18.303  3556  3658 I LibraryLoader: Expected native library version number "",actual native library version number ""
+12-27 22:23:18.308  3556  3626 E Fabric  : Settings request failed.
+12-27 22:23:18.308  3556  3626 E Answers : Failed to retrieve settings
+12-27 22:23:18.310  3556  3627 W CrashlyticsCore: Received null settings, skipping report submission!
+12-27 22:23:18.320  1244  1414 W AccountManagerService: insertAccountIntoDatabase: Account {name=5miles, type=com.thirdrock.fivemiles}, skipping since the account already exists
+12-27 22:23:18.339  3556  3556 I LibraryLoader: Expected native library version number "",actual native library version number ""
+12-27 22:23:18.340  3556  3556 I chromium: [INFO:library_loader_hooks.cc(120)] Chromium logging enabled: level = 0, default verbosity = 0
+12-27 22:23:18.341  3556  3556 I BrowserStartupController: Initializing chromium process, singleProcess=true
+12-27 22:23:18.341  3556  3556 E SysUtils: ApplicationContext is null in ApplicationStatus
+12-27 22:23:18.347  3556  3556 W chromium: [WARNING:resource_bundle.cc(285)] locale_file_path.empty()
+12-27 22:23:18.347  3556  3556 E libEGL  : validate_display:255 error 3008 (EGL_BAD_DISPLAY)
+12-27 22:23:18.347  3556  3556 E libEGL  : validate_display:255 error 3008 (EGL_BAD_DISPLAY)
+12-27 22:23:18.350  3556  3556 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008cdf
+12-27 22:23:18.350  3556  3556 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008824
+12-27 22:23:18.360  3556  3684 E BluetoothAdapter: Bluetooth binder is null
+12-27 22:23:18.365  3556  3556 E ThirdRock: Current launcher Package Name: com.android.launcher3
+12-27 22:23:18.380  3556  3575 I DynamiteModule: Considering local module com.google.android.gms.tagmanager:213 and remote module com.google.android.gms.tagmanager:215
+12-27 22:23:18.380  3556  3575 I DynamiteModule: Selected remote version of com.google.android.gms.tagmanager, version >= 215
+12-27 22:23:18.385  3556  3556 W ResourceType: No package identifier when getting value for resource number 0x00000000
+12-27 22:23:18.387  3556  3575 W System  : ClassLoader referenced unknown path: /data/data/com.google.android.gms/app_chimera/m/00000004/n/arm64-v8a
+12-27 22:23:18.411   889   966 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-27 22:23:18.418  1606  2632 E GCM     : Missing checkin config file
+12-27 22:23:18.418  1606  2632 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
+12-27 22:23:18.556  3556  3575 I GoogleTagManager: Loading container GTM-KFF4LQ
+12-27 22:23:18.557  3556  3575 I GoogleTagManager: Installing Tag Manager event handler.
+12-27 22:23:18.559  3556  3575 I GoogleTagManager: Tag Manager event handler installed.
+12-27 22:23:18.559  3556  3575 I GoogleTagManager: Tag Manager initilization took 146ms
+12-27 22:23:18.568  1606  3720 I qtaguid : Failed write_ctrl(t -1 3458768941931823104 -1) res=-1 errno=9
+12-27 22:23:18.568  1606  3720 I qtaguid : Tagging socket -1 with tag 3000040700000000(805307399) for uid -1 failed errno=-9
+12-27 22:23:18.568  1606  3720 I NetworkManagementSocketTagger: tagSocketFd(-1, 805307399, -1) failed with errno-9
+12-27 22:23:18.574  3556  3716 I OpenGLRenderer: Initialized EGL, version 1.4
+12-27 22:23:18.574  3556  3716 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+12-27 22:23:18.576  3556  3716 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008cdf
+12-27 22:23:18.576  3556  3716 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008824
+12-27 22:23:18.582  3556  3578 E FirebaseInstanceId: Token retrieval failed: AUTHENTICATION_FAILED
+12-27 22:23:18.584  3556  3556 W ResourceType: No package identifier when getting value for resource number 0x00000000
+12-27 22:23:18.599  1244  1263 I ActivityManager: Displayed com.thirdrock.fivemiles/com.insthub.fivemiles.Activity.GuidePagerActivity: +569ms
+12-27 22:23:18.610  3556  3601 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=bda0c226-3c80-43f5-a39b-8a61551ffd49, tags={ io.mysdk.locs.work.workers.constraint.ConstraintWorker, xworkInfoTag, periodic_UNCONSTRAINED } ]
+12-27 22:23:18.627  1244  2444 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:23:18.640  1606  3740 I CheckinUtil: Classify the device as Phone. [CONTEXT service_id=130 ]
+12-27 22:23:18.868  3556  3575 W FA      : Param value can't be null: user_id
+12-27 22:23:18.869  1606  3720 E GCM     : Missing checkin config file
+12-27 22:23:18.869  1606  3720 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
+12-27 22:23:18.870  1606  3720 E GCM     : Missing checkin config file
+12-27 22:23:18.870  1606  3720 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
+12-27 22:23:18.872  1606  3720 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+12-27 22:23:18.872  1606  3720 W WakeLock: GCM_HB_ALARM counter does not exist
+12-27 22:23:18.874  3556  3755 I GoogleTagManager: Obtained fresh AdvertisingId info from GmsCore.
+12-27 22:23:18.876  3556  3575 W FA      : Param value can't be null: user_id
+12-27 22:23:18.890  1606  3760 I qtaguid : Failed write_ctrl(t -1 3458768941931823104 -1) res=-1 errno=9
+12-27 22:23:18.890  1606  3760 I qtaguid : Tagging socket -1 with tag 3000040700000000(805307399) for uid -1 failed errno=-9
+12-27 22:23:18.890  1606  3760 I NetworkManagementSocketTagger: tagSocketFd(-1, 805307399, -1) failed with errno-9
+12-27 22:23:19.319   889  1013 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-27 22:23:19.319  3773  3773 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:19.322   889   889 E EGL_emulation: tid 889: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+12-27 22:23:19.439  1606  3760 E GCM     : Missing checkin config file
+12-27 22:23:19.439  1606  3760 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
+12-27 22:23:19.440  1606  3760 E GCM     : Missing checkin config file
+12-27 22:23:19.440  1606  3760 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
+12-27 22:23:19.442  1606  3760 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+12-27 22:23:19.442  1606  3760 W WakeLock: GCM_HB_ALARM counter does not exist
+12-27 22:23:19.488  3780  3780 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:19.497  3780  3780 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:23:19.497  3780  3780 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:23:19.497  3780  3780 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:23:19.619  1244  1256 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:23:19.670  3556  3700 W ThirdRock: Json parser NOT found
+12-27 22:23:19.805  3556  3657 I Repository:  Searching for valid adv for pl DEFAULT-1201995
+12-27 22:23:19.805  3556  3657 I Repository: Didn't find valid adv
+12-27 22:23:19.806  3556  3646 W com.vungle.warren.AdLoader: Placement DEFAULT-1201995 is  snoozed
+12-27 22:23:19.806  3556  3646 E Vungle  : Failed to load ad/assets for DEFAULT-1201995. Cause:
+12-27 22:23:19.806  3556  3646 E Vungle  : com.vungle.warren.error.VungleException: No advertisements are available for your current bid. Please try again later.
+12-27 22:23:19.806  3556  3646 E Vungle  : 	at com.vungle.warren.AdLoader$1.run(AdLoader.java:21)
+12-27 22:23:19.806  3556  3646 E Vungle  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+12-27 22:23:19.806  3556  3646 E Vungle  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+12-27 22:23:19.806  3556  3646 E Vungle  : 	at java.lang.Thread.run(Thread.java:818)
+12-27 22:23:19.901  3556  3668 W ThirdRock: Json parser NOT found
+12-27 22:23:20.659  2095  3812 I GmscoreIpa: how are you::
+12-27 22:23:21.180  1606  2632 E GCM     : Missing checkin config file
+12-27 22:23:21.180  1606  2632 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
+12-27 22:23:21.573  3556  3584 W ResourceType: No package identifier when getting value for resource number 0x00000000
+12-27 22:23:21.603  1244  2444 I ActivityManager: START u0 {act=android.intent.action.MAIN cmp=com.thirdrock.fivemiles/com.insthub.fivemiles.Activity.WelcomeActivity (has extras)} from uid 10064 on display 0
+12-27 22:23:21.710  3556  3575 W FA      : Param value can't be null: user_id
+12-27 22:23:21.713  3556  3556 W ResourceType: No package identifier when getting value for resource number 0x00000000
+12-27 22:23:21.781  1244  1263 I ActivityManager: Displayed com.thirdrock.fivemiles/com.insthub.fivemiles.Activity.WelcomeActivity: +165ms
+12-27 22:23:21.801  3556  3716 E Surface : getSlotFromBufferLocked: unknown buffer: 0x73f5443f40
+12-27 22:23:24.880   889   966 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-27 22:23:24.881  3844  3844 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:24.885   889   889 E EGL_emulation: tid 889: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+12-27 22:23:25.264  3850  3850 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:25.274  3850  3850 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:23:25.274  3850  3850 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:23:25.275  3850  3850 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:23:32.493   889   966 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-27 22:23:32.493  3890  3890 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:32.496   889   889 E EGL_emulation: tid 889: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+12-27 22:23:32.872  3896  3896 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:32.882  3896  3896 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:23:32.882  3896  3896 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:23:32.882  3896  3896 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:23:33.004  1244  2445 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:23:33.259   889   966 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-27 22:23:33.260  3925  3925 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:33.263   889   889 E EGL_emulation: tid 889: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+12-27 22:23:33.638  3931  3931 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:33.646  3931  3931 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:23:33.646  3931  3931 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:23:33.646  3931  3931 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:23:33.661  3556  3566 I art     : Debugger is no longer active
+12-27 22:23:34.156  3973  3973 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:34.165  3973  3973 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:23:34.165  3973  3973 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:23:34.165  3973  3973 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:23:34.168  3973  3973 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=790.0, y[0]=1904.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=56027, downTime=56027, deviceId=0, source=0x1002 }
+12-27 22:23:34.170  3973  3973 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=790.0, y[0]=1904.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=56027, downTime=56027, deviceId=0, source=0x1002 }
+12-27 22:23:34.177  3973  3973 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=790.0, y[0]=1904.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=56036, downTime=56036, deviceId=0, source=0x1002 }
+12-27 22:23:34.194  3973  3973 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=790.0, y[0]=1904.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=56052, downTime=56052, deviceId=0, source=0x1002 }
+12-27 22:23:34.211  3973  3973 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=790.0, y[0]=1904.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=56069, downTime=56069, deviceId=0, source=0x1002 }
+12-27 22:23:34.232  3973  3973 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=790.0, y[0]=1904.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=56091, downTime=56091, deviceId=0, source=0x1002 }
+12-27 22:23:34.241  3973  3973 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=790.0, y[0]=1904.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=56100, downTime=56100, deviceId=0, source=0x1002 }
+12-27 22:23:34.259  3973  3973 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=790.0, y[0]=1904.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=56117, downTime=56117, deviceId=0, source=0x1002 }
+12-27 22:23:34.279  3973  3973 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=790.0, y[0]=1904.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=56137, downTime=56137, deviceId=0, source=0x1002 }
+12-27 22:23:34.299  3973  3973 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=790.0, y[0]=1904.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=56158, downTime=56158, deviceId=0, source=0x1002 }
+12-27 22:23:34.317  3973  3973 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=790.0, y[0]=1904.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=56175, downTime=56175, deviceId=0, source=0x1002 }
+12-27 22:23:34.336  3973  3973 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=790.0, y[0]=1904.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=56194, downTime=56194, deviceId=0, source=0x1002 }
+12-27 22:23:34.354  3973  3973 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=790.0, y[0]=1904.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=56213, downTime=56213, deviceId=0, source=0x1002 }
+12-27 22:23:34.375  3973  3973 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=790.0, y[0]=1904.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=56233, downTime=56233, deviceId=0, source=0x1002 }
+12-27 22:23:34.378  1244  1527 I ActivityManager: START u0 {cmp=com.thirdrock.fivemiles/.login.EmailLoginActivity (has extras)} from uid 10064 on display 0
+12-27 22:23:34.435  3556  3556 I TextInputLayout: EditText added is not a TextInputEditText. Please switch to using that class instead.
+12-27 22:23:34.436  3556  3556 I TextInputLayout: EditText added is not a TextInputEditText. Please switch to using that class instead.
+12-27 22:23:34.439  3556  3575 W FA      : Param value can't be null: user_id
+12-27 22:23:34.467  1244  2444 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:23:34.476  1244  1263 I ActivityManager: Displayed com.thirdrock.fivemiles/.login.EmailLoginActivity: +93ms
+12-27 22:23:34.497  3556  3716 E Surface : getSlotFromBufferLocked: unknown buffer: 0x73f54461a0
+12-27 22:23:34.601  1329  1329 W PathParser: Points are too far apart 4.030360828967057
+12-27 22:23:34.601  1329  1329 W PathParser: Points are too far apart 4.030360538880159
+12-27 22:23:34.618  1329  1329 W PathParser: Points are too far apart 4.030360828967057
+12-27 22:23:34.618  1329  1329 W PathParser: Points are too far apart 4.030360538880159
+12-27 22:23:34.635  1329  1329 W PathParser: Points are too far apart 4.030360828967057
+12-27 22:23:34.635  1329  1329 W PathParser: Points are too far apart 4.030360538880159
+12-27 22:23:34.654  1329  1329 W PathParser: Points are too far apart 4.030360828967057
+12-27 22:23:34.654  1329  1329 W PathParser: Points are too far apart 4.030360538880159
+12-27 22:23:34.673  1329  1329 W PathParser: Points are too far apart 4.030360828967057
+12-27 22:23:34.674  1329  1329 W PathParser: Points are too far apart 4.030360538880159
+12-27 22:23:34.693  1329  1329 W PathParser: Points are too far apart 4.030360828967057
+12-27 22:23:34.693  1329  1329 W PathParser: Points are too far apart 4.030360538880159
+12-27 22:23:34.711  1329  1329 W PathParser: Points are too far apart 4.030360828967057
+12-27 22:23:34.711  1329  1329 W PathParser: Points are too far apart 4.030360538880159
+12-27 22:23:35.699   889  1014 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-27 22:23:35.699  4012  4012 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:35.702   889   889 E EGL_emulation: tid 889: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+12-27 22:23:35.828  4018  4018 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:35.837  4018  4018 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:23:35.837  4018  4018 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:23:35.837  4018  4018 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:23:37.124  1606  2632 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-27 22:23:37.124  1606  2632 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk:classes3.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+12-27 22:23:37.124  1606  2632 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+12-27 22:23:37.124  1606  2632 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315))
+12-27 22:23:41.228   889  1014 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-27 22:23:41.228  4057  4057 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:41.231   889   889 E EGL_emulation: tid 889: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+12-27 22:23:41.356  4063  4063 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:41.365  4063  4063 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:23:41.365  4063  4063 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:23:41.366  4063  4063 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:23:41.763   889  1014 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-27 22:23:41.763  4089  4089 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:41.766   889   889 E EGL_emulation: tid 889: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+12-27 22:23:41.891  4095  4095 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:41.899  4095  4095 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:23:41.899  4095  4095 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:23:41.899  4095  4095 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:23:41.968  1244  2445 I MediaFocusControl:  AudioFocus  abandonAudioFocus() from android.media.AudioManager@d51d90com.android.music.MediaPlaybackService$3@71fa689
+12-27 22:23:42.015  1244  2445 I ActivityManager: Killing 1655:com.android.music/u0a40 (adj 15): empty #17
+12-27 22:23:42.413  4135  4135 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:42.422  4135  4135 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:23:42.422  4135  4135 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:23:42.422  4135  4135 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:23:42.425  4135  4135 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=540.0, y[0]=423.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=64284, downTime=64284, deviceId=0, source=0x1002 }
+12-27 22:23:42.427  4135  4135 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=423.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=64284, downTime=64284, deviceId=0, source=0x1002 }
+12-27 22:23:42.446  4135  4135 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=423.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=64304, downTime=64304, deviceId=0, source=0x1002 }
+12-27 22:23:42.464  4135  4135 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=423.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=64322, downTime=64322, deviceId=0, source=0x1002 }
+12-27 22:23:42.486  4135  4135 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=423.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=64344, downTime=64344, deviceId=0, source=0x1002 }
+12-27 22:23:42.503  4135  4135 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=423.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=64362, downTime=64362, deviceId=0, source=0x1002 }
+12-27 22:23:42.519  4135  4135 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=423.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=64377, downTime=64377, deviceId=0, source=0x1002 }
+12-27 22:23:42.541  4135  4135 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=423.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=64399, downTime=64399, deviceId=0, source=0x1002 }
+12-27 22:23:42.557  4135  4135 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=423.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=64415, downTime=64415, deviceId=0, source=0x1002 }
+12-27 22:23:42.577  4135  4135 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=423.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=64436, downTime=64436, deviceId=0, source=0x1002 }
+12-27 22:23:42.592  4135  4135 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=423.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=64450, downTime=64450, deviceId=0, source=0x1002 }
+12-27 22:23:42.611  4135  4135 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=423.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=64469, downTime=64469, deviceId=0, source=0x1002 }
+12-27 22:23:42.631  4135  4135 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=540.0, y[0]=423.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=64490, downTime=64490, deviceId=0, source=0x1002 }
+12-27 22:23:42.663   889  1014 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-27 22:23:42.688  1568  4146 I OpenGLRenderer: Initialized EGL, version 1.4
+12-27 22:23:42.688  1568  4146 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+12-27 22:23:42.692  1568  4146 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008cdf
+12-27 22:23:42.693  1568  4146 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008824
+12-27 22:23:42.726  1568  4146 E Surface : getSlotFromBufferLocked: unknown buffer: 0x7407adef00
+12-27 22:23:42.909  4149  4149 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:42.918  4149  4149 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:23:42.918  4149  4149 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:23:42.919  4149  4149 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:23:44.094  1606  2314 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-27 22:23:44.094  1606  2314 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk:classes3.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+12-27 22:23:44.094  1606  2314 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+12-27 22:23:44.094  1606  2314 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315))
+12-27 22:23:44.239   889   968 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-27 22:23:44.239  4170  4170 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:44.242   889   889 E EGL_emulation: tid 889: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+12-27 22:23:44.368  4178  4178 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:44.377  4178  4178 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:23:44.377  4178  4178 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:23:44.377  4178  4178 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:23:44.868  2095  2501 I CheckinUtil: Classify the device as Phone. [CONTEXT service_id=130 ]
+12-27 22:23:48.600  1606  3940 E GCM     : Missing checkin config file
+12-27 22:23:48.600  1606  3940 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
+12-27 22:23:48.602  3556  3578 E FirebaseInstanceId: Token retrieval failed: AUTHENTICATION_FAILED
+12-27 22:23:49.775   889  1013 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-27 22:23:49.775  4224  4224 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:49.778   889   889 E EGL_emulation: tid 889: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+12-27 22:23:49.916  4230  4230 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:49.925  4230  4230 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:23:49.925  4230  4230 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:23:49.926  4230  4230 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:23:50.055  2095  2900 I TelephonySpam: TelephonySpamChimeraService - Running Telephony Spam Chimera Service
+12-27 22:23:50.068  1244  1564 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:23:50.080  1244  1564 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:23:50.085  1244  2876 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:23:50.087  1244  1564 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:23:50.091  1244  2876 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:23:50.096  1606  2005 E CCTFlatFileLogStore: Can't get boot count and uptime from log event.
+12-27 22:23:50.096  1606  2005 E CCTFlatFileLogStore: cabw: While parsing a protocol message, the input ended unexpectedly in the middle of a field.  This could mean either that the input has been truncated or that an embedded message misreported its own length.
+12-27 22:23:50.096  1606  2005 E CCTFlatFileLogStore: 	at bzzr.h(:com.google.android.gms@202414019@20.24.14 (040400-319035315):3)
+12-27 22:23:50.096  1606  2005 E CCTFlatFileLogStore: 	at bzzr.C(:com.google.android.gms@202414019@20.24.14 (040400-319035315):1)
+12-27 22:23:50.096  1606  2005 E CCTFlatFileLogStore: 	at bzzr.v(:com.google.android.gms@202414019@20.24.14 (040400-319035315):1)
+12-27 22:23:50.096  1606  2005 E CCTFlatFileLogStore: 	at bzzr.t(:com.google.android.gms@202414019@20.24.14 (040400-319035315):7)
+12-27 22:23:50.096  1606  2005 E CCTFlatFileLogStore: 	at bzzr.n(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+12-27 22:23:50.096  1606  2005 E CCTFlatFileLogStore: 	at rel.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):49)
+12-27 22:23:50.096  1606  2005 E CCTFlatFileLogStore: 	at rej.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):10)
+12-27 22:23:50.096  1606  2005 E CCTFlatFileLogStore: 	at com.google.android.gms.clearcut.uploader.QosUploaderChimeraService.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):64)
+12-27 22:23:50.096  1606  2005 E CCTFlatFileLogStore: 	at com.google.android.gms.clearcut.uploader.QosUploaderChimeraService.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+12-27 22:23:50.096  1606  2005 E CCTFlatFileLogStore: 	at aeme.call(Unknown Source)
+12-27 22:23:50.096  1606  2005 E CCTFlatFileLogStore: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+12-27 22:23:50.096  1606  2005 E CCTFlatFileLogStore: 	at soy.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315):12)
+12-27 22:23:50.096  1606  2005 E CCTFlatFileLogStore: 	at soy.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):7)
+12-27 22:23:50.096  1606  2005 E CCTFlatFileLogStore: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+12-27 22:23:50.096  1606  2005 E CCTFlatFileLogStore: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+12-27 22:23:50.096  1606  2005 E CCTFlatFileLogStore: 	at sux.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+12-27 22:23:50.096  1606  2005 E CCTFlatFileLogStore: 	at java.lang.Thread.run(Thread.java:818)
+12-27 22:23:50.098  1244  1564 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:23:50.106  1244  2445 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:23:50.109  1244  2876 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:23:50.113  1244  2876 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:23:50.119  1244  2876 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:23:50.122  1244  2876 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:23:50.124  1244  2876 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:23:50.126  1244  2876 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:23:50.130  1244  2876 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:23:50.136  1244  2876 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:23:50.138  1244  2876 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:23:50.143  1244  2876 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:23:50.150  1244  1527 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:23:50.155  1244  2876 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:23:50.160  1244  2876 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:23:50.161  1244  2876 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: Can't get boot count and uptime from log event.
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: cabw: While parsing a protocol message, the input ended unexpectedly in the middle of a field.  This could mean either that the input has been truncated or that an embedded message misreported its own length.
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at bzzr.h(:com.google.android.gms@202414019@20.24.14 (040400-319035315):3)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at bzzr.C(:com.google.android.gms@202414019@20.24.14 (040400-319035315):1)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at bzzr.v(:com.google.android.gms@202414019@20.24.14 (040400-319035315):1)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at bzzr.t(:com.google.android.gms@202414019@20.24.14 (040400-319035315):7)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at bzzr.n(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at rel.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):49)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at rej.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):10)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at com.google.android.gms.clearcut.uploader.QosUploaderChimeraService.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):64)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at com.google.android.gms.clearcut.uploader.QosUploaderChimeraService.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at aeme.call(Unknown Source)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at soy.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315):12)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at soy.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):7)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at sux.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at java.lang.Thread.run(Thread.java:818)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: Can't get boot count and uptime from log event.
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: cabw: While parsing a protocol message, the input ended unexpectedly in the middle of a field.  This could mean either that the input has been truncated or that an embedded message misreported its own length.
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at bzzr.h(:com.google.android.gms@202414019@20.24.14 (040400-319035315):3)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at bzzr.C(:com.google.android.gms@202414019@20.24.14 (040400-319035315):1)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at bzzr.v(:com.google.android.gms@202414019@20.24.14 (040400-319035315):1)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at bzzr.t(:com.google.android.gms@202414019@20.24.14 (040400-319035315):7)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at bzzr.n(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at rel.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):49)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at rej.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):10)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at com.google.android.gms.clearcut.uploader.QosUploaderChimeraService.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):64)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at com.google.android.gms.clearcut.uploader.QosUploaderChimeraService.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at aeme.call(Unknown Source)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at soy.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315):12)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at soy.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):7)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at sux.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+12-27 22:23:50.166  1606  2005 E CCTFlatFileLogStore: 	at java.lang.Thread.run(Thread.java:818)
+12-27 22:23:50.168  1244  2876 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:23:50.170  1606  2005 E CCTFlatFileLogStore: Can't get boot count and uptime from log event.
+12-27 22:23:50.170  1606  2005 E CCTFlatFileLogStore: cabw: While parsing a protocol message, the input ended unexpectedly in the middle of a field.  This could mean either that the input has been truncated or that an embedded message misreported its own length.
+12-27 22:23:50.170  1606  2005 E CCTFlatFileLogStore: 	at bzzr.h(:com.google.android.gms@202414019@20.24.14 (040400-319035315):3)
+12-27 22:23:50.170  1606  2005 E CCTFlatFileLogStore: 	at bzzr.C(:com.google.android.gms@202414019@20.24.14 (040400-319035315):1)
+12-27 22:23:50.170  1606  2005 E CCTFlatFileLogStore: 	at bzzr.v(:com.google.android.gms@202414019@20.24.14 (040400-319035315):1)
+12-27 22:23:50.170  1606  2005 E CCTFlatFileLogStore: 	at bzzr.t(:com.google.android.gms@202414019@20.24.14 (040400-319035315):7)
+12-27 22:23:50.170  1606  2005 E CCTFlatFileLogStore: 	at bzzr.n(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+12-27 22:23:50.170  1606  2005 E CCTFlatFileLogStore: 	at rel.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):49)
+12-27 22:23:50.170  1606  2005 E CCTFlatFileLogStore: 	at rej.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):10)
+12-27 22:23:50.170  1606  2005 E CCTFlatFileLogStore: 	at com.google.android.gms.clearcut.uploader.QosUploaderChimeraService.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):64)
+12-27 22:23:50.170  1606  2005 E CCTFlatFileLogStore: 	at com.google.android.gms.clearcut.uploader.QosUploaderChimeraService.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+12-27 22:23:50.170  1606  2005 E CCTFlatFileLogStore: 	at aeme.call(Unknown Source)
+12-27 22:23:50.170  1606  2005 E CCTFlatFileLogStore: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+12-27 22:23:50.170  1606  2005 E CCTFlatFileLogStore: 	at soy.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315):12)
+12-27 22:23:50.170  1606  2005 E CCTFlatFileLogStore: 	at soy.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):7)
+12-27 22:23:50.170  1606  2005 E CCTFlatFileLogStore: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+12-27 22:23:50.170  1606  2005 E CCTFlatFileLogStore: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+12-27 22:23:50.170  1606  2005 E CCTFlatFileLogStore: 	at sux.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+12-27 22:23:50.170  1606  2005 E CCTFlatFileLogStore: 	at java.lang.Thread.run(Thread.java:818)
+12-27 22:23:50.171  1606  2005 E CCTFlatFileLogStore: Can't get boot count and uptime from log event.
+12-27 22:23:50.171  1606  2005 E CCTFlatFileLogStore: cabw: While parsing a protocol message, the input ended unexpectedly in the middle of a field.  This could mean either that the input has been truncated or that an embedded message misreported its own length.
+12-27 22:23:50.171  1606  2005 E CCTFlatFileLogStore: 	at bzzr.h(:com.google.android.gms@202414019@20.24.14 (040400-319035315):3)
+12-27 22:23:50.171  1606  2005 E CCTFlatFileLogStore: 	at bzzr.C(:com.google.android.gms@202414019@20.24.14 (040400-319035315):1)
+12-27 22:23:50.171  1606  2005 E CCTFlatFileLogStore: 	at bzzr.v(:com.google.android.gms@202414019@20.24.14 (040400-319035315):1)
+12-27 22:23:50.171  1606  2005 E CCTFlatFileLogStore: 	at bzzr.t(:com.google.android.gms@202414019@20.24.14 (040400-319035315):7)
+12-27 22:23:50.171  1606  2005 E CCTFlatFileLogStore: 	at bzzr.n(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+12-27 22:23:50.171  1606  2005 E CCTFlatFileLogStore: 	at rel.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):49)
+12-27 22:23:50.171  1606  2005 E CCTFlatFileLogStore: 	at rej.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):10)
+12-27 22:23:50.171  1606  2005 E CCTFlatFileLogStore: 	at com.google.android.gms.clearcut.uploader.QosUploaderChimeraService.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):64)
+12-27 22:23:50.171  1606  2005 E CCTFlatFileLogStore: 	at com.google.android.gms.clearcut.uploader.QosUploaderChimeraService.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+12-27 22:23:50.171  1606  2005 E CCTFlatFileLogStore: 	at aeme.call(Unknown Source)
+12-27 22:23:50.171  1606  2005 E CCTFlatFileLogStore: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+12-27 22:23:50.171  1606  2005 E CCTFlatFileLogStore: 	at soy.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315):12)
+12-27 22:23:50.171  1606  2005 E CCTFlatFileLogStore: 	at soy.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):7)
+12-27 22:23:50.171  1606  2005 E CCTFlatFileLogStore: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+12-27 22:23:50.171  1606  2005 E CCTFlatFileLogStore: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+12-27 22:23:50.171  1606  2005 E CCTFlatFileLogStore: 	at sux.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+12-27 22:23:50.171  1606  2005 E CCTFlatFileLogStore: 	at java.lang.Thread.run(Thread.java:818)
+12-27 22:23:50.172  1244  2876 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:23:50.174  1244  2876 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:23:50.176  1244  2876 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:23:53.121   889  1013 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-27 22:23:53.121  4268  4268 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:53.126   889   889 E EGL_emulation: tid 889: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+12-27 22:23:53.263  4274  4274 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:53.272  4274  4274 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:23:53.272  4274  4274 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:23:53.273  4274  4274 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:23:53.682   889  1013 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-27 22:23:53.683  4302  4302 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:53.687   889   889 E EGL_emulation: tid 889: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+12-27 22:23:53.823  4308  4308 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:53.833  4308  4308 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:23:53.833  4308  4308 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:23:53.833  4308  4308 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:23:54.418  4346  4346 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:54.429  4346  4346 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:23:54.429  4346  4346 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:23:54.429  4346  4346 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:23:54.432  4346  4346 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=540.0, y[0]=616.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=76290, downTime=76290, deviceId=0, source=0x1002 }
+12-27 22:23:54.433  4346  4346 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=616.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=76290, downTime=76290, deviceId=0, source=0x1002 }
+12-27 22:23:54.439  4346  4346 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=616.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=76297, downTime=76297, deviceId=0, source=0x1002 }
+12-27 22:23:54.456  4346  4346 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=616.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=76315, downTime=76315, deviceId=0, source=0x1002 }
+12-27 22:23:54.477  4346  4346 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=616.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=76336, downTime=76336, deviceId=0, source=0x1002 }
+12-27 22:23:54.496  4346  4346 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=616.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=76354, downTime=76354, deviceId=0, source=0x1002 }
+12-27 22:23:54.514  4346  4346 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=616.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=76372, downTime=76372, deviceId=0, source=0x1002 }
+12-27 22:23:54.531  4346  4346 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=616.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=76390, downTime=76390, deviceId=0, source=0x1002 }
+12-27 22:23:54.549  4346  4346 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=616.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=76408, downTime=76408, deviceId=0, source=0x1002 }
+12-27 22:23:54.569  4346  4346 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=616.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=76427, downTime=76427, deviceId=0, source=0x1002 }
+12-27 22:23:54.587  4346  4346 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=616.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=76445, downTime=76445, deviceId=0, source=0x1002 }
+12-27 22:23:54.604  4346  4346 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=616.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=76462, downTime=76462, deviceId=0, source=0x1002 }
+12-27 22:23:54.623  4346  4346 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=616.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=76481, downTime=76481, deviceId=0, source=0x1002 }
+12-27 22:23:54.641  4346  4346 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=540.0, y[0]=616.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=76499, downTime=76499, deviceId=0, source=0x1002 }
+12-27 22:23:54.960  4359  4359 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:54.969  4359  4359 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:23:54.969  4359  4359 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:23:54.969  4359  4359 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:23:55.399  2095  4371 I GmscoreIpa: how are you::
+12-27 22:23:56.349   889   968 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-27 22:23:56.350  4382  4382 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:56.356   889   889 E EGL_emulation: tid 889: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+12-27 22:23:56.496  4388  4388 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:23:56.505  4388  4388 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:23:56.505  4388  4388 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:23:56.506  4388  4388 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:23:59.473  1606  4412 I qtaguid : Failed write_ctrl(t -1 3458768941931823104 -1) res=-1 errno=9
+12-27 22:23:59.473  1606  4412 I qtaguid : Tagging socket -1 with tag 3000040700000000(805307399) for uid -1 failed errno=-9
+12-27 22:23:59.473  1606  4412 I NetworkManagementSocketTagger: tagSocketFd(-1, 805307399, -1) failed with errno-9
+12-27 22:23:59.777  1606  4412 E GCM     : Missing checkin config file
+12-27 22:23:59.777  1606  4412 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
+12-27 22:23:59.781  1606  4412 E GCM     : Missing checkin config file
+12-27 22:23:59.781  1606  4412 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
+12-27 22:23:59.786  1606  4412 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+12-27 22:23:59.786  1606  4412 W WakeLock: GCM_HB_ALARM counter does not exist
+12-27 22:23:59.789  1606  4417 I qtaguid : Failed write_ctrl(t -1 3458768941931823104 -1) res=-1 errno=9
+12-27 22:23:59.789  1606  4417 I qtaguid : Tagging socket -1 with tag 3000040700000000(805307399) for uid -1 failed errno=-9
+12-27 22:23:59.789  1606  4417 I NetworkManagementSocketTagger: tagSocketFd(-1, 805307399, -1) failed with errno-9
+12-27 22:24:00.304  1606  4417 E GCM     : Missing checkin config file
+12-27 22:24:00.304  1606  4417 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
+12-27 22:24:00.307  1606  4417 E GCM     : Missing checkin config file
+12-27 22:24:00.307  1606  4417 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
+12-27 22:24:00.311  1606  4417 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+12-27 22:24:00.311  1606  4417 W WakeLock: GCM_HB_ALARM counter does not exist
+12-27 22:24:01.147  2095  2380 I CastDatabase: Saving the database
+12-27 22:24:01.155  2095  2380 I SQLiteCastStore: [CastNetworkInfo] saved: 0, skipped: 0, [CastDeviceInfo]: saved 0, skipped 0, [Paired Guest Mode DeviceInfo] saved: 0, skipped: 0. [ProbedNetworks]: saved 0, skipped: 0, [ProbedSocketAddress]: saved 0, skipped: 0, [Network-Device pairs]: saved: 0
+12-27 22:24:01.197  1606  4242 E GCM     : Missing checkin config file
+12-27 22:24:01.198  1606  4242 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
+12-27 22:24:01.979   889  1014 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-27 22:24:01.980  4440  4440 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:24:01.985   889   889 E EGL_emulation: tid 889: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+12-27 22:24:02.124  4446  4446 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:24:02.133  4446  4446 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:24:02.133  4446  4446 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:24:02.133  4446  4446 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:24:04.084  2095  2501 W ProviderHelper: Unknown dynamite feature providerinstaller
+12-27 22:24:04.084  2095  2501 I DynamiteModule: Considering local module providerinstaller:0 and remote module providerinstaller:0
+12-27 22:24:04.084  2095  2501 I DynamiteModule: Considering local module providerinstaller:0 and remote module providerinstaller:0
+12-27 22:24:04.088  2095  2501 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-27 22:24:04.088  2095  2501 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk:classes3.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+12-27 22:24:04.088  2095  2501 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+12-27 22:24:04.088  2095  2501 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315))
+12-27 22:24:07.449   889   968 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-27 22:24:07.449  4483  4483 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:24:07.455   889   889 E EGL_emulation: tid 889: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+12-27 22:24:07.596  4489  4489 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:24:07.606  4489  4489 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:24:07.606  4489  4489 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:24:07.606  4489  4489 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:24:16.495   889   968 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-27 22:24:16.495  4533  4533 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:24:16.501   889   889 E EGL_emulation: tid 889: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+12-27 22:24:16.642  4541  4541 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:24:16.650  4541  4541 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:24:16.650  4541  4541 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:24:16.650  4541  4541 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:24:17.225  4579  4579 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:24:17.234  4579  4579 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:24:17.234  4579  4579 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:24:17.235  4579  4579 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:24:17.238  4579  4579 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=540.0, y[0]=851.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=99096, downTime=99096, deviceId=0, source=0x1002 }
+12-27 22:24:17.238  4579  4579 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=851.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=99096, downTime=99096, deviceId=0, source=0x1002 }
+12-27 22:24:17.262  4579  4579 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=851.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=99120, downTime=99120, deviceId=0, source=0x1002 }
+12-27 22:24:17.281  4579  4579 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=851.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=99139, downTime=99139, deviceId=0, source=0x1002 }
+12-27 22:24:17.299  4579  4579 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=851.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=99157, downTime=99157, deviceId=0, source=0x1002 }
+12-27 22:24:17.316  4579  4579 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=851.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=99175, downTime=99175, deviceId=0, source=0x1002 }
+12-27 22:24:17.334  4579  4579 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=851.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=99192, downTime=99192, deviceId=0, source=0x1002 }
+12-27 22:24:17.351  4579  4579 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=851.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=99209, downTime=99209, deviceId=0, source=0x1002 }
+12-27 22:24:17.370  4579  4579 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=851.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=99228, downTime=99228, deviceId=0, source=0x1002 }
+12-27 22:24:17.387  4579  4579 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=851.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=99245, downTime=99245, deviceId=0, source=0x1002 }
+12-27 22:24:17.405  4579  4579 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=851.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=99264, downTime=99264, deviceId=0, source=0x1002 }
+12-27 22:24:17.423  4579  4579 I Input   : injectMotionEvent: MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=851.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=99281, downTime=99281, deviceId=0, source=0x1002 }
+12-27 22:24:17.442  4579  4579 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=540.0, y[0]=851.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=99301, downTime=99301, deviceId=0, source=0x1002 }
+12-27 22:24:17.782  1329  1329 W PathParser: Points are too far apart 4.030360828967057
+12-27 22:24:17.782  1329  1329 W PathParser: Points are too far apart 4.030360538880159
+12-27 22:24:17.799  1329  1329 W PathParser: Points are too far apart 4.030360828967057
+12-27 22:24:17.799  1329  1329 W PathParser: Points are too far apart 4.030360538880159
+12-27 22:24:17.817  1329  1329 W PathParser: Points are too far apart 4.030360828967057
+12-27 22:24:17.817  1329  1329 W PathParser: Points are too far apart 4.030360538880159
+12-27 22:24:17.836  1329  1329 W PathParser: Points are too far apart 4.030360828967057
+12-27 22:24:17.836  1329  1329 W PathParser: Points are too far apart 4.030360538880159
+12-27 22:24:17.855  1329  1329 W PathParser: Points are too far apart 4.030360828967057
+12-27 22:24:17.855  1329  1329 W PathParser: Points are too far apart 4.030360538880159
+12-27 22:24:17.879  1329  1329 W PathParser: Points are too far apart 4.030360828967057
+12-27 22:24:17.879  1329  1329 W PathParser: Points are too far apart 4.030360538880159
+12-27 22:24:18.118  3556  3556 I GAv4    : Google Analytics 12.4.51 is starting up. To enable debug logging on a device run:
+12-27 22:24:18.118  3556  3556 I GAv4    :   adb shell setprop log.tag.GAv4 DEBUG
+12-27 22:24:18.118  3556  3556 I GAv4    :   adb logcat -s GAv4
+12-27 22:24:18.128  3556  3716 E Surface : getSlotFromBufferLocked: unknown buffer: 0x73f5445e80
+12-27 22:24:18.135  1244  2444 W InputMethodManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@a244b53 attribute=null, token = android.os.BinderProxy@e7cd541
+12-27 22:24:18.138  1606  2010 E GCM     : Missing checkin config file
+12-27 22:24:18.138  1606  2010 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
+12-27 22:24:18.149  1329  1329 W PathParser: Points are too far apart 4.030360828967057
+12-27 22:24:18.149  1329  1329 W PathParser: Points are too far apart 4.030360538880159
+12-27 22:24:18.163  3556  3682 W chromium: [WARNING:data_reduction_proxy_config.cc(423)] SPDY proxy OFF at startup
+12-27 22:24:18.165  1329  1329 W PathParser: Points are too far apart 4.030360828967057
+12-27 22:24:18.165  1329  1329 W PathParser: Points are too far apart 4.030360538880159
+12-27 22:24:18.170  3556  3556 W AwContents: onDetachedFromWindow called when already detached. Ignoring
+12-27 22:24:18.173   888   888 E SELinux : avc:  denied  { find } for service=batteryproperties scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:healthd_service:s0 tclass=service_manager
+12-27 22:24:18.182  1329  1329 W PathParser: Points are too far apart 4.030360828967057
+12-27 22:24:18.182  1329  1329 W PathParser: Points are too far apart 4.030360538880159
+12-27 22:24:18.184  3556  4615 W c.t.tdm.TrustDefenderMo: Scan  already in progress or cancel requested, aborting
+12-27 22:24:18.199  1329  1329 W PathParser: Points are too far apart 4.030360828967057
+12-27 22:24:18.199  1329  1329 W PathParser: Points are too far apart 4.030360538880159
+12-27 22:24:18.216  1329  1329 W PathParser: Points are too far apart 4.030360828967057
+12-27 22:24:18.216  1329  1329 W PathParser: Points are too far apart 4.030360538880159
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:6): avc: denied { search } for name="1" dev="proc" ino=1036 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:7): avc: denied { search } for name="2" dev="proc" ino=3202 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:8): avc: denied { search } for name="3" dev="proc" ino=3203 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:9): avc: denied { search } for name="4" dev="proc" ino=3204 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:10): avc: denied { search } for name="5" dev="proc" ino=3205 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:11): avc: denied { search } for name="6" dev="proc" ino=3206 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:12): avc: denied { search } for name="7" dev="proc" ino=3207 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:13): avc: denied { search } for name="8" dev="proc" ino=3208 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:14): avc: denied { search } for name="9" dev="proc" ino=3209 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:15): avc: denied { search } for name="10" dev="proc" ino=3210 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:16): avc: denied { search } for name="11" dev="proc" ino=3211 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:17): avc: denied { search } for name="12" dev="proc" ino=3212 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:18): avc: denied { search } for name="13" dev="proc" ino=3213 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:19): avc: denied { search } for name="14" dev="proc" ino=3214 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:20): avc: denied { search } for name="15" dev="proc" ino=3215 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:21): avc: denied { search } for name="16" dev="proc" ino=3216 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:22): avc: denied { search } for name="17" dev="proc" ino=3217 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:23): avc: denied { search } for name="18" dev="proc" ino=3218 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:24): avc: denied { search } for name="19" dev="proc" ino=3219 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:25): avc: denied { search } for name="20" dev="proc" ino=3220 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:26): avc: denied { search } for name="21" dev="proc" ino=3221 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:27): avc: denied { search } for name="22" dev="proc" ino=3222 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:28): avc: denied { search } for name="23" dev="proc" ino=3223 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:29): avc: denied { search } for name="24" dev="proc" ino=3224 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:30): avc: denied { search } for name="25" dev="proc" ino=3225 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:31): avc: denied { search } for name="26" dev="proc" ino=3226 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:32): avc: denied { search } for name="244" dev="proc" ino=3227 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:33): avc: denied { search } for name="264" dev="proc" ino=3228 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:34): avc: denied { search } for name="265" dev="proc" ino=3229 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:35): avc: denied { search } for name="266" dev="proc" ino=3230 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:36): avc: denied { search } for name="267" dev="proc" ino=3231 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:37): avc: denied { search } for name="269" dev="proc" ino=3232 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:38): avc: denied { search } for name="270" dev="proc" ino=3233 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:39): avc: denied { search } for name="291" dev="proc" ino=3234 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:40): avc: denied { search } for name="300" dev="proc" ino=3235 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:41): avc: denied { search } for name="310" dev="proc" ino=3236 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.202  3556  3556 W Thread-320: type=1400 audit(0.0:42): avc: denied { search } for name="314" dev="proc" ino=3237 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=0
+12-27 22:24:18.233  1329  1329 W PathParser: Points are too far apart 4.030360828967057
+12-27 22:24:18.233  1329  1329 W PathParser: Points are too far apart 4.030360538880159
+12-27 22:24:18.249  3556  4637 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008cdf
+12-27 22:24:18.249  3556  4637 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008824
+12-27 22:24:18.251  3556  4637 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008073
+12-27 22:24:18.252  1329  1329 W PathParser: Points are too far apart 4.030360828967057
+12-27 22:24:18.252  1329  1329 W PathParser: Points are too far apart 4.030360538880159
+12-27 22:24:18.259  3556  4637 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008cdf
+12-27 22:24:18.259  3556  4637 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008824
+12-27 22:24:18.265  3556  3556 W BindingManager: Cannot call determinedVisibility() - never saw a connection for the pid: 3556
+12-27 22:24:18.436  3556  3668 W ThirdRock: Json parser NOT found
+12-27 22:24:18.774   889   968 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-27 22:24:18.775  4662  4662 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:24:18.780   889   889 E EGL_emulation: tid 889: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+12-27 22:24:18.844  1606  3740 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-27 22:24:18.844  1606  3740 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk:classes3.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+12-27 22:24:18.844  1606  3740 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+12-27 22:24:18.844  1606  3740 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315))
+12-27 22:24:18.920  4668  4668 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:24:18.930  4668  4668 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:24:18.930  4668  4668 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:24:18.930  4668  4668 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:24:19.053  2095  2499 I GCM-GMS : Registering GMS 745476177629
+12-27 22:24:19.056  1606  2605 E GCM     : Missing checkin config file
+12-27 22:24:19.056  1606  2605 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
+12-27 22:24:19.057  2095  2499 W GCM-GMS : Failed to get registration: java.io.IOException: AUTHENTICATION_FAILED
+12-27 22:24:19.064  1244  2594 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+12-27 22:24:19.130  3556  3701 W ThirdRock: Json parser NOT found
+12-27 22:24:19.132  1244  2025 I ActivityManager: START u0 {flg=0x4000000 cmp=com.thirdrock.fivemiles/com.insthub.fivemiles.Activity.MainTabActivity (has extras)} from uid 10064 on display 0
+12-27 22:24:19.151  1244  2025 W ActivityManager: Bad activity token: android.os.BinderProxy@35031ec
+12-27 22:24:19.151  1244  2025 W ActivityManager: java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-27 22:24:19.151  1244  2025 W ActivityManager: 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:424)
+12-27 22:24:19.151  1244  2025 W ActivityManager: 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1121)
+12-27 22:24:19.151  1244  2025 W ActivityManager: 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:1126)
+12-27 22:24:19.151  1244  2025 W ActivityManager: 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:8889)
+12-27 22:24:19.151  1244  2025 W ActivityManager: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2338)
+12-27 22:24:19.151  1244  2025 W ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2443)
+12-27 22:24:19.151  1244  2025 W ActivityManager: 	at android.os.Binder.execTransact(Binder.java:453)
+12-27 22:24:19.152  1244  2025 W ActivityManager: Bad activity token: android.os.BinderProxy@35031ec
+12-27 22:24:19.152  1244  2025 W ActivityManager: java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-27 22:24:19.152  1244  2025 W ActivityManager: 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:424)
+12-27 22:24:19.152  1244  2025 W ActivityManager: 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1121)
+12-27 22:24:19.152  1244  2025 W ActivityManager: 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:8547)
+12-27 22:24:19.152  1244  2025 W ActivityManager: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2410)
+12-27 22:24:19.152  1244  2025 W ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2443)
+12-27 22:24:19.152  1244  2025 W ActivityManager: 	at android.os.Binder.execTransact(Binder.java:453)
+12-27 22:24:19.162  1244  2025 W ActivityManager: Bad activity token: android.os.BinderProxy@35031ec
+12-27 22:24:19.162  1244  2025 W ActivityManager: java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-27 22:24:19.162  1244  2025 W ActivityManager: 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:424)
+12-27 22:24:19.162  1244  2025 W ActivityManager: 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1121)
+12-27 22:24:19.162  1244  2025 W ActivityManager: 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:11038)
+12-27 22:24:19.162  1244  2025 W ActivityManager: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1734)
+12-27 22:24:19.162  1244  2025 W ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2443)
+12-27 22:24:19.162  1244  2025 W ActivityManager: 	at android.os.Binder.execTransact(Binder.java:453)
+12-27 22:24:19.162  1244  2025 W ActivityManager: Bad activity token: android.os.BinderProxy@35031ec
+12-27 22:24:19.162  1244  2025 W ActivityManager: java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-27 22:24:19.162  1244  2025 W ActivityManager: 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:424)
+12-27 22:24:19.162  1244  2025 W ActivityManager: 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:1121)
+12-27 22:24:19.162  1244  2025 W ActivityManager: 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:11038)
+12-27 22:24:19.162  1244  2025 W ActivityManager: 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:1734)
+12-27 22:24:19.162  1244  2025 W ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2443)
+12-27 22:24:19.162  1244  2025 W ActivityManager: 	at android.os.Binder.execTransact(Binder.java:453)
+12-27 22:24:19.214  3556  4696 E ThirdRock: request failed [GET] https://api.5milesapp.com/api/v2/fg/bidcar/home/positions/: Canceled, delay: 6 (ms)
+12-27 22:24:19.222  3556  4704 W DynamiteModule: Local module descriptor class for providerinstaller not found.
+12-27 22:24:19.223  1606  1988 W ProviderHelper: Unknown dynamite feature providerinstaller
+12-27 22:24:19.226  3556  4704 I DynamiteModule: Considering local module providerinstaller:0 and remote module providerinstaller:0
+12-27 22:24:19.226  3556  4704 W ProviderInstaller: Failed to load providerinstaller module: No acceptable module found. Local version is 0 and remote version is 0.
+12-27 22:24:19.228  3556  4704 W System  : ClassLoader referenced unknown path: /system/priv-app/PrebuiltGmsCore/lib/arm64
+12-27 22:24:19.268  3556  3556 W PathParser: Points are too far apart 4.000000496705401
+12-27 22:24:19.268  3556  3556 W PathParser: Points are too far apart 4.000000496705401
+12-27 22:24:19.274  3556  4704 I art     : Rejecting re-init on previously-failed class java.lang.Class<com.google.android.gms.org.conscrypt.Java7ExtendedSSLSession>
+12-27 22:24:19.274  3556  4704 I art     : Rejecting re-init on previously-failed class java.lang.Class<com.google.android.gms.org.conscrypt.Java7ExtendedSSLSession>
+12-27 22:24:19.274  3556  4704 I art     : Rejecting re-init on previously-failed class java.lang.Class<com.google.android.gms.org.conscrypt.Java8ExtendedSSLSession>
+12-27 22:24:19.274  3556  4704 I art     : Rejecting re-init on previously-failed class java.lang.Class<com.google.android.gms.org.conscrypt.Java8ExtendedSSLSession>
+12-27 22:24:19.277  3556  4704 I ProviderInstaller: Installed default security provider GmsCore_OpenSSL
+12-27 22:24:19.283  1244  1263 I ActivityManager: Displayed com.thirdrock.fivemiles/com.insthub.fivemiles.Activity.MainTabActivity: +147ms
+12-27 22:24:19.285  3556  3556 E ThirdRock: com.thirdrock.framework.exception.RequestCancelledException: Task cancelled
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at e.C.c.e.l.a(AbsRestClient.kt:49)
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at e.C.c.e.l.a(AbsRestClient.kt:1)
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at e.C.c.e.g.call(AbsRestClient.kt:1)
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at g.e.e.e.f.e.b(SingleFromCallable.java:4)
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at g.e.A.a(Single.java:43)
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at io.reactivex.internal.operators.single.SingleSubscribeOn$SubscribeOnObserver.run(SingleSubscribeOn.java:1)
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at g.e.z$a.run(Scheduler.java:2)
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:2)
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:1)
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:269)
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at java.lang.Thread.run(Thread.java:818)
+12-27 22:24:19.285  3556  3556 E ThirdRock: Caused by: java.io.IOException: Canceled
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:40)
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:10)
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:1)
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at e.C.b.e.q.a.intercept(CollectNetworkInfoInterceptor.java:4)
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:10)
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:1)
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at e.C.d.b.b.intercept(CommandInterceptor.java:1)
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:10)
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:1)
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at e.C.c.e.a.b.intercept(UrlSignatureInterceptor.java:4)
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at e.C.c.e.a.c.intercept(UrlSignatureWithServerTimeInterceptor.java:2)
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:10)
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:1)
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:13)
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at okhttp3.RealCall.execute(RealCall.java:9)
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	at e.C.c.e.l.a(AbsRestClient.kt:33)
+12-27 22:24:19.285  3556  3556 E ThirdRock: 	... 13 more
+12-27 22:24:19.321  3556  3716 E Surface : getSlotFromBufferLocked: unknown buffer: 0x73f54462e0
+12-27 22:24:19.325  3556  3570 I art     : Background partial concurrent mark sweep GC freed 13992(759KB) AllocSpace objects, 8(212KB) LOS objects, 6% free, 61MB/65MB, paused 6.063ms total 30.717ms
+12-27 22:24:19.346  3556  3556 W ScreenOrientationListener: Removing an inexistent observer!
+12-27 22:24:19.352  1606  1990 W GCoreFlp: No location to return for getLastLocation()
+12-27 22:24:19.361  3556  3556 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-27 22:24:19.361  3556  3556 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-27 22:24:19.460  1568  4146 E Surface : getSlotFromBufferLocked: unknown buffer: 0x7407adefa0
+12-27 22:24:19.460  3556  3556 E ThirdRock: io.reactivex.exceptions.UndeliverableException: The exception could not be delivered to the consumer because it has already canceled/disposed the flow or the exception has nowhere to go to begin with. Further reading: https://github.com/ReactiveX/RxJava/wiki/What's-different-in-2.0#error-handling | java.util.NoSuchElementException: No value present
+12-27 22:24:19.460  3556  3556 E ThirdRock: 	at g.e.h.a.b(RxJavaPlugins.java:9)
+12-27 22:24:19.460  3556  3556 E ThirdRock: 	at io.reactivex.internal.observers.ConsumerSingleObserver.onSuccess(ConsumerSingleObserver.java:4)
+12-27 22:24:19.460  3556  3556 E ThirdRock: 	at io.reactivex.internal.operators.single.SingleObserveOn$ObserveOnSingleObserver.run(SingleObserveOn.java:3)
+12-27 22:24:19.460  3556  3556 E ThirdRock: 	at g.e.a.b.c$b.run(HandlerScheduler.java:1)
+12-27 22:24:19.460  3556  3556 E ThirdRock: 	at android.os.Handler.handleCallback(Handler.java:739)
+12-27 22:24:19.460  3556  3556 E ThirdRock: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+12-27 22:24:19.460  3556  3556 E ThirdRock: 	at android.os.Looper.loop(Looper.java:148)
+12-27 22:24:19.460  3556  3556 E ThirdRock: 	at android.app.ActivityThread.main(ActivityThread.java:5417)
+12-27 22:24:19.460  3556  3556 E ThirdRock: 	at java.lang.reflect.Method.invoke(Native Method)
+12-27 22:24:19.460  3556  3556 E ThirdRock: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+12-27 22:24:19.460  3556  3556 E ThirdRock: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+12-27 22:24:19.460  3556  3556 E ThirdRock: Caused by: java.util.NoSuchElementException: No value present
+12-27 22:24:19.460  3556  3556 E ThirdRock: 	at e.C.c.h.j.b(Optional.kt:1)
+12-27 22:24:19.460  3556  3556 E ThirdRock: 	at e.C.b.s.b.ma.a(HomeViewModelKt.kt:1)
+12-27 22:24:19.460  3556  3556 E ThirdRock: 	at e.C.b.s.b.ma.accept(HomeViewModelKt.kt:1)
+12-27 22:24:19.460  3556  3556 E ThirdRock: 	at io.reactivex.internal.observers.ConsumerSingleObserver.onSuccess(ConsumerSingleObserver.java:2)
+12-27 22:24:19.460  3556  3556 E ThirdRock: 	... 9 more
+12-27 22:24:19.488  3556  4687 W ThirdRock: Json parser NOT found
+12-27 22:24:19.489  3556  4686 W ThirdRock: Json parser NOT found
+12-27 22:24:19.526  3556  4698 W ThirdRock: Json parser NOT found
+12-27 22:24:19.544  3556  3702 W ThirdRock: Json parser NOT found
+12-27 22:24:19.652  3556  4696 W ThirdRock: Json parser NOT found
+12-27 22:24:19.763  3556  4686 W ThirdRock: Json parser NOT found
+12-27 22:24:20.315  1606  2005 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-27 22:24:20.315  1606  2005 E art     : invalid stream - problem with parameter iterator in /system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk:classes3.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+12-27 22:24:20.315  1606  2005 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+12-27 22:24:20.315  1606  2005 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315))
+12-27 22:24:24.386  1606  2019 E WakeLock: NlpWakeLock ** IS FORCE-RELEASED ON TIMEOUT **
+12-27 22:24:24.395   889   968 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-27 22:24:24.396  4874  4874 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:24:24.402   889   889 E EGL_emulation: tid 889: eglCreateSyncKHR(1881): error 0x3004 (EGL_BAD_ATTRIBUTE)
+12-27 22:24:24.667  4880  4880 E cutils-trace: Error opening trace file: No such file or directory (2)
+12-27 22:24:24.677  4880  4880 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-27 22:24:24.677  4880  4880 E android.os.Debug: failed to load memtrack module: -2
+12-27 22:24:24.677  4880  4880 I Radio-JNI: register_android_hardware_Radio DONE
+12-27 22:24:26.630  2095  4902 I GmscoreIpa: how are you::
+12-27 22:24:29.193  3556  3556 W ThirdRock: app has new version: false
+12-27 22:24:29.547  3556  4704 W Firestore: (0.6.6-dev) [OnlineStateTracker]: Could not reach Cloud Firestore backend. Backend didn't respond within 10 seconds
+12-27 22:24:29.547  3556  4704 W Firestore: 
+12-27 22:24:29.547  3556  4704 W Firestore: This typically indicates that your device does not have a healthy Internet connection at the moment. The client will operate in offline mode until it is able to successfully connect to the backend.
+12-27 22:24:33.574  3556  3596 W c       : initStore should have been called before calling setUserID
+12-27 22:24:33.574  3556  3596 W u       : initStore should have been called before calling setUserID

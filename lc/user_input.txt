@@ -1,0 +1,3 @@
+add device 1: /dev/input/event0
+  name:     "qwerty2"
+could not get driver version for /dev/input/mice, Not a typewriter

@@ -469,7 +469,7 @@ class DeviceState(object):
             if value:
                 return value
         return default
-    
+            
     def get_described_actions(self):
         """
         Get a text description of current state

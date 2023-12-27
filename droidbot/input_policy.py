@@ -4,6 +4,7 @@ import re
 import logging
 import random
 import openai
+import time
 import itertools
 
 from abc import abstractmethod
@@ -75,7 +76,7 @@ class InputPolicy(object):
                 if self.action_count == 0 and self.master is None:
                     event = KillAppEvent(app=self.app)
                 else:
-                    event = self.generate_event()
+                    finish, event = self.generate_event()
                 input_manager.add_event(event)
             except KeyboardInterrupt:
                 break
@@ -675,35 +676,38 @@ class TaskPolicy(UtgBasedInputPolicy):
         :param input_manager: instance of InputManager
         """
         self.action_count = 0
-        #input_manager.event_count = 1
-        #是否到最后一步
-        while input_manager.enabled and self.action_count < input_manager.event_count and self.step <= len(self.extracted_info):
+        while input_manager.enabled and self.action_count < input_manager.event_count:
             try:
                 if self.action_count == 0 and self.master is None:
                     event = KillAppEvent(app=self.app)
                     finish = 0
                 else:
                     finish, event = self.generate_event()
-                input_manager.add_event(event)
+                #time.sleep(5)
+                print(f'lccc start: {finish} / {event} / {self.task}')
+
+                if finish != -1:
+                    input_manager.add_event(event)
+                    time.sleep(5)
+                if finish != 0:
+                    if  self.step < len(self.extracted_info):
+                        self.step += 1
+                        self.task = self.extracted_info[self.step-1]['task']
+                    else:
+                        break
+
             except KeyboardInterrupt:
                 break
             except InputInterruptedException as e:
                 self.logger.warning("stop sending events: %s" % e)
                 break
-            # except RuntimeError as e:
-            #     self.logger.warning(e.message)
-            #     break
             except Exception as e:
                 self.logger.warning("exception during sending events: %s" % e)
                 import traceback
                 traceback.print_exc()
                 continue
             self.action_count += 1
-            if finish == 1:
-                self.step += 1
-                self.task = self.extracted_info[self.step-1]['task']
-               
-
+                
 
     def generate_event_based_on_utg(self):
         """
@@ -773,6 +777,7 @@ class TaskPolicy(UtgBasedInputPolicy):
         else:
             finish, action, candidate_actions = self._get_action_with_match(current_state, self.__action_history)
             if action is None:
+                self.extracted_info[self.step-1]['status'] = -1
                 finish, action, candidate_actions = self._get_action_with_LLM(current_state, self.__action_history)
 
         
@@ -842,23 +847,76 @@ class TaskPolicy(UtgBasedInputPolicy):
     #     headers = {'Content-Type': 'application/json', 'path': 'v1/chat/completions'}
     #     r = requests.post(url=URL, json=body, headers=headers)
     #     return r.content.decode()
+    def if_action(self, now_action):
+        print(f'lccc if_action candidate: {now_action}, {type(now_action)}')
 
+        #system enter怎么判断？除了click/edit以外的怎么判断？
+        if "system" in self.task:
+            return 0
+        #例 Edit a view "log in password" with "research"
+        flag = 1
+        text = ""
+
+        #action = Edit
+        action = self.task.split()[0].lower()
+        print(f'lccc if_action action: {action}')
+        if hasattr(now_action, 'view'):
+            view = now_action.view
+            clickable = view['clickable']
+            editable = view['editable']
+            print(f'lccc if_action action:  clickable: {clickable} editable:{editable}')
+        #else可能不对,有一些没有view的event我不知道是什么
+        else:
+            return 0, text
+        
+        if action == "click":
+            if not clickable:
+                return 0, text
+        elif action == "edit":
+            if not editable:
+                return 0, text
+
+        #id = log in password
+        id = self.task.split("\"")[1].lower().split()
+        for _id in id:
+            if _id not in view['resource_id']:
+                return 0, text
+
+        #text = "" / research
+        if "with" in self.task:
+            text = self.task.split("with")[1].split("\"")[1]
+
+        return flag, text
+        
     def _get_action_with_match(self, current_state, action_history):
-        history_prompt = f'I have already completed the following steps, which should not be performed again: \n ' + ';\n '.join(action_history)
-        view_descs, candidate_actions = current_state.get_described_actions()
-        splitted_task = self.task.split()
-        selected_action = None
         finish = 0
-        for idx in range(0, len(view_descs)):
-            flag = 1
-            for word in splitted_task:
-                print(f'lccc _get_action_with_match: [{word}], [{view_descs[idx]}]')
-                if word not in view_descs[idx]:
-                    flag = 0
+        selected_action = None
+        view_descs, candidate_actions = current_state.get_described_actions()
+        state_desc = '\n'.join(view_descs)
+
+        if "system" in self.task:
+            return finish, selected_action, candidate_actions
+        
+        print(f'lccc _get_action_with_match candidate: {len(view_descs)}——{len(candidate_actions)}——{self.task}')
+        for idx in range(0, len(candidate_actions)):
+            desc = state_desc.split("("+str(idx)+")")[0]
+            if idx > 0:
+                desc = desc.split("("+str(idx-1)+")")[1]
+            desc = desc.replace('\n', '')
+            desc += "("+str(idx)+")"
+
+            print(f'lccc _get_action_with_match candidate: {idx}——{desc}——{self.task}')
+            #if_action判断当前候选action是否匹配
+            flag, text = self.if_action(candidate_actions[idx])
+            print(f'lccc _get_action_with_match if_else: {idx}——{flag}')
+
             if flag == 1:
                 selected_action = candidate_actions[idx]
+                if text != "":
+                    selected_action.text = text
                 finish = 1
-                print(f'lccc _get_action_with_match end: {view_descs[idx]}')
+                print(f'lccc _get_action_with_match end: {idx}——{desc}')
+                break
         return finish, selected_action, candidate_actions
 
     def _get_action_with_LLM(self, current_state, action_history):
@@ -871,10 +929,12 @@ class TaskPolicy(UtgBasedInputPolicy):
         prompt = f'{task_prompt}\n{state_prompt}\n{history_prompt}\n{question}'
         print(prompt)
 
-        finish = 1
-        response = self._query_llm(prompt)
+        #response = self._query_llm(prompt)
+        response = input()
+
         print(f'response: {response}')
         if '-1' in response:
+            finish = -1
             print(f"Seems the task is completed. Press Enter to continue...")
             return finish, None, candidate_actions
     
@@ -890,7 +950,8 @@ class TaskPolicy(UtgBasedInputPolicy):
             question = f'What text should I enter to the {view_text}? Just return the text and nothing else.'
             prompt = f'{task_prompt}\n{state_prompt}\n{question}'
             print(prompt)
-            response = self._query_llm(prompt)
+            #response = self._query_llm(prompt)
+            response = self.task.split("with")[1].split("\"")[1]            
             print(f'response: {response}')
             selected_action.text = response.replace('"', '')
             if len(selected_action.text) > 30:  # heuristically disable long text input

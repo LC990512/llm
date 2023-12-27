@@ -1,0 +1,50 @@
+{
+  "tag": "2023-12-27_174610",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.android.launcher3:id/icon",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": "Reuters",
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.android.launcher3",
+      "text": "Reuters",
+      "bounds": [
+        [
+          788,
+          1689
+        ],
+        [
+          1036,
+          1974
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 22,
+      "temp_id": 47,
+      "size": "248*285",
+      "signature": "[class]android.widget.TextView[resource_id]com.android.launcher3:id/icon[text]Reuters[enabled,,]",
+      "view_str": "0e6dd88738d977c809846c9641d5da09",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.android.launcher3:id/icon"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "623e59b42260072bdcc7fac1083cd1c2",
+  "stop_state": "29d27d4426cf8858be29f1b61a245791",
+  "event_str": "TouchEvent(state=623e59b42260072bdcc7fac1083cd1c2, view=0e6dd88738d977c809846c9641d5da09(Launcher/TextView-Reuters))"
+}

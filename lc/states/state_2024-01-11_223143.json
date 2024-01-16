@@ -1,0 +1,1600 @@
+{
+  "tag": "2024-01-11_223143",
+  "state_str": "3a73c0c05300061c736ffffd9f89c54f",
+  "state_str_content_free": "7284ae7db7b9b321bf10db679fe9b5c3",
+  "foreground_activity": "com.buzzfeed.android/.activity.PagerActivity",
+  "activity_stack": [
+    "com.buzzfeed.android/.activity.PagerActivity"
+  ],
+  "background_services": [
+    "com.google.android.gms/.chimera.PersistentInternalBoundBrokerService",
+    "com.google.android.gms/.deviceconnection.service.DeviceConnectionWatcherService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.google.android.gms/.measurement.service.MeasurementBrokerService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.google.android.gms/com.google.android.location.geocode.GeocodeService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.google.android.gms/.analytics.service.AnalyticsService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.abc.abcnews/.service.PodcastPlayerService",
+    "com.google.android.gms/.chimera.GmsBoundBrokerService",
+    "com.google.android.gms/.chimera.GmsApiService",
+    "com.buzzfeed.android/com.buzzfeed.dustbuster.DustbusterEventIntentService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.google.android.gms/.cast.media.CastMediaRouteProviderService",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.android.systemui/.SystemUIService",
+    "com.google.android.gms/.nearby.exposurenotification.service.ExposureMatchingService",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "android/com.android.internal.backup.LocalTransportService",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.android.mms.service/.MmsService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.google.android.gms/.backup.BackupTransportService",
+    "com.thomsonreuters.reuters/com.chartbeat.androidsdk.ChartbeatService"
+  ],
+  "width": 1080,
+  "height": 2160,
+  "views": [
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        1,
+        38,
+        39
+      ],
+      "child_count": 3,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2160
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1080*2160",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "7bec0f1b99f779df9e7ad9aa8d94a86e",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        2
+      ],
+      "child_count": 1,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1080*2028",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "ca090728cb9dc0034b5adf281bfd7f80",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        3
+      ],
+      "child_count": 1,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1080*2028",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "65a7c13faa040eaa646b48234aaeef6f",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.buzzfeed.android:id/action_bar_root",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        4
+      ],
+      "child_count": 1,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1080*2028",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.buzzfeed.android:id/action_bar_root[text]None[enabled,,]",
+      "view_str": "bdd85076ec9200abdf5f510e89fe342a",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.buzzfeed.android:id/action_bar_root"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/content",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        5
+      ],
+      "child_count": 1,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1080*2028",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text]None[enabled,,]",
+      "view_str": "317e0a88519e7b77a3e29a3d6f659b22",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.buzzfeed.android:id/drawer_layout",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "androidx.drawerlayout.widget.DrawerLayout",
+      "children": [
+        6
+      ],
+      "child_count": 1,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1080*2028",
+      "signature": "[class]androidx.drawerlayout.widget.DrawerLayout[resource_id]com.buzzfeed.android:id/drawer_layout[text]None[enabled,,]",
+      "view_str": "663acf3663c262dc64652efd5e57d0f0",
+      "content_free_signature": "[class]androidx.drawerlayout.widget.DrawerLayout[resource_id]com.buzzfeed.android:id/drawer_layout"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.buzzfeed.android:id/main_content",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.ViewGroup",
+      "children": [
+        7,
+        12,
+        24,
+        34
+      ],
+      "child_count": 4,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          66
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "1080*1962",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.buzzfeed.android:id/main_content[text]None[enabled,,]",
+      "view_str": "6facd4a904ae514fd5a3ea6784ee4b01",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.buzzfeed.android:id/main_content"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        8
+      ],
+      "child_count": 1,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          66
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "1080*1962",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "c11f0fd45b3dd216c664ee80f5d4417d",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.buzzfeed.android:id/search_suggestions_listview",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ListView",
+      "children": [
+        9
+      ],
+      "child_count": 1,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          220
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "1080*1808",
+      "signature": "[class]android.widget.ListView[resource_id]com.buzzfeed.android:id/search_suggestions_listview[text]None[enabled,,]",
+      "view_str": "baec64eb795ae173bdd389349a58fc73",
+      "content_free_signature": "[class]android.widget.ListView[resource_id]com.buzzfeed.android:id/search_suggestions_listview"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        10,
+        11
+      ],
+      "child_count": 2,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          220
+        ],
+        [
+          1080,
+          352
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 8,
+      "temp_id": 9,
+      "size": "1080*132",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "a744551f98a141386968292328b2e1ab",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.buzzfeed.android:id/restore_icon",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          44,
+          253
+        ],
+        [
+          110,
+          319
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "66*66",
+      "signature": "[class]android.widget.ImageView[resource_id]com.buzzfeed.android:id/restore_icon[text]None[enabled,,]",
+      "view_str": "edeb1e7bc44c7c733b0c7bf604de5169",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.buzzfeed.android:id/restore_icon"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/text1",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.buzzfeed.android",
+      "text": "bbb",
+      "bounds": [
+        [
+          110,
+          260
+        ],
+        [
+          1036,
+          312
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 9,
+      "temp_id": 11,
+      "size": "926*52",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/text1[text]bbb[enabled,,]",
+      "view_str": "bbbf9e4e7925a1fafca45acc4cdea8eb",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/text1"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.buzzfeed.android:id/appbar",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        13
+      ],
+      "child_count": 1,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          66
+        ],
+        [
+          1080,
+          220
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 6,
+      "temp_id": 12,
+      "size": "1080*154",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.buzzfeed.android:id/appbar[text]None[enabled,,]",
+      "view_str": "b1c78efb59a81a5e6bb0901e6be05569",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.buzzfeed.android:id/appbar"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.buzzfeed.android:id/collapsingToolbar",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        14
+      ],
+      "child_count": 1,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          66
+        ],
+        [
+          1080,
+          220
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "1080*154",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.buzzfeed.android:id/collapsingToolbar[text]None[enabled,,]",
+      "view_str": "d1725054172f7d888bb511f665b10da8",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.buzzfeed.android:id/collapsingToolbar"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.buzzfeed.android:id/scrolling_toolbar",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.ViewGroup",
+      "children": [
+        15,
+        16,
+        23
+      ],
+      "child_count": 3,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          66
+        ],
+        [
+          1080,
+          220
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 13,
+      "temp_id": 14,
+      "size": "1080*154",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.buzzfeed.android:id/scrolling_toolbar[text]None[enabled,,]",
+      "view_str": "cc10d5f8fce063a8d53794786133f351",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.buzzfeed.android:id/scrolling_toolbar"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": "Collapse",
+      "focused": false,
+      "class": "android.widget.ImageButton",
+      "children": [],
+      "child_count": 0,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          66
+        ],
+        [
+          154,
+          220
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 14,
+      "temp_id": 15,
+      "size": "154*154",
+      "signature": "[class]android.widget.ImageButton[resource_id]None[text]None[enabled,,]",
+      "view_str": "11887b793c0dad5e21f3bf76a2d2254b",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.buzzfeed.android:id/menu_search",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "androidx.appcompat.widget.LinearLayoutCompat",
+      "children": [
+        17
+      ],
+      "child_count": 1,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          154,
+          77
+        ],
+        [
+          1080,
+          209
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 14,
+      "temp_id": 16,
+      "size": "926*132",
+      "signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]com.buzzfeed.android:id/menu_search[text]None[enabled,,]",
+      "view_str": "10b7ec672876be67d344c54800a9c9ac",
+      "content_free_signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]com.buzzfeed.android:id/menu_search"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.buzzfeed.android:id/search_bar",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.ViewGroup",
+      "children": [
+        18,
+        21
+      ],
+      "child_count": 2,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          154,
+          77
+        ],
+        [
+          1080,
+          209
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 16,
+      "temp_id": 17,
+      "size": "926*132",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.buzzfeed.android:id/search_bar[text]None[enabled,,]",
+      "view_str": "312ec8fae45b8fd0a2e5d53833e2ce61",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.buzzfeed.android:id/search_bar"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.buzzfeed.android:id/search_edit_frame",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.ViewGroup",
+      "children": [
+        19,
+        20
+      ],
+      "child_count": 2,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          176,
+          93
+        ],
+        [
+          1058,
+          192
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 17,
+      "temp_id": 18,
+      "size": "882*99",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.buzzfeed.android:id/search_edit_frame[text]None[enabled,,]",
+      "view_str": "dce3848338d2325bcda5dec9c02a3e89",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.buzzfeed.android:id/search_edit_frame"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.buzzfeed.android:id/search_src_text",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": true,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "com.buzzfeed.android",
+      "text": "Search BuzzFeed",
+      "bounds": [
+        [
+          176,
+          93
+        ],
+        [
+          1058,
+          192
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 18,
+      "temp_id": 19,
+      "size": "882*99",
+      "signature": "[class]android.widget.EditText[resource_id]com.buzzfeed.android:id/search_src_text[text]Search BuzzFeed[enabled,,]",
+      "view_str": "9ff00ca71b36722ed4c381cff6b918e7",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.buzzfeed.android:id/search_src_text"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.buzzfeed.android:id/search_plate",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          176,
+          93
+        ],
+        [
+          1058,
+          192
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 18,
+      "temp_id": 20,
+      "size": "882*99",
+      "signature": "[class]android.view.View[resource_id]com.buzzfeed.android:id/search_plate[text]None[enabled,,]",
+      "view_str": "f80fba123ae9cfd0e6e1d917c795e3e4",
+      "content_free_signature": "[class]android.view.View[resource_id]com.buzzfeed.android:id/search_plate"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.buzzfeed.android:id/submit_area",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        22
+      ],
+      "child_count": 1,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          948,
+          77
+        ],
+        [
+          1080,
+          209
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 17,
+      "temp_id": 21,
+      "size": "132*132",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.buzzfeed.android:id/submit_area[text]None[enabled,,]",
+      "view_str": "e3199616f66b44a3ee6883888df53b62",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.buzzfeed.android:id/submit_area"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.buzzfeed.android:id/search_voice_btn",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": "Voice search",
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          948,
+          77
+        ],
+        [
+          1058,
+          206
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 21,
+      "temp_id": 22,
+      "size": "110*129",
+      "signature": "[class]android.widget.ImageView[resource_id]com.buzzfeed.android:id/search_voice_btn[text]None[enabled,,]",
+      "view_str": "1b0b3b624c14b5cfdfd3267f0be52dfc",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.buzzfeed.android:id/search_voice_btn"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "androidx.appcompat.widget.LinearLayoutCompat",
+      "children": [],
+      "child_count": 0,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          1080,
+          66
+        ],
+        [
+          1080,
+          220
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 14,
+      "temp_id": 23,
+      "size": "0*154",
+      "signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]None[text]None[enabled,,]",
+      "view_str": "e35e440505305525ed55c149e53e1218",
+      "content_free_signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.buzzfeed.android:id/nested_scrollview",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ScrollView",
+      "children": [
+        25
+      ],
+      "child_count": 1,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          220
+        ],
+        [
+          1080,
+          1874
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 6,
+      "temp_id": 24,
+      "size": "1080*1654",
+      "signature": "[class]android.widget.ScrollView[resource_id]com.buzzfeed.android:id/nested_scrollview[text]None[enabled,,]",
+      "view_str": "e7af66e8a974bd73a6d47d5cf9c6b7b0",
+      "content_free_signature": "[class]android.widget.ScrollView[resource_id]com.buzzfeed.android:id/nested_scrollview"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": true,
+      "long_clickable": false,
+      "resource_id": "com.buzzfeed.android:id/viewpager",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "androidx.viewpager.widget.ViewPager",
+      "children": [
+        26,
+        30
+      ],
+      "child_count": 2,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          220
+        ],
+        [
+          1080,
+          1874
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 24,
+      "temp_id": 25,
+      "size": "1080*1654",
+      "signature": "[class]androidx.viewpager.widget.ViewPager[resource_id]com.buzzfeed.android:id/viewpager[text]None[enabled,,]",
+      "view_str": "5ee814457c613674be651239af573379",
+      "content_free_signature": "[class]androidx.viewpager.widget.ViewPager[resource_id]com.buzzfeed.android:id/viewpager"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        27
+      ],
+      "child_count": 1,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          220
+        ],
+        [
+          1080,
+          1874
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 25,
+      "temp_id": 26,
+      "size": "1080*1654",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "f2c33bac799b807dcfe8a18ac377a1dc",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.buzzfeed.android:id/error_view",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        28
+      ],
+      "child_count": 1,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          220
+        ],
+        [
+          1080,
+          1797
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 26,
+      "temp_id": 27,
+      "size": "1080*1577",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.buzzfeed.android:id/error_view[text]None[enabled,,]",
+      "view_str": "4e96acaa2f3d6ed195355ba885e6edbe",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.buzzfeed.android:id/error_view"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.buzzfeed.android:id/error_view",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        29
+      ],
+      "child_count": 1,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          220
+        ],
+        [
+          1080,
+          1797
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 27,
+      "temp_id": 28,
+      "size": "1080*1577",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.buzzfeed.android:id/error_view[text]None[enabled,,]",
+      "view_str": "6eaf05de9308b4ef643a3693575e97cc",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.buzzfeed.android:id/error_view"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.buzzfeed.android:id/sad_catty",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          303,
+          574
+        ],
+        [
+          776,
+          1366
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 28,
+      "temp_id": 29,
+      "size": "473*792",
+      "signature": "[class]android.widget.ImageView[resource_id]com.buzzfeed.android:id/sad_catty[text]None[enabled,,]",
+      "view_str": "ec2bbc03fde644b05ee44adea34ef609",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.buzzfeed.android:id/sad_catty"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        31
+      ],
+      "child_count": 1,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          1080,
+          220
+        ],
+        [
+          1080,
+          1874
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 25,
+      "temp_id": 30,
+      "size": "0*1654",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "f2c33bac799b807dcfe8a18ac377a1dc",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.buzzfeed.android:id/error_view",
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        32
+      ],
+      "child_count": 1,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          1080,
+          220
+        ],
+        [
+          1080,
+          1797
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 30,
+      "temp_id": 31,
+      "size": "0*1577",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.buzzfeed.android:id/error_view[text]None[enabled,,]",
+      "view_str": "4e96acaa2f3d6ed195355ba885e6edbe",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.buzzfeed.android:id/error_view"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.buzzfeed.android:id/error_view",
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        33
+      ],
+      "child_count": 1,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          1080,
+          220
+        ],
+        [
+          1080,
+          1797
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 31,
+      "temp_id": 32,
+      "size": "0*1577",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.buzzfeed.android:id/error_view[text]None[enabled,,]",
+      "view_str": "6eaf05de9308b4ef643a3693575e97cc",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.buzzfeed.android:id/error_view"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.buzzfeed.android:id/sad_catty",
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          1383,
+          574
+        ],
+        [
+          1080,
+          1366
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 32,
+      "temp_id": 33,
+      "size": "-303*792",
+      "signature": "[class]android.widget.ImageView[resource_id]com.buzzfeed.android:id/sad_catty[text]None[enabled,,]",
+      "view_str": "ec2bbc03fde644b05ee44adea34ef609",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.buzzfeed.android:id/sad_catty"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        35
+      ],
+      "child_count": 1,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          1742
+        ],
+        [
+          1080,
+          1874
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 6,
+      "temp_id": 34,
+      "size": "1080*132",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "c020b2d1105ac3d1d7e375cee643657f",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        36,
+        37
+      ],
+      "child_count": 2,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          33,
+          1742
+        ],
+        [
+          1047,
+          1874
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 34,
+      "temp_id": 35,
+      "size": "1014*132",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "142abbd8e7b800fced5905349aaa212d",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.buzzfeed.android:id/snackbar_text",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.buzzfeed.android",
+      "text": "Couldn't load the goodies.",
+      "bounds": [
+        [
+          33,
+          1742
+        ],
+        [
+          782,
+          1873
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 35,
+      "temp_id": 36,
+      "size": "749*131",
+      "signature": "[class]android.widget.TextView[resource_id]com.buzzfeed.android:id/snackbar_text[text]Couldn't load the goodies.[enabled,,]",
+      "view_str": "cf333957e4fdef05ce84722e33d85924",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.buzzfeed.android:id/snackbar_text"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.buzzfeed.android:id/snackbar_action",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.Button",
+      "children": [],
+      "child_count": 0,
+      "package": "com.buzzfeed.android",
+      "text": "Try Again",
+      "bounds": [
+        [
+          782,
+          1742
+        ],
+        [
+          1047,
+          1874
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 35,
+      "temp_id": 37,
+      "size": "265*132",
+      "signature": "[class]android.widget.Button[resource_id]com.buzzfeed.android:id/snackbar_action[text]Try Again[enabled,,]",
+      "view_str": "a01e58366f437549981926b8b4beb926",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.buzzfeed.android:id/snackbar_action"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/statusBarBackground",
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          66
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 0,
+      "temp_id": 38,
+      "size": "1080*66",
+      "signature": "[class]android.view.View[resource_id]android:id/statusBarBackground[text]None[enabled,,]",
+      "view_str": "3f1c58e0407ec4474b49db1dfdf6297b",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/statusBarBackground"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/navigationBarBackground",
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2028
+        ],
+        [
+          1080,
+          2160
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 0,
+      "temp_id": 39,
+      "size": "1080*132",
+      "signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground[text]None[enabled,,]",
+      "view_str": "7f43f038256f4641d5954b42d7fe6374",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground"
+    }
+  ]
+}

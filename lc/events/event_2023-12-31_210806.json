@@ -1,0 +1,12 @@
+{
+  "tag": "2023-12-31_210806",
+  "event": {
+    "event_type": "intent",
+    "log_lines": null,
+    "prompt": null,
+    "intent": "am start com.thirdrock.fivemiles/com.insthub.fivemiles.Activity.GuidePagerActivity"
+  },
+  "start_state": "077f848c5041a944f8623f9108d6f469",
+  "stop_state": "b2e7359b06cc7eb45bf17b291ff6ae6b",
+  "event_str": "IntentEvent(intent='am start com.thirdrock.fivemiles/com.insthub.fivemiles.Activity.GuidePagerActivity')"
+}

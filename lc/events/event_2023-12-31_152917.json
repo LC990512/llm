@@ -1,0 +1,50 @@
+{
+  "tag": "2023-12-31_152917",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thirdrock.fivemiles:id/bottom_btn",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.Button",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": "OK",
+      "bounds": [
+        [
+          110,
+          1459
+        ],
+        [
+          970,
+          1591
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 6,
+      "temp_id": 29,
+      "size": "860*132",
+      "signature": "[class]android.widget.Button[resource_id]com.thirdrock.fivemiles:id/bottom_btn[text]OK[enabled,,]",
+      "view_str": "a6f75092afcfcd4749bc45af472e76ec",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.thirdrock.fivemiles:id/bottom_btn"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "97fc684533b6f5036416ff178e67498c",
+  "stop_state": "4a87321c0070da9efc0fdc6e146ddc8a",
+  "event_str": "TouchEvent(state=97fc684533b6f5036416ff178e67498c, view=a6f75092afcfcd4749bc45af472e76ec(MainTabActivity/Button-OK))"
+}

@@ -73,7 +73,7 @@ class InputPolicy(object):
                 #     event = KeyEvent(name="HOME")
                 # elif self.action_count == 1 and self.master is None:
                 #     event = IntentEvent(self.app.get_start_intent())
-                if self.action_count == 0 and self.master is None:
+                if self.action_count < 0 and self.master is None:
                     event = KillAppEvent(app=self.app)
                 else:
                     finish, event = self.generate_event()
@@ -179,8 +179,11 @@ class UtgBasedInputPolicy(InputPolicy):
 
         if event is None:
             finish, event = self.generate_event_based_on_utg()
-            print(f"lccc finish:[ {finish} ], event: [ {event} ]")
+            print(f"lccc generate_event finish:[ {finish} ], event: [ {event} ]")
 
+        if finish == -1:
+            print(f"lccc generate_event finish == -1")
+            return finish, event
 
         # update last events for humanoid
         if self.device.humanoid is not None:
@@ -658,7 +661,8 @@ class TaskPolicy(UtgBasedInputPolicy):
         self.__nav_target = None
         self.__nav_num_steps = -1
         self.step = step
-        self.task = extracted_info[step-1]['task']
+        #self.task = extracted_info[step-1]['task']
+        self.task = "start"
         self.extracted_info = extracted_info
         self.__num_restarts = 0
         self.__num_steps_outside = 0
@@ -676,15 +680,21 @@ class TaskPolicy(UtgBasedInputPolicy):
         :param input_manager: instance of InputManager
         """
         self.action_count = 0
-        while input_manager.enabled and self.action_count < input_manager.event_count:
+        #self.step = len(self.extracted_info)
+        max_step = len(self.extracted_info) * 3
+        while input_manager.enabled and self.action_count < max_step:#input_manager.event_count:
             try:
                 if self.action_count == 0 and self.master is None:
                     event = KillAppEvent(app=self.app)
                     finish = 0
                 else:
-                    finish, event = self.generate_event()
-                #time.sleep(5)
-                print(f'lccc start: {finish} / {event} / {self.task}')
+                    #lccc 先忽略system enter 和 layout
+                    if ("system enter" in self.task.lower()) or ("layout" in self.task.lower()):
+                        finish = -1
+                    else:
+                        finish, event = self.generate_event()
+
+                print(f'lccc start: finish [{finish}] / event[{event}] / task[{self.task}]')
 
                 if finish != -1:
                     input_manager.add_event(event)
@@ -695,7 +705,6 @@ class TaskPolicy(UtgBasedInputPolicy):
                         self.task = self.extracted_info[self.step-1]['task']
                     else:
                         break
-
             except KeyboardInterrupt:
                 break
             except InputInterruptedException as e:
@@ -707,7 +716,7 @@ class TaskPolicy(UtgBasedInputPolicy):
                 traceback.print_exc()
                 continue
             self.action_count += 1
-                
+        
 
     def generate_event_based_on_utg(self):
         """
@@ -747,10 +756,11 @@ class TaskPolicy(UtgBasedInputPolicy):
                     self.__random_explore = True
                 else:
                     # Start the app
+                    print("lc---------------------------------------------first")
                     self.__event_trace += EVENT_FLAG_START_APP
                     self.logger.info("Trying to start the app...")
                     self.__action_history = [f'- start the app {self.app.app_name}']
-                    return IntentEvent(intent=start_app_intent)
+                    return 1, IntentEvent(intent=start_app_intent)
 
         elif current_state.get_app_activity_depth(self.app) > 0:
             # If the app is in activity stack but is not in foreground
@@ -766,7 +776,7 @@ class TaskPolicy(UtgBasedInputPolicy):
                 self.__event_trace += EVENT_FLAG_NAVIGATE
                 self.logger.info("Going back to the app...")
                 self.__action_history.append('- go back')
-                return go_back_event
+                return 1, go_back_event
         else:
             # If the app is in foreground
             self.__num_steps_outside = 0
@@ -787,12 +797,15 @@ class TaskPolicy(UtgBasedInputPolicy):
             print(f"lccc action: [ {action} ] desc: [ {desc} ] task: [ {self.task}]")
             return finish, action
 
-        if (finish == 0) and (self.__random_explore):
+        if (finish != -1) and (self.__random_explore):
             self.logger.info("Trying random event.")
             action = random.choice(candidate_actions)
             self.__action_history.append(current_state.get_action_desc(action))
             return finish, action
 
+        if (finish == -1):
+            return finish, action
+        
         # If couldn't find a exploration target, stop the app
         stop_app_intent = self.app.get_stop_intent()
         self.logger.info("Cannot find an exploration target. Trying to restart app...")
@@ -814,7 +827,7 @@ class TaskPolicy(UtgBasedInputPolicy):
                         response = openai.ChatCompletion.create(
                             model="gpt-3.5-turbo-0613",
                             max_tokens=1024,
-                            temperature=1.2,
+                            temperature=0.8,
                             messages = messages
                         )
                         api_key_info['last_used'] = time.time()  # 更新最后使用时间
@@ -827,26 +840,11 @@ class TaskPolicy(UtgBasedInputPolicy):
             time.sleep(10)
 
     def _query_llm(self, prompt):
-        time.sleep(30)
         messages=[{"role": "user", "content": prompt}]
         response = self.make_openai_request(messages)
         real_ans = response['choices'][0]['message']['content']
         return real_ans
-        # openai.api_key = "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"
-        # response = openai.ChatCompletion.create(
-        #     model="gpt-3.5-turbo-0613",
-        #     max_tokens=1024,
-        #     temperature=1.2,
-        #     messages = messages
-        # )
           
-    # def _query_llm(self, prompt):
-    #     import requests
-    #     URL = os.environ['GPT_URL']  # NOTE: replace with your own GPT API
-    #     body = {"model":"gpt-3.5-turbo","messages":[{"role":"user","content":prompt}],"stream":True}
-    #     headers = {'Content-Type': 'application/json', 'path': 'v1/chat/completions'}
-    #     r = requests.post(url=URL, json=body, headers=headers)
-    #     return r.content.decode()
     def if_action(self, now_action):
         print(f'lccc if_action candidate: {now_action}, {type(now_action)}')
 
@@ -876,16 +874,32 @@ class TaskPolicy(UtgBasedInputPolicy):
             if not editable:
                 return 0, text
 
-        #id = log in password
-        id = self.task.split("\"")[1].lower().split()
-        for _id in id:
-            if _id not in view['resource_id']:
-                return 0, text
-
-        #text = "" / research
         if "with" in self.task:
             text = self.task.split("with")[1].split("\"")[1]
 
+        #id = log in password
+        id = self.task.replace(",", "").split("\"")[1].lower().split()
+        item = ""
+        if view['resource_id']:
+            item += view['resource_id'] + ','
+        if view['class']:
+            item += view['class'] + ','
+        if view['text']:
+            item += view['text'] + ','
+        if view['content_description']:
+            item += view['content_description']
+        if item == "":
+            return 0, text
+        
+        for _id in id:
+            print(f'lccc if_action _id: {_id} item: {item}')
+            if _id == text:
+                continue
+            if _id not in item.lower():
+                return 0, text
+
+        #text = "" / research
+        
         return flag, text
         
     def _get_action_with_match(self, current_state, action_history):
@@ -909,7 +923,7 @@ class TaskPolicy(UtgBasedInputPolicy):
             #if_action判断当前候选action是否匹配
             flag, text = self.if_action(candidate_actions[idx])
             print(f'lccc _get_action_with_match if_else: {idx}——{flag}')
-
+            input()
             if flag == 1:
                 selected_action = candidate_actions[idx]
                 if text != "":
@@ -920,42 +934,75 @@ class TaskPolicy(UtgBasedInputPolicy):
         return finish, selected_action, candidate_actions
 
     def _get_action_with_LLM(self, current_state, action_history):
-        task_prompt = f"I'm using a smartphone to {self.task}"
-        history_prompt = f'I have already completed the following steps, which should not be performed again: \n ' + ';\n '.join(action_history)
+        app = self.extracted_info[self.step-1]['app'].split("/")[1].split(".")[0]
+        func = self.extracted_info[self.step-1]['function']
         view_descs, candidate_actions = current_state.get_described_actions()
-        state_prompt = 'The current state has the following UI views and corresponding actions, with action id in parentheses:\n '
-        state_prompt += ';\n '.join(view_descs)
-        question = 'Which action should I choose next? Just return the action id and nothing else.\nIf no more action is needed, return -1.'
-        prompt = f'{task_prompt}\n{state_prompt}\n{history_prompt}\n{question}'
-        print(prompt)
 
-        #response = self._query_llm(prompt)
+        # First, determine whether the task has already been completed.
+        task_prompt = f"I am currently focused on a specific step in my test case, identified as '{self.task}'. This step might correspond to one or several of the actions I have already executed."
+        history_prompt = f'Executed Actions: \n ' + ';\n '.join(action_history)
+        question = f"Question: Based on the actions I have executed so far, have I completed the step '{self.task}'? Please only return 'yes' or 'no'. A 'yes' means the step has been completed, and a 'no' means I need to continue exploring further actions."
+        prompt = f'{task_prompt}\n{history_prompt}\n{question}'
+        print(prompt)
+        response = self._query_llm(prompt)
+        print(f'response: {response}')
+
         response = input()
 
-        print(f'response: {response}')
-        if '-1' in response:
+        if ("yes" in response.lower()):
             finish = -1
             print(f"Seems the task is completed. Press Enter to continue...")
             return finish, None, candidate_actions
     
+        # Second, if not finished, then provide the next action.
+        #task_prompt = f"I'm using a smartphone to '{self.task}' in the '{app}' app. My current task requires completing the step '{self.task}'"
+        #task_prompt = f"I am working on a test case that involves multiple steps to complete the testing of the '{func}' feature, and I am currently at the step '{self.task}'. "
+        task_prompt = f"I am working on a test case for the '{func}' feature in the '{app}' app. At this stage, I need to choose the next step that will effectively advance the testing process. I've already completed some actions."
+        task_prompt += f"I currently need to choose an action to help me complete this step of {self.task}."
+        #history_prompt = f'I have already completed the following steps, which should not be performed again: \n ' + ';\n '.join(action_history)
+        #history_prompt = f'Below is a list of actions I have already executed, which should not be performed again: \n' + ';\n '.join(action_history)
+        history_prompt = 'Completed Actions (please do not suggest these again): \n' + ';\n '.join(action_history)
+        state_prompt = 'Current State with Available UI Views and Actions (with Action ID):\n ' + ';\n '.join(view_descs)
+        #state_prompt = 'The current state has the following UI views and corresponding actions, with action id in parentheses:\n ' + ';\n '.join(view_descs)
+        #question = "Which action should I choose next? Please only return the action id and nothing else.\n"
+        #question = "Based on the information provided, I need a suggestion: Which action (please only return the action's ID) should I execute at this step on the current page to effectively complete my task?"
+        question = f"Given these options, which action (identified by the Action ID) should I perform next to effectively continue testing the '{func}' feature? Please do not suggest any actions that I have already completed, only return the action id."
+        #prompt = f'{task_prompt}\n{state_prompt}\n{history_prompt}\n{question}'
+        prompt = f'{task_prompt}\n{history_prompt}\n{state_prompt}\n{question}'
+        
+        # extra_prompt = f"I'm using a smartphone to test the '{func}' functionality in the '{app}' app. I need to determine the appropriate UI action to perform next based on the current state of the app. My objective is to ensure that the chosen action is logically aligned with the potential functionality. \n"
+        # prompt = f'{extra_prompt}\n{history_prompt}\n{state_prompt}\n{question}'
+        print(prompt)
+        response = self._query_llm(prompt)
+        print(f'response: {response}')
+
+        response = input()
+
+    
         match = re.search(r'\d+', response)
         finish = 0
         if not match:
-            return finish, None, candidate_actions
+            selected_action = candidate_actions[-1]
+            return finish, selected_action, candidate_actions
         
         idx = int(match.group(0))
+        print(f"lccc idx: {idx}")
+
         selected_action = candidate_actions[idx]
         if isinstance(selected_action, SetTextEvent):
             view_text = current_state.get_view_desc(selected_action.view)
-            question = f'What text should I enter to the {view_text}? Just return the text and nothing else.'
-            prompt = f'{task_prompt}\n{state_prompt}\n{question}'
+            question = f'I have chosen the action of {view_text}. So I need to type something into the dialog box. What text should I enter to the {view_text}? Just return the text need enter and nothing else.'
+            #prompt = f'{task_prompt}\n{state_prompt}\n{question}'
+            prompt = f'{task_prompt}\n{history_prompt}\n{question}'
             print(prompt)
-            #response = self._query_llm(prompt)
-            response = self.task.split("with")[1].split("\"")[1]            
+            response = self._query_llm(prompt)
+            selected_action.text = response
             print(f'response: {response}')
-            selected_action.text = response.replace('"', '')
-            if len(selected_action.text) > 30:  # heuristically disable long text input
-                selected_action.text = ''
+            if "\"" in response:
+                selected_action.text = re.findall(r'"([^"]*)"', response)[-1]
+            print(f'response: {selected_action.text}')
+            selected_action.text = input()
+        print(f"lccc _get_action_with_LLM finish: {finish}; selected_action: {selected_action}")
         return finish, selected_action, candidate_actions
         # except:
         #     import traceback

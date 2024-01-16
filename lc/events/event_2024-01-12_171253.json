@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-12_171253",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.buzzfeed.android:id/menu_settings",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": "Settings",
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          948,
+          77
+        ],
+        [
+          1080,
+          209
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 14,
+      "temp_id": 15,
+      "size": "132*132",
+      "signature": "[class]android.widget.TextView[resource_id]com.buzzfeed.android:id/menu_settings[text]None[enabled,,]",
+      "view_str": "8056d96944184472af43074313f53646",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.buzzfeed.android:id/menu_settings"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "6869456de9d9a2c386f5428a29f48bbc",
+  "stop_state": "7e1d1075f8b81f25e8ace6acc20f10f4",
+  "event_str": "TouchEvent(state=6869456de9d9a2c386f5428a29f48bbc, view=8056d96944184472af43074313f53646(ProfileActivity/TextView-))"
+}

@@ -1,0 +1,52 @@
+{
+  "tag": "2023-12-31_212618",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": true,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": "Listings",
+      "focused": false,
+      "class": "androidx.appcompat.app.ActionBar$b",
+      "children": [
+        17
+      ],
+      "child_count": 1,
+      "package": "com.thirdrock.fivemiles",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          223
+        ],
+        [
+          540,
+          355
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 15,
+      "temp_id": 16,
+      "size": "540*132",
+      "signature": "[class]androidx.appcompat.app.ActionBar$b[resource_id]None[text]None[enabled,,selected]",
+      "view_str": "b5b978db1ad68c5a3b68987a5a2ca1ae",
+      "content_free_signature": "[class]androidx.appcompat.app.ActionBar$b[resource_id]None"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "45e399f034582d1696031cb1f4265fcd",
+  "stop_state": "45e399f034582d1696031cb1f4265fcd",
+  "event_str": "TouchEvent(state=45e399f034582d1696031cb1f4265fcd, view=b5b978db1ad68c5a3b68987a5a2ca1ae(KeyWordAndUserSearchActivity/ActionBar$b-))"
+}

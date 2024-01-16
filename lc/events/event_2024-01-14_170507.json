@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-14_170507",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.etsy.android:id/search_close_btn",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": "Clear query",
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.etsy.android",
+      "text": null,
+      "bounds": [
+        [
+          1104,
+          140
+        ],
+        [
+          1244,
+          224
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 15,
+      "temp_id": 17,
+      "size": "140*84",
+      "signature": "[class]android.widget.ImageView[resource_id]com.etsy.android:id/search_close_btn[text]None[enabled,,]",
+      "view_str": "54b74f9893d711ac7a6dbe106202c475",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.etsy.android:id/search_close_btn"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "1799524f5a05aaa3a70e69635a618e4b",
+  "stop_state": "bb4ccf85dc15562e60222f7d4f8b9097",
+  "event_str": "TouchEvent(state=1799524f5a05aaa3a70e69635a618e4b, view=54b74f9893d711ac7a6dbe106202c475(SearchV2Activity/ImageView-))"
+}

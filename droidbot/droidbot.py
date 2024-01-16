@@ -5,6 +5,7 @@
 import logging
 import os
 import sys
+import json
 import pkg_resources
 import shutil
 from threading import Timer
@@ -177,11 +178,22 @@ class DroidBot(object):
             traceback.print_exc()
             self.stop()
             sys.exit(-1)
-
+     
         self.stop()
         self.logger.info("DroidBot Stopped")
 
     def stop(self):
+        print("-----------------------------")
+        print(len(self.input_manager.events))
+        events_list = [event.__dict__ for event in self.input_manager.events]
+        self.extracted_info[0]['app']
+        file_name = f"{self.extracted_info[0]['app'].split('.')[0].split('/')[1]}_{self.extracted_info[0]['function']}.json"
+        file_path = self.output_dir + "/result"
+        os.makedirs(file_path, exist_ok=True)
+        file_path = os.path.join(file_path, file_name)
+        with open(file_path, 'w') as file:
+            json.dump(events_list, file, indent=4)
+
         self.enabled = False
         if self.timer and self.timer.is_alive():
             self.timer.cancel()
@@ -196,6 +208,7 @@ class DroidBot(object):
         if not self.keep_env:
             self.device.tear_down()
         if not self.keep_app:
+            print("keep:", self.keep_app)
             self.device.uninstall_app(self.app)
 
 

@@ -50,15 +50,16 @@ class InputManager(object):
         self.random_input = random_input
         self.events = []
         self.api = [
-            {'key': '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', 'last_used': 0},
-            {'key': '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', 'last_used': 0},
-            {'key': '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', 'last_used': 0},
-            {'key': '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', 'last_used': 0},
-            {'key': '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', 'last_used': 0},
-            {'key': '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', 'last_used': 0},
-            {'key': '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', 'last_used': 0},
-            {'key': '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', 'last_used': 0},
-            {'key': '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', 'last_used': 0}
+            {'key': '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', 'last_used': 0},
+            {'key': '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', 'last_used': 0},
+            {'key': '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', 'last_used': 0},
+            {'key': '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', 'last_used': 0},
+            {'key': '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', 'last_used': 0},
+            {'key': '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', 'last_used': 0},
+            {'key': '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', 'last_used': 0},
+            {'key': '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', 'last_used': 0},
+            {'key': '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', 'last_used': 0},
+            {'key': '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', 'last_used': 0}
         ]
         self.policy = None
         self.script = None
@@ -113,7 +114,7 @@ class InputManager(object):
         if event is None:
             return
         self.events.append(event)
-        print(f"lccc add_event: [ {self.events} ]")
+        print(f"lccc add_event: event:[{event}] / -1: [ {self.events[-1]} ]")
 
         event_log = EventLog(self.device, self.app, event, self.profiling_method)
 

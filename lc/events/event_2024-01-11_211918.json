@@ -1,0 +1,52 @@
+{
+  "tag": "2024-01-11_211918",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": true,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": "For You",
+      "focused": false,
+      "class": "androidx.appcompat.app.ActionBar$Tab",
+      "children": [
+        15
+      ],
+      "child_count": 1,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          66
+        ],
+        [
+          274,
+          220
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 13,
+      "temp_id": 14,
+      "size": "274*154",
+      "signature": "[class]androidx.appcompat.app.ActionBar$Tab[resource_id]None[text]None[enabled,,selected]",
+      "view_str": "88c8e1919a8e96819a1b704e8a7f2f79",
+      "content_free_signature": "[class]androidx.appcompat.app.ActionBar$Tab[resource_id]None"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "3dc29b45a623d9b33e9f548ba3e06221",
+  "stop_state": "3dc29b45a623d9b33e9f548ba3e06221",
+  "event_str": "TouchEvent(state=3dc29b45a623d9b33e9f548ba3e06221, view=88c8e1919a8e96819a1b704e8a7f2f79(PagerActivity/ActionBar$Tab-))"
+}

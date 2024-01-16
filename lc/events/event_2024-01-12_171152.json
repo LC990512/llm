@@ -1,0 +1,12 @@
+{
+  "tag": "2024-01-12_171152",
+  "event": {
+    "event_type": "intent",
+    "log_lines": null,
+    "prompt": null,
+    "intent": "am start com.buzzfeed.android/com.buzzfeed.android.activity.SplashActivity"
+  },
+  "start_state": "077f848c5041a944f8623f9108d6f469",
+  "stop_state": "b06f225e59d6f934e36e389f1e9d3f04",
+  "event_str": "IntentEvent(intent='am start com.buzzfeed.android/com.buzzfeed.android.activity.SplashActivity')"
+}

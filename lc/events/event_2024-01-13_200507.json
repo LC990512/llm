@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-13_200507",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/prefs_support_email",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "Contact Support at:\nsupport@customercare.abcnews.com",
+      "bounds": [
+        [
+          261,
+          471
+        ],
+        [
+          1179,
+          593
+        ]
+      ],
+      "editable": true,
+      "focusable": false,
+      "parent": 16,
+      "temp_id": 18,
+      "size": "918*122",
+      "signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/prefs_support_email[text]None[enabled,,]",
+      "view_str": "9d273a1db1d4f80cf9f473b5d8325342",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/prefs_support_email"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "bae3e7f0d530c24425846f1c1b8ace12",
+  "stop_state": "63444665e3d461bcb4470cb260372920",
+  "event_str": "TouchEvent(state=bae3e7f0d530c24425846f1c1b8ace12, view=9d273a1db1d4f80cf9f473b5d8325342(SettingsActivity/TextView-Contact Su))"
+}

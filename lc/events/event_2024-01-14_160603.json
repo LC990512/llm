@@ -1,0 +1,51 @@
+{
+  "tag": "2024-01-14_160603",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.etsy.android:id/edit_first_name",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": true,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "com.etsy.android",
+      "text": "First Name",
+      "bounds": [
+        [
+          174,
+          633
+        ],
+        [
+          692,
+          765
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 13,
+      "temp_id": 14,
+      "size": "518*132",
+      "signature": "[class]android.widget.EditText[resource_id]com.etsy.android:id/edit_first_name[text]First Name[enabled,,]",
+      "view_str": "d6824328fe9099e788e3ed835bca060d",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.etsy.android:id/edit_first_name"
+    },
+    "x": null,
+    "y": null,
+    "text": "aaa"
+  },
+  "start_state": "66032b3e3a14855936e9b5a082f016df",
+  "stop_state": "72302d5651f4db6970b7f0de289fac59",
+  "event_str": "SetTextEvent(state=66032b3e3a14855936e9b5a082f016df, view=d6824328fe9099e788e3ed835bca060d(SignInActivity/EditText-First Name), text=aaa)"
+}

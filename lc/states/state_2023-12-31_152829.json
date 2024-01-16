@@ -1,0 +1,1206 @@
+{
+  "tag": "2023-12-31_152829",
+  "state_str": "97fc684533b6f5036416ff178e67498c",
+  "state_str_content_free": "5394b70a3881e85b3c3271d8133bcd72",
+  "foreground_activity": "com.thirdrock.fivemiles/com.insthub.fivemiles.Activity.MainTabActivity",
+  "activity_stack": [
+    "com.thirdrock.fivemiles/com.insthub.fivemiles.Activity.MainTabActivity"
+  ],
+  "background_services": [
+    "com.google.android.gms/.chimera.PersistentInternalBoundBrokerService",
+    "com.google.android.gms/.gass.chimera.SchedulePeriodicTasksService",
+    "com.google.android.gms/.deviceconnection.service.DeviceConnectionWatcherService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.google.android.gms/.measurement.service.MeasurementBrokerService",
+    "com.google.android.gms/.droidguard.DroidGuardService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.google.android.gms/com.google.android.location.geocode.GeocodeService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.google.android.gms/.analytics.service.AnalyticsService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.thirdrock.fivemiles/com.google.android.gms.tagmanager.TagManagerService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.android.systemui/.SystemUIService",
+    "com.google.android.gms/.nearby.exposurenotification.service.ExposureMatchingService",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.google.android.gms/.chimera.GmsIntentOperationService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "android/com.android.internal.backup.LocalTransportService",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/.config.ConfigService",
+    "com.android.mms.service/.MmsService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.google.android.gms/.gcm.PushMessagingRegistrarProxy",
+    "com.google.android.gms/.backup.BackupTransportService",
+    "com.thomsonreuters.reuters/com.chartbeat.androidsdk.ChartbeatService"
+  ],
+  "width": 1080,
+  "height": 2160,
+  "views": [
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        1
+      ],
+      "child_count": 1,
+      "package": "com.thirdrock.fivemiles",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          414
+        ],
+        [
+          1080,
+          1679
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1080*1265",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "537025a7fd9421325459e85c19b16cfb",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        2
+      ],
+      "child_count": 1,
+      "package": "com.thirdrock.fivemiles",
+      "text": null,
+      "bounds": [
+        [
+          44,
+          458
+        ],
+        [
+          1036,
+          1635
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "992*1177",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "d5e2f55df4d111167b7c66f57a142835",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/content",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        3
+      ],
+      "child_count": 1,
+      "package": "com.thirdrock.fivemiles",
+      "text": null,
+      "bounds": [
+        [
+          44,
+          458
+        ],
+        [
+          1036,
+          1635
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "992*1177",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text]None[enabled,,]",
+      "view_str": "372849184c4d5a65e17e956e74a9c4e8",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thirdrock.fivemiles:id/root_view",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        4
+      ],
+      "child_count": 1,
+      "package": "com.thirdrock.fivemiles",
+      "text": null,
+      "bounds": [
+        [
+          44,
+          458
+        ],
+        [
+          1036,
+          1635
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "992*1177",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.thirdrock.fivemiles:id/root_view[text]None[enabled,,]",
+      "view_str": "32bfbb14796b9a6a0c3c4d40221b0149",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.thirdrock.fivemiles:id/root_view"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thirdrock.fivemiles:id/content_root",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ScrollView",
+      "children": [
+        5
+      ],
+      "child_count": 1,
+      "package": "com.thirdrock.fivemiles",
+      "text": null,
+      "bounds": [
+        [
+          44,
+          458
+        ],
+        [
+          1036,
+          1635
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "992*1177",
+      "signature": "[class]android.widget.ScrollView[resource_id]com.thirdrock.fivemiles:id/content_root[text]None[enabled,,]",
+      "view_str": "d52632e66d58b5597a8483bd4a741464",
+      "content_free_signature": "[class]android.widget.ScrollView[resource_id]com.thirdrock.fivemiles:id/content_root"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        6
+      ],
+      "child_count": 1,
+      "package": "com.thirdrock.fivemiles",
+      "text": null,
+      "bounds": [
+        [
+          44,
+          458
+        ],
+        [
+          1036,
+          1635
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "992*1177",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "6ccfaf322fa84d9a02bd8bdce16b3964",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        7,
+        10,
+        11,
+        16,
+        22,
+        27,
+        29
+      ],
+      "child_count": 7,
+      "package": "com.thirdrock.fivemiles",
+      "text": null,
+      "bounds": [
+        [
+          44,
+          458
+        ],
+        [
+          1036,
+          1635
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "992*1177",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "627dd33a1efa94dff6b9db83dcb1e595",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        8,
+        9
+      ],
+      "child_count": 2,
+      "package": "com.thirdrock.fivemiles",
+      "text": null,
+      "bounds": [
+        [
+          110,
+          502
+        ],
+        [
+          970,
+          569
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "860*67",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "af6d41ea2d4489ebaf0e514a26f96c53",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thirdrock.fivemiles:id/title",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": "Introducing 5miles Dash",
+      "bounds": [
+        [
+          110,
+          502
+        ],
+        [
+          970,
+          569
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "860*67",
+      "signature": "[class]android.widget.TextView[resource_id]com.thirdrock.fivemiles:id/title[text]Introducing 5miles Dash[enabled,,]",
+      "view_str": "c46b62faaf94f8c387542d3461d716b6",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thirdrock.fivemiles:id/title"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thirdrock.fivemiles:id/close",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": null,
+      "bounds": [
+        [
+          919,
+          502
+        ],
+        [
+          970,
+          553
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 7,
+      "temp_id": 9,
+      "size": "51*51",
+      "signature": "[class]android.widget.ImageView[resource_id]com.thirdrock.fivemiles:id/close[text]None[enabled,,]",
+      "view_str": "e5acd432b8763bd4ff211470ecbe1199",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.thirdrock.fivemiles:id/close"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": null,
+      "bounds": [
+        [
+          110,
+          602
+        ],
+        [
+          970,
+          605
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 6,
+      "temp_id": 10,
+      "size": "860*3",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "1bb96868ebed7c386512a1c6565795d6",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "child_count": 4,
+      "package": "com.thirdrock.fivemiles",
+      "text": null,
+      "bounds": [
+        [
+          110,
+          627
+        ],
+        [
+          970,
+          820
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 6,
+      "temp_id": 11,
+      "size": "860*193",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "fcfd5c99ae69e59c93063535fd71c917",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thirdrock.fivemiles:id/tv_1",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": "1",
+      "bounds": [
+        [
+          110,
+          696
+        ],
+        [
+          165,
+          751
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "55*55",
+      "signature": "[class]android.widget.TextView[resource_id]com.thirdrock.fivemiles:id/tv_1[text]1[enabled,,]",
+      "view_str": "71eeca9196a9568f8460593a15f2cfcf",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thirdrock.fivemiles:id/tv_1"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thirdrock.fivemiles:id/iv_1",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": null,
+      "bounds": [
+        [
+          220,
+          668
+        ],
+        [
+          358,
+          778
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 11,
+      "temp_id": 13,
+      "size": "138*110",
+      "signature": "[class]android.widget.ImageView[resource_id]com.thirdrock.fivemiles:id/iv_1[text]None[enabled,,]",
+      "view_str": "90e783739d99c36418e0a49a55e67ca9",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.thirdrock.fivemiles:id/iv_1"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thirdrock.fivemiles:id/tv_1_content",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": "Bid for your favorite items for free and only pay if you win.",
+      "bounds": [
+        [
+          413,
+          671
+        ],
+        [
+          970,
+          775
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 11,
+      "temp_id": 14,
+      "size": "557*104",
+      "signature": "[class]android.widget.TextView[resource_id]com.thirdrock.fivemiles:id/tv_1_content[text]None[enabled,,]",
+      "view_str": "55c98c7924a2c5fdf128ef0920e92e4c",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thirdrock.fivemiles:id/tv_1_content"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thirdrock.fivemiles:id/line_01",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": null,
+      "bounds": [
+        [
+          135,
+          779
+        ],
+        [
+          141,
+          820
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 11,
+      "temp_id": 15,
+      "size": "6*41",
+      "signature": "[class]android.view.View[resource_id]com.thirdrock.fivemiles:id/line_01[text]None[enabled,,]",
+      "view_str": "12543fc62332451bdbd0e210d144ab3f",
+      "content_free_signature": "[class]android.view.View[resource_id]com.thirdrock.fivemiles:id/line_01"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "child_count": 5,
+      "package": "com.thirdrock.fivemiles",
+      "text": null,
+      "bounds": [
+        [
+          110,
+          820
+        ],
+        [
+          970,
+          1013
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 6,
+      "temp_id": 16,
+      "size": "860*193",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "11b5f00861eaf0852cedfc9cfaf70f90",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thirdrock.fivemiles:id/line_02",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": null,
+      "bounds": [
+        [
+          135,
+          820
+        ],
+        [
+          141,
+          861
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 16,
+      "temp_id": 17,
+      "size": "6*41",
+      "signature": "[class]android.view.View[resource_id]com.thirdrock.fivemiles:id/line_02[text]None[enabled,,]",
+      "view_str": "10ad7007d630e5fb5be352c69d32064c",
+      "content_free_signature": "[class]android.view.View[resource_id]com.thirdrock.fivemiles:id/line_02"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thirdrock.fivemiles:id/tv_2",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": "2",
+      "bounds": [
+        [
+          110,
+          889
+        ],
+        [
+          165,
+          944
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 16,
+      "temp_id": 18,
+      "size": "55*55",
+      "signature": "[class]android.widget.TextView[resource_id]com.thirdrock.fivemiles:id/tv_2[text]2[enabled,,]",
+      "view_str": "77bb55451e431ba87253d6acbb318fb1",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thirdrock.fivemiles:id/tv_2"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thirdrock.fivemiles:id/tv_2_content",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": "After you\u2019ve won, pay with your credit or debit card .",
+      "bounds": [
+        [
+          220,
+          864
+        ],
+        [
+          777,
+          968
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 16,
+      "temp_id": 19,
+      "size": "557*104",
+      "signature": "[class]android.widget.TextView[resource_id]com.thirdrock.fivemiles:id/tv_2_content[text]None[enabled,,]",
+      "view_str": "85288d2723fe0959f8cbd6caf14467aa",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thirdrock.fivemiles:id/tv_2_content"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thirdrock.fivemiles:id/iv_shipping_icon",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": null,
+      "bounds": [
+        [
+          832,
+          875
+        ],
+        [
+          970,
+          958
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 16,
+      "temp_id": 20,
+      "size": "138*83",
+      "signature": "[class]android.widget.ImageView[resource_id]com.thirdrock.fivemiles:id/iv_shipping_icon[text]None[enabled,,]",
+      "view_str": "ddfd6b2a0ec37fa2fa51cefe077b960a",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.thirdrock.fivemiles:id/iv_shipping_icon"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thirdrock.fivemiles:id/line_03",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": null,
+      "bounds": [
+        [
+          135,
+          972
+        ],
+        [
+          141,
+          1013
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 16,
+      "temp_id": 21,
+      "size": "6*41",
+      "signature": "[class]android.view.View[resource_id]com.thirdrock.fivemiles:id/line_03[text]None[enabled,,]",
+      "view_str": "30b1d2958c57b8646967f102dcad67ce",
+      "content_free_signature": "[class]android.view.View[resource_id]com.thirdrock.fivemiles:id/line_03"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "child_count": 4,
+      "package": "com.thirdrock.fivemiles",
+      "text": null,
+      "bounds": [
+        [
+          110,
+          1013
+        ],
+        [
+          970,
+          1206
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 6,
+      "temp_id": 22,
+      "size": "860*193",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "010c1284e4fccb56ed3310effb29682d",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thirdrock.fivemiles:id/line_04",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": null,
+      "bounds": [
+        [
+          135,
+          1013
+        ],
+        [
+          141,
+          1054
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 22,
+      "temp_id": 23,
+      "size": "6*41",
+      "signature": "[class]android.view.View[resource_id]com.thirdrock.fivemiles:id/line_04[text]None[enabled,,]",
+      "view_str": "6682e0ad78e7575a5bf9d3ca545da910",
+      "content_free_signature": "[class]android.view.View[resource_id]com.thirdrock.fivemiles:id/line_04"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thirdrock.fivemiles:id/tv_3",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": "3",
+      "bounds": [
+        [
+          110,
+          1082
+        ],
+        [
+          165,
+          1137
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 22,
+      "temp_id": 24,
+      "size": "55*55",
+      "signature": "[class]android.widget.TextView[resource_id]com.thirdrock.fivemiles:id/tv_3[text]3[enabled,,]",
+      "view_str": "6897f136e9bbc7999b6ecb8f41fa9c62",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thirdrock.fivemiles:id/tv_3"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thirdrock.fivemiles:id/iv_3",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": null,
+      "bounds": [
+        [
+          220,
+          1071
+        ],
+        [
+          358,
+          1148
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 22,
+      "temp_id": 25,
+      "size": "138*77",
+      "signature": "[class]android.widget.ImageView[resource_id]com.thirdrock.fivemiles:id/iv_3[text]None[enabled,,]",
+      "view_str": "f76dd1e743124b703bd74c887ab8cc24",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.thirdrock.fivemiles:id/iv_3"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thirdrock.fivemiles:id/tv_3_content",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": "Sit tight! Your items will be delivered straight to your door",
+      "bounds": [
+        [
+          413,
+          1057
+        ],
+        [
+          970,
+          1161
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 22,
+      "temp_id": 26,
+      "size": "557*104",
+      "signature": "[class]android.widget.TextView[resource_id]com.thirdrock.fivemiles:id/tv_3_content[text]None[enabled,,]",
+      "view_str": "d421f8e9d1ad7d4967a5f3bb2c0cf1ee",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thirdrock.fivemiles:id/tv_3_content"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thirdrock.fivemiles:id/legends",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        28
+      ],
+      "child_count": 1,
+      "package": "com.thirdrock.fivemiles",
+      "text": null,
+      "bounds": [
+        [
+          110,
+          1228
+        ],
+        [
+          970,
+          1415
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 6,
+      "temp_id": 27,
+      "size": "860*187",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.thirdrock.fivemiles:id/legends[text]None[enabled,,]",
+      "view_str": "50e7863db87c76e99eecd7e6c8882b60",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.thirdrock.fivemiles:id/legends"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thirdrock.fivemiles:id/legend_payment",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": "Buyer Protection Guarantee\nSecure Payments",
+      "bounds": [
+        [
+          154,
+          1272
+        ],
+        [
+          787,
+          1371
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 27,
+      "temp_id": 28,
+      "size": "633*99",
+      "signature": "[class]android.widget.TextView[resource_id]com.thirdrock.fivemiles:id/legend_payment[text]Buyer Protection Guarantee\nSecure Payments[enabled,,]",
+      "view_str": "bde8377f270ad549876ad60b61fcf21b",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thirdrock.fivemiles:id/legend_payment"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thirdrock.fivemiles:id/bottom_btn",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.Button",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": "OK",
+      "bounds": [
+        [
+          110,
+          1459
+        ],
+        [
+          970,
+          1591
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 6,
+      "temp_id": 29,
+      "size": "860*132",
+      "signature": "[class]android.widget.Button[resource_id]com.thirdrock.fivemiles:id/bottom_btn[text]OK[enabled,,]",
+      "view_str": "a6f75092afcfcd4749bc45af472e76ec",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.thirdrock.fivemiles:id/bottom_btn"
+    }
+  ]
+}

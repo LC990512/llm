@@ -1,0 +1,51 @@
+{
+  "tag": "2024-01-01_132056",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.contextlogic.wish:id/sign_in_fragment_email_text",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": true,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "com.contextlogic.wish",
+      "text": "Email",
+      "bounds": [
+        [
+          44,
+          687
+        ],
+        [
+          1036,
+          797
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 26,
+      "temp_id": 27,
+      "size": "992*110",
+      "signature": "[class]android.widget.EditText[resource_id]com.contextlogic.wish:id/sign_in_fragment_email_text[text]Email[enabled,,]",
+      "view_str": "193d5e5381ead47e7b6e268c23caaac8",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.contextlogic.wish:id/sign_in_fragment_email_text"
+    },
+    "x": null,
+    "y": null,
+    "text": "You should enter 1372109571@qq.com as the text to the view with text Email."
+  },
+  "start_state": "582f487c0cea63e7b7ce49c87b622357",
+  "stop_state": "867b991f027f1652cf965476ffe2c34e",
+  "event_str": "SetTextEvent(state=582f487c0cea63e7b7ce49c87b622357, view=193d5e5381ead47e7b6e268c23caaac8(SignInActivity/EditText-Email), text=You should enter 1372109571@qq.com as the text to the view with text Email.)"
+}

@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-01_132448",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.contextlogic.wish:id/sign_in_fragment_email_text",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": true,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "com.contextlogic.wish",
+      "text": "You should enter 1372109571@qq.com as the text to the view with text Email.",
+      "bounds": [
+        [
+          44,
+          687
+        ],
+        [
+          1036,
+          797
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 26,
+      "temp_id": 27,
+      "size": "992*110",
+      "signature": "[class]android.widget.EditText[resource_id]com.contextlogic.wish:id/sign_in_fragment_email_text[text]None[enabled,,]",
+      "view_str": "95aa98851ee7487958c6423d4143a842",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.contextlogic.wish:id/sign_in_fragment_email_text"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "1826a6b52d7eb3c45fae31492421edfb",
+  "stop_state": "1826a6b52d7eb3c45fae31492421edfb",
+  "event_str": "TouchEvent(state=1826a6b52d7eb3c45fae31492421edfb, view=95aa98851ee7487958c6423d4143a842(SignInActivity/EditText-You should))"
+}

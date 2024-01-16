@@ -1,0 +1,757 @@
+{
+  "tag": "2024-01-14_155401",
+  "state_str": "c29569d5531590597e6dc3ea5a37953c",
+  "state_str_content_free": "8b60b1e224215a8967ccf30764b69dd2",
+  "foreground_activity": "com.etsy.android/.ui.user.auth.SignInActivity",
+  "activity_stack": [
+    "com.etsy.android/.ui.user.auth.SignInActivity",
+    "com.etsy.android/.ui.homescreen.HomescreenTabsActivity"
+  ],
+  "background_services": [
+    "com.android.bluetooth/.hid.HidService",
+    "com.google.android.music/.dial.DialMediaRouteProviderService",
+    "com.huawei.callstatisticsutils/.CallStatisticsService",
+    "org.codeaurora.ims/.ImsService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.assist.GsaVoiceInteractionSessionService",
+    "com.google.android.gms/.tapandpay.hce.service.TpHceService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.google.android.gms/com.google.android.location.geocode.GeocodeService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/com.google.android.location.fused.service.FusedProviderService",
+    "com.google.android.gms/.phenotype.service.PhenotypeService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.android.bluetooth/.pbap.BluetoothPbapService",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.android.bluetooth/.a2dp.A2dpService",
+    "com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService",
+    "com.qualcomm.cabl/.CABLService",
+    "com.google.android.gms/.cast.media.CastMediaRouteProviderService",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService",
+    "com.android.chrome/org.chromium.content.app.SandboxedProcessService0",
+    "com.google.android.talk/com.google.android.libraries.hangouts.video.CallService",
+    "com.android.systemui/.SystemUIService",
+    "com.android.chrome/org.chromium.content.app.PrivilegedProcessService0",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.huawei.sarcontrolservice/.SarControlService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.reflection.ReflectionService",
+    "com.android.server.telecom/.components.BluetoothPhoneService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.google.android.gms/com.google.android.location.activity.HardwareArProviderService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.android.providers.media/.MtpService",
+    "com.google.android.gms/.deviceconnection.service.DeviceConnectionServiceBroker",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.getsurfboard/.ui.service.SurfboardVpn",
+    "android/com.android.internal.backup.LocalTransportService",
+    "com.google.android.gms/.playlog.service.PlayLogBrokerService",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/.clearcut.service.ClearcutLoggerService",
+    "com.android.bluetooth/.map.BluetoothMapService",
+    "com.google.android.gms/.config.ConfigService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.android.bluetooth/.pan.PanService",
+    "com.google.android.gms/.backup.BackupTransportService"
+  ],
+  "width": 1440,
+  "height": 2560,
+  "views": [
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        1
+      ],
+      "child_count": 1,
+      "package": "com.etsy.android",
+      "text": null,
+      "bounds": [
+        [
+          90,
+          682
+        ],
+        [
+          1350,
+          1793
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1260*1111",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "236894179b0217938270a71ead491dcf",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        2
+      ],
+      "child_count": 1,
+      "package": "com.etsy.android",
+      "text": null,
+      "bounds": [
+        [
+          90,
+          682
+        ],
+        [
+          1350,
+          1793
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1260*1111",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "f4498c3cbbdd858c53fa902063982763",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/content",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        3
+      ],
+      "child_count": 1,
+      "package": "com.etsy.android",
+      "text": null,
+      "bounds": [
+        [
+          90,
+          682
+        ],
+        [
+          1350,
+          1793
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1260*1111",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text]None[enabled,,]",
+      "view_str": "0f02a647789f95d4178ec6c02a1fc462",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        4
+      ],
+      "child_count": 1,
+      "package": "com.etsy.android",
+      "text": null,
+      "bounds": [
+        [
+          90,
+          682
+        ],
+        [
+          1350,
+          1793
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1260*1111",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "192757e616c6c4b08e8eba39d2e9d9c1",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.etsy.android:id/dialog_card",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        5
+      ],
+      "child_count": 1,
+      "package": "com.etsy.android",
+      "text": null,
+      "bounds": [
+        [
+          104,
+          696
+        ],
+        [
+          1336,
+          1779
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1232*1083",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.etsy.android:id/dialog_card[text]None[enabled,,]",
+      "view_str": "f6a7f177d31971f9452ed64fcc58026d",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.etsy.android:id/dialog_card"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.etsy.android:id/inner_fragment_container",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        6
+      ],
+      "child_count": 1,
+      "package": "com.etsy.android",
+      "text": null,
+      "bounds": [
+        [
+          118,
+          710
+        ],
+        [
+          1322,
+          1765
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1204*1055",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.etsy.android:id/inner_fragment_container[text]None[enabled,,]",
+      "view_str": "e7bdcbce01c30184905f358584c91699",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.etsy.android:id/inner_fragment_container"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        7,
+        8,
+        9
+      ],
+      "child_count": 3,
+      "package": "com.etsy.android",
+      "text": null,
+      "bounds": [
+        [
+          118,
+          710
+        ],
+        [
+          1322,
+          1765
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "1204*1055",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "f1fbe856e2a1f859d708c6c818f60d5c",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.etsy.android:id/txt_title",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.etsy.android",
+      "text": "Sign In",
+      "bounds": [
+        [
+          174,
+          710
+        ],
+        [
+          1266,
+          898
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "1092*188",
+      "signature": "[class]android.widget.TextView[resource_id]com.etsy.android:id/txt_title[text]Sign In[enabled,,]",
+      "view_str": "3e75987ace51f905ea3606ab92b5adaa",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.etsy.android:id/txt_title"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.etsy.android:id/divider",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "com.etsy.android",
+      "text": null,
+      "bounds": [
+        [
+          118,
+          898
+        ],
+        [
+          1322,
+          902
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 6,
+      "temp_id": 8,
+      "size": "1204*4",
+      "signature": "[class]android.view.View[resource_id]com.etsy.android:id/divider[text]None[enabled,,]",
+      "view_str": "56b8952fc3cd2b130396db4a478ce60c",
+      "content_free_signature": "[class]android.view.View[resource_id]com.etsy.android:id/divider"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ScrollView",
+      "children": [
+        10
+      ],
+      "child_count": 1,
+      "package": "com.etsy.android",
+      "text": null,
+      "bounds": [
+        [
+          118,
+          902
+        ],
+        [
+          1322,
+          1765
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 6,
+      "temp_id": 9,
+      "size": "1204*863",
+      "signature": "[class]android.widget.ScrollView[resource_id]None[text]None[enabled,,]",
+      "view_str": "425290c72aed9a597feaa54fa0fcc037",
+      "content_free_signature": "[class]android.widget.ScrollView[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        11,
+        12,
+        13,
+        16,
+        17
+      ],
+      "child_count": 5,
+      "package": "com.etsy.android",
+      "text": null,
+      "bounds": [
+        [
+          118,
+          902
+        ],
+        [
+          1322,
+          1765
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "1204*863",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "a10af44980b576b9551bea4439b05e91",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.etsy.android:id/edit_username",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": true,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "com.etsy.android",
+      "text": "Email or Username",
+      "bounds": [
+        [
+          174,
+          958
+        ],
+        [
+          1266,
+          1090
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "1092*132",
+      "signature": "[class]android.widget.EditText[resource_id]com.etsy.android:id/edit_username[text]Email or Username[enabled,,]",
+      "view_str": "4fce673c3c3f9e8114416c03f502d315",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.etsy.android:id/edit_username"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.etsy.android:id/edit_password",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": true,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "com.etsy.android",
+      "text": null,
+      "bounds": [
+        [
+          174,
+          1146
+        ],
+        [
+          1266,
+          1278
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 10,
+      "temp_id": 12,
+      "size": "1092*132",
+      "signature": "[class]android.widget.EditText[resource_id]com.etsy.android:id/edit_password[text]None[enabled,,]",
+      "view_str": "ed698b90ef2773076fdc46f17c4b90d0",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.etsy.android:id/edit_password"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        14,
+        15
+      ],
+      "child_count": 2,
+      "package": "com.etsy.android",
+      "text": null,
+      "bounds": [
+        [
+          118,
+          1334
+        ],
+        [
+          1322,
+          1537
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 10,
+      "temp_id": 13,
+      "size": "1204*203",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "cfd9529d3614ebdfa406886ba62ca1a5",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.etsy.android:id/forgot_password_link",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.etsy.android",
+      "text": "Forgot password?",
+      "bounds": [
+        [
+          118,
+          1334
+        ],
+        [
+          912,
+          1509
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 13,
+      "temp_id": 14,
+      "size": "794*175",
+      "signature": "[class]android.widget.TextView[resource_id]com.etsy.android:id/forgot_password_link[text]Forgot password?[enabled,,]",
+      "view_str": "3477f1b79d17ed8cef653081e043e3f8",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.etsy.android:id/forgot_password_link"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.etsy.android:id/button_signin",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.Button",
+      "children": [],
+      "child_count": 0,
+      "package": "com.etsy.android",
+      "text": "Sign In",
+      "bounds": [
+        [
+          968,
+          1334
+        ],
+        [
+          1266,
+          1509
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 13,
+      "temp_id": 15,
+      "size": "298*175",
+      "signature": "[class]android.widget.Button[resource_id]com.etsy.android:id/button_signin[text]Sign In[enabled,,]",
+      "view_str": "d201b955cbf086c428d2e58e0e99159a",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.etsy.android:id/button_signin"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "com.etsy.android",
+      "text": null,
+      "bounds": [
+        [
+          118,
+          1537
+        ],
+        [
+          1322,
+          1541
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 10,
+      "temp_id": 16,
+      "size": "1204*4",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "923bff76603020b81dbb62afc6ae5474",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.etsy.android:id/switch_to_register",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.etsy.android",
+      "text": "Don't have an account? Register",
+      "bounds": [
+        [
+          287,
+          1569
+        ],
+        [
+          1152,
+          1737
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 10,
+      "temp_id": 17,
+      "size": "865*168",
+      "signature": "[class]android.widget.TextView[resource_id]com.etsy.android:id/switch_to_register[text]Don't have an account? Register[enabled,,]",
+      "view_str": "d5a721d9ec93768bb0a1c449b1facb54",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.etsy.android:id/switch_to_register"
+    }
+  ]
+}

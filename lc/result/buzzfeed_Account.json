@@ -1,0 +1,102 @@
+[
+    {
+        "event_type": "kill_app",
+        "log_lines": null,
+        "prompt": null,
+        "stop_intent": "am force-stop com.buzzfeed.android"
+    },
+    {
+        "event_type": "intent",
+        "log_lines": null,
+        "prompt": null,
+        "intent": "am start com.buzzfeed.android/com.buzzfeed.android.activity.SplashActivity"
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "com.buzzfeed.android:id/menu_user_image",
+            "visible": true,
+            "enabled": true,
+            "clickable": false,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.ImageView",
+            "children": [],
+            "child_count": 0,
+            "package": "com.buzzfeed.android",
+            "text": null,
+            "bounds": [
+                [
+                    981,
+                    110
+                ],
+                [
+                    1047,
+                    176
+                ]
+            ],
+            "editable": false,
+            "focusable": false,
+            "parent": 21,
+            "temp_id": 23,
+            "size": "66*66",
+            "signature": "[class]android.widget.ImageView[resource_id]com.buzzfeed.android:id/menu_user_image[text]None[enabled,,]",
+            "view_str": "83dc06c4d3cd56e0c0d7bab20d038d2d",
+            "content_free_signature": "[class]android.widget.ImageView[resource_id]com.buzzfeed.android:id/menu_user_image"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": null,
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": "Navigate up",
+            "focused": false,
+            "class": "android.widget.ImageButton",
+            "children": [],
+            "child_count": 0,
+            "package": "com.buzzfeed.android",
+            "text": null,
+            "bounds": [
+                [
+                    0,
+                    66
+                ],
+                [
+                    154,
+                    220
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 11,
+            "temp_id": 12,
+            "size": "154*154",
+            "signature": "[class]android.widget.ImageButton[resource_id]None[text]None[enabled,,]",
+            "view_str": "ef3445aa69c9f572190b2327ed0ce6e1",
+            "content_free_signature": "[class]android.widget.ImageButton[resource_id]None"
+        },
+        "x": null,
+        "y": null
+    }
+]

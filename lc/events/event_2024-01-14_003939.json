@@ -1,0 +1,54 @@
+{
+  "tag": "2024-01-14_003939",
+  "event": {
+    "event_type": "scroll",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": true,
+      "long_clickable": false,
+      "resource_id": "android:id/list",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": true,
+      "class": "android.widget.ListView",
+      "children": [
+        16,
+        20
+      ],
+      "child_count": 2,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          280
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 14,
+      "temp_id": 15,
+      "size": "1440*2112",
+      "signature": "[class]android.widget.ListView[resource_id]android:id/list[text]None[enabled,,]",
+      "view_str": "f2fe2bbfec7a79c8b74c8de4625e379d",
+      "content_free_signature": "[class]android.widget.ListView[resource_id]android:id/list"
+    },
+    "x": null,
+    "y": null,
+    "direction": "DOWN"
+  },
+  "start_state": "bae3e7f0d530c24425846f1c1b8ace12",
+  "stop_state": "cc51c58729dfa2ffb173d43a03b9f012",
+  "event_str": "ScrollEvent(state=bae3e7f0d530c24425846f1c1b8ace12, view=f2fe2bbfec7a79c8b74c8de4625e379d(SettingsActivity/ListView-), direction=DOWN)"
+}

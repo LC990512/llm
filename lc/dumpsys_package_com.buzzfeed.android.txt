@@ -1,0 +1,158 @@
+Activity Resolver Table:
+  Schemes:
+      buzzfeed-video-stage:
+        4e3b38d com.buzzfeed.android/.activity.SplashActivity
+      buzzfeed:
+        4e3b38d com.buzzfeed.android/.activity.SplashActivity (2 filters)
+      vnd.google.deeplink:
+        4e3b38d com.buzzfeed.android/.activity.SplashActivity
+      buzzfeed-video:
+        4e3b38d com.buzzfeed.android/.activity.SplashActivity
+      http:
+        4e3b38d com.buzzfeed.android/.activity.SplashActivity
+      https:
+        4e3b38d com.buzzfeed.android/.activity.SplashActivity
+      amazonmobile:
+        1b69942 com.buzzfeed.android/com.amazon.device.ads.DTBActivity
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        4e3b38d com.buzzfeed.android/.activity.SplashActivity
+      android.intent.action.SEARCH:
+        87d8d53 com.buzzfeed.android/.activity.BuffetSearchActivity
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED:
+        fb6a690 com.buzzfeed.android/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+      com.android.vending.INSTALL_REFERRER:
+        9c9abaf com.buzzfeed.android/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+        ae4fb89 com.buzzfeed.android/.util.BFInstallReceiver
+        d19078e com.buzzfeed.android/com.quantcast.measurement.service.QCReferrerReceiver
+      com.google.android.c2dm.intent.RECEIVE:
+        5879bbc com.buzzfeed.android/com.google.firebase.iid.FirebaseInstanceIdReceiver
+      android.intent.extra.CHOSEN_COMPONENT:
+        b98c745 com.buzzfeed.android/com.buzzfeed.toolkit.sharmo.ShareReceiver
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.MESSAGING_EVENT:
+        10f53cb com.buzzfeed.android/com.google.firebase.messaging.FirebaseMessagingService
+        1220e9a com.buzzfeed.android/.pushnotifications.FirebaseMessagingService
+
+Permissions:
+  Permission [com.buzzfeed.android.permission.C2D_MESSAGE] (910b7a8):
+    sourcePackage=com.buzzfeed.android
+    uid=10062 gids=null type=0 prot=signature
+    perm=Permission{80392c1 com.buzzfeed.android.permission.C2D_MESSAGE}
+    packageSetting=PackageSetting{2827a66 com.buzzfeed.android/10062}
+
+Registered ContentProviders:
+  com.buzzfeed.android/com.facebook.marketing.internal.MarketingInitProvider:
+    Provider{3bd61a7 com.buzzfeed.android/com.facebook.marketing.internal.MarketingInitProvider}
+  com.buzzfeed.android/com.crashlytics.android.CrashlyticsInitProvider:
+    Provider{98da654 com.buzzfeed.android/com.crashlytics.android.CrashlyticsInitProvider}
+  com.buzzfeed.android/com.google.firebase.perf.provider.FirebasePerfProvider:
+    Provider{2f599fd com.buzzfeed.android/com.google.firebase.perf.provider.FirebasePerfProvider}
+  com.buzzfeed.android/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{e2bd6f2 com.buzzfeed.android/com.google.firebase.provider.FirebaseInitProvider}
+  com.buzzfeed.android/com.facebook.internal.FacebookInitProvider:
+    Provider{5547143 com.buzzfeed.android/com.facebook.internal.FacebookInitProvider}
+  com.buzzfeed.android/.data.SearchSuggester:
+    Provider{c48d3c0 com.buzzfeed.android/.data.SearchSuggester}
+  com.buzzfeed.android/com.buzzfeed.toolkit.util.ImagePngFileProvider:
+    Provider{206d8f9 com.buzzfeed.android/com.buzzfeed.toolkit.util.ImagePngFileProvider}
+  com.buzzfeed.android/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{c9c703e com.buzzfeed.android/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+  com.buzzfeed.android/com.google.android.gms.ads.MobileAdsInitProvider:
+    Provider{6c2de9f com.buzzfeed.android/com.google.android.gms.ads.MobileAdsInitProvider}
+
+ContentProvider Authorities:
+  [com.buzzfeed.android.firebaseperfprovider]:
+    Provider{2f599fd com.buzzfeed.android/com.google.firebase.perf.provider.FirebasePerfProvider}
+      applicationInfo=ApplicationInfo{ec76bec com.buzzfeed.android}
+  [com.buzzfeed.android.mobileadsinitprovider]:
+    Provider{6c2de9f com.buzzfeed.android/com.google.android.gms.ads.MobileAdsInitProvider}
+      applicationInfo=ApplicationInfo{ec76bec com.buzzfeed.android}
+  [com.buzzfeed.android.data.SearchSuggester]:
+    Provider{c48d3c0 com.buzzfeed.android/.data.SearchSuggester}
+      applicationInfo=ApplicationInfo{ec76bec com.buzzfeed.android}
+  [com.buzzfeed.android.crashlyticsinitprovider]:
+    Provider{98da654 com.buzzfeed.android/com.crashlytics.android.CrashlyticsInitProvider}
+      applicationInfo=ApplicationInfo{ec76bec com.buzzfeed.android}
+  [com.buzzfeed.android.provider]:
+    Provider{206d8f9 com.buzzfeed.android/com.buzzfeed.toolkit.util.ImagePngFileProvider}
+      applicationInfo=ApplicationInfo{ec76bec com.buzzfeed.android}
+  [com.buzzfeed.android.firebaseinitprovider]:
+    Provider{e2bd6f2 com.buzzfeed.android/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{ec76bec com.buzzfeed.android}
+  [com.buzzfeed.android.FacebookInitProvider]:
+    Provider{5547143 com.buzzfeed.android/com.facebook.internal.FacebookInitProvider}
+      applicationInfo=ApplicationInfo{ec76bec com.buzzfeed.android}
+  [com.buzzfeed.android.lifecycle-process]:
+    Provider{c9c703e com.buzzfeed.android/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{ec76bec com.buzzfeed.android}
+  [com.buzzfeed.android.MarketingInitProvider]:
+    Provider{3bd61a7 com.buzzfeed.android/com.facebook.marketing.internal.MarketingInitProvider}
+      applicationInfo=ApplicationInfo{ec76bec com.buzzfeed.android}
+
+Key Set Manager:
+  [com.buzzfeed.android]
+      Signing KeySets: 9
+
+Packages:
+  Package [com.buzzfeed.android] (2827a66):
+    userId=10062
+    pkg=Package{2530bb5 com.buzzfeed.android}
+    codePath=/data/app/com.buzzfeed.android-1
+    resourcePath=/data/app/com.buzzfeed.android-1
+    legacyNativeLibraryDir=/data/app/com.buzzfeed.android-1/lib
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    versionCode=202002003 targetSdk=28
+    versionName=2020.2
+    splits=[base]
+    applicationInfo=ApplicationInfo{ec76bec com.buzzfeed.android}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ ]
+    dataDir=/data/user/0/com.buzzfeed.android
+    supportsScreens=[medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2024-01-12 03:24:34
+    firstInstallTime=2024-01-12 03:24:40
+    lastUpdateTime=2024-01-12 03:24:40
+    signatures=PackageSignatures{deb524a [f80c5bb]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    declared permissions:
+      com.buzzfeed.android.permission.C2D_MESSAGE: prot=signature, INSTALLED
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CAMERA
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.USE_CREDENTIALS
+      android.permission.VIBRATE
+      android.permission.WAKE_LOCK
+      com.amazon.device.messaging.permission.RECEIVE
+      com.google.android.c2dm.permission.RECEIVE
+      com.buzzfeed.android.permission.C2D_MESSAGE
+      android.permission.FOREGROUND_SERVICE
+      com.google.android.providers.gsf.permission.READ_GSERVICES
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.USE_CREDENTIALS: granted=true
+      com.google.android.providers.gsf.permission.READ_GSERVICES: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      com.buzzfeed.android.permission.C2D_MESSAGE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0:  installed=true hidden=false stopped=false notLaunched=false enabled=0
+      gids=[3003]
+      runtime permissions:

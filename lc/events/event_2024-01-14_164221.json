@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-14_164221",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.etsy.android:id/search_taxonomy_image",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.etsy.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          449
+        ],
+        [
+          224,
+          673
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 26,
+      "temp_id": 27,
+      "size": "224*224",
+      "signature": "[class]android.widget.ImageView[resource_id]com.etsy.android:id/search_taxonomy_image[text]None[enabled,,]",
+      "view_str": "265afd7bf23845bad8514756f51d6be0",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.etsy.android:id/search_taxonomy_image"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "3ea2379733802886044cf9fef21c409c",
+  "stop_state": "a37c0378b8f1f4adc342d7da91077f72",
+  "event_str": "TouchEvent(state=3ea2379733802886044cf9fef21c409c, view=265afd7bf23845bad8514756f51d6be0(SearchV2Activity/ImageView-))"
+}

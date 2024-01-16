@@ -28,7 +28,7 @@ def parse_args(extracted_info):
     parser.add_argument("-task", action="store", dest="task",
                         help="the task to execute, in natural language", default=extracted_info[0]['task'])
     parser.add_argument("-step", action="store", dest="step",
-                        help="whether generation is required for this task", default=1)
+                        help="whether generation is required for this task", default=0)
     parser.add_argument("-extracted_info", action="store", dest="extracted_info",
                         help="The extracted information of test case steps", default=extracted_info)
 
@@ -45,7 +45,7 @@ def parse_args(extracted_info):
                         help="Timeout in seconds, -1 means unlimited. Default: %d" % input_manager.DEFAULT_TIMEOUT)
     parser.add_argument("-debug", action="store_true", dest="debug_mode",
                         help="Run in debug mode (dump debug messages).")
-    parser.add_argument("-keep_app", action="store_true", dest="keep_app",
+    parser.add_argument("-keep_app", action="store_true", dest="keep_app", default=True,
                         help="Keep the app on the device after testing.")
     parser.add_argument("-keep_env", action="store_true", dest="keep_env",
                         help="Keep the test environment (eg. minicap and accessibility service) after testing.")
@@ -73,23 +73,15 @@ def process_files(directory, filename):
     with open("../step1/result_paser/{}".format(filename), "r") as file:
         general_step = file.read()
     pattern = re.compile(r'Test Step (\d+): \((Event|Assertion)\) (.+)')
-    pattern = re.compile(r'Test Step (\d+):\.\s*\((Event|Assertion)\)\s+(.+)')
+    #pattern = re.compile(r'Test Step (\d+):\.\s*\((Event|Assertion)\)\s+(.+)')
 
     extracted_info = []
     with open(os.path.join(directory, filename), 'r') as file:
-        extracted_info.append({
-            'app': "apps/" + file_prefix + ".apk",
-            'function': file_suffix,
-            'step_number': 1,
-            'event_or_assertion': "Event",
-            'task': "Open the '{}' app".format(file_prefix),
-            'status': -1
-        })
         for line in file:
             match = pattern.match(line)
             if match:
                 # 提取数字，Event/Assertion 和 task
-                step_number = int(match.group(1))+1
+                step_number = int(match.group(1))
                 event_or_assertion = match.group(2)
                 task = match.group(3)
                 status = 1 
@@ -97,7 +89,6 @@ def process_files(directory, filename):
                 step_number = int(line.split(":")[0].split("Test Step ")[1])
                 event_or_assertion = general_step.splitlines()[step_number-1].split(")")[0].split("(")[1]
                 task = general_step.splitlines()[step_number-1].split(") ")[1]
-                step_number += 1
                 status = -1
 
             # 将提取的信息添加到列表
@@ -109,6 +100,15 @@ def process_files(directory, filename):
                 'task': process_line(task), #+ " in {} app.".format(file_prefix),
                 'status': status
             })
+        step_number = step_number + 1
+        extracted_info.append({
+            'app': "apps/" + file_prefix + ".apk",
+            'function': file_suffix,
+            'step_number': step_number,
+            'event_or_assertion': event_or_assertion,
+            'task': "could you tell me if I have successfully completed the process of testing the '{}' function?".format(file_suffix), 
+            'status': -1
+        })
     return extracted_info
 
 def explore(extracted_info):
@@ -149,7 +149,7 @@ def main():
     directory_path = "../step2/result_steps_text"
     file_list = sorted([f for f in os.listdir(directory_path) if f.endswith('.txt')])
     for filename in file_list:
-        if filename != "fivemiles_SignIn.txt":
+        if filename != "etsy_Search.txt":
             continue
         extracted_info = process_files(directory_path, filename)
         for item in extracted_info:

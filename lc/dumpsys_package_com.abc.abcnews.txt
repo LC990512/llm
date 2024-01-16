@@ -1,0 +1,219 @@
+Activity Resolver Table:
+  Schemes:
+      optly8310063212:
+        ef81eec com.abc.abcnews/.ui.StartActivity
+      abcnewstags:
+        f9942b5 com.abc.abcnews/.ui.navigation.MainNavigationActivity
+      abcnewsapplink:
+        f9942b5 com.abc.abcnews/.ui.navigation.MainNavigationActivity
+      abcnews:
+        392bd4a com.abc.abcnews/.ui.NewsItemActivity
+      abcnewsdailyrewind:
+        f9942b5 com.abc.abcnews/.ui.navigation.MainNavigationActivity
+      http:
+        392bd4a com.abc.abcnews/.ui.NewsItemActivity
+      https:
+        392bd4a com.abc.abcnews/.ui.NewsItemActivity
+        c6354bb com.abc.abcnews/com.adobe.adobepass.accessenabler.customtab.CustomTabManager
+      android-app:
+        392bd4a com.abc.abcnews/.ui.NewsItemActivity
+      adobepass:
+        dbe3dd8 com.abc.abcnews/com.adobe.adobepass.accessenabler.customtab.CustomTabGetAuthN
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        de85531 com.abc.abcnews/com.google.android.libraries.cast.companionlibrary.cast.player.VideoCastControllerActivity
+        ef81eec com.abc.abcnews/.ui.StartActivity
+      android.media.action.MEDIA_PLAY_FROM_SEARCH:
+        ac76416 com.abc.abcnews/.ui.AndroidAutoActivity
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.abc.abcnews.intent.APPBOY_PUSH_DELETED:
+        6688197 com.abc.abcnews/.notifications.appboy.AppboyNotificationReceiver
+      com.abc.abcnews.widget.pagecounterupdate:
+        3c55f84 com.abc.abcnews/.widget.AbcAppWidgetProviderSmall
+      com.abc.abcnews.slacker.UPDATE_NOTIFICATION:
+        23c136d com.abc.abcnews/.slacker.SlackerReceiver
+      com.google.android.libraries.cast.companionlibrary.action.stop:
+        4cdaba2 com.abc.abcnews/com.google.android.libraries.cast.companionlibrary.remotecontrol.VideoIntentReceiver
+      com.abc.abcnews.slacker.REMOVE_NOTIFICATION:
+        23c136d com.abc.abcnews/.slacker.SlackerReceiver
+      com.abc.abcnews.broadcast_notification_action:
+        729a033 com.abc.abcnews/.handlers.NotificationActionHandler
+      com.abc.abcnews.broadcast_notification_acknowledgement:
+        5faeff0 com.abc.abcnews/.handlers.WearMessageHandler
+      com.abc.abcnews.intent.APPBOY_NOTIFICATION_OPENED:
+        6688197 com.abc.abcnews/.notifications.appboy.AppboyNotificationReceiver
+      com.abc.abcnews.broadcast_wear_rich_push_action:
+        4937969 com.abc.abcnews/.handlers.WearResponseHandler
+      com.abc.abcnews.broadcast_wear_rich_push_delete:
+        5faeff0 com.abc.abcnews/.handlers.WearMessageHandler
+      com.android.vending.INSTALL_REFERRER:
+        1fedfee com.abc.abcnews/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+      android.media.AUDIO_BECOMING_NOISY:
+        1d40c8f com.abc.abcnews/.handlers.PodcastPlayerHandler
+        4cdaba2 com.abc.abcnews/com.google.android.libraries.cast.companionlibrary.remotecontrol.VideoIntentReceiver
+      com.abc.abcnews.BROADCAST:
+        8b71b1c com.abc.abcnews/.handlers.GoogleNowAuthorizationResponseHandler
+      com.abc.abcnews.BROADCAST_WEAR:
+        4937969 com.abc.abcnews/.handlers.WearResponseHandler
+      com.abc.abcnews.intent.APPBOY_PUSH_RECEIVED:
+        6688197 com.abc.abcnews/.notifications.appboy.AppboyNotificationReceiver
+      com.fyber.inneractive.sdk.intent.action.REGISTER_KIT:
+        3e14325 com.abc.abcnews/com.fyber.inneractive.sdk.mraid.IAMraidKit
+        50ee2ab com.abc.abcnews/com.fyber.inneractive.sdk.video.IAVideoKit
+        cfd0cfa com.abc.abcnews/com.fyber.inneractive.sdk.nativead.IANativeKit
+      com.google.android.c2dm.intent.RECEIVE:
+        ba8cd08 com.abc.abcnews/com.google.firebase.iid.FirebaseInstanceIdReceiver
+      com.abc.abcnews.broadcast_data_response_message:
+        5faeff0 com.abc.abcnews/.handlers.WearMessageHandler
+      com.abc.abcnews.slacker.DISPLAY_NOTIFICATION:
+        23c136d com.abc.abcnews/.slacker.SlackerReceiver
+      com.google.android.libraries.cast.companionlibrary.action.toggleplayback:
+        4cdaba2 com.abc.abcnews/com.google.android.libraries.cast.companionlibrary.remotecontrol.VideoIntentReceiver
+      android.appwidget.action.APPWIDGET_UPDATE:
+        187eca1 com.abc.abcnews/.widget.AbcAppWidgetProviderLarge
+        3c55f84 com.abc.abcnews/.widget.AbcAppWidgetProviderSmall
+      android.intent.action.MEDIA_BUTTON:
+        1d40c8f com.abc.abcnews/.handlers.PodcastPlayerHandler
+        4cdaba2 com.abc.abcnews/com.google.android.libraries.cast.companionlibrary.remotecontrol.VideoIntentReceiver
+
+Service Resolver Table:
+  Schemes:
+      wear:
+        67efec6 com.abc.abcnews/.service.HandheldWearableListenerService
+
+  Non-Data Actions:
+      com.google.android.libraries.cast.companionlibrary.action.notificationvisibility:
+        8d6fe87 com.abc.abcnews/com.google.android.libraries.cast.companionlibrary.notification.VideoCastNotificationService
+      android.content.SyncAdapter:
+        881b1b4 com.abc.abcnews/.sync.SyncService
+      com.google.android.libraries.cast.companionlibrary.action.stop:
+        8d6fe87 com.abc.abcnews/com.google.android.libraries.cast.companionlibrary.notification.VideoCastNotificationService
+      com.google.firebase.MESSAGING_EVENT:
+        1dc4152 com.abc.abcnews/com.google.firebase.messaging.FirebaseMessagingService
+        895b1dd com.abc.abcnews/com.appboy.AppboyFirebaseMessagingService
+      android.accounts.AccountAuthenticator:
+        e1afc23 com.abc.abcnews/.sync.AuthenticationService
+      com.google.android.libraries.cast.companionlibrary.action.toggleplayback:
+        8d6fe87 com.abc.abcnews/com.google.android.libraries.cast.companionlibrary.notification.VideoCastNotificationService
+      android.media.browse.MediaBrowserService:
+        623520 com.abc.abcnews/.service.AbcMediaBrowserService
+
+Registered ContentProviders:
+  com.abc.abcnews/.data.AbcNewsDbProvider:
+    Provider{cc08ed9 com.abc.abcnews/.data.AbcNewsDbProvider}
+  com.abc.abcnews/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{e59209e com.abc.abcnews/com.google.firebase.provider.FirebaseInitProvider}
+  com.abc.abcnews/com.facebook.internal.FacebookInitProvider:
+    Provider{c17377f com.abc.abcnews/com.facebook.internal.FacebookInitProvider}
+  com.abc.abcnews/com.facebook.ads.AudienceNetworkContentProvider:
+    Provider{405834c com.abc.abcnews/com.facebook.ads.AudienceNetworkContentProvider}
+  com.abc.abcnews/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{d223f95 com.abc.abcnews/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+  com.abc.abcnews/com.google.android.gms.ads.MobileAdsInitProvider:
+    Provider{932a8aa com.abc.abcnews/com.google.android.gms.ads.MobileAdsInitProvider}
+  com.abc.abcnews/com.taboola.android.TaboolaContextProvider:
+    Provider{771cc9b com.abc.abcnews/com.taboola.android.TaboolaContextProvider}
+
+ContentProvider Authorities:
+  [com.abc.abcnews.TaboolaContextProvider]:
+    Provider{771cc9b com.abc.abcnews/com.taboola.android.TaboolaContextProvider}
+      applicationInfo=ApplicationInfo{2ad8838 com.abc.abcnews}
+  [com.abc.abcnews.firebaseinitprovider]:
+    Provider{e59209e com.abc.abcnews/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{2ad8838 com.abc.abcnews}
+  [com.abc.abcnews.lifecycle-process]:
+    Provider{d223f95 com.abc.abcnews/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{2ad8838 com.abc.abcnews}
+  [com.abc.abcnews.FacebookInitProvider]:
+    Provider{c17377f com.abc.abcnews/com.facebook.internal.FacebookInitProvider}
+      applicationInfo=ApplicationInfo{2ad8838 com.abc.abcnews}
+  [com.abc.abcnews]:
+    Provider{cc08ed9 com.abc.abcnews/.data.AbcNewsDbProvider}
+      applicationInfo=ApplicationInfo{2ad8838 com.abc.abcnews}
+  [com.abc.abcnews.mobileadsinitprovider]:
+    Provider{932a8aa com.abc.abcnews/com.google.android.gms.ads.MobileAdsInitProvider}
+      applicationInfo=ApplicationInfo{2ad8838 com.abc.abcnews}
+  [com.abc.abcnews.AudienceNetworkContentProvider]:
+    Provider{405834c com.abc.abcnews/com.facebook.ads.AudienceNetworkContentProvider}
+      applicationInfo=ApplicationInfo{2ad8838 com.abc.abcnews}
+
+Key Set Manager:
+  [com.abc.abcnews]
+      Signing KeySets: 27
+
+Packages:
+  Package [com.abc.abcnews] (6b44011):
+    userId=10086
+    pkg=Package{46aa576 com.abc.abcnews}
+    codePath=/data/app/com.abc.abcnews-1
+    resourcePath=/data/app/com.abc.abcnews-1
+    legacyNativeLibraryDir=/data/app/com.abc.abcnews-1/lib
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    versionCode=53300046 targetSdk=28
+    versionName=5.4.6
+    splits=[base]
+    applicationInfo=ApplicationInfo{2ad8838 com.abc.abcnews}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ ]
+    dataDir=/data/user/0/com.abc.abcnews
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2024-01-13 18:03:28
+    firstInstallTime=2024-01-13 18:04:16
+    lastUpdateTime=2024-01-13 18:04:16
+    signatures=PackageSignatures{f169777 [bceefe4]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.GET_TASKS
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.VIBRATE
+      android.permission.READ_PHONE_STATE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.BROADCAST_STICKY
+      android.permission.GET_ACCOUNTS
+      android.permission.USE_CREDENTIALS
+      android.permission.MANAGE_ACCOUNTS
+      android.permission.AUTHENTICATE_ACCOUNTS
+      android.permission.READ_SYNC_STATS
+      android.permission.READ_SYNC_SETTINGS
+      android.permission.WRITE_SYNC_SETTINGS
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.FOREGROUND_SERVICE
+      android.permission.WAKE_LOCK
+      android.permission.USE_FINGERPRINT
+      com.google.android.c2dm.permission.RECEIVE
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+    install permissions:
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.USE_CREDENTIALS: granted=true
+      android.permission.MANAGE_ACCOUNTS: granted=true
+      android.permission.WRITE_SYNC_SETTINGS: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.AUTHENTICATE_ACCOUNTS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.BROADCAST_STICKY: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.READ_SYNC_STATS: granted=true
+      android.permission.READ_SYNC_SETTINGS: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0:  installed=true hidden=false stopped=false notLaunched=false enabled=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true

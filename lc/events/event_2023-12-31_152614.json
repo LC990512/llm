@@ -1,0 +1,50 @@
+{
+  "tag": "2023-12-31_152614",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thirdrock.fivemiles:id/smallLabel",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": "Rewards",
+      "bounds": [
+        [
+          260,
+          1965
+        ],
+        [
+          387,
+          2009
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 188,
+      "temp_id": 189,
+      "size": "127*44",
+      "signature": "[class]android.widget.TextView[resource_id]com.thirdrock.fivemiles:id/smallLabel[text]Rewards[enabled,,]",
+      "view_str": "3eb8f799f370cf2429e66928ca76260f",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thirdrock.fivemiles:id/smallLabel"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "01a7d6652ad454ac61f4de1b73869ed1",
+  "stop_state": "c7cb40c8f66a4f8e14420bc805bb4bec",
+  "event_str": "TouchEvent(state=01a7d6652ad454ac61f4de1b73869ed1, view=3eb8f799f370cf2429e66928ca76260f(Launcher/TextView-Rewards))"
+}

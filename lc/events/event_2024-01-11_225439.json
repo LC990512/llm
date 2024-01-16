@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-11_225439",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.etsy.android:id/btn_sign_in_dialog",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.Button",
+      "children": [],
+      "child_count": 0,
+      "package": "com.etsy.android",
+      "text": "Sign In",
+      "bounds": [
+        [
+          551,
+          1183
+        ],
+        [
+          881,
+          1315
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 12,
+      "temp_id": 14,
+      "size": "330*132",
+      "signature": "[class]android.widget.Button[resource_id]com.etsy.android:id/btn_sign_in_dialog[text]Sign In[enabled,,]",
+      "view_str": "2bf6766b133f109966fe8dff3025e360",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.etsy.android:id/btn_sign_in_dialog"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "3b5576520506ece9050f2b63e3b55b6a",
+  "stop_state": "c29569d5531590597e6dc3ea5a37953c",
+  "event_str": "TouchEvent(state=3b5576520506ece9050f2b63e3b55b6a, view=2bf6766b133f109966fe8dff3025e360(SignInActivity/Button-Sign In))"
+}

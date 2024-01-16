@@ -1,0 +1,51 @@
+{
+  "tag": "2023-12-31_212851",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.thirdrock.fivemiles:id/edt_keyword_search",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": true,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": "Search for Sellers",
+      "bounds": [
+        [
+          239,
+          110
+        ],
+        [
+          980,
+          176
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "741*66",
+      "signature": "[class]android.widget.EditText[resource_id]com.thirdrock.fivemiles:id/edt_keyword_search[text]Search for Sellers[enabled,,]",
+      "view_str": "310c0fb7297d042b5417d2b72c7b0fcc",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.thirdrock.fivemiles:id/edt_keyword_search"
+    },
+    "x": null,
+    "y": null,
+    "text": "aa"
+  },
+  "start_state": "445b12be6c2a31747f232e534d55d7b0",
+  "stop_state": "94e631319d61345920e8580892485e92",
+  "event_str": "SetTextEvent(state=445b12be6c2a31747f232e534d55d7b0, view=310c0fb7297d042b5417d2b72c7b0fcc(KeyWordAndUserSearchActivity/EditText-Search for), text=aa)"
+}

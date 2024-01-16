@@ -487,55 +487,66 @@ class DeviceState(object):
         available_actions = []
         for view_id in enabled_view_ids:
             view = self.views[view_id]
-            clickable = self._get_self_ancestors_property(view, 'clickable')
+            clickable_ancestor = self._get_self_ancestors_property(view, 'clickable')
+            clickable_self = self.__safe_dict_get(view, 'clickable')
+            clickable = clickable_ancestor or clickable_self
             scrollable = self.__safe_dict_get(view, 'scrollable')
             checkable = self._get_self_ancestors_property(view, 'checkable')
             long_clickable = self._get_self_ancestors_property(view, 'long_clickable')
             editable = self.__safe_dict_get(view, 'editable')
-            actionable = clickable or scrollable or checkable or long_clickable or editable
-            checked = self.__safe_dict_get(view, 'checked')
-            selected = self.__safe_dict_get(view, 'selected')
+            passwordable = self.__safe_dict_get(view, 'is_password')
+            actionable = clickable or scrollable or checkable or long_clickable or editable or passwordable
+
             content_description = self.__safe_dict_get(view, 'content_description', default='')
             view_text = self.__safe_dict_get(view, 'text', default='')
-            if not content_description and not view_text and not scrollable:  # actionable?
+
+            #过滤framelayout
+            # if resourse_id:
+            #     if "layout" in resourse_id.lower():
+            #         continue
+            # if view_class:
+            #     if "layout" in view_class.lower():
+            #         continue
+            #lccc actionable?
+            print(f"lccc get_described_actions: {view}")
+            print(f"content_description: {content_description}, view_text:{view_text}, clickable_self:{clickable_self}, clickable_ancestor:{clickable_ancestor}, scrollable:{scrollable}, checkable:{checkable}, long_clickable:{long_clickable}, editable:{editable}, passwordable:{passwordable}, actionable:{actionable}")
+
+            if not content_description and not view_text and not actionable:  
+                print("------------------no-------------------")
                 continue
-            
-            view_status = ''
-            if editable:
-                view_status += 'editable '
-            if checked or selected:
-                view_status += 'checked '
-            view_desc = f'- a {view_status}view'
-            if content_description:
-                content_description = content_description.replace('\n', '  ')
-                content_description = f'{content_description[:20]}...' if len(content_description) > 20 else content_description
-                view_desc += f' "{content_description}"'
-            if view_text:
-                view_text = view_text.replace('\n', '  ')
-                view_text = f'{view_text[:20]}...' if len(view_text) > 20 else view_text
-                view_desc += f' with text "{view_text}"'
+            else:
+                print("------------------yes-------------------")
+
+            view_desc = self.get_view_desc(view)
+            if view_desc == '':
+                continue
+
             if actionable:
                 view_actions = []
                 if editable:
                     view_actions.append(f'edit ({len(available_actions)})')
                     available_actions.append(SetTextEvent(view=view, text='HelloWorld'))
-                if clickable or checkable:
-                    view_actions.append(f'click ({len(available_actions)})')
-                    available_actions.append(TouchEvent(view=view))
-                # if checkable:
-                #     view_actions.append(f'check/uncheck ({len(available_actions)})')
-                #     available_actions.append(TouchEvent(view=view))
                 # if long_clickable:
                 #     view_actions.append(f'long click ({len(available_actions)})')
                 #     available_actions.append(LongTouchEvent(view=view))
+                if clickable or checkable:
+                    view_actions.append(f'click ({len(available_actions)})')
+                    available_actions.append(TouchEvent(view=view))
                 if scrollable:
                     view_actions.append(f'scroll up ({len(available_actions)})')
                     available_actions.append(ScrollEvent(view=view, direction='UP'))
                     view_actions.append(f'scroll down ({len(available_actions)})')
                     available_actions.append(ScrollEvent(view=view, direction='DOWN'))
+                    #view_desc = f'- a {view_status}view'
                 view_actions_str = ', '.join(view_actions)
                 view_desc += f' that can {view_actions_str}'
-            view_descs.append(view_desc)
+
+                if ("button" in view_desc.lower()) or ("navigate up" in view_desc.lower()):
+                    view_desc += f' (this might be an entry point to a menu or setting.)'
+                if scrollable:
+                    view_desc += f' (The scroll up or down may introduce additional views and operations.)'
+
+                view_descs.append(view_desc)
         view_descs.append(f'- a key to go back ({len(available_actions)})')
         available_actions.append(KeyEvent(name='BACK'))
         state_desc = 'The current state has the following UI views and corresponding actions, with action id in parentheses:\n '
@@ -543,19 +554,79 @@ class DeviceState(object):
         return view_descs, available_actions
     
     def get_view_desc(self, view):
+        clickable_ancestor = self._get_self_ancestors_property(view, 'clickable')
+        clickable_self = self.__safe_dict_get(view, 'clickable')
+        clickable = clickable_ancestor or clickable_self
+        scrollable = self.__safe_dict_get(view, 'scrollable')
+        checkable = self._get_self_ancestors_property(view, 'checkable')
+        long_clickable = self._get_self_ancestors_property(view, 'long_clickable')
+        editable = self.__safe_dict_get(view, 'editable')
+        passwordable = self.__safe_dict_get(view, 'is_password')
+        actionable = clickable or scrollable or checkable or long_clickable or editable or passwordable
+
+        checked = self.__safe_dict_get(view, 'checked')
+        selected = self.__safe_dict_get(view, 'selected')
         content_description = self.__safe_dict_get(view, 'content_description', default='')
         view_text = self.__safe_dict_get(view, 'text', default='')
-        scrollable = self.__safe_dict_get(view, 'scrollable')
-        view_desc = f'view'
-        if scrollable:
-            view_desc = f'scrollable view'
+        
+        view_status = ''
+        if editable:
+            view_status += 'editable '
+        if checked or selected:
+            view_status += 'checked '
+            
+        view_desc = ''
         if content_description:
-            view_desc += f' "{content_description}"'
+            content_description = content_description.replace('\n', '  ')
+            view_desc = f' "{content_description}"'
         if view_text:
             view_text = view_text.replace('\n', '  ')
-            view_text = f'{view_text[:20]}...' if len(view_text) > 20 else view_text
             view_desc += f' with text "{view_text}"'
+        if not view_text and not content_description:
+            # if passwordable:
+            #     view_desc = f' with text "password"'
+            # else:
+            resourse_id = self.__safe_dict_get(view, 'resource_id')
+            class_view = self.__safe_dict_get(view, 'class')
+            if resourse_id:
+                resourse_id = resourse_id.split("/")[1].replace('_', ' ')
+                if "icon" not in resourse_id:
+                    view_desc = f' to go "{resourse_id}"'
+            elif class_view:
+                class_view = class_view.split(".")[-1]
+                if "Action" not in class_view and "Layout" not in class_view:
+                    view_desc = f' to go "{class_view}"'
+
+        if view_desc != '':
+            view_desc = f'- a {view_status}view{view_desc}'
+        
         return view_desc
+        # content_description = self.__safe_dict_get(view, 'content_description', default='')
+        # view_text = self.__safe_dict_get(view, 'text', default='')
+        
+        # scrollable = self.__safe_dict_get(view, 'scrollable')
+        # passwordable = self.__safe_dict_get(view, 'is_password')
+        # view_desc = f'view'
+        # if scrollable:
+        #     view_desc = f'scrollable view'
+        # if content_description:
+        #     view_desc += f' "{content_description}"'
+        # if view_text:
+        #     view_text = view_text.replace('\n', '  ')
+        #     view_desc += f' with text "{view_text}"'
+        # if not view_text and not content_description:
+        #     if passwordable:
+        #         view_desc += f' with text "password"'
+        #     else:
+        #         resourse_id = self.__safe_dict_get(view, 'resource_id')
+        #         class_view = self.__safe_dict_get(view, 'class')
+        #         if resourse_id:
+        #             resourse_id = resourse_id.split("/")[1].replace('_', ' ')
+        #             view_desc += f' to go "{resourse_id}"'
+        #         elif class_view:
+        #             class_view = class_view.split(".")[-1]
+        #             view_desc = f' to go "{class_view}"'
+        # return view_desc
     
     def get_action_desc(self, action):
         desc = action.event_type
@@ -569,6 +640,7 @@ class DeviceState(object):
                 action_name = f'enter "{action.text}" into'
             elif isinstance(action, ScrollEvent):
                 action_name = f'scroll {action.direction.lower()}'
-            desc = f'- {action_name} {self.get_view_desc(action.view)}'
+            desc = f'- {action_name}{self.get_view_desc(action.view)}'
+            desc = f'{self.get_view_desc(action.view)} that can {action_name}'
         return desc
 

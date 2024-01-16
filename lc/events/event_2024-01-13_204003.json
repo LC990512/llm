@@ -1,0 +1,53 @@
+{
+  "tag": "2024-01-13_204003",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        81,
+        83
+      ],
+      "child_count": 2,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          46,
+          394
+        ],
+        [
+          1078,
+          562
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 79,
+      "temp_id": 80,
+      "size": "1032*168",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "35722d5150db83d5af6714236a69c242",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "a816fa780f0976e9911beb0b44c8e115",
+  "stop_state": "a816fa780f0976e9911beb0b44c8e115",
+  "event_str": "TouchEvent(state=a816fa780f0976e9911beb0b44c8e115, view=35722d5150db83d5af6714236a69c242(MainNavigationActivity/LinearLayout-))"
+}

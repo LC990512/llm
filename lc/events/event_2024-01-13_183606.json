@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-13_183606",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": true,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/tab_icon",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          76,
+          1898
+        ],
+        [
+          139,
+          1961
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 54,
+      "temp_id": 55,
+      "size": "63*63",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/tab_icon[text]None[enabled,,selected]",
+      "view_str": "35cd57fad7bf1a3122af3319cd9d00bc",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/tab_icon"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "077f848c5041a944f8623f9108d6f469",
+  "stop_state": "07bcb714c3bfec5f432ff165bbaf532e",
+  "event_str": "TouchEvent(state=077f848c5041a944f8623f9108d6f469, view=35cd57fad7bf1a3122af3319cd9d00bc(Launcher/ImageView-))"
+}

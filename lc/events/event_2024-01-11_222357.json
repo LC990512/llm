@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-11_222357",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.buzzfeed.android:id/snackbar_action",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.Button",
+      "children": [],
+      "child_count": 0,
+      "package": "com.buzzfeed.android",
+      "text": "Try Again",
+      "bounds": [
+        [
+          782,
+          1896
+        ],
+        [
+          1047,
+          2028
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 18,
+      "temp_id": 20,
+      "size": "265*132",
+      "signature": "[class]android.widget.Button[resource_id]com.buzzfeed.android:id/snackbar_action[text]Try Again[enabled,,]",
+      "view_str": "55ade3275249c39c01b1f4952da2f43c",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.buzzfeed.android:id/snackbar_action"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "55830344070c04541a1fc539ca044047",
+  "stop_state": "55830344070c04541a1fc539ca044047",
+  "event_str": "TouchEvent(state=55830344070c04541a1fc539ca044047, view=55ade3275249c39c01b1f4952da2f43c(BuffetSearchActivity/Button-Try Again))"
+}

@@ -690,6 +690,10 @@ class SetTextEvent(UIEvent):
         touch_event = TouchEvent(x=x, y=y)
         touch_event.send(device)
         device.view_set_text(self.text)
+
+        # lccc 发送回车键事件
+        device.key_press(66) # 66 是 KEYCODE_ENTER 的常量值
+
         return True
 
     def get_event_str(self, state):

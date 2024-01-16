@@ -1,0 +1,102 @@
+[
+    {
+        "event_type": "kill_app",
+        "log_lines": null,
+        "prompt": null,
+        "stop_intent": "am force-stop com.buzzfeed.android"
+    },
+    {
+        "event_type": "intent",
+        "log_lines": null,
+        "prompt": null,
+        "intent": "am start com.buzzfeed.android/com.buzzfeed.android.activity.SplashActivity"
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "com.buzzfeed.android:id/smallLabel",
+            "visible": true,
+            "enabled": true,
+            "clickable": false,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.TextView",
+            "children": [],
+            "child_count": 0,
+            "package": "com.buzzfeed.android",
+            "text": "Explore",
+            "bounds": [
+                [
+                    917,
+                    1965
+                ],
+                [
+                    1026,
+                    2009
+                ]
+            ],
+            "editable": false,
+            "focusable": false,
+            "parent": 50,
+            "temp_id": 51,
+            "size": "109*44",
+            "signature": "[class]android.widget.TextView[resource_id]com.buzzfeed.android:id/smallLabel[text]Explore[enabled,,]",
+            "view_str": "b3af03ec75e5041621c8a41e8a39573d",
+            "content_free_signature": "[class]android.widget.TextView[resource_id]com.buzzfeed.android:id/smallLabel"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "com.buzzfeed.android:id/explore_item_title",
+            "visible": true,
+            "enabled": true,
+            "clickable": false,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.TextView",
+            "children": [],
+            "child_count": 0,
+            "package": "com.buzzfeed.android",
+            "text": "Shopping",
+            "bounds": [
+                [
+                    0,
+                    484
+                ],
+                [
+                    1080,
+                    616
+                ]
+            ],
+            "editable": false,
+            "focusable": false,
+            "parent": 29,
+            "temp_id": 30,
+            "size": "1080*132",
+            "signature": "[class]android.widget.TextView[resource_id]com.buzzfeed.android:id/explore_item_title[text]Shopping[enabled,,]",
+            "view_str": "18ab02dd4ae12834917a6ef5e122d3ca",
+            "content_free_signature": "[class]android.widget.TextView[resource_id]com.buzzfeed.android:id/explore_item_title"
+        },
+        "x": null,
+        "y": null
+    }
+]

@@ -1,0 +1,294 @@
+[
+    {
+        "event_type": "kill_app",
+        "log_lines": null,
+        "prompt": null,
+        "stop_intent": "am force-stop com.abc.abcnews"
+    },
+    {
+        "event_type": "intent",
+        "log_lines": null,
+        "prompt": null,
+        "intent": "am start com.abc.abcnews/com.abc.abcnews.ui.StartActivity"
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": null,
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.ImageButton",
+            "children": [],
+            "child_count": 0,
+            "package": "com.abc.abcnews",
+            "text": null,
+            "bounds": [
+                [
+                    0,
+                    85
+                ],
+                [
+                    196,
+                    281
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 8,
+            "temp_id": 9,
+            "size": "196*196",
+            "signature": "[class]android.widget.ImageButton[resource_id]None[text]None[enabled,,]",
+            "view_str": "15eda600418b2443417683892a8a2cbb",
+            "content_free_signature": "[class]android.widget.ImageButton[resource_id]None"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "scroll",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": true,
+            "long_clickable": false,
+            "resource_id": "com.abc.abcnews:id/drawer_listview",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.ListView",
+            "children": [
+                86,
+                91,
+                97,
+                103,
+                109,
+                115,
+                121,
+                127,
+                133,
+                139
+            ],
+            "child_count": 10,
+            "package": "com.abc.abcnews",
+            "text": null,
+            "bounds": [
+                [
+                    0,
+                    587
+                ],
+                [
+                    1120,
+                    2392
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 73,
+            "temp_id": 85,
+            "size": "1120*1805",
+            "signature": "[class]android.widget.ListView[resource_id]com.abc.abcnews:id/drawer_listview[text]None[enabled,,]",
+            "view_str": "3768833409ed67c06c3ecfce10f0470c",
+            "content_free_signature": "[class]android.widget.ListView[resource_id]com.abc.abcnews:id/drawer_listview"
+        },
+        "x": null,
+        "y": null,
+        "direction": "DOWN"
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "com.abc.abcnews:id/drawer_settings_textview",
+            "visible": true,
+            "enabled": true,
+            "clickable": false,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.TextView",
+            "children": [],
+            "child_count": 0,
+            "package": "com.abc.abcnews",
+            "text": "Settings",
+            "bounds": [
+                [
+                    196,
+                    2203
+                ],
+                [
+                    377,
+                    2371
+                ]
+            ],
+            "editable": false,
+            "focusable": false,
+            "parent": 141,
+            "temp_id": 143,
+            "size": "181*168",
+            "signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/drawer_settings_textview[text]Settings[enabled,,]",
+            "view_str": "8e86142f5e7554330f370185ada0c750",
+            "content_free_signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/drawer_settings_textview"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "scroll",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": true,
+            "long_clickable": false,
+            "resource_id": "android:id/list",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": true,
+            "class": "android.widget.ListView",
+            "children": [
+                16,
+                20
+            ],
+            "child_count": 2,
+            "package": "com.abc.abcnews",
+            "text": null,
+            "bounds": [
+                [
+                    0,
+                    280
+                ],
+                [
+                    1440,
+                    2392
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 14,
+            "temp_id": 15,
+            "size": "1440*2112",
+            "signature": "[class]android.widget.ListView[resource_id]android:id/list[text]None[enabled,,]",
+            "view_str": "f2fe2bbfec7a79c8b74c8de4625e379d",
+            "content_free_signature": "[class]android.widget.ListView[resource_id]android:id/list"
+        },
+        "x": null,
+        "y": null,
+        "direction": "DOWN"
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "android:id/title",
+            "visible": true,
+            "enabled": true,
+            "clickable": false,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.TextView",
+            "children": [],
+            "child_count": 0,
+            "package": "com.abc.abcnews",
+            "text": "Font Size for Stories",
+            "bounds": [
+                [
+                    56,
+                    704
+                ],
+                [
+                    550,
+                    770
+                ]
+            ],
+            "editable": false,
+            "focusable": false,
+            "parent": 30,
+            "temp_id": 31,
+            "size": "494*66",
+            "signature": "[class]android.widget.TextView[resource_id]android:id/title[text]Font Size for Stories[enabled,,]",
+            "view_str": "3b8e095a9fb33271ebb467205d2a5797",
+            "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/title"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": true,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "android:id/text1",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.CheckedTextView",
+            "children": [],
+            "child_count": 0,
+            "package": "com.abc.abcnews",
+            "text": "Extra Large",
+            "bounds": [
+                [
+                    92,
+                    1386
+                ],
+                [
+                    1348,
+                    1554
+                ]
+            ],
+            "editable": false,
+            "focusable": false,
+            "parent": 8,
+            "temp_id": 12,
+            "size": "1256*168",
+            "signature": "[class]android.widget.CheckedTextView[resource_id]android:id/text1[text]Extra Large[enabled,,]",
+            "view_str": "abaa90cb235abd7cfac7c2e335225a79",
+            "content_free_signature": "[class]android.widget.CheckedTextView[resource_id]android:id/text1"
+        },
+        "x": null,
+        "y": null
+    }
+]

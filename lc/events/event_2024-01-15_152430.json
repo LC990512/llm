@@ -1,0 +1,12 @@
+{
+  "tag": "2024-01-15_152430",
+  "event": {
+    "event_type": "key",
+    "log_lines": null,
+    "prompt": null,
+    "name": "BACK"
+  },
+  "start_state": "04a485e398a7ebf9bcf0eac74f6d998c",
+  "stop_state": "45050fc5f5ca73c37da0e1f8c555022b",
+  "event_str": "KeyEvent(state=04a485e398a7ebf9bcf0eac74f6d998c, name=BACK)"
+}

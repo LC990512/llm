@@ -1,0 +1,64 @@
+{
+  "tag": "2024-01-13_193822",
+  "event": {
+    "event_type": "scroll",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": true,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_listview",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ListView",
+      "children": [
+        86,
+        92,
+        98,
+        104,
+        110,
+        116,
+        122,
+        128,
+        134,
+        140,
+        146,
+        152
+      ],
+      "child_count": 12,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          462
+        ],
+        [
+          880,
+          2028
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 73,
+      "temp_id": 85,
+      "size": "880*1566",
+      "signature": "[class]android.widget.ListView[resource_id]com.abc.abcnews:id/drawer_listview[text]None[enabled,,]",
+      "view_str": "77c35c61e085d4fef2d7b197e806bdca",
+      "content_free_signature": "[class]android.widget.ListView[resource_id]com.abc.abcnews:id/drawer_listview"
+    },
+    "x": null,
+    "y": null,
+    "direction": "DOWN"
+  },
+  "start_state": "ec7390ab311a2804239322cb3ba36930",
+  "stop_state": "ec7390ab311a2804239322cb3ba36930",
+  "event_str": "ScrollEvent(state=ec7390ab311a2804239322cb3ba36930, view=77c35c61e085d4fef2d7b197e806bdca(MainNavigationActivity/ListView-), direction=DOWN)"
+}

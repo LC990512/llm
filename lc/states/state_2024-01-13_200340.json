@@ -1,0 +1,5736 @@
+{
+  "tag": "2024-01-13_200340",
+  "state_str": "d85bd1913181bd3e1ba37ad9c31fd1cc",
+  "state_str_content_free": "ae9d665c790fc107f7cd35b4ee377245",
+  "foreground_activity": "com.abc.abcnews/.ui.navigation.MainNavigationActivity",
+  "activity_stack": [
+    "com.abc.abcnews/.ui.navigation.MainNavigationActivity"
+  ],
+  "background_services": [
+    "com.android.bluetooth/.hid.HidService",
+    "com.google.android.music/.dial.DialMediaRouteProviderService",
+    "com.huawei.callstatisticsutils/.CallStatisticsService",
+    "org.codeaurora.ims/.ImsService",
+    "com.google.android.music/.download.TrackDownloadQueueService",
+    "com.github.kr328.clash/.service.RemoteService",
+    "com.google.android.music/.playback.MusicPlaybackService",
+    "com.google.android.gms/.tapandpay.hce.service.TpHceService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.android.vending/com.google.android.finsky.billing.iab.InAppBillingService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.google.android.gms/com.google.android.location.geocode.GeocodeService",
+    "com.google.android.music/.download.cache.TrackCacheService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.music/.download.artwork.ArtDownloadService",
+    "com.google.android.gms/com.google.android.location.fused.service.FusedProviderService",
+    "com.google.android.music/.preferences.MusicPreferenceService",
+    "com.google.android.music/com.google.android.wearable.datatransfer.DataSyncService",
+    "com.google.android.gms/.phenotype.service.PhenotypeService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.android.bluetooth/.pbap.BluetoothPbapService",
+    "com.google.android.music/.wear.WearDataTransferConnectionService",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.android.bluetooth/.a2dp.A2dpService",
+    "com.google.android.googlequicksearchbox/com.google.android.search.core.service.SearchService",
+    "com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService",
+    "com.qualcomm.cabl/.CABLService",
+    "com.google.android.gms/.cast.media.CastMediaRouteProviderService",
+    "com.google.android.gms/.gcm.http.GoogleHttpService",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService",
+    "com.android.chrome/org.chromium.content.app.SandboxedProcessService3",
+    "com.google.android.talk/com.google.android.libraries.hangouts.video.CallService",
+    "com.android.systemui/.SystemUIService",
+    "com.android.chrome/org.chromium.content.app.PrivilegedProcessService0",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.google.android.music/.download.cache.ArtCacheService",
+    "com.huawei.sarcontrolservice/.SarControlService",
+    "com.google.android.music/.net.NetworkMonitor",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.reflection.ReflectionService",
+    "com.android.server.telecom/.components.BluetoothPhoneService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.google.android.music/.download.ArtDownloadQueueService",
+    "com.google.android.gms/com.google.android.location.activity.HardwareArProviderService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.android.providers.media/.MtpService",
+    "com.google.android.gms/.deviceconnection.service.DeviceConnectionServiceBroker",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.getsurfboard/.ui.service.SurfboardVpn",
+    "android/com.android.internal.backup.LocalTransportService",
+    "com.google.android.gms/.playlog.service.PlayLogBrokerService",
+    "com.google.android.youtube/com.google.android.apps.youtube.app.offline.transfer.OfflineTransferService",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/.clearcut.service.ClearcutLoggerService",
+    "com.android.bluetooth/.map.BluetoothMapService",
+    "com.google.android.gms/.config.ConfigService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.android.bluetooth/.pan.PanService",
+    "com.google.android.gms/.backup.BackupTransportService"
+  ],
+  "width": 1440,
+  "height": 2560,
+  "views": [
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        1,
+        145,
+        146
+      ],
+      "child_count": 3,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1440,
+          2560
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1440*2560",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "2bc77bcd63125f73a6a0631b150cf200",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        2
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1440*2392",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "09e186e863aaabe67063542243dd1d87",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        3
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1440*2392",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "45009cb3d2b9daa9e46df451e15325e0",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/action_bar_root",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        4
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1440*2392",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.abc.abcnews:id/action_bar_root[text]None[enabled,,]",
+      "view_str": "6a11ee8adc8057b4f3f14e2eb23b750f",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.abc.abcnews:id/action_bar_root"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/content",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        5
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1440*2392",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text]None[enabled,,]",
+      "view_str": "5e9cfda44660be55632fc47c28aa8d57",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_container",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "androidx.drawerlayout.widget.DrawerLayout",
+      "children": [
+        6,
+        73
+      ],
+      "child_count": 2,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1440*2392",
+      "signature": "[class]androidx.drawerlayout.widget.DrawerLayout[resource_id]com.abc.abcnews:id/drawer_container[text]None[enabled,,]",
+      "view_str": "8b300a9f2cc3935c320f1bb02eb69158",
+      "content_free_signature": "[class]androidx.drawerlayout.widget.DrawerLayout[resource_id]com.abc.abcnews:id/drawer_container"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/main_root",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        7,
+        8,
+        15
+      ],
+      "child_count": 3,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          1
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "1440*2391",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.abc.abcnews:id/main_root[text]None[enabled,,]",
+      "view_str": "326122559bc685e51e4d9b53b48e4486",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.abc.abcnews:id/main_root"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/status_bar_view",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          1
+        ],
+        [
+          1440,
+          85
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "1440*84",
+      "signature": "[class]android.view.View[resource_id]com.abc.abcnews:id/status_bar_view[text]None[enabled,,]",
+      "view_str": "920e14ee9b087fc278c34283056d46ef",
+      "content_free_signature": "[class]android.view.View[resource_id]com.abc.abcnews:id/status_bar_view"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/abc_toolbar",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.ViewGroup",
+      "children": [
+        9,
+        10,
+        13,
+        14
+      ],
+      "child_count": 4,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          85
+        ],
+        [
+          1440,
+          281
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 6,
+      "temp_id": 8,
+      "size": "1440*196",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.abc.abcnews:id/abc_toolbar[text]None[enabled,,]",
+      "view_str": "1828fcc474d0e0a2c710bdeb0e5c4815",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.abc.abcnews:id/abc_toolbar"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageButton",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          85
+        ],
+        [
+          196,
+          281
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 8,
+      "temp_id": 9,
+      "size": "196*196",
+      "signature": "[class]android.widget.ImageButton[resource_id]None[text]None[enabled,,]",
+      "view_str": "15eda600418b2443417683892a8a2cbb",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/generic_action_bar_title_and_button_layout",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        11,
+        12
+      ],
+      "child_count": 2,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          252,
+          85
+        ],
+        [
+          1440,
+          281
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 8,
+      "temp_id": 10,
+      "size": "1188*196",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.abc.abcnews:id/generic_action_bar_title_and_button_layout[text]None[enabled,,]",
+      "view_str": "59d7425458f6c49b09ac054ee393049c",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.abc.abcnews:id/generic_action_bar_title_and_button_layout"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/action_bar_abcnews_logo",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          252,
+          85
+        ],
+        [
+          647,
+          281
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "395*196",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/action_bar_abcnews_logo[text]None[enabled,,]",
+      "view_str": "e58f3e5c24edc29c7964b5fe40b6a087",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/action_bar_abcnews_logo"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/title",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          252,
+          145
+        ],
+        [
+          1440,
+          220
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 10,
+      "temp_id": 12,
+      "size": "1188*75",
+      "signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/title[text]None[enabled,,]",
+      "view_str": "d867877d259bbebdd90135d144463b71",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/title"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "ABC News",
+      "bounds": [
+        [
+          252,
+          136
+        ],
+        [
+          252,
+          229
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 8,
+      "temp_id": 13,
+      "size": "0*93",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]ABC News[enabled,,]",
+      "view_str": "88c8d27ae32bb4bd74c9eae0f66cc805",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "androidx.appcompat.widget.LinearLayoutCompat",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          1440,
+          85
+        ],
+        [
+          1440,
+          281
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 8,
+      "temp_id": 14,
+      "size": "0*196",
+      "signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]None[text]None[enabled,,]",
+      "view_str": "77fa347884f353250f48e75c541a4b30",
+      "content_free_signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        16,
+        49
+      ],
+      "child_count": 2,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          281
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 6,
+      "temp_id": 15,
+      "size": "1440*2111",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "30fac09f81ea1a360f321ce15924f01c",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/content_container",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        17
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          281
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 15,
+      "temp_id": 16,
+      "size": "1440*2111",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.abc.abcnews:id/content_container[text]None[enabled,,]",
+      "view_str": "0f99a8cab678ea13d1217284a6a424ea",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.abc.abcnews:id/content_container"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/fragment_base",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        18
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          281
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 16,
+      "temp_id": 17,
+      "size": "1440*2111",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.abc.abcnews:id/fragment_base[text]None[enabled,,]",
+      "view_str": "91856729b8c2029babeafee57ec86989",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.abc.abcnews:id/fragment_base"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        19
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          281
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 17,
+      "temp_id": 18,
+      "size": "1440*2111",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "6af3151fc5478f1c663681c5c40c367c",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/swipe_refresh_layout",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.ViewGroup",
+      "children": [
+        20
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          281
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 18,
+      "temp_id": 19,
+      "size": "1440*2111",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.abc.abcnews:id/swipe_refresh_layout[text]None[enabled,,]",
+      "view_str": "be34d690310548ddae20a09790e5d43d",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.abc.abcnews:id/swipe_refresh_layout"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": true,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/top_stories_module_recycler_view",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": true,
+      "class": "androidx.recyclerview.widget.RecyclerView",
+      "children": [
+        21,
+        35,
+        39
+      ],
+      "child_count": 3,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          281
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 19,
+      "temp_id": 20,
+      "size": "1440*2111",
+      "signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]com.abc.abcnews:id/top_stories_module_recycler_view[text]None[enabled,,]",
+      "view_str": "71618796f615e0bbfeeafcbec59d45c8",
+      "content_free_signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]com.abc.abcnews:id/top_stories_module_recycler_view"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/cinematic_container",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.ViewGroup",
+      "children": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        31,
+        34
+      ],
+      "child_count": 9,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          281
+        ],
+        [
+          1440,
+          2082
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 20,
+      "temp_id": 21,
+      "size": "1440*1801",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.abc.abcnews:id/cinematic_container[text]None[enabled,,]",
+      "view_str": "3d72615ed8a61d3a4f425fd2dfd33e09",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.abc.abcnews:id/cinematic_container"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/cinematic_main_onclick",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          281
+        ],
+        [
+          1440,
+          2082
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 21,
+      "temp_id": 22,
+      "size": "1440*1801",
+      "signature": "[class]android.view.View[resource_id]com.abc.abcnews:id/cinematic_main_onclick[text]None[enabled,,]",
+      "view_str": "eedc4099a1405972ff704098538230f0",
+      "content_free_signature": "[class]android.view.View[resource_id]com.abc.abcnews:id/cinematic_main_onclick"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/cinematic_background_image",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          281
+        ],
+        [
+          1440,
+          2082
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 21,
+      "temp_id": 23,
+      "size": "1440*1801",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/cinematic_background_image[text]None[enabled,,]",
+      "view_str": "fceae5221018dd45e690503f1da79e42",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/cinematic_background_image"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/cinematic_gradient",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          1182
+        ],
+        [
+          1440,
+          2082
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 21,
+      "temp_id": 24,
+      "size": "1440*900",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/cinematic_gradient[text]None[enabled,,]",
+      "view_str": "4e521936a981909c2ca5e9b0bacb698c",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/cinematic_gradient"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/cinematic_title",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "US conducts another retaliatory strike in Yemen against Iran-backed Houthis",
+      "bounds": [
+        [
+          0,
+          1425
+        ],
+        [
+          1440,
+          1578
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 21,
+      "temp_id": 25,
+      "size": "1440*153",
+      "signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/cinematic_title[text]None[enabled,,]",
+      "view_str": "6f20701f046b3683812e564da71ac471",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/cinematic_title"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/cinematic_pub_date",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "Jan\u00a013,\u00a011:48am",
+      "bounds": [
+        [
+          53,
+          1634
+        ],
+        [
+          327,
+          1684
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 21,
+      "temp_id": 26,
+      "size": "274*50",
+      "signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/cinematic_pub_date[text]Jan\u00a013,\u00a011:48am[enabled,,]",
+      "view_str": "f68174972bac6d39cdd41fee437a4e7a",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/cinematic_pub_date"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/cinematic_related_divider",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          53,
+          1740
+        ],
+        [
+          1387,
+          1744
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 21,
+      "temp_id": 27,
+      "size": "1334*4",
+      "signature": "[class]android.view.View[resource_id]com.abc.abcnews:id/cinematic_related_divider[text]None[enabled,,]",
+      "view_str": "91a824275492ac1fa73172310ba11588",
+      "content_free_signature": "[class]android.view.View[resource_id]com.abc.abcnews:id/cinematic_related_divider"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/cinematic_related_container_one",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        29,
+        30
+      ],
+      "child_count": 2,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          1779
+        ],
+        [
+          1440,
+          1887
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 21,
+      "temp_id": 28,
+      "size": "1440*108",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.abc.abcnews:id/cinematic_related_container_one[text]None[enabled,,]",
+      "view_str": "dc1682d887d7179c78990696033e654a",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.abc.abcnews:id/cinematic_related_container_one"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "+",
+      "bounds": [
+        [
+          53,
+          1804
+        ],
+        [
+          81,
+          1862
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 28,
+      "temp_id": 29,
+      "size": "28*58",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]+[enabled,,]",
+      "view_str": "b15e13b8d1ad59bd0cd3049e958bd5c5",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/cinematic_related_title_one",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "Biden defends strikes on Houthis, vows to respond again",
+      "bounds": [
+        [
+          116,
+          1812
+        ],
+        [
+          1387,
+          1870
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 28,
+      "temp_id": 30,
+      "size": "1271*58",
+      "signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/cinematic_related_title_one[text]None[enabled,,]",
+      "view_str": "de7c4c7594ac0992485d23b9f5f5689d",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/cinematic_related_title_one"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/cinematic_related_container_two",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        32,
+        33
+      ],
+      "child_count": 2,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          1887
+        ],
+        [
+          1440,
+          1995
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 21,
+      "temp_id": 31,
+      "size": "1440*108",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.abc.abcnews:id/cinematic_related_container_two[text]None[enabled,,]",
+      "view_str": "5771333380437ef78f0900b0d7472c9e",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.abc.abcnews:id/cinematic_related_container_two"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "+",
+      "bounds": [
+        [
+          53,
+          1912
+        ],
+        [
+          81,
+          1970
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 31,
+      "temp_id": 32,
+      "size": "28*58",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]+[enabled,,]",
+      "view_str": "df07d50690cf337d50024a9afab79037",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/cinematic_related_title_two",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "Who are the Houthis and why did the US attack them?",
+      "bounds": [
+        [
+          116,
+          1920
+        ],
+        [
+          1387,
+          1978
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 31,
+      "temp_id": 33,
+      "size": "1271*58",
+      "signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/cinematic_related_title_two[text]None[enabled,,]",
+      "view_str": "a9a59b6e43b0059e429f3515ac79ed92",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/cinematic_related_title_two"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/cinematic_image_credit",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "U.S. Central Command",
+      "bounds": [
+        [
+          1074,
+          2022
+        ],
+        [
+          1440,
+          2082
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 21,
+      "temp_id": 34,
+      "size": "366*60",
+      "signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/cinematic_image_credit[text]U.S. Central Command[enabled,,]",
+      "view_str": "703ff349e22addb90438cb21e9c36be5",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/cinematic_image_credit"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/top_stories_module_spacing_container",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        36,
+        37,
+        38
+      ],
+      "child_count": 3,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2082
+        ],
+        [
+          1440,
+          2135
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 20,
+      "temp_id": 35,
+      "size": "1440*53",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.abc.abcnews:id/top_stories_module_spacing_container[text]None[enabled,,]",
+      "view_str": "f60043a4b4db1bda814d67d1abd54e62",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.abc.abcnews:id/top_stories_module_spacing_container"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2082
+        ],
+        [
+          1440,
+          2086
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 35,
+      "temp_id": 36,
+      "size": "1440*4",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "11a68673346dadc1fb92610dc16d477e",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2086
+        ],
+        [
+          1440,
+          2131
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 35,
+      "temp_id": 37,
+      "size": "1440*45",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "11a68673346dadc1fb92610dc16d477e",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2131
+        ],
+        [
+          1440,
+          2135
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 35,
+      "temp_id": 38,
+      "size": "1440*4",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "11a68673346dadc1fb92610dc16d477e",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        40,
+        41,
+        46
+      ],
+      "child_count": 3,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2135
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 20,
+      "temp_id": 39,
+      "size": "1440*257",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "c27a75918c15077c5291a99832e84e9e",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/featured_content_onclick",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2135
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 39,
+      "temp_id": 40,
+      "size": "1440*257",
+      "signature": "[class]android.view.View[resource_id]com.abc.abcnews:id/featured_content_onclick[text]None[enabled,,]",
+      "view_str": "f2a8b3d26f4a4ab3440e2458f9e6edac",
+      "content_free_signature": "[class]android.view.View[resource_id]com.abc.abcnews:id/featured_content_onclick"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/featured_content_subcontainer",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        42
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2135
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 39,
+      "temp_id": 41,
+      "size": "1440*257",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.abc.abcnews:id/featured_content_subcontainer[text]None[enabled,,]",
+      "view_str": "05810f39010345d58f6fe42b5adda2f4",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.abc.abcnews:id/featured_content_subcontainer"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/featured_content_container",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        43,
+        44,
+        45
+      ],
+      "child_count": 3,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2135
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 41,
+      "temp_id": 42,
+      "size": "1440*257",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.abc.abcnews:id/featured_content_container[text]None[enabled,,]",
+      "view_str": "35e6a82979b7f0c6894170cc810188f7",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.abc.abcnews:id/featured_content_container"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/featured_content_background_image",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2135
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 42,
+      "temp_id": 43,
+      "size": "1440*257",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/featured_content_background_image[text]None[enabled,,]",
+      "view_str": "44ebbbc320a0f231bb6b91fefdb51cd5",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/featured_content_background_image"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/featured_content_type_icon",
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          70,
+          2766
+        ],
+        [
+          179,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 42,
+      "temp_id": 44,
+      "size": "109*-374",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/featured_content_type_icon[text]None[enabled,,]",
+      "view_str": "5d82904aa69bd4affa503051cf8ff2d8",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/featured_content_type_icon"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/featured_content_caption",
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "ABC News",
+      "bounds": [
+        [
+          1257,
+          2903
+        ],
+        [
+          1422,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 42,
+      "temp_id": 45,
+      "size": "165*-511",
+      "signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/featured_content_caption[text]ABC News[enabled,,]",
+      "view_str": "66bc3f86970507b1ae27f8faa8c6ad53",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/featured_content_caption"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/featured_content_text_container",
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        47,
+        48
+      ],
+      "child_count": 2,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2945
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 39,
+      "temp_id": 46,
+      "size": "1440*-553",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.abc.abcnews:id/featured_content_text_container[text]None[enabled,,]",
+      "view_str": "ea9e001392cda639f01f36f189514c0d",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.abc.abcnews:id/featured_content_text_container"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/featured_content_title",
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "ABC News Live",
+      "bounds": [
+        [
+          70,
+          2998
+        ],
+        [
+          540,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 46,
+      "temp_id": 47,
+      "size": "470*-606",
+      "signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/featured_content_title[text]ABC News Live[enabled,,]",
+      "view_str": "462f86e323ef02e32599725b6b8ceeaf",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/featured_content_title"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/featured_content_pub_date",
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          70,
+          3109
+        ],
+        [
+          70,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 46,
+      "temp_id": 48,
+      "size": "0*-717",
+      "signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/featured_content_pub_date[text]None[enabled,,]",
+      "view_str": "101b5d007be3dd8f2988d59dfc58c21f",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/featured_content_pub_date"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/main_navigation_container",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        50,
+        51
+      ],
+      "child_count": 2,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2192
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 15,
+      "temp_id": 49,
+      "size": "1440*200",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.abc.abcnews:id/main_navigation_container[text]None[enabled,,]",
+      "view_str": "77a5b069eccfc2ec915d67a6d03d82f8",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.abc.abcnews:id/main_navigation_container"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/main_navigation_divider",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2192
+        ],
+        [
+          1440,
+          2196
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 49,
+      "temp_id": 50,
+      "size": "1440*4",
+      "signature": "[class]android.view.View[resource_id]com.abc.abcnews:id/main_navigation_divider[text]None[enabled,,]",
+      "view_str": "a7b145c068d4597caf41d43e09308fe7",
+      "content_free_signature": "[class]android.view.View[resource_id]com.abc.abcnews:id/main_navigation_divider"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/section_view_pager_tabs",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.HorizontalScrollView",
+      "children": [
+        52
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2196
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 49,
+      "temp_id": 51,
+      "size": "1440*196",
+      "signature": "[class]android.widget.HorizontalScrollView[resource_id]com.abc.abcnews:id/section_view_pager_tabs[text]None[enabled,,]",
+      "view_str": "e6293972ebf26a3a95af43d55640596c",
+      "content_free_signature": "[class]android.widget.HorizontalScrollView[resource_id]com.abc.abcnews:id/section_view_pager_tabs"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        53,
+        57,
+        61,
+        65,
+        69
+      ],
+      "child_count": 5,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2196
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 51,
+      "temp_id": 52,
+      "size": "1440*196",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "226da5328729469afdb4b7106af2ab2f",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": true,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "androidx.appcompat.app.ActionBar$Tab",
+      "children": [
+        54
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2196
+        ],
+        [
+          288,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 52,
+      "temp_id": 53,
+      "size": "288*196",
+      "signature": "[class]androidx.appcompat.app.ActionBar$Tab[resource_id]None[text]None[enabled,,selected]",
+      "view_str": "2a3da0cb7b70dc37d846859b2a81619c",
+      "content_free_signature": "[class]androidx.appcompat.app.ActionBar$Tab[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": true,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        55,
+        56
+      ],
+      "child_count": 2,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2226
+        ],
+        [
+          288,
+          2362
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 53,
+      "temp_id": 54,
+      "size": "288*136",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,selected]",
+      "view_str": "745827386868e5e0ef73a094be088409",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": true,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/tab_icon",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          103,
+          2226
+        ],
+        [
+          184,
+          2307
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 54,
+      "temp_id": 55,
+      "size": "81*81",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/tab_icon[text]None[enabled,,selected]",
+      "view_str": "35cd57fad7bf1a3122af3319cd9d00bc",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/tab_icon"
+    },
+    {
+      "checkable": false,
+      "selected": true,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/tab_title",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "NEWS",
+      "bounds": [
+        [
+          0,
+          2315
+        ],
+        [
+          288,
+          2362
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 54,
+      "temp_id": 56,
+      "size": "288*47",
+      "signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/tab_title[text]NEWS[enabled,,selected]",
+      "view_str": "421b483158c64855ba8da51b3eb2ba5b",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/tab_title"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "androidx.appcompat.app.ActionBar$Tab",
+      "children": [
+        58
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          288,
+          2196
+        ],
+        [
+          576,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 52,
+      "temp_id": 57,
+      "size": "288*196",
+      "signature": "[class]androidx.appcompat.app.ActionBar$Tab[resource_id]None[text]None[enabled,,]",
+      "view_str": "610a5ab60cb76d5e2a2960d127b30067",
+      "content_free_signature": "[class]androidx.appcompat.app.ActionBar$Tab[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        59,
+        60
+      ],
+      "child_count": 2,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          288,
+          2229
+        ],
+        [
+          576,
+          2358
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 57,
+      "temp_id": 58,
+      "size": "288*129",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "a5a3da0107c17b03b37d350c6cb074d4",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/tab_icon",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          395,
+          2229
+        ],
+        [
+          469,
+          2303
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 58,
+      "temp_id": 59,
+      "size": "74*74",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/tab_icon[text]None[enabled,,]",
+      "view_str": "94df05273672319d49d3d7a2738b0438",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/tab_icon"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/tab_title",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "INTERESTS",
+      "bounds": [
+        [
+          288,
+          2311
+        ],
+        [
+          576,
+          2358
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 58,
+      "temp_id": 60,
+      "size": "288*47",
+      "signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/tab_title[text]INTERESTS[enabled,,]",
+      "view_str": "2fcc98a676afa08f04466f9bff1eb0cb",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/tab_title"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "androidx.appcompat.app.ActionBar$Tab",
+      "children": [
+        62
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          576,
+          2196
+        ],
+        [
+          864,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 52,
+      "temp_id": 61,
+      "size": "288*196",
+      "signature": "[class]androidx.appcompat.app.ActionBar$Tab[resource_id]None[text]None[enabled,,]",
+      "view_str": "610a5ab60cb76d5e2a2960d127b30067",
+      "content_free_signature": "[class]androidx.appcompat.app.ActionBar$Tab[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        63,
+        64
+      ],
+      "child_count": 2,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          576,
+          2226
+        ],
+        [
+          864,
+          2362
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 61,
+      "temp_id": 62,
+      "size": "288*136",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "71bc30de541f5164fbc0151c8e953bb8",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/tab_icon",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          679,
+          2226
+        ],
+        [
+          760,
+          2307
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 62,
+      "temp_id": 63,
+      "size": "81*81",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/tab_icon[text]None[enabled,,]",
+      "view_str": "94df05273672319d49d3d7a2738b0438",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/tab_icon"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/tab_title",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "LIVE",
+      "bounds": [
+        [
+          576,
+          2315
+        ],
+        [
+          864,
+          2362
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 62,
+      "temp_id": 64,
+      "size": "288*47",
+      "signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/tab_title[text]LIVE[enabled,,]",
+      "view_str": "3d68d16c3835b4a564ebdc624098fa9d",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/tab_title"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "androidx.appcompat.app.ActionBar$Tab",
+      "children": [
+        66
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          864,
+          2196
+        ],
+        [
+          1152,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 52,
+      "temp_id": 65,
+      "size": "288*196",
+      "signature": "[class]androidx.appcompat.app.ActionBar$Tab[resource_id]None[text]None[enabled,,]",
+      "view_str": "610a5ab60cb76d5e2a2960d127b30067",
+      "content_free_signature": "[class]androidx.appcompat.app.ActionBar$Tab[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        67,
+        68
+      ],
+      "child_count": 2,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          864,
+          2226
+        ],
+        [
+          1152,
+          2362
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 65,
+      "temp_id": 66,
+      "size": "288*136",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "017f5fd75618c0b862f63c3b265bd480",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/tab_icon",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          967,
+          2226
+        ],
+        [
+          1048,
+          2307
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 66,
+      "temp_id": 67,
+      "size": "81*81",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/tab_icon[text]None[enabled,,]",
+      "view_str": "94df05273672319d49d3d7a2738b0438",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/tab_icon"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/tab_title",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "SHOWS",
+      "bounds": [
+        [
+          864,
+          2315
+        ],
+        [
+          1152,
+          2362
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 66,
+      "temp_id": 68,
+      "size": "288*47",
+      "signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/tab_title[text]SHOWS[enabled,,]",
+      "view_str": "ccbecc2f4e5a3bcf79d291affebe739f",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/tab_title"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "androidx.appcompat.app.ActionBar$Tab",
+      "children": [
+        70
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          1152,
+          2196
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 52,
+      "temp_id": 69,
+      "size": "288*196",
+      "signature": "[class]androidx.appcompat.app.ActionBar$Tab[resource_id]None[text]None[enabled,,]",
+      "view_str": "610a5ab60cb76d5e2a2960d127b30067",
+      "content_free_signature": "[class]androidx.appcompat.app.ActionBar$Tab[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        71,
+        72
+      ],
+      "child_count": 2,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          1152,
+          2226
+        ],
+        [
+          1440,
+          2362
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 69,
+      "temp_id": 70,
+      "size": "288*136",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "a383db97d6ad5308e318749153957a58",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/tab_icon",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          1255,
+          2226
+        ],
+        [
+          1336,
+          2307
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 70,
+      "temp_id": 71,
+      "size": "81*81",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/tab_icon[text]None[enabled,,]",
+      "view_str": "94df05273672319d49d3d7a2738b0438",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/tab_icon"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/tab_title",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "LISTEN",
+      "bounds": [
+        [
+          1152,
+          2315
+        ],
+        [
+          1440,
+          2362
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 70,
+      "temp_id": 72,
+      "size": "288*47",
+      "signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/tab_title[text]LISTEN[enabled,,]",
+      "view_str": "f213001ad2418ae737b6f900e04dcc5a",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/tab_title"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_linear_layout",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        74,
+        85
+      ],
+      "child_count": 2,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          1
+        ],
+        [
+          1120,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 5,
+      "temp_id": 73,
+      "size": "1120*2391",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.abc.abcnews:id/drawer_linear_layout[text]None[enabled,,]",
+      "view_str": "9a1630348fd9c25f7cdcb471aa553f0d",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.abc.abcnews:id/drawer_linear_layout"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        75,
+        76,
+        79
+      ],
+      "child_count": 3,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          1
+        ],
+        [
+          1120,
+          587
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 73,
+      "temp_id": 74,
+      "size": "1120*586",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "ea19fce20d3ae7dc9e96f48962179370",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/bubble_nav",
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          85
+        ],
+        [
+          1120,
+          85
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 74,
+      "temp_id": 75,
+      "size": "1120*0",
+      "signature": "[class]android.view.View[resource_id]com.abc.abcnews:id/bubble_nav[text]None[enabled,,]",
+      "view_str": "5ea6a2a13a4c121546b6bf3eed8ec580",
+      "content_free_signature": "[class]android.view.View[resource_id]com.abc.abcnews:id/bubble_nav"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        77,
+        78
+      ],
+      "child_count": 2,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          46,
+          155
+        ],
+        [
+          1074,
+          323
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 74,
+      "temp_id": 76,
+      "size": "1028*168",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "7a18e165d2114e2c7b9c626ee63e3799",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          46,
+          207
+        ],
+        [
+          211,
+          270
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 76,
+      "temp_id": 77,
+      "size": "165*63",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "6a21ab6f64c7d7ce356749b969d09dc9",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.abc.abcnews:id/drawer_search",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "Search",
+      "bounds": [
+        [
+          211,
+          155
+        ],
+        [
+          1074,
+          323
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 76,
+      "temp_id": 78,
+      "size": "863*168",
+      "signature": "[class]android.widget.EditText[resource_id]com.abc.abcnews:id/drawer_search[text]Search[enabled,,]",
+      "view_str": "d3a42a34dc508f29a04e07c4188fd8e0",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.abc.abcnews:id/drawer_search"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": true,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/tabs",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.HorizontalScrollView",
+      "children": [
+        80
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          42,
+          390
+        ],
+        [
+          1078,
+          566
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 74,
+      "temp_id": 79,
+      "size": "1036*176",
+      "signature": "[class]android.widget.HorizontalScrollView[resource_id]com.abc.abcnews:id/tabs[text]None[enabled,,]",
+      "view_str": "8812e1eb4417795d1e7b05703097f937",
+      "content_free_signature": "[class]android.widget.HorizontalScrollView[resource_id]com.abc.abcnews:id/tabs"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        81,
+        83
+      ],
+      "child_count": 2,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          46,
+          394
+        ],
+        [
+          1078,
+          562
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 79,
+      "temp_id": 80,
+      "size": "1032*168",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "35722d5150db83d5af6714236a69c242",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": true,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": "Sections",
+      "focused": false,
+      "class": "androidx.appcompat.app.ActionBar$Tab",
+      "children": [
+        82
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          46,
+          394
+        ],
+        [
+          564,
+          562
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 80,
+      "temp_id": 81,
+      "size": "518*168",
+      "signature": "[class]androidx.appcompat.app.ActionBar$Tab[resource_id]None[text]None[enabled,,selected]",
+      "view_str": "b0b4c49ef767918a197e35183ba7cc40",
+      "content_free_signature": "[class]androidx.appcompat.app.ActionBar$Tab[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": true,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "Sections",
+      "bounds": [
+        [
+          189,
+          445
+        ],
+        [
+          421,
+          511
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 81,
+      "temp_id": 82,
+      "size": "232*66",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]Sections[enabled,,selected]",
+      "view_str": "5760fab924b5398ab222b1edcc300c7d",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": "Shows",
+      "focused": false,
+      "class": "androidx.appcompat.app.ActionBar$Tab",
+      "children": [
+        84
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          564,
+          394
+        ],
+        [
+          1078,
+          562
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 80,
+      "temp_id": 83,
+      "size": "514*168",
+      "signature": "[class]androidx.appcompat.app.ActionBar$Tab[resource_id]None[text]None[enabled,,]",
+      "view_str": "76a38415b4e74bb8a8353aea0ca6a992",
+      "content_free_signature": "[class]androidx.appcompat.app.ActionBar$Tab[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "Shows",
+      "bounds": [
+        [
+          737,
+          445
+        ],
+        [
+          909,
+          511
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 83,
+      "temp_id": 84,
+      "size": "172*66",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]Shows[enabled,,]",
+      "view_str": "c734aba0617263a07779413edd0e54b3",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": true,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_listview",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ListView",
+      "children": [
+        86,
+        92,
+        98,
+        104,
+        110,
+        116,
+        122,
+        128,
+        134,
+        140
+      ],
+      "child_count": 10,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          587
+        ],
+        [
+          1120,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 73,
+      "temp_id": 85,
+      "size": "1120*1805",
+      "signature": "[class]android.widget.ListView[resource_id]com.abc.abcnews:id/drawer_listview[text]None[enabled,,]",
+      "view_str": "844cf06e094b711ccdab7e2316fdca36",
+      "content_free_signature": "[class]android.widget.ListView[resource_id]com.abc.abcnews:id/drawer_listview"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.ViewGroup",
+      "children": [
+        87
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          587
+        ],
+        [
+          1120,
+          726
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 85,
+      "temp_id": 86,
+      "size": "1120*139",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "17b7293339ddee0000252b819c7456c2",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        88,
+        90,
+        91
+      ],
+      "child_count": 3,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          587
+        ],
+        [
+          1120,
+          726
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 86,
+      "temp_id": 87,
+      "size": "1120*139",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "37b744854ecfc4323fb28f419b4d8029",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/icon_wrapper",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        89
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          49,
+          589
+        ],
+        [
+          140,
+          680
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 87,
+      "temp_id": 88,
+      "size": "91*91",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.abc.abcnews:id/icon_wrapper[text]None[enabled,,]",
+      "view_str": "f68d5025c6f17c7af35b6176ec6a246d",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.abc.abcnews:id/icon_wrapper"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_item_icon",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          49,
+          589
+        ],
+        [
+          140,
+          680
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 88,
+      "temp_id": 89,
+      "size": "91*91",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_item_icon[text]None[enabled,,]",
+      "view_str": "07e12cc6a67285a7c7a8f9bc959e3084",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_item_icon"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_item_textview",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "Investigative",
+      "bounds": [
+        [
+          196,
+          587
+        ],
+        [
+          962,
+          719
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 87,
+      "temp_id": 90,
+      "size": "766*132",
+      "signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/drawer_item_textview[text]Investigative[enabled,,]",
+      "view_str": "f8c8d0b059cc242606afcb0038176726",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/drawer_item_textview"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_drag_handle",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          962,
+          591
+        ],
+        [
+          1120,
+          679
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 87,
+      "temp_id": 91,
+      "size": "158*88",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_drag_handle[text]None[enabled,,]",
+      "view_str": "50146ef2ba7ea03e9019888e249a1e24",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_drag_handle"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.ViewGroup",
+      "children": [
+        93
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          726
+        ],
+        [
+          1120,
+          908
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 85,
+      "temp_id": 92,
+      "size": "1120*182",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "17b7293339ddee0000252b819c7456c2",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        94,
+        96,
+        97
+      ],
+      "child_count": 3,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          726
+        ],
+        [
+          1120,
+          908
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 92,
+      "temp_id": 93,
+      "size": "1120*182",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "ac69e15921e652f6e2e2008c1d47d577",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/icon_wrapper",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        95
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          49,
+          771
+        ],
+        [
+          140,
+          862
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 93,
+      "temp_id": 94,
+      "size": "91*91",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.abc.abcnews:id/icon_wrapper[text]None[enabled,,]",
+      "view_str": "f68d5025c6f17c7af35b6176ec6a246d",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.abc.abcnews:id/icon_wrapper"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_item_icon",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          49,
+          771
+        ],
+        [
+          140,
+          862
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 94,
+      "temp_id": 95,
+      "size": "91*91",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_item_icon[text]None[enabled,,]",
+      "view_str": "07e12cc6a67285a7c7a8f9bc959e3084",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_item_icon"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_item_textview",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "Entertainment",
+      "bounds": [
+        [
+          196,
+          733
+        ],
+        [
+          962,
+          901
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 93,
+      "temp_id": 96,
+      "size": "766*168",
+      "signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/drawer_item_textview[text]Entertainment[enabled,,]",
+      "view_str": "c7020540ca649f8354b23fcf7d59dc75",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/drawer_item_textview"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_drag_handle",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          962,
+          773
+        ],
+        [
+          1120,
+          861
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 93,
+      "temp_id": 97,
+      "size": "158*88",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_drag_handle[text]None[enabled,,]",
+      "view_str": "50146ef2ba7ea03e9019888e249a1e24",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_drag_handle"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.ViewGroup",
+      "children": [
+        99
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          908
+        ],
+        [
+          1120,
+          1090
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 85,
+      "temp_id": 98,
+      "size": "1120*182",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "17b7293339ddee0000252b819c7456c2",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        100,
+        102,
+        103
+      ],
+      "child_count": 3,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          908
+        ],
+        [
+          1120,
+          1090
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 98,
+      "temp_id": 99,
+      "size": "1120*182",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "00132065f5cdb2e2710525f8ee1f2f47",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/icon_wrapper",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        101
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          49,
+          953
+        ],
+        [
+          140,
+          1044
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 99,
+      "temp_id": 100,
+      "size": "91*91",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.abc.abcnews:id/icon_wrapper[text]None[enabled,,]",
+      "view_str": "f68d5025c6f17c7af35b6176ec6a246d",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.abc.abcnews:id/icon_wrapper"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_item_icon",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          49,
+          953
+        ],
+        [
+          140,
+          1044
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 100,
+      "temp_id": 101,
+      "size": "91*91",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_item_icon[text]None[enabled,,]",
+      "view_str": "07e12cc6a67285a7c7a8f9bc959e3084",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_item_icon"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_item_textview",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "Lifestyle",
+      "bounds": [
+        [
+          196,
+          915
+        ],
+        [
+          962,
+          1083
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 99,
+      "temp_id": 102,
+      "size": "766*168",
+      "signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/drawer_item_textview[text]Lifestyle[enabled,,]",
+      "view_str": "8eb3c13023758b9fd7f2b1f86a4fc885",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/drawer_item_textview"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_drag_handle",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          962,
+          955
+        ],
+        [
+          1120,
+          1043
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 99,
+      "temp_id": 103,
+      "size": "158*88",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_drag_handle[text]None[enabled,,]",
+      "view_str": "50146ef2ba7ea03e9019888e249a1e24",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_drag_handle"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.ViewGroup",
+      "children": [
+        105
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          1090
+        ],
+        [
+          1120,
+          1272
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 85,
+      "temp_id": 104,
+      "size": "1120*182",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "17b7293339ddee0000252b819c7456c2",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        106,
+        108,
+        109
+      ],
+      "child_count": 3,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          1090
+        ],
+        [
+          1120,
+          1272
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 104,
+      "temp_id": 105,
+      "size": "1120*182",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "899d987ea62d6c6d4d6ddde0018f165e",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/icon_wrapper",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        107
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          49,
+          1135
+        ],
+        [
+          140,
+          1226
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 105,
+      "temp_id": 106,
+      "size": "91*91",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.abc.abcnews:id/icon_wrapper[text]None[enabled,,]",
+      "view_str": "f68d5025c6f17c7af35b6176ec6a246d",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.abc.abcnews:id/icon_wrapper"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_item_icon",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          49,
+          1135
+        ],
+        [
+          140,
+          1226
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 106,
+      "temp_id": 107,
+      "size": "91*91",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_item_icon[text]None[enabled,,]",
+      "view_str": "07e12cc6a67285a7c7a8f9bc959e3084",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_item_icon"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_item_textview",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "Health",
+      "bounds": [
+        [
+          196,
+          1097
+        ],
+        [
+          962,
+          1265
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 105,
+      "temp_id": 108,
+      "size": "766*168",
+      "signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/drawer_item_textview[text]Health[enabled,,]",
+      "view_str": "98c0385644e0dafdb9cf3482d63e8921",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/drawer_item_textview"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_drag_handle",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          962,
+          1137
+        ],
+        [
+          1120,
+          1225
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 105,
+      "temp_id": 109,
+      "size": "158*88",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_drag_handle[text]None[enabled,,]",
+      "view_str": "50146ef2ba7ea03e9019888e249a1e24",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_drag_handle"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.ViewGroup",
+      "children": [
+        111
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          1272
+        ],
+        [
+          1120,
+          1454
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 85,
+      "temp_id": 110,
+      "size": "1120*182",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "17b7293339ddee0000252b819c7456c2",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        112,
+        114,
+        115
+      ],
+      "child_count": 3,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          1272
+        ],
+        [
+          1120,
+          1454
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 110,
+      "temp_id": 111,
+      "size": "1120*182",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "e0b0689e15e9842ac57662e228fb0ec7",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/icon_wrapper",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        113
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          49,
+          1317
+        ],
+        [
+          140,
+          1408
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 111,
+      "temp_id": 112,
+      "size": "91*91",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.abc.abcnews:id/icon_wrapper[text]None[enabled,,]",
+      "view_str": "f68d5025c6f17c7af35b6176ec6a246d",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.abc.abcnews:id/icon_wrapper"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_item_icon",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          49,
+          1317
+        ],
+        [
+          140,
+          1408
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 112,
+      "temp_id": 113,
+      "size": "91*91",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_item_icon[text]None[enabled,,]",
+      "view_str": "07e12cc6a67285a7c7a8f9bc959e3084",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_item_icon"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_item_textview",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "Money",
+      "bounds": [
+        [
+          196,
+          1279
+        ],
+        [
+          962,
+          1447
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 111,
+      "temp_id": 114,
+      "size": "766*168",
+      "signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/drawer_item_textview[text]Money[enabled,,]",
+      "view_str": "53f7b4eb6d5a510072eee987b25821cf",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/drawer_item_textview"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_drag_handle",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          962,
+          1319
+        ],
+        [
+          1120,
+          1407
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 111,
+      "temp_id": 115,
+      "size": "158*88",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_drag_handle[text]None[enabled,,]",
+      "view_str": "50146ef2ba7ea03e9019888e249a1e24",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_drag_handle"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.ViewGroup",
+      "children": [
+        117
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          1454
+        ],
+        [
+          1120,
+          1636
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 85,
+      "temp_id": 116,
+      "size": "1120*182",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "17b7293339ddee0000252b819c7456c2",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        118,
+        120,
+        121
+      ],
+      "child_count": 3,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          1454
+        ],
+        [
+          1120,
+          1636
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 116,
+      "temp_id": 117,
+      "size": "1120*182",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "bae70388378f4930dc7d353e3494dfc9",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/icon_wrapper",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        119
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          49,
+          1499
+        ],
+        [
+          140,
+          1590
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 117,
+      "temp_id": 118,
+      "size": "91*91",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.abc.abcnews:id/icon_wrapper[text]None[enabled,,]",
+      "view_str": "f68d5025c6f17c7af35b6176ec6a246d",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.abc.abcnews:id/icon_wrapper"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_item_icon",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          49,
+          1499
+        ],
+        [
+          140,
+          1590
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 118,
+      "temp_id": 119,
+      "size": "91*91",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_item_icon[text]None[enabled,,]",
+      "view_str": "07e12cc6a67285a7c7a8f9bc959e3084",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_item_icon"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_item_textview",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "Technology",
+      "bounds": [
+        [
+          196,
+          1461
+        ],
+        [
+          962,
+          1629
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 117,
+      "temp_id": 120,
+      "size": "766*168",
+      "signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/drawer_item_textview[text]Technology[enabled,,]",
+      "view_str": "75f67f2cd6d6d6ccb145c0b7613eaca4",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/drawer_item_textview"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_drag_handle",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          962,
+          1501
+        ],
+        [
+          1120,
+          1589
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 117,
+      "temp_id": 121,
+      "size": "158*88",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_drag_handle[text]None[enabled,,]",
+      "view_str": "50146ef2ba7ea03e9019888e249a1e24",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_drag_handle"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.ViewGroup",
+      "children": [
+        123
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          1636
+        ],
+        [
+          1120,
+          1818
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 85,
+      "temp_id": 122,
+      "size": "1120*182",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "17b7293339ddee0000252b819c7456c2",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        124,
+        126,
+        127
+      ],
+      "child_count": 3,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          1636
+        ],
+        [
+          1120,
+          1818
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 122,
+      "temp_id": 123,
+      "size": "1120*182",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "8421d388a903d92b4791fdb4e8528a4b",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/icon_wrapper",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        125
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          49,
+          1681
+        ],
+        [
+          140,
+          1772
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 123,
+      "temp_id": 124,
+      "size": "91*91",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.abc.abcnews:id/icon_wrapper[text]None[enabled,,]",
+      "view_str": "f68d5025c6f17c7af35b6176ec6a246d",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.abc.abcnews:id/icon_wrapper"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_item_icon",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          49,
+          1681
+        ],
+        [
+          140,
+          1772
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 124,
+      "temp_id": 125,
+      "size": "91*91",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_item_icon[text]None[enabled,,]",
+      "view_str": "07e12cc6a67285a7c7a8f9bc959e3084",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_item_icon"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_item_textview",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "Sports",
+      "bounds": [
+        [
+          196,
+          1643
+        ],
+        [
+          962,
+          1811
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 123,
+      "temp_id": 126,
+      "size": "766*168",
+      "signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/drawer_item_textview[text]Sports[enabled,,]",
+      "view_str": "1d8cd3b73a37173c4ab13e4d28b62641",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/drawer_item_textview"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_drag_handle",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          962,
+          1683
+        ],
+        [
+          1120,
+          1771
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 123,
+      "temp_id": 127,
+      "size": "158*88",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_drag_handle[text]None[enabled,,]",
+      "view_str": "50146ef2ba7ea03e9019888e249a1e24",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_drag_handle"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.ViewGroup",
+      "children": [
+        129
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          1818
+        ],
+        [
+          1120,
+          2000
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 85,
+      "temp_id": 128,
+      "size": "1120*182",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "17b7293339ddee0000252b819c7456c2",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        130,
+        132,
+        133
+      ],
+      "child_count": 3,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          1818
+        ],
+        [
+          1120,
+          2000
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 128,
+      "temp_id": 129,
+      "size": "1120*182",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "6b7873068ec1cc988e8587a860ec02a8",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/icon_wrapper",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        131
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          49,
+          1863
+        ],
+        [
+          140,
+          1954
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 129,
+      "temp_id": 130,
+      "size": "91*91",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.abc.abcnews:id/icon_wrapper[text]None[enabled,,]",
+      "view_str": "f68d5025c6f17c7af35b6176ec6a246d",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.abc.abcnews:id/icon_wrapper"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_item_icon",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          49,
+          1863
+        ],
+        [
+          140,
+          1954
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 130,
+      "temp_id": 131,
+      "size": "91*91",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_item_icon[text]None[enabled,,]",
+      "view_str": "07e12cc6a67285a7c7a8f9bc959e3084",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_item_icon"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_item_textview",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "Travel",
+      "bounds": [
+        [
+          196,
+          1825
+        ],
+        [
+          962,
+          1993
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 129,
+      "temp_id": 132,
+      "size": "766*168",
+      "signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/drawer_item_textview[text]Travel[enabled,,]",
+      "view_str": "db2165746011456370ce2c25696f6d04",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/drawer_item_textview"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_drag_handle",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          962,
+          1865
+        ],
+        [
+          1120,
+          1953
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 129,
+      "temp_id": 133,
+      "size": "158*88",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_drag_handle[text]None[enabled,,]",
+      "view_str": "50146ef2ba7ea03e9019888e249a1e24",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_drag_handle"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.ViewGroup",
+      "children": [
+        135
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2000
+        ],
+        [
+          1120,
+          2182
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 85,
+      "temp_id": 134,
+      "size": "1120*182",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "17b7293339ddee0000252b819c7456c2",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        136,
+        138,
+        139
+      ],
+      "child_count": 3,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2000
+        ],
+        [
+          1120,
+          2182
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 134,
+      "temp_id": 135,
+      "size": "1120*182",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "0a9889313401d535da78e87d51e07266",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/icon_wrapper",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        137
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          49,
+          2045
+        ],
+        [
+          140,
+          2136
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 135,
+      "temp_id": 136,
+      "size": "91*91",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.abc.abcnews:id/icon_wrapper[text]None[enabled,,]",
+      "view_str": "f68d5025c6f17c7af35b6176ec6a246d",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.abc.abcnews:id/icon_wrapper"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_item_icon",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          49,
+          2045
+        ],
+        [
+          140,
+          2136
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 136,
+      "temp_id": 137,
+      "size": "91*91",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_item_icon[text]None[enabled,,]",
+      "view_str": "07e12cc6a67285a7c7a8f9bc959e3084",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_item_icon"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_item_textview",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "Slideshows",
+      "bounds": [
+        [
+          196,
+          2007
+        ],
+        [
+          962,
+          2175
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 135,
+      "temp_id": 138,
+      "size": "766*168",
+      "signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/drawer_item_textview[text]Slideshows[enabled,,]",
+      "view_str": "036bb82d5968130cbf2965e681a63114",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/drawer_item_textview"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_drag_handle",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          962,
+          2047
+        ],
+        [
+          1120,
+          2135
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 135,
+      "temp_id": 139,
+      "size": "158*88",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_drag_handle[text]None[enabled,,]",
+      "view_str": "50146ef2ba7ea03e9019888e249a1e24",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_drag_handle"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        141,
+        144
+      ],
+      "child_count": 2,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2182
+        ],
+        [
+          1120,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 85,
+      "temp_id": 140,
+      "size": "1120*210",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "7f3cf6d02291b5c99ae0e4f02f7fd6c4",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        142,
+        143
+      ],
+      "child_count": 2,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2182
+        ],
+        [
+          1120,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 140,
+      "temp_id": 141,
+      "size": "1120*210",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "234029004afffa7aad064281b172774b",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_settings_icon",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          49,
+          2241
+        ],
+        [
+          140,
+          2332
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 141,
+      "temp_id": 142,
+      "size": "91*91",
+      "signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_settings_icon[text]None[enabled,,]",
+      "view_str": "dc55176ee41578f4bafd49876b170d72",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.abc.abcnews:id/drawer_settings_icon"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/drawer_settings_textview",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "Settings",
+      "bounds": [
+        [
+          196,
+          2203
+        ],
+        [
+          377,
+          2371
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 141,
+      "temp_id": 143,
+      "size": "181*168",
+      "signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/drawer_settings_textview[text]Settings[enabled,,]",
+      "view_str": "8e86142f5e7554330f370185ada0c750",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.abc.abcnews:id/drawer_settings_textview"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2182
+        ],
+        [
+          1120,
+          2186
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 140,
+      "temp_id": 144,
+      "size": "1120*4",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "6590df73208fbd989abf5864c5a1c9b6",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/statusBarBackground",
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1440,
+          84
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 0,
+      "temp_id": 145,
+      "size": "1440*84",
+      "signature": "[class]android.view.View[resource_id]android:id/statusBarBackground[text]None[enabled,,]",
+      "view_str": "42fdc5f46201d5b1bc72c701aef5c961",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/statusBarBackground"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/navigationBarBackground",
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2392
+        ],
+        [
+          1440,
+          2560
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 0,
+      "temp_id": 146,
+      "size": "1440*168",
+      "signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground[text]None[enabled,,]",
+      "view_str": "d985481675f61c7e955afb359ce9e076",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground"
+    }
+  ]
+}

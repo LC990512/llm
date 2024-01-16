@@ -1,0 +1,12 @@
+{
+  "tag": "2024-01-11_223053",
+  "event": {
+    "event_type": "kill_app",
+    "log_lines": null,
+    "prompt": null,
+    "stop_intent": "am force-stop com.buzzfeed.android"
+  },
+  "start_state": "f0da8baecd09ca540bf5b500895ac5d0",
+  "stop_state": "077f848c5041a944f8623f9108d6f469",
+  "event_str": "KillAppEvent()"
+}

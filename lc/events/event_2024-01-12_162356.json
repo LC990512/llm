@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-12_162356",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.buzzfeed.android:id/menu_user_image",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.buzzfeed.android",
+      "text": null,
+      "bounds": [
+        [
+          981,
+          110
+        ],
+        [
+          1047,
+          176
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 21,
+      "temp_id": 23,
+      "size": "66*66",
+      "signature": "[class]android.widget.ImageView[resource_id]com.buzzfeed.android:id/menu_user_image[text]None[enabled,,]",
+      "view_str": "83dc06c4d3cd56e0c0d7bab20d038d2d",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.buzzfeed.android:id/menu_user_image"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "3dc29b45a623d9b33e9f548ba3e06221",
+  "stop_state": "6869456de9d9a2c386f5428a29f48bbc",
+  "event_str": "TouchEvent(state=3dc29b45a623d9b33e9f548ba3e06221, view=83dc06c4d3cd56e0c0d7bab20d038d2d(PagerActivity/ImageView-))"
+}

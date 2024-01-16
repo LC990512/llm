@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-11_221341",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.buzzfeed.android:id/largeLabel",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.buzzfeed.android",
+      "text": "Home",
+      "bounds": [
+        [
+          33,
+          1958
+        ],
+        [
+          182,
+          2011
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 35,
+      "temp_id": 36,
+      "size": "149*53",
+      "signature": "[class]android.widget.TextView[resource_id]com.buzzfeed.android:id/largeLabel[text]Home[enabled,,]",
+      "view_str": "8517946ecc8b320b8f14ce9f5cb51fde",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.buzzfeed.android:id/largeLabel"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "3dc29b45a623d9b33e9f548ba3e06221",
+  "stop_state": "3dc29b45a623d9b33e9f548ba3e06221",
+  "event_str": "TouchEvent(state=3dc29b45a623d9b33e9f548ba3e06221, view=8517946ecc8b320b8f14ce9f5cb51fde(PagerActivity/TextView-Home))"
+}

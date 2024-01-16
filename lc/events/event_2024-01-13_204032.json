@@ -1,0 +1,52 @@
+{
+  "tag": "2024-01-13_204032",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": true,
+      "long_clickable": false,
+      "resource_id": "com.abc.abcnews:id/tabs",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.HorizontalScrollView",
+      "children": [
+        80
+      ],
+      "child_count": 1,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          42,
+          390
+        ],
+        [
+          1078,
+          566
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 74,
+      "temp_id": 79,
+      "size": "1036*176",
+      "signature": "[class]android.widget.HorizontalScrollView[resource_id]com.abc.abcnews:id/tabs[text]None[enabled,,]",
+      "view_str": "8812e1eb4417795d1e7b05703097f937",
+      "content_free_signature": "[class]android.widget.HorizontalScrollView[resource_id]com.abc.abcnews:id/tabs"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "a816fa780f0976e9911beb0b44c8e115",
+  "stop_state": "a816fa780f0976e9911beb0b44c8e115",
+  "event_str": "TouchEvent(state=a816fa780f0976e9911beb0b44c8e115, view=8812e1eb4417795d1e7b05703097f937(MainNavigationActivity/HorizontalScrollView-))"
+}

@@ -1,0 +1,51 @@
+{
+  "tag": "2024-01-14_160717",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.etsy.android:id/edit_email",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "com.etsy.android",
+      "text": "Your Email",
+      "bounds": [
+        [
+          174,
+          892
+        ],
+        [
+          1266,
+          1024
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 11,
+      "temp_id": 17,
+      "size": "1092*132",
+      "signature": "[class]android.widget.EditText[resource_id]com.etsy.android:id/edit_email[text]Your Email[enabled,,]",
+      "view_str": "ecee44c65f71632cefc4eb72194ca7ac",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.etsy.android:id/edit_email"
+    },
+    "x": null,
+    "y": null,
+    "text": "yixueresearch@gmail.com"
+  },
+  "start_state": "72302d5651f4db6970b7f0de289fac59",
+  "stop_state": "c099db9dab4f0c1f975bd09f37306d2f",
+  "event_str": "SetTextEvent(state=72302d5651f4db6970b7f0de289fac59, view=ecee44c65f71632cefc4eb72194ca7ac(SignInActivity/EditText-Your Email), text=yixueresearch@gmail.com)"
+}

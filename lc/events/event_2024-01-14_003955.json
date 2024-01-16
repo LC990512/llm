@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-14_003955",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/title",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "Font Size for Stories",
+      "bounds": [
+        [
+          56,
+          704
+        ],
+        [
+          550,
+          770
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 30,
+      "temp_id": 31,
+      "size": "494*66",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/title[text]Font Size for Stories[enabled,,]",
+      "view_str": "3b8e095a9fb33271ebb467205d2a5797",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/title"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "cc51c58729dfa2ffb173d43a03b9f012",
+  "stop_state": "4162a8d027743bcdebfac04c411a3680",
+  "event_str": "TouchEvent(state=cc51c58729dfa2ffb173d43a03b9f012, view=3b8e095a9fb33271ebb467205d2a5797(SettingsActivity/TextView-Font Size ))"
+}

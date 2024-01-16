@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-13_203018",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": null,
+      "bounds": [
+        [
+          46,
+          207
+        ],
+        [
+          211,
+          270
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 76,
+      "temp_id": 77,
+      "size": "165*63",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "6a21ab6f64c7d7ce356749b969d09dc9",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "a816fa780f0976e9911beb0b44c8e115",
+  "stop_state": "a816fa780f0976e9911beb0b44c8e115",
+  "event_str": "TouchEvent(state=a816fa780f0976e9911beb0b44c8e115, view=6a21ab6f64c7d7ce356749b969d09dc9(MainNavigationActivity/ImageView-))"
+}

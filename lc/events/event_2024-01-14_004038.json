@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-14_004038",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": true,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/text1",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.CheckedTextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.abc.abcnews",
+      "text": "Extra Large",
+      "bounds": [
+        [
+          92,
+          1386
+        ],
+        [
+          1348,
+          1554
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 8,
+      "temp_id": 12,
+      "size": "1256*168",
+      "signature": "[class]android.widget.CheckedTextView[resource_id]android:id/text1[text]Extra Large[enabled,,]",
+      "view_str": "abaa90cb235abd7cfac7c2e335225a79",
+      "content_free_signature": "[class]android.widget.CheckedTextView[resource_id]android:id/text1"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "4162a8d027743bcdebfac04c411a3680",
+  "stop_state": "b96f18fdc60ef4cdadd4cd229b0a33c7",
+  "event_str": "TouchEvent(state=4162a8d027743bcdebfac04c411a3680, view=abaa90cb235abd7cfac7c2e335225a79(SettingsActivity/CheckedTextView-Extra Larg))"
+}

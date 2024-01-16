@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-14_162905",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.etsy.android:id/btn_register_dialog",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.Button",
+      "children": [],
+      "child_count": 0,
+      "package": "com.etsy.android",
+      "text": "Register",
+      "bounds": [
+        [
+          286,
+          1328
+        ],
+        [
+          706,
+          1496
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "420*168",
+      "signature": "[class]android.widget.Button[resource_id]com.etsy.android:id/btn_register_dialog[text]Register[enabled,,]",
+      "view_str": "7c92d5ec63382ff61004f8d058435c66",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.etsy.android:id/btn_register_dialog"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "cbd62a8dfd6a68268049541915e1580d",
+  "stop_state": "66032b3e3a14855936e9b5a082f016df",
+  "event_str": "TouchEvent(state=cbd62a8dfd6a68268049541915e1580d, view=7c92d5ec63382ff61004f8d058435c66(SignInActivity/Button-Register))"
+}

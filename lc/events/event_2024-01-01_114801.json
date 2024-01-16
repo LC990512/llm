@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-01_114801",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.contextlogic.wish:id/create_account_fragment_email_text",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "com.contextlogic.wish",
+      "text": "Email Address",
+      "bounds": [
+        [
+          44,
+          819
+        ],
+        [
+          1036,
+          929
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 26,
+      "temp_id": 30,
+      "size": "992*110",
+      "signature": "[class]android.widget.EditText[resource_id]com.contextlogic.wish:id/create_account_fragment_email_text[text]Email Address[enabled,,]",
+      "view_str": "843d0f3a71a9af78125a67dbc4b34183",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.contextlogic.wish:id/create_account_fragment_email_text"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "b611a4a1a560f7587a375bb816d58b4c",
+  "stop_state": "b611a4a1a560f7587a375bb816d58b4c",
+  "event_str": "TouchEvent(state=b611a4a1a560f7587a375bb816d58b4c, view=843d0f3a71a9af78125a67dbc4b34183(CreateAccountActivity/EditText-Email Addr))"
+}

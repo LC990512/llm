@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-11_225346",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.etsy.android:id/menu_search",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": "Search Button",
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.etsy.android",
+      "text": null,
+      "bounds": [
+        [
+          816,
+          77
+        ],
+        [
+          948,
+          209
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "132*132",
+      "signature": "[class]android.widget.TextView[resource_id]com.etsy.android:id/menu_search[text]None[enabled,,]",
+      "view_str": "457333b0b20b0c9d2d7181016c0f028d",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.etsy.android:id/menu_search"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "9458582b7c7bad7f5d0eab8ee8c40262",
+  "stop_state": "6f7458e87403863aeee90d5cbc27985c",
+  "event_str": "TouchEvent(state=9458582b7c7bad7f5d0eab8ee8c40262, view=457333b0b20b0c9d2d7181016c0f028d(HomescreenTabsActivity/TextView-))"
+}

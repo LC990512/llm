@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-11_222008",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.buzzfeed.android:id/explore_item_title",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.buzzfeed.android",
+      "text": "Shopping",
+      "bounds": [
+        [
+          0,
+          484
+        ],
+        [
+          1080,
+          616
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 29,
+      "temp_id": 30,
+      "size": "1080*132",
+      "signature": "[class]android.widget.TextView[resource_id]com.buzzfeed.android:id/explore_item_title[text]Shopping[enabled,,]",
+      "view_str": "18ab02dd4ae12834917a6ef5e122d3ca",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.buzzfeed.android:id/explore_item_title"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "9e7d66e31fb079339a9d65483b1e68d4",
+  "stop_state": "0e66d86ebf9328519f0898300989025a",
+  "event_str": "TouchEvent(state=9e7d66e31fb079339a9d65483b1e68d4, view=18ab02dd4ae12834917a6ef5e122d3ca(PagerActivity/TextView-Shopping))"
+}

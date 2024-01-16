@@ -1,0 +1,51 @@
+{
+  "tag": "2024-01-14_165225",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.etsy.android:id/edit_password",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": true,
+      "content_description": null,
+      "focused": true,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "com.etsy.android",
+      "text": null,
+      "bounds": [
+        [
+          174,
+          1146
+        ],
+        [
+          1266,
+          1278
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 10,
+      "temp_id": 12,
+      "size": "1092*132",
+      "signature": "[class]android.widget.EditText[resource_id]com.etsy.android:id/edit_password[text]None[enabled,,]",
+      "view_str": "ed698b90ef2773076fdc46f17c4b90d0",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.etsy.android:id/edit_password"
+    },
+    "x": null,
+    "y": null,
+    "text": "yourresearchiscool"
+  },
+  "start_state": "faf17ecea77bb87dc86cbd07650eb3c5",
+  "stop_state": "faf17ecea77bb87dc86cbd07650eb3c5",
+  "event_str": "SetTextEvent(state=faf17ecea77bb87dc86cbd07650eb3c5, view=ed698b90ef2773076fdc46f17c4b90d0(SignInActivity/EditText-), text=yourresearchiscool)"
+}

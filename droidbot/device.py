@@ -856,6 +856,7 @@ class Device(object):
             self.logger.warning("`adb shell input text` doesn't support setting text, appending instead.")
             self.adb.type(text)
 
+
     def key_press(self, key_code):
         self.adb.press(key_code)
 

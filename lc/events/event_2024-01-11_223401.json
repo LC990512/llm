@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-11_223401",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/text1",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.buzzfeed.android",
+      "text": "bbb",
+      "bounds": [
+        [
+          110,
+          260
+        ],
+        [
+          1036,
+          312
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 9,
+      "temp_id": 11,
+      "size": "926*52",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/text1[text]bbb[enabled,,]",
+      "view_str": "bbbf9e4e7925a1fafca45acc4cdea8eb",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/text1"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "3a73c0c05300061c736ffffd9f89c54f",
+  "stop_state": "55830344070c04541a1fc539ca044047",
+  "event_str": "TouchEvent(state=3a73c0c05300061c736ffffd9f89c54f, view=bbbf9e4e7925a1fafca45acc4cdea8eb(PagerActivity/TextView-bbb))"
+}

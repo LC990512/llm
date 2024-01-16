@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-14_161850",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.etsy.android:id/btn_link",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.Button",
+      "children": [],
+      "child_count": 0,
+      "package": "com.etsy.android",
+      "text": "Get Started",
+      "bounds": [
+        [
+          451,
+          1603
+        ],
+        [
+          988,
+          1778
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 22,
+      "temp_id": 25,
+      "size": "537*175",
+      "signature": "[class]android.widget.Button[resource_id]com.etsy.android:id/btn_link[text]Get Started[enabled,,]",
+      "view_str": "70d195556ee3bbc1b90e02ef79153f54",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.etsy.android:id/btn_link"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "63c8361ddb27814ff1ce5c93b56d07c3",
+  "stop_state": "cbd62a8dfd6a68268049541915e1580d",
+  "event_str": "TouchEvent(state=63c8361ddb27814ff1ce5c93b56d07c3, view=70d195556ee3bbc1b90e02ef79153f54(HomescreenTabsActivity/Button-Get Starte))"
+}

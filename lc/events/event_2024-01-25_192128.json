@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-25_192128",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": "Contact Fox News Channel",
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          56,
+          518
+        ],
+        [
+          1386,
+          640
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 17,
+      "temp_id": 18,
+      "size": "1330*122",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "1206c13ccbc98238426a9ba6a629d028",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "62f6e3ee4098dfd883688dc100bcb774",
+  "stop_state": "62f6e3ee4098dfd883688dc100bcb774",
+  "event_str": "TouchEvent(state=62f6e3ee4098dfd883688dc100bcb774, view=1206c13ccbc98238426a9ba6a629d028(WebViewActivity/View-))"
+}

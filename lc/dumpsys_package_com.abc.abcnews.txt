@@ -1,153 +1,153 @@
 Activity Resolver Table:
   Schemes:
       optly8310063212:
-        ef81eec com.abc.abcnews/.ui.StartActivity
+        cb61374 com.abc.abcnews/.ui.StartActivity
       abcnewstags:
-        f9942b5 com.abc.abcnews/.ui.navigation.MainNavigationActivity
+        32bd09d com.abc.abcnews/.ui.navigation.MainNavigationActivity
       abcnewsapplink:
-        f9942b5 com.abc.abcnews/.ui.navigation.MainNavigationActivity
+        32bd09d com.abc.abcnews/.ui.navigation.MainNavigationActivity
       abcnews:
-        392bd4a com.abc.abcnews/.ui.NewsItemActivity
+        9a5d912 com.abc.abcnews/.ui.NewsItemActivity
       abcnewsdailyrewind:
-        f9942b5 com.abc.abcnews/.ui.navigation.MainNavigationActivity
+        32bd09d com.abc.abcnews/.ui.navigation.MainNavigationActivity
       http:
-        392bd4a com.abc.abcnews/.ui.NewsItemActivity
+        9a5d912 com.abc.abcnews/.ui.NewsItemActivity
       https:
-        392bd4a com.abc.abcnews/.ui.NewsItemActivity
-        c6354bb com.abc.abcnews/com.adobe.adobepass.accessenabler.customtab.CustomTabManager
+        9a5d912 com.abc.abcnews/.ui.NewsItemActivity
+        9ad18e3 com.abc.abcnews/com.adobe.adobepass.accessenabler.customtab.CustomTabManager
       android-app:
-        392bd4a com.abc.abcnews/.ui.NewsItemActivity
+        9a5d912 com.abc.abcnews/.ui.NewsItemActivity
       adobepass:
-        dbe3dd8 com.abc.abcnews/com.adobe.adobepass.accessenabler.customtab.CustomTabGetAuthN
+        edaf2e0 com.abc.abcnews/com.adobe.adobepass.accessenabler.customtab.CustomTabGetAuthN
 
   Non-Data Actions:
       android.intent.action.MAIN:
-        de85531 com.abc.abcnews/com.google.android.libraries.cast.companionlibrary.cast.player.VideoCastControllerActivity
-        ef81eec com.abc.abcnews/.ui.StartActivity
+        279d999 com.abc.abcnews/com.google.android.libraries.cast.companionlibrary.cast.player.VideoCastControllerActivity
+        cb61374 com.abc.abcnews/.ui.StartActivity
       android.media.action.MEDIA_PLAY_FROM_SEARCH:
-        ac76416 com.abc.abcnews/.ui.AndroidAutoActivity
+        384745e com.abc.abcnews/.ui.AndroidAutoActivity
 
 Receiver Resolver Table:
   Non-Data Actions:
       com.abc.abcnews.intent.APPBOY_PUSH_DELETED:
-        6688197 com.abc.abcnews/.notifications.appboy.AppboyNotificationReceiver
+        98e603f com.abc.abcnews/.notifications.appboy.AppboyNotificationReceiver
       com.abc.abcnews.widget.pagecounterupdate:
-        3c55f84 com.abc.abcnews/.widget.AbcAppWidgetProviderSmall
+        2ac5d0c com.abc.abcnews/.widget.AbcAppWidgetProviderSmall
       com.abc.abcnews.slacker.UPDATE_NOTIFICATION:
-        23c136d com.abc.abcnews/.slacker.SlackerReceiver
+        b057655 com.abc.abcnews/.slacker.SlackerReceiver
       com.google.android.libraries.cast.companionlibrary.action.stop:
-        4cdaba2 com.abc.abcnews/com.google.android.libraries.cast.companionlibrary.remotecontrol.VideoIntentReceiver
+        61f786a com.abc.abcnews/com.google.android.libraries.cast.companionlibrary.remotecontrol.VideoIntentReceiver
       com.abc.abcnews.slacker.REMOVE_NOTIFICATION:
-        23c136d com.abc.abcnews/.slacker.SlackerReceiver
+        b057655 com.abc.abcnews/.slacker.SlackerReceiver
       com.abc.abcnews.broadcast_notification_action:
-        729a033 com.abc.abcnews/.handlers.NotificationActionHandler
+        e12c15b com.abc.abcnews/.handlers.NotificationActionHandler
       com.abc.abcnews.broadcast_notification_acknowledgement:
-        5faeff0 com.abc.abcnews/.handlers.WearMessageHandler
+        c483df8 com.abc.abcnews/.handlers.WearMessageHandler
       com.abc.abcnews.intent.APPBOY_NOTIFICATION_OPENED:
-        6688197 com.abc.abcnews/.notifications.appboy.AppboyNotificationReceiver
+        98e603f com.abc.abcnews/.notifications.appboy.AppboyNotificationReceiver
       com.abc.abcnews.broadcast_wear_rich_push_action:
-        4937969 com.abc.abcnews/.handlers.WearResponseHandler
+        37422d1 com.abc.abcnews/.handlers.WearResponseHandler
       com.abc.abcnews.broadcast_wear_rich_push_delete:
-        5faeff0 com.abc.abcnews/.handlers.WearMessageHandler
+        c483df8 com.abc.abcnews/.handlers.WearMessageHandler
       com.android.vending.INSTALL_REFERRER:
-        1fedfee com.abc.abcnews/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+        9b4b136 com.abc.abcnews/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
       android.media.AUDIO_BECOMING_NOISY:
-        1d40c8f com.abc.abcnews/.handlers.PodcastPlayerHandler
-        4cdaba2 com.abc.abcnews/com.google.android.libraries.cast.companionlibrary.remotecontrol.VideoIntentReceiver
+        5b21837 com.abc.abcnews/.handlers.PodcastPlayerHandler
+        61f786a com.abc.abcnews/com.google.android.libraries.cast.companionlibrary.remotecontrol.VideoIntentReceiver
       com.abc.abcnews.BROADCAST:
-        8b71b1c com.abc.abcnews/.handlers.GoogleNowAuthorizationResponseHandler
+        1bf41a4 com.abc.abcnews/.handlers.GoogleNowAuthorizationResponseHandler
       com.abc.abcnews.BROADCAST_WEAR:
-        4937969 com.abc.abcnews/.handlers.WearResponseHandler
+        37422d1 com.abc.abcnews/.handlers.WearResponseHandler
       com.abc.abcnews.intent.APPBOY_PUSH_RECEIVED:
-        6688197 com.abc.abcnews/.notifications.appboy.AppboyNotificationReceiver
+        98e603f com.abc.abcnews/.notifications.appboy.AppboyNotificationReceiver
       com.fyber.inneractive.sdk.intent.action.REGISTER_KIT:
-        3e14325 com.abc.abcnews/com.fyber.inneractive.sdk.mraid.IAMraidKit
-        50ee2ab com.abc.abcnews/com.fyber.inneractive.sdk.video.IAVideoKit
-        cfd0cfa com.abc.abcnews/com.fyber.inneractive.sdk.nativead.IANativeKit
+        48600d3 com.abc.abcnews/com.fyber.inneractive.sdk.video.IAVideoKit
+        a92aac2 com.abc.abcnews/com.fyber.inneractive.sdk.nativead.IANativeKit
+        d471b0d com.abc.abcnews/com.fyber.inneractive.sdk.mraid.IAMraidKit
       com.google.android.c2dm.intent.RECEIVE:
-        ba8cd08 com.abc.abcnews/com.google.firebase.iid.FirebaseInstanceIdReceiver
+        780d410 com.abc.abcnews/com.google.firebase.iid.FirebaseInstanceIdReceiver
       com.abc.abcnews.broadcast_data_response_message:
-        5faeff0 com.abc.abcnews/.handlers.WearMessageHandler
+        c483df8 com.abc.abcnews/.handlers.WearMessageHandler
       com.abc.abcnews.slacker.DISPLAY_NOTIFICATION:
-        23c136d com.abc.abcnews/.slacker.SlackerReceiver
+        b057655 com.abc.abcnews/.slacker.SlackerReceiver
       com.google.android.libraries.cast.companionlibrary.action.toggleplayback:
-        4cdaba2 com.abc.abcnews/com.google.android.libraries.cast.companionlibrary.remotecontrol.VideoIntentReceiver
+        61f786a com.abc.abcnews/com.google.android.libraries.cast.companionlibrary.remotecontrol.VideoIntentReceiver
       android.appwidget.action.APPWIDGET_UPDATE:
-        187eca1 com.abc.abcnews/.widget.AbcAppWidgetProviderLarge
-        3c55f84 com.abc.abcnews/.widget.AbcAppWidgetProviderSmall
+        2ac5d0c com.abc.abcnews/.widget.AbcAppWidgetProviderSmall
+        6d75b09 com.abc.abcnews/.widget.AbcAppWidgetProviderLarge
       android.intent.action.MEDIA_BUTTON:
-        1d40c8f com.abc.abcnews/.handlers.PodcastPlayerHandler
-        4cdaba2 com.abc.abcnews/com.google.android.libraries.cast.companionlibrary.remotecontrol.VideoIntentReceiver
+        5b21837 com.abc.abcnews/.handlers.PodcastPlayerHandler
+        61f786a com.abc.abcnews/com.google.android.libraries.cast.companionlibrary.remotecontrol.VideoIntentReceiver
 
 Service Resolver Table:
   Schemes:
       wear:
-        67efec6 com.abc.abcnews/.service.HandheldWearableListenerService
+        964b10e com.abc.abcnews/.service.HandheldWearableListenerService
 
   Non-Data Actions:
       com.google.android.libraries.cast.companionlibrary.action.notificationvisibility:
-        8d6fe87 com.abc.abcnews/com.google.android.libraries.cast.companionlibrary.notification.VideoCastNotificationService
+        ca5d72f com.abc.abcnews/com.google.android.libraries.cast.companionlibrary.notification.VideoCastNotificationService
       android.content.SyncAdapter:
-        881b1b4 com.abc.abcnews/.sync.SyncService
+        787213c com.abc.abcnews/.sync.SyncService
       com.google.android.libraries.cast.companionlibrary.action.stop:
-        8d6fe87 com.abc.abcnews/com.google.android.libraries.cast.companionlibrary.notification.VideoCastNotificationService
+        ca5d72f com.abc.abcnews/com.google.android.libraries.cast.companionlibrary.notification.VideoCastNotificationService
       com.google.firebase.MESSAGING_EVENT:
-        1dc4152 com.abc.abcnews/com.google.firebase.messaging.FirebaseMessagingService
-        895b1dd com.abc.abcnews/com.appboy.AppboyFirebaseMessagingService
+        1119ec5 com.abc.abcnews/com.appboy.AppboyFirebaseMessagingService
+        43ed01a com.abc.abcnews/com.google.firebase.messaging.FirebaseMessagingService
       android.accounts.AccountAuthenticator:
-        e1afc23 com.abc.abcnews/.sync.AuthenticationService
+        42b74b com.abc.abcnews/.sync.AuthenticationService
       com.google.android.libraries.cast.companionlibrary.action.toggleplayback:
-        8d6fe87 com.abc.abcnews/com.google.android.libraries.cast.companionlibrary.notification.VideoCastNotificationService
+        ca5d72f com.abc.abcnews/com.google.android.libraries.cast.companionlibrary.notification.VideoCastNotificationService
       android.media.browse.MediaBrowserService:
-        623520 com.abc.abcnews/.service.AbcMediaBrowserService
+        f431528 com.abc.abcnews/.service.AbcMediaBrowserService
 
 Registered ContentProviders:
   com.abc.abcnews/.data.AbcNewsDbProvider:
-    Provider{cc08ed9 com.abc.abcnews/.data.AbcNewsDbProvider}
+    Provider{4f26241 com.abc.abcnews/.data.AbcNewsDbProvider}
   com.abc.abcnews/com.google.firebase.provider.FirebaseInitProvider:
-    Provider{e59209e com.abc.abcnews/com.google.firebase.provider.FirebaseInitProvider}
+    Provider{469d3e6 com.abc.abcnews/com.google.firebase.provider.FirebaseInitProvider}
   com.abc.abcnews/com.facebook.internal.FacebookInitProvider:
-    Provider{c17377f com.abc.abcnews/com.facebook.internal.FacebookInitProvider}
+    Provider{9837d27 com.abc.abcnews/com.facebook.internal.FacebookInitProvider}
   com.abc.abcnews/com.facebook.ads.AudienceNetworkContentProvider:
-    Provider{405834c com.abc.abcnews/com.facebook.ads.AudienceNetworkContentProvider}
+    Provider{485bd4 com.abc.abcnews/com.facebook.ads.AudienceNetworkContentProvider}
   com.abc.abcnews/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
-    Provider{d223f95 com.abc.abcnews/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+    Provider{4c1e17d com.abc.abcnews/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
   com.abc.abcnews/com.google.android.gms.ads.MobileAdsInitProvider:
-    Provider{932a8aa com.abc.abcnews/com.google.android.gms.ads.MobileAdsInitProvider}
+    Provider{cef4872 com.abc.abcnews/com.google.android.gms.ads.MobileAdsInitProvider}
   com.abc.abcnews/com.taboola.android.TaboolaContextProvider:
-    Provider{771cc9b com.abc.abcnews/com.taboola.android.TaboolaContextProvider}
+    Provider{420c4c3 com.abc.abcnews/com.taboola.android.TaboolaContextProvider}
 
 ContentProvider Authorities:
   [com.abc.abcnews.TaboolaContextProvider]:
-    Provider{771cc9b com.abc.abcnews/com.taboola.android.TaboolaContextProvider}
-      applicationInfo=ApplicationInfo{2ad8838 com.abc.abcnews}
+    Provider{420c4c3 com.abc.abcnews/com.taboola.android.TaboolaContextProvider}
+      applicationInfo=ApplicationInfo{fb96140 com.abc.abcnews}
   [com.abc.abcnews.firebaseinitprovider]:
-    Provider{e59209e com.abc.abcnews/com.google.firebase.provider.FirebaseInitProvider}
-      applicationInfo=ApplicationInfo{2ad8838 com.abc.abcnews}
+    Provider{469d3e6 com.abc.abcnews/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{fb96140 com.abc.abcnews}
   [com.abc.abcnews.lifecycle-process]:
-    Provider{d223f95 com.abc.abcnews/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
-      applicationInfo=ApplicationInfo{2ad8838 com.abc.abcnews}
+    Provider{4c1e17d com.abc.abcnews/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{fb96140 com.abc.abcnews}
   [com.abc.abcnews.FacebookInitProvider]:
-    Provider{c17377f com.abc.abcnews/com.facebook.internal.FacebookInitProvider}
-      applicationInfo=ApplicationInfo{2ad8838 com.abc.abcnews}
+    Provider{9837d27 com.abc.abcnews/com.facebook.internal.FacebookInitProvider}
+      applicationInfo=ApplicationInfo{fb96140 com.abc.abcnews}
   [com.abc.abcnews]:
-    Provider{cc08ed9 com.abc.abcnews/.data.AbcNewsDbProvider}
-      applicationInfo=ApplicationInfo{2ad8838 com.abc.abcnews}
+    Provider{4f26241 com.abc.abcnews/.data.AbcNewsDbProvider}
+      applicationInfo=ApplicationInfo{fb96140 com.abc.abcnews}
   [com.abc.abcnews.mobileadsinitprovider]:
-    Provider{932a8aa com.abc.abcnews/com.google.android.gms.ads.MobileAdsInitProvider}
-      applicationInfo=ApplicationInfo{2ad8838 com.abc.abcnews}
+    Provider{cef4872 com.abc.abcnews/com.google.android.gms.ads.MobileAdsInitProvider}
+      applicationInfo=ApplicationInfo{fb96140 com.abc.abcnews}
   [com.abc.abcnews.AudienceNetworkContentProvider]:
-    Provider{405834c com.abc.abcnews/com.facebook.ads.AudienceNetworkContentProvider}
-      applicationInfo=ApplicationInfo{2ad8838 com.abc.abcnews}
+    Provider{485bd4 com.abc.abcnews/com.facebook.ads.AudienceNetworkContentProvider}
+      applicationInfo=ApplicationInfo{fb96140 com.abc.abcnews}
 
 Key Set Manager:
   [com.abc.abcnews]
       Signing KeySets: 27
 
 Packages:
-  Package [com.abc.abcnews] (6b44011):
+  Package [com.abc.abcnews] (5101879):
     userId=10086
-    pkg=Package{46aa576 com.abc.abcnews}
+    pkg=Package{5e579be com.abc.abcnews}
     codePath=/data/app/com.abc.abcnews-1
     resourcePath=/data/app/com.abc.abcnews-1
     legacyNativeLibraryDir=/data/app/com.abc.abcnews-1/lib
@@ -156,7 +156,7 @@ Packages:
     versionCode=53300046 targetSdk=28
     versionName=5.4.6
     splits=[base]
-    applicationInfo=ApplicationInfo{2ad8838 com.abc.abcnews}
+    applicationInfo=ApplicationInfo{fb96140 com.abc.abcnews}
     flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
     privateFlags=[ ]
     dataDir=/data/user/0/com.abc.abcnews
@@ -168,7 +168,7 @@ Packages:
     timeStamp=2024-01-13 18:03:28
     firstInstallTime=2024-01-13 18:04:16
     lastUpdateTime=2024-01-13 18:04:16
-    signatures=PackageSignatures{f169777 [bceefe4]}
+    signatures=PackageSignatures{4c0ea1f [73516c]}
     installPermissionsFixed=true installStatus=1
     pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
     requested permissions:

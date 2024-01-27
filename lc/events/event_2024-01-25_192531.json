@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-25_192531",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": "Submit a request",
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          857,
+          378
+        ],
+        [
+          1302,
+          434
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 15,
+      "temp_id": 16,
+      "size": "445*56",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "1206c13ccbc98238426a9ba6a629d028",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "313e0efdf99b607b9bda72c373c49836",
+  "stop_state": "4135acd324a36f16a0b4ed2af8ad6211",
+  "event_str": "TouchEvent(state=313e0efdf99b607b9bda72c373c49836, view=1206c13ccbc98238426a9ba6a629d028(WebViewActivity/View-))"
+}

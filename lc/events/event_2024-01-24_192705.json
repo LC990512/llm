@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-24_192705",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "jp.gocro.smartnews.android:id/settingButton",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageButton",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          1272,
+          84
+        ],
+        [
+          1440,
+          252
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 82,
+      "temp_id": 86,
+      "size": "168*168",
+      "signature": "[class]android.widget.ImageButton[resource_id]jp.gocro.smartnews.android:id/settingButton[text]None[enabled,,]",
+      "view_str": "3247998ad4ee6ec7283c0e5988acbf67",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]jp.gocro.smartnews.android:id/settingButton"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "5a33b05903a1b4053e9a8592ec309c1d",
+  "stop_state": "02d476536ae73f5f89122a9aae8d33c7",
+  "event_str": "TouchEvent(state=5a33b05903a1b4053e9a8592ec309c1d, view=3247998ad4ee6ec7283c0e5988acbf67(MainActivity/ImageButton-))"
+}

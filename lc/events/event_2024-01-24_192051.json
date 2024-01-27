@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-24_192051",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": "SmartNews Help Center",
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          420,
+          395
+        ],
+        [
+          1169,
+          476
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 19,
+      "temp_id": 21,
+      "size": "749*81",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "1a2f0cfd66c6efa95489e43ea98337ed",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "24f4c8dca7098626fd51b4adcdb03629",
+  "stop_state": "24f4c8dca7098626fd51b4adcdb03629",
+  "event_str": "TouchEvent(state=24f4c8dca7098626fd51b4adcdb03629, view=1a2f0cfd66c6efa95489e43ea98337ed(SupportActivity/View-))"
+}

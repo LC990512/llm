@@ -1,0 +1,1516 @@
+{
+  "tag": "2024-01-24_174529",
+  "state_str": "320b0ebd88e166b4a9f121582d6c7602",
+  "state_str_content_free": "d70712a839cea89eae1e37fd4578e702",
+  "foreground_activity": "com.thomsonreuters.reuters/.activities.SettingsActivity",
+  "activity_stack": [
+    "com.thomsonreuters.reuters/.activities.SettingsActivity",
+    "com.thomsonreuters.reuters/.activities.HomepageActivity"
+  ],
+  "background_services": [
+    "com.android.bluetooth/.hid.HidService",
+    "com.google.android.gms/.ads.identifier.service.AdvertisingIdService",
+    "com.google.android.music/.dial.DialMediaRouteProviderService",
+    "com.huawei.callstatisticsutils/.CallStatisticsService",
+    "org.codeaurora.ims/.ImsService",
+    "com.thomsonreuters.reuters/com.thomsonreuters.android.core.network.NetworkMonitorService",
+    "com.google.android.gms/.nearby.sharing.ReceiveSurfaceService",
+    "com.google.android.tts/.service.GoogleTTSService",
+    "com.google.android.gms/.deviceconnection.service.DeviceConnectionWatcherService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.google.android.gms/.measurement.service.MeasurementBrokerService",
+    "com.google.android.gms/.cast.media.CastMediaRouteProviderService_Persistent",
+    "com.android.bluetooth/.btservice.AdapterService",
+    "com.android.vending/com.google.android.finsky.developergroupidinfo.DeveloperGroupIdInfoService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.foxnews.android/com.chartbeat.androidsdk.ChartbeatService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.auth.proximity.firstparty.SystemMemoryCacheService",
+    "com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps",
+    "com.google.android.gms/.stats.eastworld.EastworldService",
+    "com.google.android.gms/.chimera.PersistentApiService",
+    "com.google.android.music/.download.artwork.ArtDownloadService",
+    "com.google.android.gms/.location.geocode.GeocodeService",
+    "com.android.chrome/org.chromium.content.app.SandboxedProcessService18",
+    "com.android.bluetooth/.gatt.GattService",
+    "com.android.bluetooth/.hdp.HealthService",
+    "com.google.android.music/.preferences.MusicPreferenceService",
+    "com.google.android.gms/.chimera.GmsBoundBrokerService",
+    "com.google.android.gms/.chimera.GmsApiService",
+    "com.android.bluetooth/.sap.SapService",
+    "com.google.android.music/com.google.android.wearable.datatransfer.DataSyncService",
+    "com.google.android.gms/.fido.fido2.pollux.CableAuthenticatorService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "com.google.android.gms/.nearby.sharing.SendSurfaceService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.android.bluetooth/.pbap.BluetoothPbapService",
+    "com.google.android.music/.wear.WearDataTransferConnectionService",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.android.bluetooth/.a2dp.A2dpService",
+    "com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService",
+    "com.qualcomm.cabl/.CABLService",
+    "com.google.android.gms/.gcm.http.GoogleHttpService",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.google.android.talk/com.google.android.libraries.hangouts.video.CallService",
+    "com.android.systemui/.SystemUIService",
+    "com.android.chrome/org.chromium.content.app.PrivilegedProcessService0",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.google.android.music/.download.cache.ArtCacheService",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.huawei.sarcontrolservice/.SarControlService",
+    "com.google.android.music/.net.NetworkMonitor",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.android.server.telecom/.components.BluetoothPhoneService",
+    "com.google.android.gms/.fido.authenticator.service.AuthenticatorService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.google.android.music/.download.ArtDownloadQueueService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.android.providers.media/.MtpService",
+    "com.android.bluetooth/.hfp.HeadsetService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.getsurfboard/.ui.service.SurfboardVpn",
+    "android/com.android.internal.backup.LocalTransportService",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.android.vending/com.google.android.finsky.installservice.DevTriggeredUpdateService",
+    "com.android.bluetooth/.map.BluetoothMapService",
+    "com.google.android.gms/.config.ConfigService",
+    "com.google.android.gms/.personalsafety.service.PersonalSafetyService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.android.bluetooth/.opp.BluetoothOppService",
+    "com.android.bluetooth/.pan.PanService",
+    "com.google.android.gms/.backup.BackupTransportService",
+    "com.thomsonreuters.reuters/com.chartbeat.androidsdk.ChartbeatService",
+    "com.foxnews.android/.player.service.FoxPlayerService"
+  ],
+  "width": 1440,
+  "height": 2560,
+  "views": [
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        1,
+        35,
+        36
+      ],
+      "child_count": 3,
+      "package": "com.thomsonreuters.reuters",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1440,
+          2560
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1440*2560",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "895f6f75495ab40c8bb46afbda1cb4d2",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        2
+      ],
+      "child_count": 1,
+      "package": "com.thomsonreuters.reuters",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1440*2392",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "8447f156b6ca46a30b78871e7ebdaa23",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        3
+      ],
+      "child_count": 1,
+      "package": "com.thomsonreuters.reuters",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          84
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1440*2308",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "b55d64528aac2350b04bf3d9c48606e9",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thomsonreuters.reuters:id/action_bar_root",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        4
+      ],
+      "child_count": 1,
+      "package": "com.thomsonreuters.reuters",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          84
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1440*2308",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.thomsonreuters.reuters:id/action_bar_root[text]None[enabled,,]",
+      "view_str": "85a34ed140d47d992740f0dd4ae6457b",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.thomsonreuters.reuters:id/action_bar_root"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/content",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        5
+      ],
+      "child_count": 1,
+      "package": "com.thomsonreuters.reuters",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          84
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1440*2308",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text]None[enabled,,]",
+      "view_str": "64dd43a5b3b704e76d8644b05328b68a",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        6,
+        11
+      ],
+      "child_count": 2,
+      "package": "com.thomsonreuters.reuters",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          84
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1440*2308",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "a1c836ece377694f2371e466aafa37a1",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        7
+      ],
+      "child_count": 1,
+      "package": "com.thomsonreuters.reuters",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          84
+        ],
+        [
+          1440,
+          280
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "1440*196",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "854adc2f7c148553bb36616a99beb316",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thomsonreuters.reuters:id/settings_toolbar",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.ViewGroup",
+      "children": [
+        8,
+        9,
+        10
+      ],
+      "child_count": 3,
+      "package": "com.thomsonreuters.reuters",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          84
+        ],
+        [
+          1440,
+          280
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "1440*196",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.thomsonreuters.reuters:id/settings_toolbar[text]None[enabled,,]",
+      "view_str": "13ee7ae317991ebe68293f5df076c652",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.thomsonreuters.reuters:id/settings_toolbar"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": "Navigate up",
+      "focused": false,
+      "class": "android.widget.ImageButton",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thomsonreuters.reuters",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          84
+        ],
+        [
+          196,
+          280
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "196*196",
+      "signature": "[class]android.widget.ImageButton[resource_id]None[text]None[enabled,,]",
+      "view_str": "e673e4910a246927f6861a3cee0e2fee",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thomsonreuters.reuters:id/actionbar_subtitle",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thomsonreuters.reuters",
+      "text": "SETTINGS",
+      "bounds": [
+        [
+          252,
+          148
+        ],
+        [
+          509,
+          216
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 7,
+      "temp_id": 9,
+      "size": "257*68",
+      "signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/actionbar_subtitle[text]SETTINGS[enabled,,]",
+      "view_str": "aa77611388bb42b524deaf916b5cd0fc",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/actionbar_subtitle"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.support.v7.widget.an",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thomsonreuters.reuters",
+      "text": null,
+      "bounds": [
+        [
+          1440,
+          84
+        ],
+        [
+          1440,
+          280
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 7,
+      "temp_id": 10,
+      "size": "0*196",
+      "signature": "[class]android.support.v7.widget.an[resource_id]None[text]None[enabled,,]",
+      "view_str": "da7a0ca0062631beb72a1fa2eec77af5",
+      "content_free_signature": "[class]android.support.v7.widget.an[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thomsonreuters.reuters:id/activity_settings_flipper",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ViewFlipper",
+      "children": [
+        12
+      ],
+      "child_count": 1,
+      "package": "com.thomsonreuters.reuters",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          280
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 5,
+      "temp_id": 11,
+      "size": "1440*2112",
+      "signature": "[class]android.widget.ViewFlipper[resource_id]com.thomsonreuters.reuters:id/activity_settings_flipper[text]None[enabled,,]",
+      "view_str": "5b9c52aa4c3c55910730c317b8a6606c",
+      "content_free_signature": "[class]android.widget.ViewFlipper[resource_id]com.thomsonreuters.reuters:id/activity_settings_flipper"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        13
+      ],
+      "child_count": 1,
+      "package": "com.thomsonreuters.reuters",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          280
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "1440*2112",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "38f83f2dc77f1532c58e848248a4e023",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": true,
+      "long_clickable": false,
+      "resource_id": "com.thomsonreuters.reuters:id/activity_settings_list",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": true,
+      "class": "android.widget.ListView",
+      "children": [
+        14,
+        15,
+        18,
+        19,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "child_count": 13,
+      "package": "com.thomsonreuters.reuters",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          280
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "1440*2112",
+      "signature": "[class]android.widget.ListView[resource_id]com.thomsonreuters.reuters:id/activity_settings_list[text]None[enabled,,]",
+      "view_str": "bd01ad07b2b20fba91b2614aa1a90817",
+      "content_free_signature": "[class]android.widget.ListView[resource_id]com.thomsonreuters.reuters:id/activity_settings_list"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thomsonreuters.reuters:id/settings_list_item_option",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thomsonreuters.reuters",
+      "text": "INTERNATIONAL EDITIONS",
+      "bounds": [
+        [
+          0,
+          280
+        ],
+        [
+          1440,
+          429
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 13,
+      "temp_id": 14,
+      "size": "1440*149",
+      "signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option[text]INTERNATIONAL EDITIONS[enabled,,]",
+      "view_str": "ddd04158efc42e5c2b4edd2ad33b261e",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thomsonreuters.reuters:id/settings_list_item_option_edition",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        16,
+        17
+      ],
+      "child_count": 2,
+      "package": "com.thomsonreuters.reuters",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          429
+        ],
+        [
+          1440,
+          578
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 13,
+      "temp_id": 15,
+      "size": "1440*149",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option_edition[text]None[enabled,,]",
+      "view_str": "75b503dac54c0ff24d6fcc2f47917064",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option_edition"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thomsonreuters.reuters:id/settings_list_item_option_edition_title",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thomsonreuters.reuters",
+      "text": "Edition",
+      "bounds": [
+        [
+          312,
+          429
+        ],
+        [
+          485,
+          578
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 15,
+      "temp_id": 16,
+      "size": "173*149",
+      "signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option_edition_title[text]Edition[enabled,,]",
+      "view_str": "f8efe415fdfa75984868dd57b2968fcf",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option_edition_title"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thomsonreuters.reuters:id/settings_list_item_option_edition_edition",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thomsonreuters.reuters",
+      "text": "United States",
+      "bounds": [
+        [
+          1051,
+          429
+        ],
+        [
+          1387,
+          578
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 15,
+      "temp_id": 17,
+      "size": "336*149",
+      "signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option_edition_edition[text]United States[enabled,,]",
+      "view_str": "829ae7b0e954ec8af806c021e3562c20",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option_edition_edition"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thomsonreuters.reuters:id/settings_list_item_option",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thomsonreuters.reuters",
+      "text": "VIDEO",
+      "bounds": [
+        [
+          0,
+          578
+        ],
+        [
+          1440,
+          727
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 13,
+      "temp_id": 18,
+      "size": "1440*149",
+      "signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option[text]VIDEO[enabled,,]",
+      "view_str": "5bc46a09cb7a122e84c8d6280f841467",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thomsonreuters.reuters:id/settings_list_item_option_edition",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        20,
+        21
+      ],
+      "child_count": 2,
+      "package": "com.thomsonreuters.reuters",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          727
+        ],
+        [
+          1440,
+          876
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 13,
+      "temp_id": 19,
+      "size": "1440*149",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option_edition[text]None[enabled,,]",
+      "view_str": "4ce86577fc7920cec688ecac0307c6cb",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option_edition"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thomsonreuters.reuters:id/settings_list_item_option_edition_title",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thomsonreuters.reuters",
+      "text": "Auto Play",
+      "bounds": [
+        [
+          312,
+          727
+        ],
+        [
+          549,
+          876
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 19,
+      "temp_id": 20,
+      "size": "237*149",
+      "signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option_edition_title[text]Auto Play[enabled,,]",
+      "view_str": "08d567d3c61fcd4725810c6971ab0e28",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option_edition_title"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thomsonreuters.reuters:id/settings_list_item_option_edition_edition",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thomsonreuters.reuters",
+      "text": "Always On",
+      "bounds": [
+        [
+          1128,
+          727
+        ],
+        [
+          1387,
+          876
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 19,
+      "temp_id": 21,
+      "size": "259*149",
+      "signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option_edition_edition[text]Always On[enabled,,]",
+      "view_str": "3ae4c7a942196be776f123b5e0fd09b4",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option_edition_edition"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thomsonreuters.reuters:id/settings_list_item_option",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thomsonreuters.reuters",
+      "text": "DISPLAY OPTIONS",
+      "bounds": [
+        [
+          0,
+          876
+        ],
+        [
+          1440,
+          1025
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 13,
+      "temp_id": 22,
+      "size": "1440*149",
+      "signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option[text]DISPLAY OPTIONS[enabled,,]",
+      "view_str": "99b1a889a6338c9b594792389752149f",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thomsonreuters.reuters:id/settings_list_item_option",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thomsonreuters.reuters",
+      "text": "Offline Mode",
+      "bounds": [
+        [
+          0,
+          1025
+        ],
+        [
+          1440,
+          1174
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 13,
+      "temp_id": 23,
+      "size": "1440*149",
+      "signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option[text]Offline Mode[enabled,,]",
+      "view_str": "b7642ed3e391fb98826ad431520f3a88",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thomsonreuters.reuters:id/settings_list_item_option",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thomsonreuters.reuters",
+      "text": "Notifications",
+      "bounds": [
+        [
+          0,
+          1174
+        ],
+        [
+          1440,
+          1323
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 13,
+      "temp_id": 24,
+      "size": "1440*149",
+      "signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option[text]Notifications[enabled,,]",
+      "view_str": "da89c3413eedcb77d179f3642d865d58",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thomsonreuters.reuters:id/settings_list_item_option",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thomsonreuters.reuters",
+      "text": "ABOUT REUTERS",
+      "bounds": [
+        [
+          0,
+          1323
+        ],
+        [
+          1440,
+          1472
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 13,
+      "temp_id": 25,
+      "size": "1440*149",
+      "signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option[text]ABOUT REUTERS[enabled,,]",
+      "view_str": "74fbdb880ce57ffe8a2355a138e2fe91",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thomsonreuters.reuters:id/settings_list_item_option",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thomsonreuters.reuters",
+      "text": "Privacy",
+      "bounds": [
+        [
+          0,
+          1472
+        ],
+        [
+          1440,
+          1621
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 13,
+      "temp_id": 26,
+      "size": "1440*149",
+      "signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option[text]Privacy[enabled,,]",
+      "view_str": "bb5adc756c1fd15141116f727f7f1e78",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thomsonreuters.reuters:id/settings_list_item_option",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thomsonreuters.reuters",
+      "text": "Terms of Use",
+      "bounds": [
+        [
+          0,
+          1621
+        ],
+        [
+          1440,
+          1770
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 13,
+      "temp_id": 27,
+      "size": "1440*149",
+      "signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option[text]Terms of Use[enabled,,]",
+      "view_str": "c65e83dbf631b29a4c67d660659b3178",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thomsonreuters.reuters:id/settings_list_item_option",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thomsonreuters.reuters",
+      "text": "Copyright",
+      "bounds": [
+        [
+          0,
+          1770
+        ],
+        [
+          1440,
+          1919
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 13,
+      "temp_id": 28,
+      "size": "1440*149",
+      "signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option[text]Copyright[enabled,,]",
+      "view_str": "b689582a835df06d127ba267be2abc47",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thomsonreuters.reuters:id/settings_list_item_option",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thomsonreuters.reuters",
+      "text": "Open-Source Licenses",
+      "bounds": [
+        [
+          0,
+          1919
+        ],
+        [
+          1440,
+          2068
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 13,
+      "temp_id": 29,
+      "size": "1440*149",
+      "signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option[text]Open-Source Licenses[enabled,,]",
+      "view_str": "f9f587dad638db3d53fe4801a86ea839",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": false,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        31,
+        32,
+        33,
+        34
+      ],
+      "child_count": 4,
+      "package": "com.thomsonreuters.reuters",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2068
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 13,
+      "temp_id": 30,
+      "size": "1440*324",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[,,]",
+      "view_str": "63474239a559b14b374103178e8d1e18",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thomsonreuters.reuters:id/settings_contact_us",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thomsonreuters.reuters",
+      "text": "Contact Us",
+      "bounds": [
+        [
+          228,
+          2138
+        ],
+        [
+          736,
+          2278
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 30,
+      "temp_id": 31,
+      "size": "508*140",
+      "signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_contact_us[text]Contact Us[enabled,,]",
+      "view_str": "00d6b6e29446c24290d3e38403be259f",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_contact_us"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thomsonreuters.reuters",
+      "text": "Reuters For Android",
+      "bounds": [
+        [
+          228,
+          2348
+        ],
+        [
+          648,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 30,
+      "temp_id": 32,
+      "size": "420*44",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]Reuters For Android[enabled,,]",
+      "view_str": "ddee1c730fc3dd286f452707a9f6a08f",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thomsonreuters.reuters:id/about_version_label",
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thomsonreuters.reuters",
+      "text": "Version 3.4.2",
+      "bounds": [
+        [
+          228,
+          2426
+        ],
+        [
+          486,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 30,
+      "temp_id": 33,
+      "size": "258*-34",
+      "signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/about_version_label[text]Version 3.4.2[enabled,,]",
+      "view_str": "622526dcd81d94346c0f6ec1b468a755",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/about_version_label"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thomsonreuters.reuters:id/about_reuters_message",
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thomsonreuters.reuters",
+      "text": "Reuters mobile apps bring you the latest reporting and market data from the world's most trusted news organization.",
+      "bounds": [
+        [
+          228,
+          2521
+        ],
+        [
+          1103,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 30,
+      "temp_id": 34,
+      "size": "875*-129",
+      "signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/about_reuters_message[text]None[enabled,,]",
+      "view_str": "c528b41c2c75019edfc0204e7d8813e7",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/about_reuters_message"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/statusBarBackground",
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thomsonreuters.reuters",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1440,
+          84
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 0,
+      "temp_id": 35,
+      "size": "1440*84",
+      "signature": "[class]android.view.View[resource_id]android:id/statusBarBackground[text]None[enabled,,]",
+      "view_str": "b8583d3c30e31e92c17e9cd986edb230",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/statusBarBackground"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/navigationBarBackground",
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thomsonreuters.reuters",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2392
+        ],
+        [
+          1440,
+          2560
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 0,
+      "temp_id": 36,
+      "size": "1440*168",
+      "signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground[text]None[enabled,,]",
+      "view_str": "cc2fc990e441b97a1388c775cca79562",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground"
+    }
+  ]
+}

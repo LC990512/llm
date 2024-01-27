@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-23_001909",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.contextlogic.wish:id/sign_in_fragment_create_account_button",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.contextlogic.wish",
+      "text": "New? Create an Account",
+      "bounds": [
+        [
+          56,
+          1776
+        ],
+        [
+          1384,
+          1916
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 31,
+      "temp_id": 38,
+      "size": "1328*140",
+      "signature": "[class]android.widget.TextView[resource_id]com.contextlogic.wish:id/sign_in_fragment_create_account_button[text]New? Create an Account[enabled,,]",
+      "view_str": "3dff962783ca272f9b596724f08a94f8",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.contextlogic.wish:id/sign_in_fragment_create_account_button"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "08ad9a6873f53f0f041837bbf98622f8",
+  "stop_state": "fdbdb2cb364e5d3faeaa899e398f6a4a",
+  "event_str": "TouchEvent(state=08ad9a6873f53f0f041837bbf98622f8, view=3dff962783ca272f9b596724f08a94f8(SignInActivity/TextView-New? Creat))"
+}

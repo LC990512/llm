@@ -1,0 +1,52 @@
+{
+  "tag": "2024-01-24_161630",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.support.v7.app.a$c",
+      "children": [
+        26
+      ],
+      "child_count": 1,
+      "package": "com.thomsonreuters.reuters",
+      "text": null,
+      "bounds": [
+        [
+          480,
+          280
+        ],
+        [
+          960,
+          420
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 20,
+      "temp_id": 25,
+      "size": "480*140",
+      "signature": "[class]android.support.v7.app.a$c[resource_id]None[text]None[enabled,,]",
+      "view_str": "196248f8084ef976a0ea55a30b3133b4",
+      "content_free_signature": "[class]android.support.v7.app.a$c[resource_id]None"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "57c9cddbd32302d38b3390c8c364290e",
+  "stop_state": "d319f37b82fef3b95f1f406f79b57f84",
+  "event_str": "TouchEvent(state=57c9cddbd32302d38b3390c8c364290e, view=196248f8084ef976a0ea55a30b3133b4(HomepageActivity/a$c-))"
+}

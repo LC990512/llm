@@ -1,0 +1,54 @@
+{
+  "tag": "2024-01-22_192409",
+  "event": {
+    "event_type": "scroll",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": true,
+      "long_clickable": false,
+      "resource_id": "com.contextlogic.geek:id/profile_fragment_listview",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": true,
+      "class": "android.widget.ListView",
+      "children": [
+        14,
+        43
+      ],
+      "child_count": 2,
+      "package": "com.contextlogic.geek",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          84
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "1440*2308",
+      "signature": "[class]android.widget.ListView[resource_id]com.contextlogic.geek:id/profile_fragment_listview[text]None[enabled,,]",
+      "view_str": "98c2e40dfa7c0ab63c9586ddabbd4806",
+      "content_free_signature": "[class]android.widget.ListView[resource_id]com.contextlogic.geek:id/profile_fragment_listview"
+    },
+    "x": null,
+    "y": null,
+    "direction": "DOWN"
+  },
+  "start_state": "e74a25508f830c48754a9f4ae4bb470e",
+  "stop_state": "b40a68621e5af0af346bef6891a3d240",
+  "event_str": "ScrollEvent(state=e74a25508f830c48754a9f4ae4bb470e, view=98c2e40dfa7c0ab63c9586ddabbd4806(ProfileActivity/ListView-), direction=DOWN)"
+}

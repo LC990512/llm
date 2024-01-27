@@ -1,0 +1,118 @@
+Activity Resolver Table:
+  Schemes:
+      com.contextlogic.geek.braintree:
+        dc56164 com.contextlogic.geek/com.braintreepayments.api.BraintreeBrowserSwitchActivity
+      geek:
+        80f1fcd com.contextlogic.geek/com.contextlogic.wish.activity.link.DeepLinkActivity
+      http:
+        80f1fcd com.contextlogic.geek/com.contextlogic.wish.activity.link.DeepLinkActivity
+        faf3082 com.contextlogic.geek/com.contextlogic.wish.activity.browse.BrowseActivity
+      https:
+        80f1fcd com.contextlogic.geek/com.contextlogic.wish.activity.link.DeepLinkActivity
+      wish-klarna:
+        4eb7393 com.contextlogic.geek/com.contextlogic.wish.activity.webview.KlarnaWebViewActivity
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        c292fd0 com.contextlogic.geek/com.contextlogic.wish.activity.facebook.WishFacebookDeepLinkActivity
+        faf3082 com.contextlogic.geek/com.contextlogic.wish.activity.browse.BrowseActivity
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.google.android.gms.measurement.UPLOAD:
+        4faebc9 com.contextlogic.geek/com.google.android.gms.measurement.AppMeasurementReceiver
+      com.android.vending.INSTALL_REFERRER:
+        923d2ce com.contextlogic.geek/com.contextlogic.wish.receiver.InstallReceiver
+      com.contextlogic.wish.DEVICE_ID:
+        7cfb5ef com.contextlogic.geek/com.contextlogic.wish.receiver.DeviceIdReceiver
+      com.google.android.c2dm.intent.RECEIVE:
+        2b978fc com.contextlogic.geek/com.contextlogic.wish.notifications.push.PushNotificationReceiver
+        abd7b85 com.contextlogic.geek/com.google.firebase.iid.FirebaseInstanceIdReceiver
+      com.google.android.c2dm.intent.REGISTRATION:
+        abd7b85 com.contextlogic.geek/com.google.firebase.iid.FirebaseInstanceIdReceiver
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.INSTANCE_ID_EVENT:
+        c2e4dda com.contextlogic.geek/com.google.firebase.iid.FirebaseInstanceIdService
+
+Permissions:
+  Permission [com.contextlogic.geek.permission.C2D_MESSAGE] (c0bc20b):
+    sourcePackage=com.contextlogic.geek
+    uid=10115 gids=null type=0 prot=signature
+    perm=Permission{5a328e8 com.contextlogic.geek.permission.C2D_MESSAGE}
+    packageSetting=PackageSetting{85f4b01 com.contextlogic.geek/10115}
+
+Registered ContentProviders:
+  com.contextlogic.geek/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{d336da6 com.contextlogic.geek/com.google.firebase.provider.FirebaseInitProvider}
+  com.contextlogic.geek/android.support.v4.content.FileProvider:
+    Provider{eb273e7 com.contextlogic.geek/android.support.v4.content.FileProvider}
+
+ContentProvider Authorities:
+  [com.contextlogic.geek.fileprovider]:
+    Provider{eb273e7 com.contextlogic.geek/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{cf5eb94 com.contextlogic.geek}
+  [com.contextlogic.geek.firebaseinitprovider]:
+    Provider{d336da6 com.contextlogic.geek/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{cf5eb94 com.contextlogic.geek}
+
+Key Set Manager:
+  [com.contextlogic.geek]
+      Signing KeySets: 55
+
+Packages:
+  Package [com.contextlogic.geek] (85f4b01):
+    userId=10115
+    pkg=Package{af4963d com.contextlogic.geek}
+    codePath=/data/app/com.contextlogic.geek-1
+    resourcePath=/data/app/com.contextlogic.geek-1
+    legacyNativeLibraryDir=/data/app/com.contextlogic.geek-1/lib
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    versionCode=352 targetSdk=23
+    versionName=2.3.7
+    splits=[base]
+    applicationInfo=ApplicationInfo{cf5eb94 com.contextlogic.geek}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    privateFlags=[ ]
+    dataDir=/data/user/0/com.contextlogic.geek
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      com.amazon.device.messaging
+      com.amazon.application.compatibility.enforcer
+    timeStamp=2024-01-22 15:33:17
+    firstInstallTime=2024-01-22 15:33:30
+    lastUpdateTime=2024-01-22 15:33:30
+    signatures=PackageSignatures{18be32 [1286783]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    declared permissions:
+      com.contextlogic.geek.permission.C2D_MESSAGE: prot=signature, INSTALLED
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.WAKE_LOCK
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.VIBRATE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      com.contextlogic.geek.permission.C2D_MESSAGE
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.CAMERA
+      android.permission.GET_ACCOUNTS
+      android.permission.READ_CONTACTS
+      android.permission.NFC
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      com.contextlogic.geek.permission.C2D_MESSAGE: granted=true
+      android.permission.NFC: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0:  installed=true hidden=false stopped=false notLaunched=false enabled=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.CAMERA: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true

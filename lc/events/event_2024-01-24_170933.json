@@ -1,0 +1,12 @@
+{
+  "tag": "2024-01-24_170933",
+  "event": {
+    "event_type": "kill_app",
+    "log_lines": null,
+    "prompt": null,
+    "stop_intent": "am force-stop com.thomsonreuters.reuters"
+  },
+  "start_state": "83021324dd39a11ee1bb5cb097be42dd",
+  "stop_state": "e62963759a9432d0cea8579db7e1c27d",
+  "event_str": "KillAppEvent()"
+}

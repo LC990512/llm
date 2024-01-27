@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-22_145352",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": "Navigate up",
+      "focused": false,
+      "class": "android.widget.ImageButton",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          84
+        ],
+        [
+          196,
+          280
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "196*196",
+      "signature": "[class]android.widget.ImageButton[resource_id]None[text]None[enabled,,]",
+      "view_str": "38860e076fc9fdc4967285680931cdb0",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]None"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "a2de589063480e2ddf9809a61522f480",
+  "stop_state": "d45277b84a984a128a36c3777c357075",
+  "event_str": "TouchEvent(state=a2de589063480e2ddf9809a61522f480, view=38860e076fc9fdc4967285680931cdb0(FmWebActivity/ImageButton-))"
+}

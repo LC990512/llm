@@ -1,0 +1,51 @@
+{
+  "tag": "2024-01-22_014839",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.thirdrock.fivemiles:id/login_last_name",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": "Last Name",
+      "bounds": [
+        [
+          762,
+          615
+        ],
+        [
+          1356,
+          773
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 14,
+      "temp_id": 15,
+      "size": "594*158",
+      "signature": "[class]android.widget.EditText[resource_id]com.thirdrock.fivemiles:id/login_last_name[text]Last Name[enabled,,]",
+      "view_str": "09bf9a27cd6e599a37a5f77cc75ac24e",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.thirdrock.fivemiles:id/login_last_name"
+    },
+    "x": null,
+    "y": null,
+    "text": "bbb"
+  },
+  "start_state": "64880df0e3fad2b1e9154fa404f95e32",
+  "stop_state": "4e4623c123ce8b4717df34666ef7e018",
+  "event_str": "SetTextEvent(state=64880df0e3fad2b1e9154fa404f95e32, view=09bf9a27cd6e599a37a5f77cc75ac24e(RegisterActivity/EditText-Last Name), text=bbb)"
+}

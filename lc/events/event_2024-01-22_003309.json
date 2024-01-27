@@ -1,0 +1,12 @@
+{
+  "tag": "2024-01-22_003309",
+  "event": {
+    "event_type": "intent",
+    "log_lines": null,
+    "prompt": null,
+    "intent": "am start com.thirdrock.fivemiles/com.insthub.fivemiles.Activity.GuidePagerActivity"
+  },
+  "start_state": "fe720cebee96175049ae24b354d514ee",
+  "stop_state": "a0e99ed3e4280b48669f8a6c22112bdd",
+  "event_str": "IntentEvent(intent='am start com.thirdrock.fivemiles/com.insthub.fivemiles.Activity.GuidePagerActivity')"
+}

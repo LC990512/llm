@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-23_150845",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/settings_link",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": "About This App",
+      "bounds": [
+        [
+          56,
+          130
+        ],
+        [
+          1384,
+          206
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 16,
+      "temp_id": 17,
+      "size": "1328*76",
+      "signature": "[class]android.widget.TextView[resource_id]com.foxnews.android:id/settings_link[text]About This App[enabled,,]",
+      "view_str": "fca02b4b489e4fb71c182241bd112f61",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.foxnews.android:id/settings_link"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "1ef9a0300ea89ca86b786d96ff2778f7",
+  "stop_state": "3fc0c1f585849b73c500d8e487ad4127",
+  "event_str": "TouchEvent(state=1ef9a0300ea89ca86b786d96ff2778f7, view=fca02b4b489e4fb71c182241bd112f61(SettingsActivity/TextView-About This))"
+}

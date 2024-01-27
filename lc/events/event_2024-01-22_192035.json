@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-22_192035",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": "Navigate up",
+      "focused": false,
+      "class": "android.widget.ImageButton",
+      "children": [],
+      "child_count": 0,
+      "package": "com.contextlogic.geek",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          84
+        ],
+        [
+          196,
+          280
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 8,
+      "temp_id": 9,
+      "size": "196*196",
+      "signature": "[class]android.widget.ImageButton[resource_id]None[text]None[enabled,,]",
+      "view_str": "dfed9b0dfd54ea23abc6a3815fb02b1f",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]None"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "ebbe62bb7a7382a3460e6443a587c892",
+  "stop_state": "80ad34085270b1ad7704053092a6f085",
+  "event_str": "TouchEvent(state=ebbe62bb7a7382a3460e6443a587c892, view=dfed9b0dfd54ea23abc6a3815fb02b1f(WebViewActivity/ImageButton-))"
+}

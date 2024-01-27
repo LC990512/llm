@@ -1,169 +1,169 @@
 Activity Resolver Table:
   Schemes:
       fb89186614300:
-        ae334ab com.etsy.android/com.facebook.CustomTabActivity
+        1a16c4d com.etsy.android/com.facebook.CustomTabActivity
       etsy:
-        40bb708 com.etsy.android/.ui.nav.NotificationActivity
+        cf1d413 com.etsy.android/.ui.nav.NotificationActivity
       http:
-        2f18ea1 com.etsy.android/.ui.user.auth.SignInActivity
-        40bb708 com.etsy.android/.ui.nav.NotificationActivity
-        bd4f8c6 com.etsy.android/.deeplinking.bitly.BitlyActivity
+        6a58049 com.etsy.android/.deeplinking.bitly.BitlyActivity
+        b474650 com.etsy.android/.ui.user.auth.SignInActivity
+        cf1d413 com.etsy.android/.ui.nav.NotificationActivity
       https:
-        40bb708 com.etsy.android/.ui.nav.NotificationActivity (3 filters)
-        bd4f8c6 com.etsy.android/.deeplinking.bitly.BitlyActivity
+        6a58049 com.etsy.android/.deeplinking.bitly.BitlyActivity
+        cf1d413 com.etsy.android/.ui.nav.NotificationActivity (3 filters)
 
   Non-Data Actions:
       android.intent.action.MAIN:
-        c9e7087 com.etsy.android/.ui.homescreen.HomescreenTabsActivity
+        3040d4e com.etsy.android/.ui.homescreen.HomescreenTabsActivity
       android.intent.action.VIEW:
-        5293bb4 com.etsy.android/.ui.search.v2.SearchV2Activity
+        d1b9e6f com.etsy.android/.ui.search.v2.SearchV2Activity
       com.google.android.gms.actions.SEARCH_ACTION:
-        5293bb4 com.etsy.android/.ui.search.v2.SearchV2Activity
+        d1b9e6f com.etsy.android/.ui.search.v2.SearchV2Activity
       android.intent.action.SEARCH:
-        5293bb4 com.etsy.android/.ui.search.v2.SearchV2Activity
+        d1b9e6f com.etsy.android/.ui.search.v2.SearchV2Activity
 
 Receiver Resolver Table:
   Schemes:
       package:
-        3f773dd com.etsy.android/.lib.core.InstallStateReceiver
+        7e2777c com.etsy.android/.lib.core.InstallStateReceiver
 
   Non-Data Actions:
       com.etsy.android.beta.MESSAGE_OPENED:
-        f97db52 com.etsy.android/.messaging.MessageOpenedReceiver
+        1bcd805 com.etsy.android/.messaging.MessageOpenedReceiver
       android.intent.action.BATTERY_OKAY:
-        be78e23 com.etsy.android/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+        17b05a com.etsy.android/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
       android.intent.action.ACTION_POWER_DISCONNECTED:
-        f85f20 com.etsy.android/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+        16db28b com.etsy.android/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
       com.etsy.android.crossprocesssharedpref.PUT_INT:
-        97c70d9 com.etsy.android/.lib.util.CrossProcessSharedPreferences$Receiver
+        a9d8f68 com.etsy.android/.lib.util.CrossProcessSharedPreferences$Receiver
       com.etsy.android.crossprocesssharedpref.PUT_LONG:
-        97c70d9 com.etsy.android/.lib.util.CrossProcessSharedPreferences$Receiver
+        a9d8f68 com.etsy.android/.lib.util.CrossProcessSharedPreferences$Receiver
       android.intent.action.DEVICE_STORAGE_LOW:
-        5345a9e com.etsy.android/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+        937ef81 com.etsy.android/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
       android.net.conn.CONNECTIVITY_CHANGE:
-        f1ae97f com.etsy.android/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+        6907826 com.etsy.android/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
       com.google.android.gms.analytics.ANALYTICS_DISPATCH:
-        8d44d4c com.etsy.android/com.google.android.gms.analytics.AnalyticsReceiver
+        382ec67 com.etsy.android/com.google.android.gms.analytics.AnalyticsReceiver
       com.etsy.android.crossprocesssharedpref.PUT_FLOAT:
-        97c70d9 com.etsy.android/.lib.util.CrossProcessSharedPreferences$Receiver
+        a9d8f68 com.etsy.android/.lib.util.CrossProcessSharedPreferences$Receiver
       com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED:
-        6ba4195 com.etsy.android/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+        1703a14 com.etsy.android/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
       android.intent.action.DEVICE_STORAGE_OK:
-        5345a9e com.etsy.android/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+        937ef81 com.etsy.android/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
       com.android.vending.INSTALL_REFERRER:
-        b8782aa com.etsy.android/.util.InstallReferrerReceiver
-        bfe9e9b com.etsy.android/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+        67bf0b2 com.etsy.android/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+        df302bd com.etsy.android/.util.InstallReferrerReceiver
       com.etsy.android.com.salesforce.marketingcloud.WAKE_FOR_ALARM:
-        69ef238 com.etsy.android/com.salesforce.marketingcloud.MCReceiver
+        1c7e803 com.etsy.android/com.salesforce.marketingcloud.MCReceiver
       com.etsy.android.crossprocesssharedpref.REMOVE:
-        97c70d9 com.etsy.android/.lib.util.CrossProcessSharedPreferences$Receiver
+        a9d8f68 com.etsy.android/.lib.util.CrossProcessSharedPreferences$Receiver
       com.google.android.c2dm.intent.RECEIVE:
-        331f76 com.etsy.android/com.google.firebase.iid.FirebaseInstanceIdReceiver
-        eca6211 com.etsy.android/com.google.android.gms.gcm.GcmReceiver (2 filters)
+        20e380 com.etsy.android/com.google.android.gms.gcm.GcmReceiver (2 filters)
+        8520db9 com.etsy.android/com.google.firebase.iid.FirebaseInstanceIdReceiver
       android.intent.action.BATTERY_LOW:
-        be78e23 com.etsy.android/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+        17b05a com.etsy.android/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
       android.intent.action.TIMEZONE_CHANGED:
-        49e8977 com.etsy.android/androidx.work.impl.background.systemalarm.RescheduleReceiver
-        69ef238 com.etsy.android/com.salesforce.marketingcloud.MCReceiver
+        13465fe com.etsy.android/androidx.work.impl.background.systemalarm.RescheduleReceiver
+        1c7e803 com.etsy.android/com.salesforce.marketingcloud.MCReceiver
       android.intent.action.TIME_SET:
-        49e8977 com.etsy.android/androidx.work.impl.background.systemalarm.RescheduleReceiver
+        13465fe com.etsy.android/androidx.work.impl.background.systemalarm.RescheduleReceiver
       android.intent.action.BOOT_COMPLETED:
-        49e8977 com.etsy.android/androidx.work.impl.background.systemalarm.RescheduleReceiver
-        69ef238 com.etsy.android/com.salesforce.marketingcloud.MCReceiver
+        13465fe com.etsy.android/androidx.work.impl.background.systemalarm.RescheduleReceiver
+        1c7e803 com.etsy.android/com.salesforce.marketingcloud.MCReceiver
       android.intent.action.ACTION_POWER_CONNECTED:
-        f85f20 com.etsy.android/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+        16db28b com.etsy.android/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
       com.etsy.android.crossprocesssharedpref.PUT_BOOLEAN:
-        97c70d9 com.etsy.android/.lib.util.CrossProcessSharedPreferences$Receiver
+        a9d8f68 com.etsy.android/.lib.util.CrossProcessSharedPreferences$Receiver
       com.google.android.c2dm.intent.REGISTRATION:
-        eca6211 com.etsy.android/com.google.android.gms.gcm.GcmReceiver
+        20e380 com.etsy.android/com.google.android.gms.gcm.GcmReceiver
       android.intent.action.MY_PACKAGE_REPLACED:
-        69ef238 com.etsy.android/com.salesforce.marketingcloud.MCReceiver
+        1c7e803 com.etsy.android/com.salesforce.marketingcloud.MCReceiver
       androidx.work.impl.background.systemalarm.UpdateProxies:
-        e6cf9e4 com.etsy.android/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+        ad7015f com.etsy.android/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
       com.etsy.android.crossprocesssharedpref.PUT_STRING:
-        97c70d9 com.etsy.android/.lib.util.CrossProcessSharedPreferences$Receiver
+        a9d8f68 com.etsy.android/.lib.util.CrossProcessSharedPreferences$Receiver
       android.intent.action.ACTION_SHUTDOWN:
-        69ef238 com.etsy.android/com.salesforce.marketingcloud.MCReceiver
+        1c7e803 com.etsy.android/com.salesforce.marketingcloud.MCReceiver
 
 Service Resolver Table:
   Non-Data Actions:
       com.google.firebase.INSTANCE_ID_EVENT:
-        2e20e4d com.etsy.android/com.google.firebase.iid.FirebaseInstanceIdService
+        e70b7ac com.etsy.android/com.google.firebase.iid.FirebaseInstanceIdService
       com.google.android.gms.gcm.ACTION_TASK_READY:
-        729bd02 com.etsy.android/com.firebase.jobdispatcher.GooglePlayReceiver
+        8fccc75 com.etsy.android/com.firebase.jobdispatcher.GooglePlayReceiver
       com.google.android.c2dm.intent.RECEIVE:
-        5e84613 com.etsy.android/.messaging.EtsyGcmListenerService
-        ef1d050 com.etsy.android/com.salesforce.marketingcloud.messages.push.MCGcmListenerService
+        16ce40a com.etsy.android/.messaging.EtsyGcmListenerService
+        294547b com.etsy.android/com.salesforce.marketingcloud.messages.push.MCGcmListenerService
       com.firebase.jobdispatcher.ACTION_EXECUTE:
-        84e4249 com.etsy.android/.lib.logger.elk.uploading.ElkLogUploadJobService
+        d07a298 com.etsy.android/.lib.logger.elk.uploading.ElkLogUploadJobService
       com.google.android.gms.iid.InstanceID:
-        407306f com.etsy.android/com.salesforce.marketingcloud.messages.push.MCInstanceIdListenerService
-        efaa74e com.etsy.android/.lib.messaging.InstanceIdService
+        7fd36d6 com.etsy.android/com.salesforce.marketingcloud.messages.push.MCInstanceIdListenerService
+        95abaf1 com.etsy.android/.lib.messaging.InstanceIdService
 
 Permissions:
-  Permission [com.etsy.android.permission.C2D_MESSAGE] (caba17c):
+  Permission [com.etsy.android.permission.C2D_MESSAGE] (d09bd57):
     sourcePackage=com.etsy.android
-    uid=10085 gids=null type=0 prot=signature
-    perm=Permission{22fba05 com.etsy.android.permission.C2D_MESSAGE}
-    packageSetting=PackageSetting{dddea5a com.etsy.android/10085}
+    uid=10061 gids=null type=0 prot=signature
+    perm=Permission{d205044 com.etsy.android.permission.C2D_MESSAGE}
+    packageSetting=PackageSetting{7cf152d com.etsy.android/10061}
 
 Registered ContentProviders:
   com.etsy.android/com.salesforce.marketingcloud.MCInitContentProvider:
-    Provider{80648b com.etsy.android/com.salesforce.marketingcloud.MCInitContentProvider}
+    Provider{96dea62 com.etsy.android/com.salesforce.marketingcloud.MCInitContentProvider}
   com.etsy.android/android.support.v4.content.FileProvider:
-    Provider{3cf5968 com.etsy.android/android.support.v4.content.FileProvider}
+    Provider{b02d7f3 com.etsy.android/android.support.v4.content.FileProvider}
   com.etsy.android/.contentproviders.EtsyProvider:
-    Provider{af6f181 com.etsy.android/.contentproviders.EtsyProvider}
+    Provider{6f42cb0 com.etsy.android/.contentproviders.EtsyProvider}
   com.etsy.android/.contentproviders.EtsyConvoProvider:
-    Provider{3805226 com.etsy.android/.contentproviders.EtsyConvoProvider}
+    Provider{bb4d729 com.etsy.android/.contentproviders.EtsyConvoProvider}
   com.etsy.android/androidx.work.impl.WorkManagerInitializer:
-    Provider{60ebe67 com.etsy.android/androidx.work.impl.WorkManagerInitializer}
+    Provider{8444aae com.etsy.android/androidx.work.impl.WorkManagerInitializer}
   com.etsy.android/com.facebook.marketing.internal.MarketingInitProvider:
-    Provider{cf4a414 com.etsy.android/com.facebook.marketing.internal.MarketingInitProvider}
+    Provider{469004f com.etsy.android/com.facebook.marketing.internal.MarketingInitProvider}
   com.etsy.android/android.arch.lifecycle.ProcessLifecycleOwnerInitializer:
-    Provider{9a024bd com.etsy.android/android.arch.lifecycle.ProcessLifecycleOwnerInitializer}
+    Provider{ae763dc com.etsy.android/android.arch.lifecycle.ProcessLifecycleOwnerInitializer}
   com.etsy.android/com.google.firebase.provider.FirebaseInitProvider:
-    Provider{b8f6ab2 com.etsy.android/com.google.firebase.provider.FirebaseInitProvider}
+    Provider{d1abce5 com.etsy.android/com.google.firebase.provider.FirebaseInitProvider}
   com.etsy.android/com.facebook.internal.FacebookInitProvider:
-    Provider{63eda03 com.etsy.android/com.facebook.internal.FacebookInitProvider}
+    Provider{80e63ba com.etsy.android/com.facebook.internal.FacebookInitProvider}
 
 ContentProvider Authorities:
   [com.etsy.android.FacebookInitProvider]:
-    Provider{63eda03 com.etsy.android/com.facebook.internal.FacebookInitProvider}
-      applicationInfo=ApplicationInfo{81ed80 com.etsy.android}
+    Provider{80e63ba com.etsy.android/com.facebook.internal.FacebookInitProvider}
+      applicationInfo=ApplicationInfo{c5f526b com.etsy.android}
   [com.etsy.android.lifecycle-trojan]:
-    Provider{9a024bd com.etsy.android/android.arch.lifecycle.ProcessLifecycleOwnerInitializer}
-      applicationInfo=ApplicationInfo{81ed80 com.etsy.android}
+    Provider{ae763dc com.etsy.android/android.arch.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{c5f526b com.etsy.android}
   [com.etsy.android.contentproviders.EtsyProvider]:
-    Provider{af6f181 com.etsy.android/.contentproviders.EtsyProvider}
-      applicationInfo=ApplicationInfo{81ed80 com.etsy.android}
+    Provider{6f42cb0 com.etsy.android/.contentproviders.EtsyProvider}
+      applicationInfo=ApplicationInfo{c5f526b com.etsy.android}
   [com.etsy.android.MarketingInitProvider]:
-    Provider{cf4a414 com.etsy.android/com.facebook.marketing.internal.MarketingInitProvider}
-      applicationInfo=ApplicationInfo{81ed80 com.etsy.android}
+    Provider{469004f com.etsy.android/com.facebook.marketing.internal.MarketingInitProvider}
+      applicationInfo=ApplicationInfo{c5f526b com.etsy.android}
   [com.etsy.android.contentproviders.EtsyConvoProvider]:
-    Provider{3805226 com.etsy.android/.contentproviders.EtsyConvoProvider}
-      applicationInfo=ApplicationInfo{81ed80 com.etsy.android}
+    Provider{bb4d729 com.etsy.android/.contentproviders.EtsyConvoProvider}
+      applicationInfo=ApplicationInfo{c5f526b com.etsy.android}
   [com.etsy.android.contentproviders.FileProvider]:
-    Provider{3cf5968 com.etsy.android/android.support.v4.content.FileProvider}
-      applicationInfo=ApplicationInfo{81ed80 com.etsy.android}
+    Provider{b02d7f3 com.etsy.android/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{c5f526b com.etsy.android}
   [com.etsy.android.com.salesforce.marketingcloud.initprovider]:
-    Provider{80648b com.etsy.android/com.salesforce.marketingcloud.MCInitContentProvider}
-      applicationInfo=ApplicationInfo{81ed80 com.etsy.android}
+    Provider{96dea62 com.etsy.android/com.salesforce.marketingcloud.MCInitContentProvider}
+      applicationInfo=ApplicationInfo{c5f526b com.etsy.android}
   [com.etsy.android.workmanager-init]:
-    Provider{60ebe67 com.etsy.android/androidx.work.impl.WorkManagerInitializer}
-      applicationInfo=ApplicationInfo{81ed80 com.etsy.android}
+    Provider{8444aae com.etsy.android/androidx.work.impl.WorkManagerInitializer}
+      applicationInfo=ApplicationInfo{c5f526b com.etsy.android}
   [com.etsy.android.firebaseinitprovider]:
-    Provider{b8f6ab2 com.etsy.android/com.google.firebase.provider.FirebaseInitProvider}
-      applicationInfo=ApplicationInfo{81ed80 com.etsy.android}
+    Provider{d1abce5 com.etsy.android/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{c5f526b com.etsy.android}
 
 Key Set Manager:
   [com.etsy.android]
-      Signing KeySets: 26
+      Signing KeySets: 8
 
 Packages:
-  Package [com.etsy.android] (dddea5a):
-    userId=10085
-    pkg=Package{eaf4fb9 com.etsy.android}
+  Package [com.etsy.android] (7cf152d):
+    userId=10061
+    pkg=Package{974e1c8 com.etsy.android}
     codePath=/data/app/com.etsy.android-1
     resourcePath=/data/app/com.etsy.android-1
     legacyNativeLibraryDir=/data/app/com.etsy.android-1/lib
@@ -172,15 +172,15 @@ Packages:
     versionCode=50600025 targetSdk=23
     versionName=5.6.0
     splits=[base]
-    applicationInfo=ApplicationInfo{81ed80 com.etsy.android}
+    applicationInfo=ApplicationInfo{c5f526b com.etsy.android}
     flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
     privateFlags=[ ]
     dataDir=/data/user/0/com.etsy.android
     supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
-    timeStamp=2024-01-13 18:01:26
-    firstInstallTime=2024-01-13 18:01:54
-    lastUpdateTime=2024-01-13 18:01:54
-    signatures=PackageSignatures{d057ffe [4cb135f]}
+    timeStamp=2024-01-12 03:23:57
+    firstInstallTime=2024-01-12 03:24:02
+    lastUpdateTime=2024-01-12 03:24:02
+    signatures=PackageSignatures{c3f4261 [52f0186]}
     installPermissionsFixed=true installStatus=1
     pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
     declared permissions:

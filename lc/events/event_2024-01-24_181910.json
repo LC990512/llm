@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-24_181910",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thomsonreuters.reuters:id/title",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thomsonreuters.reuters",
+      "text": "Change text size",
+      "bounds": [
+        [
+          794,
+          144
+        ],
+        [
+          1370,
+          220
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "576*76",
+      "signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/title[text]Change text size[enabled,,]",
+      "view_str": "170b1acf781528d75c0fc76119550d9a",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/title"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "6d92773d1e655d39c6e291cf9ed1c4f1",
+  "stop_state": "99b909420d3d1ef0178a0a616bcd500c",
+  "event_str": "TouchEvent(state=6d92773d1e655d39c6e291cf9ed1c4f1, view=170b1acf781528d75c0fc76119550d9a(HomepageActivity/TextView-Change tex))"
+}

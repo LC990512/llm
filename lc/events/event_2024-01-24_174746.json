@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-24_174746",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thomsonreuters.reuters:id/settings_list_item_option",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thomsonreuters.reuters",
+      "text": "Terms of Use",
+      "bounds": [
+        [
+          0,
+          1621
+        ],
+        [
+          1440,
+          1770
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 13,
+      "temp_id": 27,
+      "size": "1440*149",
+      "signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option[text]Terms of Use[enabled,,]",
+      "view_str": "c65e83dbf631b29a4c67d660659b3178",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/settings_list_item_option"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "320b0ebd88e166b4a9f121582d6c7602",
+  "stop_state": "292693f64e29769a9c92a0ec7d468fc3",
+  "event_str": "TouchEvent(state=320b0ebd88e166b4a9f121582d6c7602, view=c65e83dbf631b29a4c67d660659b3178(SettingsActivity/TextView-Terms of U))"
+}

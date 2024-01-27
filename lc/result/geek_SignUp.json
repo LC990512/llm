@@ -1,0 +1,461 @@
+[
+    {
+        "event_type": "kill_app",
+        "log_lines": null,
+        "prompt": null,
+        "stop_intent": "am force-stop com.contextlogic.geek"
+    },
+    {
+        "event_type": "intent",
+        "log_lines": null,
+        "prompt": null,
+        "intent": "am start com.contextlogic.geek/com.contextlogic.wish.activity.browse.BrowseActivity"
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "com.contextlogic.geek:id/login_fragment_create_account_button",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.TextView",
+            "children": [],
+            "child_count": 0,
+            "package": "com.contextlogic.geek",
+            "text": "Create Account",
+            "bounds": [
+                [
+                    387,
+                    1142
+                ],
+                [
+                    1052,
+                    1289
+                ]
+            ],
+            "editable": false,
+            "focusable": false,
+            "parent": 35,
+            "temp_id": 38,
+            "size": "665*147",
+            "signature": "[class]android.widget.TextView[resource_id]com.contextlogic.geek:id/login_fragment_create_account_button[text]Create Account[enabled,,]",
+            "view_str": "6e38f5b6a49a065b1901ecb799f73274",
+            "content_free_signature": "[class]android.widget.TextView[resource_id]com.contextlogic.geek:id/login_fragment_create_account_button"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "set_text",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "com.contextlogic.geek:id/create_account_fragment_first_name_text",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "com.contextlogic.geek",
+            "text": "First Name",
+            "bounds": [
+                [
+                    35,
+                    315
+                ],
+                [
+                    702,
+                    456
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 18,
+            "temp_id": 19,
+            "size": "667*141",
+            "signature": "[class]android.widget.EditText[resource_id]com.contextlogic.geek:id/create_account_fragment_first_name_text[text]First Name[enabled,,]",
+            "view_str": "4c232ddb828d2c58cb6cf76118d5082d",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.contextlogic.geek:id/create_account_fragment_first_name_text"
+        },
+        "x": null,
+        "y": null,
+        "text": "aaa"
+    },
+    {
+        "event_type": "set_text",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "com.contextlogic.geek:id/create_account_fragment_last_name_text",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "com.contextlogic.geek",
+            "text": "Last Name",
+            "bounds": [
+                [
+                    738,
+                    315
+                ],
+                [
+                    1405,
+                    456
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 18,
+            "temp_id": 20,
+            "size": "667*141",
+            "signature": "[class]android.widget.EditText[resource_id]com.contextlogic.geek:id/create_account_fragment_last_name_text[text]Last Name[enabled,,]",
+            "view_str": "1d8d605f26dad5312d225bd0bbd51a25",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.contextlogic.geek:id/create_account_fragment_last_name_text"
+        },
+        "x": null,
+        "y": null,
+        "text": "bbb"
+    },
+    {
+        "event_type": "set_text",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "com.contextlogic.geek:id/create_account_fragment_email_text",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "com.contextlogic.geek",
+            "text": "Email",
+            "bounds": [
+                [
+                    35,
+                    491
+                ],
+                [
+                    1405,
+                    632
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 16,
+            "temp_id": 21,
+            "size": "1370*141",
+            "signature": "[class]android.widget.EditText[resource_id]com.contextlogic.geek:id/create_account_fragment_email_text[text]Email[enabled,,]",
+            "view_str": "021b65b2f3fe47fd2920e1c5af3cd214",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.contextlogic.geek:id/create_account_fragment_email_text"
+        },
+        "x": null,
+        "y": null,
+        "text": "1372109571@qq.com"
+    },
+    {
+        "event_type": "set_text",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "com.contextlogic.geek:id/create_account_fragment_password_text",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": true,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "com.contextlogic.geek",
+            "text": null,
+            "bounds": [
+                [
+                    35,
+                    856
+                ],
+                [
+                    1405,
+                    997
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 16,
+            "temp_id": 23,
+            "size": "1370*141",
+            "signature": "[class]android.widget.EditText[resource_id]com.contextlogic.geek:id/create_account_fragment_password_text[text]None[enabled,,]",
+            "view_str": "a85d96a021c959f4a8efed38658f152f",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.contextlogic.geek:id/create_account_fragment_password_text"
+        },
+        "x": null,
+        "y": null,
+        "text": "research"
+    },
+    {
+        "event_type": "set_text",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "com.contextlogic.geek:id/create_account_fragment_confirm_email_text",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "com.contextlogic.geek",
+            "text": "Confirm Email",
+            "bounds": [
+                [
+                    35,
+                    680
+                ],
+                [
+                    1405,
+                    821
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 16,
+            "temp_id": 22,
+            "size": "1370*141",
+            "signature": "[class]android.widget.EditText[resource_id]com.contextlogic.geek:id/create_account_fragment_confirm_email_text[text]Confirm Email[enabled,,]",
+            "view_str": "9fbd7ec978b5b56217fe3fbd2d2fd4b7",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.contextlogic.geek:id/create_account_fragment_confirm_email_text"
+        },
+        "x": null,
+        "y": null,
+        "text": "1372109571@qq.com"
+    },
+    {
+        "event_type": "set_text",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "com.contextlogic.geek:id/create_account_fragment_password_text",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": true,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "com.contextlogic.geek",
+            "text": null,
+            "bounds": [
+                [
+                    35,
+                    869
+                ],
+                [
+                    1405,
+                    1010
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 16,
+            "temp_id": 23,
+            "size": "1370*141",
+            "signature": "[class]android.widget.EditText[resource_id]com.contextlogic.geek:id/create_account_fragment_password_text[text]None[enabled,,]",
+            "view_str": "a85d96a021c959f4a8efed38658f152f",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.contextlogic.geek:id/create_account_fragment_password_text"
+        },
+        "x": null,
+        "y": null,
+        "text": "research"
+    },
+    {
+        "event_type": "set_text",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "com.contextlogic.geek:id/create_account_fragment_password_text",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": true,
+            "content_description": null,
+            "focused": true,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "com.contextlogic.geek",
+            "text": null,
+            "bounds": [
+                [
+                    35,
+                    869
+                ],
+                [
+                    1405,
+                    1010
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 16,
+            "temp_id": 23,
+            "size": "1370*141",
+            "signature": "[class]android.widget.EditText[resource_id]com.contextlogic.geek:id/create_account_fragment_password_text[text]None[enabled,,]",
+            "view_str": "a85d96a021c959f4a8efed38658f152f",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.contextlogic.geek:id/create_account_fragment_password_text"
+        },
+        "x": null,
+        "y": null,
+        "text": "research"
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "com.contextlogic.geek:id/create_account_fragment_create_account_button",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.TextView",
+            "children": [],
+            "child_count": 0,
+            "package": "com.contextlogic.geek",
+            "text": "Create Account",
+            "bounds": [
+                [
+                    35,
+                    1045
+                ],
+                [
+                    1405,
+                    1185
+                ]
+            ],
+            "editable": false,
+            "focusable": false,
+            "parent": 16,
+            "temp_id": 24,
+            "size": "1370*140",
+            "signature": "[class]android.widget.TextView[resource_id]com.contextlogic.geek:id/create_account_fragment_create_account_button[text]Create Account[enabled,,]",
+            "view_str": "d9dfd78546a46cc60e0e4f679be5d955",
+            "content_free_signature": "[class]android.widget.TextView[resource_id]com.contextlogic.geek:id/create_account_fragment_create_account_button"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": null,
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.Button",
+            "children": [],
+            "child_count": 0,
+            "package": "com.contextlogic.geek",
+            "text": "OK",
+            "bounds": [
+                [
+                    192,
+                    1293
+                ],
+                [
+                    1248,
+                    1461
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 9,
+            "temp_id": 10,
+            "size": "1056*168",
+            "signature": "[class]android.widget.Button[resource_id]None[text]OK[enabled,,]",
+            "view_str": "78b91c9e6b90366f309796d0c1dbb7a1",
+            "content_free_signature": "[class]android.widget.Button[resource_id]None"
+        },
+        "x": null,
+        "y": null
+    }
+]

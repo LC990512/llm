@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-24_164641",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/text1",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thomsonreuters.reuters",
+      "text": "THE WIRE",
+      "bounds": [
+        [
+          597,
+          316
+        ],
+        [
+          843,
+          384
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 27,
+      "temp_id": 28,
+      "size": "246*68",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/text1[text]THE WIRE[enabled,,]",
+      "view_str": "322e4a469783ac044b6f0db5d66619a2",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/text1"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "982e2ef1bbe6d444648c63bb3a0dcd9e",
+  "stop_state": "04d44fdb769c7ecad61a6c604b723358",
+  "event_str": "TouchEvent(state=982e2ef1bbe6d444648c63bb3a0dcd9e, view=322e4a469783ac044b6f0db5d66619a2(HomepageActivity/TextView-THE WIRE))"
+}

@@ -1,0 +1,55 @@
+{
+  "tag": "2024-01-24_184458",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/list",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": true,
+      "class": "android.widget.ListView",
+      "children": [
+        14,
+        17,
+        20,
+        23
+      ],
+      "child_count": 4,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          280
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "1440*2112",
+      "signature": "[class]android.widget.ListView[resource_id]android:id/list[text]None[enabled,,]",
+      "view_str": "59b8500c773f943985476ead36edb49d",
+      "content_free_signature": "[class]android.widget.ListView[resource_id]android:id/list"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "2c6dde6f6e3d7610e1f1080d1e3b9b18",
+  "stop_state": "2c6dde6f6e3d7610e1f1080d1e3b9b18",
+  "event_str": "TouchEvent(state=2c6dde6f6e3d7610e1f1080d1e3b9b18, view=59b8500c773f943985476ead36edb49d(SettingAboutActivity/ListView-))"
+}

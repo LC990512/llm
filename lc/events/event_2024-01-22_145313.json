@@ -1,0 +1,53 @@
+{
+  "tag": "2024-01-22_145313",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thirdrock.fivemiles:id/profile_help",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        101,
+        102
+      ],
+      "child_count": 2,
+      "package": "com.thirdrock.fivemiles",
+      "text": null,
+      "bounds": [
+        [
+          28,
+          1823
+        ],
+        [
+          1412,
+          1991
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 99,
+      "temp_id": 100,
+      "size": "1384*168",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.thirdrock.fivemiles:id/profile_help[text]None[enabled,,]",
+      "view_str": "1bfeeecf0e9e324fef1da82f2fa5a952",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.thirdrock.fivemiles:id/profile_help"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "d45277b84a984a128a36c3777c357075",
+  "stop_state": "c91dfb9e109db1c79d3c2daf46dd931a",
+  "event_str": "TouchEvent(state=d45277b84a984a128a36c3777c357075, view=1bfeeecf0e9e324fef1da82f2fa5a952(MainTabActivity/LinearLayout-))"
+}

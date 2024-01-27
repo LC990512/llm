@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-23_002431",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.contextlogic.wish:id/create_account_fragment_create_account_button",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.Button",
+      "children": [],
+      "child_count": 0,
+      "package": "com.contextlogic.wish",
+      "text": "Create an Account",
+      "bounds": [
+        [
+          56,
+          1379
+        ],
+        [
+          1384,
+          1519
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 26,
+      "temp_id": 34,
+      "size": "1328*140",
+      "signature": "[class]android.widget.Button[resource_id]com.contextlogic.wish:id/create_account_fragment_create_account_button[text]Create an Account[enabled,,]",
+      "view_str": "27e714510f2fe3eaca1846cbca262a77",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.contextlogic.wish:id/create_account_fragment_create_account_button"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "d993b6e942f5e7775a97c537dd456f27",
+  "stop_state": "fa5d6d09752b4353040f215ab4b8fe6e",
+  "event_str": "TouchEvent(state=d993b6e942f5e7775a97c537dd456f27, view=27e714510f2fe3eaca1846cbca262a77(CreateAccountActivity/Button-Create an ))"
+}

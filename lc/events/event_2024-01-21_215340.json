@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-21_215340",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": "About us",
+      "bounds": [
+        [
+          56,
+          545
+        ],
+        [
+          1300,
+          630
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 18,
+      "temp_id": 19,
+      "size": "1244*85",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]About us[enabled,,]",
+      "view_str": "65cf2f2960eb1ac7ef5502385f9461ca",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "05e8293e7128d5f4d13d44df5c45e52f",
+  "stop_state": "220e3bfb1d167510d1e76f4da0c0a5ee",
+  "event_str": "TouchEvent(state=05e8293e7128d5f4d13d44df5c45e52f, view=65cf2f2960eb1ac7ef5502385f9461ca(SettingActivity/TextView-About us))"
+}

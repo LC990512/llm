@@ -1,6 +1,7 @@
 import copy
 import math
 import os
+import re
 
 from .utils import md5
 from .input_event import TouchEvent, LongTouchEvent, ScrollEvent, SetTextEvent, KeyEvent, UIEvent
@@ -469,7 +470,17 @@ class DeviceState(object):
             if value:
                 return value
         return default
-            
+
+    def contains_menu(self, sentence):
+        # 使用正则表达式搜索独立的单词
+        # \b 是一个单词边界，确保 'me' 或 'my' 是独立的单词
+        p1 = bool(re.search(r'\b(me)\b', sentence, re.IGNORECASE))
+        p2 = bool(re.search(r'\b(button)\b', sentence, re.IGNORECASE)) and not bool(re.search(r'\b(right button)\b', sentence, re.IGNORECASE))
+        p3 = bool(re.search(r'\b(menu)\b', sentence, re.IGNORECASE))
+        p4 = bool(re.search(r'\b(navigate up)\b', sentence, re.IGNORECASE))
+        p = p1 or p2 or p3
+        return p
+
     def get_described_actions(self):
         """
         Get a text description of current state
@@ -500,13 +511,6 @@ class DeviceState(object):
             content_description = self.__safe_dict_get(view, 'content_description', default='')
             view_text = self.__safe_dict_get(view, 'text', default='')
 
-            #过滤framelayout
-            # if resourse_id:
-            #     if "layout" in resourse_id.lower():
-            #         continue
-            # if view_class:
-            #     if "layout" in view_class.lower():
-            #         continue
             #lccc actionable?
             print(f"lccc get_described_actions: {view}")
             print(f"content_description: {content_description}, view_text:{view_text}, clickable_self:{clickable_self}, clickable_ancestor:{clickable_ancestor}, scrollable:{scrollable}, checkable:{checkable}, long_clickable:{long_clickable}, editable:{editable}, passwordable:{passwordable}, actionable:{actionable}")
@@ -529,7 +533,7 @@ class DeviceState(object):
                 # if long_clickable:
                 #     view_actions.append(f'long click ({len(available_actions)})')
                 #     available_actions.append(LongTouchEvent(view=view))
-                if clickable or checkable:
+                elif clickable or checkable:
                     view_actions.append(f'click ({len(available_actions)})')
                     available_actions.append(TouchEvent(view=view))
                 if scrollable:
@@ -541,10 +545,11 @@ class DeviceState(object):
                 view_actions_str = ', '.join(view_actions)
                 view_desc += f' that can {view_actions_str}'
 
-                if ("button" in view_desc.lower()) or ("navigate up" in view_desc.lower()):
-                    view_desc += f' (this might be an entry point to a menu or setting.)'
+                #if ("button" in view_desc.lower()) or ("navigate up" in view_desc.lower()) or (("me" in view_desc.lower())):
+                if self.contains_menu(view_desc.lower()):
+                    view_desc += f' (this might be an entry point to open a menu or setting.)'
                 if scrollable:
-                    view_desc += f' (The scroll up or down may introduce additional views and operations.)'
+                    view_desc += f' (Note: Scrolling may reveal new views or operations that are not currently visible.)'
 
                 view_descs.append(view_desc)
         view_descs.append(f'- a key to go back ({len(available_actions)})')
@@ -552,6 +557,20 @@ class DeviceState(object):
         state_desc = 'The current state has the following UI views and corresponding actions, with action id in parentheses:\n '
         state_desc += ';\n '.join(view_descs)
         return view_descs, available_actions
+    
+    def contains_jump(self, sentence):
+        # 使用正则表达式搜索独立的单词
+        # \b 是一个单词边界，确保 'me' 或 'my' 是独立的单词
+        p1 = bool("icon" in sentence)
+        p2 = bool("action" in sentence)
+        p3 = bool("layout" in sentence)
+        p4 = bool("viewgroup" in sentence)
+        p5 = bool("imageview" in sentence)
+        p6 = bool(sentence == "view") #geek
+        p7 = bool("stream normal item" in sentence) #reuters
+        p8 = bool("a$c" in sentence) #reuters
+        p = p1 or p2 or p3 or p4 or p5 or p6 or p7 or p8
+        return p
     
     def get_view_desc(self, view):
         clickable_ancestor = self._get_self_ancestors_property(view, 'clickable')
@@ -570,33 +589,35 @@ class DeviceState(object):
         view_text = self.__safe_dict_get(view, 'text', default='')
         
         view_status = ''
-        if editable:
-            view_status += 'editable '
+        # if editable:
+        #     view_status += 'editable '
         if checked or selected:
             view_status += 'checked '
             
         view_desc = ''
         if content_description:
             content_description = content_description.replace('\n', '  ')
+            if content_description == "Navigate up":
+                content_description = "Go back to the previous page"
             view_desc = f' "{content_description}"'
         if view_text:
             view_text = view_text.replace('\n', '  ')
             view_desc += f' with text "{view_text}"'
-        if not view_text and not content_description:
-            # if passwordable:
-            #     view_desc = f' with text "password"'
-            # else:
-            resourse_id = self.__safe_dict_get(view, 'resource_id')
-            class_view = self.__safe_dict_get(view, 'class')
-            if resourse_id:
-                resourse_id = resourse_id.split("/")[1].replace('_', ' ')
-                if "icon" not in resourse_id:
-                    view_desc = f' to go "{resourse_id}"'
-            elif class_view:
-                class_view = class_view.split(".")[-1]
-                if "Action" not in class_view and "Layout" not in class_view:
-                    view_desc = f' to go "{class_view}"'
-
+        if not view_desc and not checkable and not selected:
+            if passwordable:
+                view_desc = f' with text "password"'
+            else:
+                resourse_id = self.__safe_dict_get(view, 'resource_id')
+                class_view = self.__safe_dict_get(view, 'class')
+                if resourse_id:
+                    resourse_id = resourse_id.split("/")[1].replace('_', ' ')
+                    if not self.contains_jump(resourse_id.lower()):
+                        view_desc = f' to go "{resourse_id}"'
+                elif class_view:
+                    class_view = class_view.split(".")[-1]
+                    if (not self.contains_jump(class_view.lower())):# and (scrollable):
+                        view_desc = f' to go "{class_view}"'
+        #print("view_desc", view_desc)
         if view_desc != '':
             view_desc = f'- a {view_status}view{view_desc}'
         
@@ -640,7 +661,8 @@ class DeviceState(object):
                 action_name = f'enter "{action.text}" into'
             elif isinstance(action, ScrollEvent):
                 action_name = f'scroll {action.direction.lower()}'
-            desc = f'- {action_name}{self.get_view_desc(action.view)}'
-            desc = f'{self.get_view_desc(action.view)} that can {action_name}'
+            desc = self.get_view_desc(action.view).split("-")[1]
+            desc = f'- {action_name}{desc}'
+            #desc = f'{self.get_view_desc(action.view)} that can {action_name}'
         return desc
 

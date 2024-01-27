@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-22_001551",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thirdrock.fivemiles:id/lbl_login_with_phone",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": "Sign in with a phone number instead",
+      "bounds": [
+        [
+          268,
+          2200
+        ],
+        [
+          1171,
+          2276
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 6,
+      "temp_id": 16,
+      "size": "903*76",
+      "signature": "[class]android.widget.TextView[resource_id]com.thirdrock.fivemiles:id/lbl_login_with_phone[text]Sign in with a phone number instead[enabled,,]",
+      "view_str": "b184df9970645a55ee772e47acda4f77",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thirdrock.fivemiles:id/lbl_login_with_phone"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "91b72a21f7564a30c0e14603494b13a3",
+  "stop_state": "2bb1bef8a0ee379455c4f1825bc490f1",
+  "event_str": "TouchEvent(state=91b72a21f7564a30c0e14603494b13a3, view=b184df9970645a55ee772e47acda4f77(EmailLoginActivity/TextView-Sign in wi))"
+}

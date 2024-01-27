@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-21_234843",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thirdrock.fivemiles:id/sign_up",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.Button",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": "Register",
+      "bounds": [
+        [
+          70,
+          2161
+        ],
+        [
+          699,
+          2308
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 28,
+      "temp_id": 29,
+      "size": "629*147",
+      "signature": "[class]android.widget.Button[resource_id]com.thirdrock.fivemiles:id/sign_up[text]Register[enabled,,]",
+      "view_str": "3bd53bfdbbf32677dddb58b1c6284e7e",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.thirdrock.fivemiles:id/sign_up"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "6b04a56b74570acd49ea0f1d2e9cbf1a",
+  "stop_state": "7df849cef193855ed78757e430fa0942",
+  "event_str": "TouchEvent(state=6b04a56b74570acd49ea0f1d2e9cbf1a, view=3bd53bfdbbf32677dddb58b1c6284e7e(WelcomeActivity/Button-Register))"
+}

@@ -1,0 +1,1907 @@
+{
+  "tag": "2024-01-24_191835",
+  "state_str": "9c0ce0fe365621d45fabc45ec4a4c1ee",
+  "state_str_content_free": "5388c78ae7457ddb02e9e49b50c0afb7",
+  "foreground_activity": "jp.gocro.smartnews.android/.activity.SettingActivity",
+  "activity_stack": [
+    "jp.gocro.smartnews.android/.activity.SettingActivity",
+    "jp.gocro.smartnews.android/.activity.MainActivity"
+  ],
+  "background_services": [
+    "com.android.bluetooth/.hid.HidService",
+    "com.google.android.gms/.ads.identifier.service.AdvertisingIdService",
+    "com.google.android.music/.dial.DialMediaRouteProviderService",
+    "com.huawei.callstatisticsutils/.CallStatisticsService",
+    "org.codeaurora.ims/.ImsService",
+    "com.google.android.gms/.nearby.sharing.ReceiveSurfaceService",
+    "com.google.android.gms/.icing.service.AppIndexingService",
+    "com.google.android.tts/.service.GoogleTTSService",
+    "com.google.android.gms/.deviceconnection.service.DeviceConnectionWatcherService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.google.android.gms/.measurement.service.MeasurementBrokerService",
+    "com.android.bluetooth/.btservice.AdapterService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.foxnews.android/com.chartbeat.androidsdk.ChartbeatService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.auth.proximity.firstparty.SystemMemoryCacheService",
+    "com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps",
+    "com.google.android.gms/.stats.eastworld.EastworldService",
+    "com.google.android.music/.download.artwork.ArtDownloadService",
+    "com.google.android.gms/.location.geocode.GeocodeService",
+    "com.android.chrome/org.chromium.content.app.SandboxedProcessService18",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.android.bluetooth/.gatt.GattService",
+    "com.android.bluetooth/.hdp.HealthService",
+    "com.google.android.music/.preferences.MusicPreferenceService",
+    "com.google.android.gms/.chimera.GmsBoundBrokerService",
+    "com.google.android.gms/.chimera.GmsApiService",
+    "com.android.bluetooth/.sap.SapService",
+    "com.google.android.music/com.google.android.wearable.datatransfer.DataSyncService",
+    "com.google.android.gms/.fido.fido2.pollux.CableAuthenticatorService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "com.google.android.gms/.nearby.sharing.SendSurfaceService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.android.bluetooth/.pbap.BluetoothPbapService",
+    "com.google.android.music/.wear.WearDataTransferConnectionService",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.android.bluetooth/.a2dp.A2dpService",
+    "com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService",
+    "com.qualcomm.cabl/.CABLService",
+    "com.google.android.gms/.gcm.http.GoogleHttpService",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.google.android.talk/com.google.android.libraries.hangouts.video.CallService",
+    "com.android.systemui/.SystemUIService",
+    "com.android.chrome/org.chromium.content.app.PrivilegedProcessService0",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.google.android.music/.download.cache.ArtCacheService",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.huawei.sarcontrolservice/.SarControlService",
+    "com.google.android.music/.net.NetworkMonitor",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.android.server.telecom/.components.BluetoothPhoneService",
+    "com.google.android.gms/.fido.authenticator.service.AuthenticatorService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.google.android.music/.download.ArtDownloadQueueService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.android.providers.media/.MtpService",
+    "com.android.bluetooth/.hfp.HeadsetService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.getsurfboard/.ui.service.SurfboardVpn",
+    "android/com.android.internal.backup.LocalTransportService",
+    "com.google.android.youtube/com.google.android.apps.youtube.app.offline.transfer.OfflineTransferService",
+    "com.google.android.gms/.lockbox.service.LockboxBrokerService",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.android.vending/com.google.android.finsky.installservice.DevTriggeredUpdateService",
+    "com.android.bluetooth/.map.BluetoothMapService",
+    "com.google.android.gms/.config.ConfigService",
+    "com.google.android.gms/.personalsafety.service.PersonalSafetyService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.google.android.gms/.icing.service.IndexService",
+    "com.android.bluetooth/.opp.BluetoothOppService",
+    "com.android.bluetooth/.pan.PanService",
+    "com.google.android.gms/.backup.BackupTransportService",
+    "com.thomsonreuters.reuters/com.chartbeat.androidsdk.ChartbeatService",
+    "com.foxnews.android/.player.service.FoxPlayerService"
+  ],
+  "width": 1440,
+  "height": 2560,
+  "views": [
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        1,
+        45,
+        46
+      ],
+      "child_count": 3,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1440,
+          2560
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1440*2560",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "a1f964e8b8f498ca69267e7fc1761564",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        2
+      ],
+      "child_count": 1,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1440*2392",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "8f8322c1a87794651449f2d87a5b7a6a",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        3
+      ],
+      "child_count": 1,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          84
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1440*2308",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "385a50af4844d54639a4b99506ec48d9",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "jp.gocro.smartnews.android:id/decor_content_parent",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.ViewGroup",
+      "children": [
+        4,
+        9
+      ],
+      "child_count": 2,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          84
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1440*2308",
+      "signature": "[class]android.view.ViewGroup[resource_id]jp.gocro.smartnews.android:id/decor_content_parent[text]None[enabled,,]",
+      "view_str": "14c56704a8758d55bc0b586185c970c0",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]jp.gocro.smartnews.android:id/decor_content_parent"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "jp.gocro.smartnews.android:id/action_bar_container",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        5
+      ],
+      "child_count": 1,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          84
+        ],
+        [
+          1440,
+          280
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1440*196",
+      "signature": "[class]android.widget.FrameLayout[resource_id]jp.gocro.smartnews.android:id/action_bar_container[text]None[enabled,,]",
+      "view_str": "10bd8a368d5265673ed4ea1674b3b74e",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]jp.gocro.smartnews.android:id/action_bar_container"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "jp.gocro.smartnews.android:id/action_bar",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.ViewGroup",
+      "children": [
+        6,
+        7,
+        8
+      ],
+      "child_count": 3,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          84
+        ],
+        [
+          1440,
+          280
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1440*196",
+      "signature": "[class]android.view.ViewGroup[resource_id]jp.gocro.smartnews.android:id/action_bar[text]None[enabled,,]",
+      "view_str": "fcaf08f19d77843d568ccef17c006e22",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]jp.gocro.smartnews.android:id/action_bar"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": "Navigate up",
+      "focused": false,
+      "class": "android.widget.ImageButton",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          84
+        ],
+        [
+          196,
+          280
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "196*196",
+      "signature": "[class]android.widget.ImageButton[resource_id]None[text]None[enabled,,]",
+      "view_str": "2f34b79c29a2686da90ded6f96df528e",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": "Settings",
+      "bounds": [
+        [
+          252,
+          135
+        ],
+        [
+          511,
+          228
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 5,
+      "temp_id": 7,
+      "size": "259*93",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]Settings[enabled,,]",
+      "view_str": "a24e5a919f5882f78d1d4756ca83cb5b",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "androidx.appcompat.widget.LinearLayoutCompat",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          1440,
+          84
+        ],
+        [
+          1440,
+          280
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 5,
+      "temp_id": 8,
+      "size": "0*196",
+      "signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]None[text]None[enabled,,]",
+      "view_str": "7ca16ff135225576dbbe6749be4c7e83",
+      "content_free_signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/content",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        10
+      ],
+      "child_count": 1,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          280
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 3,
+      "temp_id": 9,
+      "size": "1440*2112",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text]None[enabled,,]",
+      "view_str": "7e53808fa869aa488b918a42361c1886",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": true,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": true,
+      "class": "android.widget.ListView",
+      "children": [
+        11,
+        15,
+        16,
+        21,
+        26,
+        27,
+        31,
+        32,
+        35,
+        38,
+        41
+      ],
+      "child_count": 11,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          280
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "1440*2112",
+      "signature": "[class]android.widget.ListView[resource_id]None[text]None[enabled,,]",
+      "view_str": "ff34290c605f9208e48ec0d3d31fd048",
+      "content_free_signature": "[class]android.widget.ListView[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        12
+      ],
+      "child_count": 1,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          280
+        ],
+        [
+          1440,
+          418
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "1440*138",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "d67259db1a30077dc5135f3eb1c1d10c",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        13,
+        14
+      ],
+      "child_count": 2,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          280
+        ],
+        [
+          1440,
+          365
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "1440*85",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "56639020fe9f642e1f0678b0ff723cdc",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "jp.gocro.smartnews.android:id/titleTextView",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": "Orientation",
+      "bounds": [
+        [
+          56,
+          280
+        ],
+        [
+          1127,
+          344
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "1071*64",
+      "signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/titleTextView[text]Orientation[enabled,,]",
+      "view_str": "975cf2368d5207af01dac47cc0a7086f",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/titleTextView"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "jp.gocro.smartnews.android:id/valueTextView",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": "Automatic",
+      "bounds": [
+        [
+          1127,
+          280
+        ],
+        [
+          1384,
+          344
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 12,
+      "temp_id": 14,
+      "size": "257*64",
+      "signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/valueTextView[text]Automatic[enabled,,]",
+      "view_str": "5aee3adfeb5d31b7c04fd412b4767a5f",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/valueTextView"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/title",
+      "visible": true,
+      "enabled": false,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": "Data saving",
+      "bounds": [
+        [
+          0,
+          422
+        ],
+        [
+          1440,
+          544
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 10,
+      "temp_id": 15,
+      "size": "1440*122",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/title[text]Data saving[,,]",
+      "view_str": "ae3ee50ebd3dbfdb5fc903d274502e87",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/title"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        17,
+        20
+      ],
+      "child_count": 2,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          548
+        ],
+        [
+          1440,
+          772
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 10,
+      "temp_id": 16,
+      "size": "1440*224",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "641f1f355e2371b5a339d230fb95a626",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        18,
+        19
+      ],
+      "child_count": 2,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          557
+        ],
+        [
+          1440,
+          675
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 16,
+      "temp_id": 17,
+      "size": "1440*118",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "9f6be1c4f67e0782e8433cefac66a15f",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "jp.gocro.smartnews.android:id/titleTextView",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": "Autoplay video ads",
+      "bounds": [
+        [
+          56,
+          578
+        ],
+        [
+          1205,
+          654
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 17,
+      "temp_id": 18,
+      "size": "1149*76",
+      "signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/titleTextView[text]Autoplay video ads[enabled,,]",
+      "view_str": "5b1fa47d34ca9c5de232235f6f8af235",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/titleTextView"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "jp.gocro.smartnews.android:id/valueTextView",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": "Always",
+      "bounds": [
+        [
+          1205,
+          578
+        ],
+        [
+          1384,
+          654
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 17,
+      "temp_id": 19,
+      "size": "179*76",
+      "signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/valueTextView[text]Always[enabled,,]",
+      "view_str": "cc414f0fbeaeebb689c805f077fb7183",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/valueTextView"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "jp.gocro.smartnews.android:id/summaryTextView",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": "This controls the behavior of video ads in SmartNews",
+      "bounds": [
+        [
+          0,
+          675
+        ],
+        [
+          1440,
+          762
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 16,
+      "temp_id": 20,
+      "size": "1440*87",
+      "signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/summaryTextView[text]None[enabled,,]",
+      "view_str": "1b35f640b331b06048dd3c7b2b851201",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/summaryTextView"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        22,
+        25
+      ],
+      "child_count": 2,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          776
+        ],
+        [
+          1440,
+          1000
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 10,
+      "temp_id": 21,
+      "size": "1440*224",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "cf95477060258a2313421570e8dfef0b",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        23,
+        24
+      ],
+      "child_count": 2,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          785
+        ],
+        [
+          1440,
+          903
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 21,
+      "temp_id": 22,
+      "size": "1440*118",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "557a3fadf28febca6c272247426946c5",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "jp.gocro.smartnews.android:id/titleTextView",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": "Offline reading",
+      "bounds": [
+        [
+          56,
+          806
+        ],
+        [
+          1013,
+          882
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 22,
+      "temp_id": 23,
+      "size": "957*76",
+      "signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/titleTextView[text]Offline reading[enabled,,]",
+      "view_str": "68fe6db54d5b57603c20eb53154861c9",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/titleTextView"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "jp.gocro.smartnews.android:id/valueTextView",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": "Only over Wi-Fi",
+      "bounds": [
+        [
+          1013,
+          806
+        ],
+        [
+          1384,
+          882
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 22,
+      "temp_id": 24,
+      "size": "371*76",
+      "signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/valueTextView[text]Only over Wi-Fi[enabled,,]",
+      "view_str": "1dddb3eb9d670a98fc1536ae3ce7b3d1",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/valueTextView"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "jp.gocro.smartnews.android:id/summaryTextView",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": "Download news text even when the app is not in use",
+      "bounds": [
+        [
+          0,
+          903
+        ],
+        [
+          1440,
+          990
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 21,
+      "temp_id": 25,
+      "size": "1440*87",
+      "signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/summaryTextView[text]Download news text even when the app is not in use[enabled,,]",
+      "view_str": "33acbb8528dfd8dc1f9ad40a838d283a",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/summaryTextView"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/title",
+      "visible": true,
+      "enabled": false,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": "External services",
+      "bounds": [
+        [
+          0,
+          1004
+        ],
+        [
+          1440,
+          1126
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 10,
+      "temp_id": 26,
+      "size": "1440*122",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/title[text]External services[,,]",
+      "view_str": "9441c523fb30506f95c6e0b59704d2c7",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/title"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        28
+      ],
+      "child_count": 1,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          1130
+        ],
+        [
+          1440,
+          1354
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 10,
+      "temp_id": 27,
+      "size": "1440*224",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "d67259db1a30077dc5135f3eb1c1d10c",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        29,
+        30
+      ],
+      "child_count": 2,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          1183
+        ],
+        [
+          1440,
+          1301
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 27,
+      "temp_id": 28,
+      "size": "1440*118",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "7ad6a027321af66b88c3dff8e907383b",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "jp.gocro.smartnews.android:id/titleTextView",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": "Twitter",
+      "bounds": [
+        [
+          56,
+          1204
+        ],
+        [
+          1203,
+          1280
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 28,
+      "temp_id": 29,
+      "size": "1147*76",
+      "signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/titleTextView[text]Twitter[enabled,,]",
+      "view_str": "040af65354e24be8ef9770597aeb0cbd",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/titleTextView"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "jp.gocro.smartnews.android:id/valueTextView",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": "Not set",
+      "bounds": [
+        [
+          1203,
+          1204
+        ],
+        [
+          1384,
+          1280
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 28,
+      "temp_id": 30,
+      "size": "181*76",
+      "signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/valueTextView[text]Not set[enabled,,]",
+      "view_str": "168f6226567160cfcd3b3ce641c48c25",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/valueTextView"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/title",
+      "visible": true,
+      "enabled": false,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": "Other information",
+      "bounds": [
+        [
+          0,
+          1358
+        ],
+        [
+          1440,
+          1480
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 10,
+      "temp_id": 31,
+      "size": "1440*122",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/title[text]Other information[,,]",
+      "view_str": "345ddfd4426040ee9f45c18804369367",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/title"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        33
+      ],
+      "child_count": 1,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          1484
+        ],
+        [
+          1440,
+          1708
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 10,
+      "temp_id": 32,
+      "size": "1440*224",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "d67259db1a30077dc5135f3eb1c1d10c",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        34
+      ],
+      "child_count": 1,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          1537
+        ],
+        [
+          1440,
+          1655
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 32,
+      "temp_id": 33,
+      "size": "1440*118",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "dc53dc1e498bacb0d103f3516db43c07",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "jp.gocro.smartnews.android:id/titleTextView",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": "Help center",
+      "bounds": [
+        [
+          56,
+          1558
+        ],
+        [
+          1384,
+          1634
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 33,
+      "temp_id": 34,
+      "size": "1328*76",
+      "signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/titleTextView[text]Help center[enabled,,]",
+      "view_str": "98bafb692272f3db0458afae47a9f1fb",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/titleTextView"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        36
+      ],
+      "child_count": 1,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          1712
+        ],
+        [
+          1440,
+          1936
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 10,
+      "temp_id": 35,
+      "size": "1440*224",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "d67259db1a30077dc5135f3eb1c1d10c",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        37
+      ],
+      "child_count": 1,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          1765
+        ],
+        [
+          1440,
+          1883
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 35,
+      "temp_id": 36,
+      "size": "1440*118",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "15c29330ff7c03b02a4c1a3f56917371",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "jp.gocro.smartnews.android:id/titleTextView",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": "Write a review",
+      "bounds": [
+        [
+          56,
+          1786
+        ],
+        [
+          1384,
+          1862
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 36,
+      "temp_id": 37,
+      "size": "1328*76",
+      "signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/titleTextView[text]Write a review[enabled,,]",
+      "view_str": "7c6bc342919fea3de98fe0d595e67a82",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/titleTextView"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        39
+      ],
+      "child_count": 1,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          1940
+        ],
+        [
+          1440,
+          2164
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 10,
+      "temp_id": 38,
+      "size": "1440*224",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "d67259db1a30077dc5135f3eb1c1d10c",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        40
+      ],
+      "child_count": 1,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          1993
+        ],
+        [
+          1440,
+          2111
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 38,
+      "temp_id": 39,
+      "size": "1440*118",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "dde92279ee2aac2504442ee53a5f92be",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "jp.gocro.smartnews.android:id/titleTextView",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": "Recommend to your friends",
+      "bounds": [
+        [
+          56,
+          2014
+        ],
+        [
+          1384,
+          2090
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 39,
+      "temp_id": 40,
+      "size": "1328*76",
+      "signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/titleTextView[text]Recommend to your friends[enabled,,]",
+      "view_str": "3d88b4e3f87255946b5719eaf565a237",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/titleTextView"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        42,
+        44
+      ],
+      "child_count": 2,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2168
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 10,
+      "temp_id": 41,
+      "size": "1440*224",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "da27fecbf42d33d850005392278e095c",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        43
+      ],
+      "child_count": 1,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2177
+        ],
+        [
+          1440,
+          2295
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 41,
+      "temp_id": 42,
+      "size": "1440*118",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "08e150a6e27ba581ed209edddf8f46f0",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "jp.gocro.smartnews.android:id/titleTextView",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": "About SmartNews",
+      "bounds": [
+        [
+          56,
+          2198
+        ],
+        [
+          1384,
+          2274
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 42,
+      "temp_id": 43,
+      "size": "1328*76",
+      "signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/titleTextView[text]About SmartNews[enabled,,]",
+      "view_str": "4419b1d70bb9191e6ae388e3256000a2",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/titleTextView"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "jp.gocro.smartnews.android:id/summaryTextView",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": "SmartNews 5.15.1",
+      "bounds": [
+        [
+          0,
+          2295
+        ],
+        [
+          1440,
+          2382
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 41,
+      "temp_id": 44,
+      "size": "1440*87",
+      "signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/summaryTextView[text]SmartNews 5.15.1[enabled,,]",
+      "view_str": "f2e477531bcc5bd36f2e37949962681c",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/summaryTextView"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/statusBarBackground",
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1440,
+          84
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 0,
+      "temp_id": 45,
+      "size": "1440*84",
+      "signature": "[class]android.view.View[resource_id]android:id/statusBarBackground[text]None[enabled,,]",
+      "view_str": "b02956df91d08b0b2d75faf51ba7aa97",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/statusBarBackground"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/navigationBarBackground",
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2392
+        ],
+        [
+          1440,
+          2560
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 0,
+      "temp_id": 46,
+      "size": "1440*168",
+      "signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground[text]None[enabled,,]",
+      "view_str": "890af8ffda47e99bed61bad17b19eed3",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground"
+    }
+  ]
+}

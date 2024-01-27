@@ -1,0 +1,12 @@
+{
+  "tag": "2024-01-24_193040",
+  "event": {
+    "event_type": "kill_app",
+    "log_lines": null,
+    "prompt": null,
+    "stop_intent": "am force-stop jp.gocro.smartnews.android"
+  },
+  "start_state": "9c0ce0fe365621d45fabc45ec4a4c1ee",
+  "stop_state": "e62963759a9432d0cea8579db7e1c27d",
+  "event_str": "KillAppEvent()"
+}

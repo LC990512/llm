@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-22_163615",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.contextlogic.geek:id/profile_fragment_header_edit_profile_picture_button",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.contextlogic.geek",
+      "text": "Edit",
+      "bounds": [
+        [
+          665,
+          898
+        ],
+        [
+          774,
+          991
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 19,
+      "temp_id": 24,
+      "size": "109*93",
+      "signature": "[class]android.widget.TextView[resource_id]com.contextlogic.geek:id/profile_fragment_header_edit_profile_picture_button[text]Edit[enabled,,]",
+      "view_str": "e9678e5f71dbd95b602961edc3741f5c",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.contextlogic.geek:id/profile_fragment_header_edit_profile_picture_button"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "b417d6aad52f63b761e0c0eae9e36c54",
+  "stop_state": "389c9dd9765dfa8eec52b3b30250b4ee",
+  "event_str": "TouchEvent(state=b417d6aad52f63b761e0c0eae9e36c54, view=e9678e5f71dbd95b602961edc3741f5c(ProfileActivity/TextView-Edit))"
+}

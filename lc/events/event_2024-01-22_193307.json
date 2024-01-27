@@ -1,0 +1,51 @@
+{
+  "tag": "2024-01-22_193307",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.contextlogic.geek:id/search_src_text",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "com.contextlogic.geek",
+      "text": "Search",
+      "bounds": [
+        [
+          364,
+          117
+        ],
+        [
+          1412,
+          243
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 14,
+      "temp_id": 15,
+      "size": "1048*126",
+      "signature": "[class]android.widget.EditText[resource_id]com.contextlogic.geek:id/search_src_text[text]Search[enabled,,]",
+      "view_str": "7ad7904d026d1b7079e1fa6dc26ad382",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.contextlogic.geek:id/search_src_text"
+    },
+    "x": null,
+    "y": null,
+    "text": "aa"
+  },
+  "start_state": "277abe9069a706e1dec912aa014c516f",
+  "stop_state": "6595b8d1cde08d3f3756c1d92c3e3c71",
+  "event_str": "SetTextEvent(state=277abe9069a706e1dec912aa014c516f, view=7ad7904d026d1b7079e1fa6dc26ad382(SearchActivity/EditText-Search), text=aa)"
+}

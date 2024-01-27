@@ -1,0 +1,550 @@
+{
+  "tag": "2024-01-22_163624",
+  "state_str": "389c9dd9765dfa8eec52b3b30250b4ee",
+  "state_str_content_free": "06a1503d89c553e0c786c4eafadc6dbc",
+  "foreground_activity": "com.google.android.packageinstaller/com.android.packageinstaller.permission.ui.GrantPermissionsActivity",
+  "activity_stack": [
+    "com.google.android.packageinstaller/com.android.packageinstaller.permission.ui.GrantPermissionsActivity",
+    "com.contextlogic.geek/com.contextlogic.wish.activity.profile.ProfileActivity",
+    "com.contextlogic.geek/com.contextlogic.wish.activity.browse.BrowseActivity"
+  ],
+  "background_services": [
+    "com.android.bluetooth/.hid.HidService",
+    "com.google.android.gms/.ads.identifier.service.AdvertisingIdService",
+    "com.google.android.music/.dial.DialMediaRouteProviderService",
+    "com.huawei.callstatisticsutils/.CallStatisticsService",
+    "org.codeaurora.ims/.ImsService",
+    "com.google.android.tts/.service.GoogleTTSService",
+    "com.google.android.gms/.tapandpay.hce.service.TpHceService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.android.bluetooth/.btservice.AdapterService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.google.android.inputmethod.latin/com.android.inputmethod.latin.spellcheck.AndroidSpellCheckerService",
+    "com.google.android.gms/com.google.android.location.geocode.GeocodeService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.music/.download.artwork.ArtDownloadService",
+    "com.android.chrome/org.chromium.content.app.SandboxedProcessService11",
+    "com.android.chrome/org.chromium.content.app.SandboxedProcessService12",
+    "com.google.android.backuptransport/com.google.android.backup.BackupEnabler",
+    "com.android.bluetooth/.gatt.GattService",
+    "com.abc.abcnews/.service.PodcastPlayerService",
+    "com.android.bluetooth/.hdp.HealthService",
+    "com.google.android.gms/com.google.android.location.fused.service.FusedProviderService",
+    "com.google.android.music/.preferences.MusicPreferenceService",
+    "com.android.bluetooth/.sap.SapService",
+    "com.google.android.music/com.google.android.wearable.datatransfer.DataSyncService",
+    "com.google.android.gms/.phenotype.service.PhenotypeService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.android.bluetooth/.pbap.BluetoothPbapService",
+    "com.google.android.music/.wear.WearDataTransferConnectionService",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.android.bluetooth/.a2dp.A2dpService",
+    "com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService",
+    "com.qualcomm.cabl/.CABLService",
+    "com.google.android.gms/.cast.media.CastMediaRouteProviderService",
+    "com.google.android.gms/.gcm.http.GoogleHttpService",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService",
+    "com.android.chrome/org.chromium.content.app.SandboxedProcessService9",
+    "com.google.android.talk/com.google.android.libraries.hangouts.video.CallService",
+    "com.android.systemui/.SystemUIService",
+    "com.android.chrome/org.chromium.content.app.PrivilegedProcessService0",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.google.android.music/.download.cache.ArtCacheService",
+    "com.huawei.sarcontrolservice/.SarControlService",
+    "com.google.android.music/.net.NetworkMonitor",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.reflection.ReflectionService",
+    "com.android.server.telecom/.components.BluetoothPhoneService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.google.android.music/.download.ArtDownloadQueueService",
+    "com.google.android.gms/com.google.android.location.activity.HardwareArProviderService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.android.providers.media/.MtpService",
+    "com.google.android.gms/.deviceconnection.service.DeviceConnectionServiceBroker",
+    "com.android.bluetooth/.hfp.HeadsetService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.getsurfboard/.ui.service.SurfboardVpn",
+    "android/com.android.internal.backup.LocalTransportService",
+    "com.google.android.gms/.playlog.service.PlayLogBrokerService",
+    "com.google.android.youtube/com.google.android.apps.youtube.app.offline.transfer.OfflineTransferService",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/.clearcut.service.ClearcutLoggerService",
+    "com.android.bluetooth/.map.BluetoothMapService",
+    "com.google.android.gms/.config.ConfigService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.android.bluetooth/.opp.BluetoothOppService",
+    "com.android.bluetooth/.pan.PanService",
+    "com.google.android.gms/.backup.BackupTransportService"
+  ],
+  "width": 1440,
+  "height": 2560,
+  "views": [
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        1
+      ],
+      "child_count": 1,
+      "package": "com.google.android.packageinstaller",
+      "text": null,
+      "bounds": [
+        [
+          160,
+          896
+        ],
+        [
+          1280,
+          1579
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1120*683",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "a0d8822bd5ca78787cdef1e4eab86d1d",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        2
+      ],
+      "child_count": 1,
+      "package": "com.google.android.packageinstaller",
+      "text": null,
+      "bounds": [
+        [
+          216,
+          952
+        ],
+        [
+          1224,
+          1523
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1008*571",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "38941732b98a9aff8f19106f0f7f7749",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/content",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        3
+      ],
+      "child_count": 1,
+      "package": "com.google.android.packageinstaller",
+      "text": null,
+      "bounds": [
+        [
+          216,
+          952
+        ],
+        [
+          1224,
+          1523
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1008*571",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text]None[enabled,,]",
+      "view_str": "c740c3710bc519b3fa2ce57172e0b4ad",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        4
+      ],
+      "child_count": 1,
+      "package": "com.google.android.packageinstaller",
+      "text": null,
+      "bounds": [
+        [
+          216,
+          952
+        ],
+        [
+          1224,
+          1523
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1008*571",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "7bf33ef4f1ed94edd948dc18be707376",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.android.packageinstaller:id/dialog_container",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        5,
+        9
+      ],
+      "child_count": 2,
+      "package": "com.google.android.packageinstaller",
+      "text": null,
+      "bounds": [
+        [
+          216,
+          952
+        ],
+        [
+          1224,
+          1523
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1008*571",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.android.packageinstaller:id/dialog_container[text]None[enabled,,]",
+      "view_str": "2b5fd2f7fa20a7cfdf23ad3e79e2faf0",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.android.packageinstaller:id/dialog_container"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.android.packageinstaller:id/desc_container",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        6
+      ],
+      "child_count": 1,
+      "package": "com.google.android.packageinstaller",
+      "text": null,
+      "bounds": [
+        [
+          293,
+          1036
+        ],
+        [
+          1168,
+          1271
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "875*235",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.android.packageinstaller:id/desc_container[text]None[enabled,,]",
+      "view_str": "fd1b887f78ec9739e6c846d7cae2c32b",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.android.packageinstaller:id/desc_container"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.android.packageinstaller:id/perm_desc_root",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        7,
+        8
+      ],
+      "child_count": 2,
+      "package": "com.google.android.packageinstaller",
+      "text": null,
+      "bounds": [
+        [
+          293,
+          1036
+        ],
+        [
+          1168,
+          1271
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "875*235",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.android.packageinstaller:id/perm_desc_root[text]None[enabled,,]",
+      "view_str": "443757b592e7620243eb8a03c274bdaa",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.android.packageinstaller:id/perm_desc_root"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.android.packageinstaller:id/permission_icon",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.google.android.packageinstaller",
+      "text": null,
+      "bounds": [
+        [
+          293,
+          1047
+        ],
+        [
+          419,
+          1173
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "126*126",
+      "signature": "[class]android.widget.ImageView[resource_id]com.android.packageinstaller:id/permission_icon[text]None[enabled,,]",
+      "view_str": "076762549d3c7f9b64582f6a6e74a5b3",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.android.packageinstaller:id/permission_icon"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.android.packageinstaller:id/permission_message",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.google.android.packageinstaller",
+      "text": "Allow Geek to take pictures and record video?",
+      "bounds": [
+        [
+          419,
+          1036
+        ],
+        [
+          1168,
+          1271
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 6,
+      "temp_id": 8,
+      "size": "749*235",
+      "signature": "[class]android.widget.TextView[resource_id]com.android.packageinstaller:id/permission_message[text]Allow Geek to take pictures and record video?[enabled,,]",
+      "view_str": "cc4882c7bd7461e7128a09325bb35fc3",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.android.packageinstaller:id/permission_message"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.android.packageinstaller:id/button_group",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        10,
+        11
+      ],
+      "child_count": 2,
+      "package": "com.google.android.packageinstaller",
+      "text": null,
+      "bounds": [
+        [
+          293,
+          1271
+        ],
+        [
+          1168,
+          1495
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 4,
+      "temp_id": 9,
+      "size": "875*224",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.android.packageinstaller:id/button_group[text]None[enabled,,]",
+      "view_str": "6e7419ac5318be3599cce6c89cfb35e9",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.android.packageinstaller:id/button_group"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.android.packageinstaller:id/permission_deny_button",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.Button",
+      "children": [],
+      "child_count": 0,
+      "package": "com.google.android.packageinstaller",
+      "text": "Deny",
+      "bounds": [
+        [
+          670,
+          1327
+        ],
+        [
+          894,
+          1495
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "224*168",
+      "signature": "[class]android.widget.Button[resource_id]com.android.packageinstaller:id/permission_deny_button[text]Deny[enabled,,]",
+      "view_str": "d4e4dbf6369bf49f861302f81ea83e3d",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.android.packageinstaller:id/permission_deny_button"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.android.packageinstaller:id/permission_allow_button",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.Button",
+      "children": [],
+      "child_count": 0,
+      "package": "com.google.android.packageinstaller",
+      "text": "Allow",
+      "bounds": [
+        [
+          922,
+          1327
+        ],
+        [
+          1168,
+          1495
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 9,
+      "temp_id": 11,
+      "size": "246*168",
+      "signature": "[class]android.widget.Button[resource_id]com.android.packageinstaller:id/permission_allow_button[text]Allow[enabled,,]",
+      "view_str": "7ce7707e038e27495ff01f5f353d5a60",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.android.packageinstaller:id/permission_allow_button"
+    }
+  ]
+}

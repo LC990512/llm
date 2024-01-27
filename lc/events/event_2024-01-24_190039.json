@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-24_190039",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": "\"I took, I don\u2019t know how many pills,\" Osbourne said in her one-woman show 'Sharon Osbourne: Cut The Crap'",
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          56,
+          759
+        ],
+        [
+          1386,
+          1043
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 33,
+      "temp_id": 34,
+      "size": "1330*284",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "7faf736e5a0f0e965329e23c54017705",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "801fe6114d1c2ade6c632f667d6c5028",
+  "stop_state": "801fe6114d1c2ade6c632f667d6c5028",
+  "event_str": "TouchEvent(state=801fe6114d1c2ade6c632f667d6c5028, view=7faf736e5a0f0e965329e23c54017705(MainActivity/View-))"
+}

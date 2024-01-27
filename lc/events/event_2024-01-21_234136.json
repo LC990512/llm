@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-21_234136",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/text1",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": "Take Photo",
+      "bounds": [
+        [
+          92,
+          1070
+        ],
+        [
+          1348,
+          1238
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "1256*168",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/text1[text]Take Photo[enabled,,]",
+      "view_str": "7e9ee31f9744b6f6bca94b9ed9aee41e",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/text1"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "01495092a145afff0fdfb2f617d5c782",
+  "stop_state": "1ac5addde0205aeee8d78e1ba9141776",
+  "event_str": "TouchEvent(state=01495092a145afff0fdfb2f617d5c782, view=7e9ee31f9744b6f6bca94b9ed9aee41e(MyProfileActivity/TextView-Take Photo))"
+}

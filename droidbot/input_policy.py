@@ -661,9 +661,10 @@ class TaskPolicy(UtgBasedInputPolicy):
         self.__nav_target = None
         self.__nav_num_steps = -1
         self.step = step
-        #self.task = extracted_info[step-1]['task']
         self.task = "start"
         self.extracted_info = extracted_info
+        self.attempt_count = 0
+        self.max_attempt_count = 3
         self.__num_restarts = 0
         self.__num_steps_outside = 0
         self.__event_trace = ""
@@ -681,7 +682,7 @@ class TaskPolicy(UtgBasedInputPolicy):
         """
         self.action_count = 0
         #self.step = len(self.extracted_info)
-        max_step = len(self.extracted_info) * 3
+        max_step = len(self.extracted_info)*4
         while input_manager.enabled and self.action_count < max_step:#input_manager.event_count:
             try:
                 if self.action_count == 0 and self.master is None:
@@ -694,15 +695,17 @@ class TaskPolicy(UtgBasedInputPolicy):
                     else:
                         finish, event = self.generate_event()
 
-                print(f'lccc start: finish [{finish}] / event[{event}] / task[{self.task}]')
+                print(f'lccc start({self.action_count}): finish [{finish}] / event[{event}] / task[{self.task}] / attempt_count[{self.attempt_count}]')
 
                 if finish != -1:
                     input_manager.add_event(event)
+                    self.attempt_count += 1
                     time.sleep(5)
-                if finish != 0:
+                if (finish != 0) or (self.attempt_count > self.max_attempt_count):
                     if  self.step < len(self.extracted_info):
                         self.step += 1
                         self.task = self.extracted_info[self.step-1]['task']
+                        self.attempt_count = 0
                     else:
                         break
             except KeyboardInterrupt:
@@ -820,14 +823,19 @@ class TaskPolicy(UtgBasedInputPolicy):
             current_time = time.time()
             for api_key_info in api_keys:
                 # 检查自上次使用该密钥以来是否已经过去了30秒
-                print("lccc:", api_key_info, current_time - api_key_info['last_used'])
                 if current_time - api_key_info['last_used'] > 30:
+                    print("lccc:", api_key_info, current_time - api_key_info['last_used'])
                     try:
                         openai.api_key = api_key_info['key']
+                        system_prompt = {
+                            "role": "system",
+                            "content": "You are ChatGPT, a large language model trained by OpenAI.\nKnowledge cutoff: 2021-09\nCurrent date: 2024-01-24"
+                        }
+                        messages = [system_prompt] + messages
                         response = openai.ChatCompletion.create(
                             model="gpt-3.5-turbo-0613",
                             max_tokens=1024,
-                            temperature=0.8,
+                            temperature=0.4,
                             messages = messages
                         )
                         api_key_info['last_used'] = time.time()  # 更新最后使用时间
@@ -837,12 +845,13 @@ class TaskPolicy(UtgBasedInputPolicy):
                         api_key_info['last_used'] = time.time()
                         continue
             # 如果所有密钥都未能使用，暂停一段时间再重试
-            time.sleep(10)
+            time.sleep(20)
 
     def _query_llm(self, prompt):
         messages=[{"role": "user", "content": prompt}]
         response = self.make_openai_request(messages)
         real_ans = response['choices'][0]['message']['content']
+        time.sleep(20)
         return real_ans
           
     def if_action(self, now_action):
@@ -933,16 +942,47 @@ class TaskPolicy(UtgBasedInputPolicy):
                 break
         return finish, selected_action, candidate_actions
 
+    def remove_duplicate_lines(self, state_prompt, history_prompt):
+        # 将两个文本字符串分割成行的列表
+        state_lines = state_prompt.split('\n')
+        new_state_lines = []
+        # 遍历 state_prompt 中的每一行
+        for line in state_lines:
+            _line = line.split("that")[0].strip()
+            if "can" in line:
+                _line_action = line.split("can")[1].split("(")[0].strip()
+            else:
+                _line_action = ""
+            if ("-" in _line):
+                _line = _line.split("-")[1].strip()
+                _line = _line_action + " " + _line
+                print(f'lccc remove_duplicate_lines ori: {_line}')
+            # 如果这一行不在 history_prompt 中，则添加到新列表中                
+            if ((_line not in history_prompt) and ("checked" not in _line)) or ("sign" in _line.lower()):
+                new_state_lines.append(line)
+            else:
+                print(f'lccc duplicate: {_line}')
+        new_state_prompt = '\n'.join(new_state_lines)
+        return new_state_prompt
+    
+    def _get_after_task(self):
+        desc = ""
+        for i in range(self.step, len(self.extracted_info)):
+            desc += f" -task {i+1}: {self.extracted_info[i]['task']}\n" 
+        return desc
+    
     def _get_action_with_LLM(self, current_state, action_history):
         app = self.extracted_info[self.step-1]['app'].split("/")[1].split(".")[0]
         func = self.extracted_info[self.step-1]['function']
         view_descs, candidate_actions = current_state.get_described_actions()
 
         # First, determine whether the task has already been completed.
-        task_prompt = f"I am currently focused on a specific step in my test case, identified as '{self.task}'. This step might correspond to one or several of the actions I have already executed."
-        history_prompt = f'Executed Actions: \n ' + ';\n '.join(action_history)
-        question = f"Question: Based on the actions I have executed so far, have I completed the step '{self.task}'? Please only return 'yes' or 'no'. A 'yes' means the step has been completed, and a 'no' means I need to continue exploring further actions."
-        prompt = f'{task_prompt}\n{history_prompt}\n{question}'
+        task_prompt = f"Based on the actions I have taken so far, I would like to confirm if I have successfully completed the '{self.task}' function testing process. Here is a summary of the actions I have performed:\n" + ';\n '.join(action_history)
+        #task_prompt = f"I am currently focused on a specific step in my test case, identified as '{self.task}'. This step might correspond to one or several of the actions I have already executed."
+        #history_prompt = f'Executed Actions: \n ' + ';\n '.join(action_history)
+        #question = f"Question: Based on the actions I have executed so far, have I completed the step '{self.task}'? Please only return 'yes' or 'no'. A 'yes' means the step has been completed, and a 'no' means I need to continue exploring further actions."
+        question = f"Please provide a 'yes' or 'no' response to indicate whether, based on these actions, I have completed the testing of the '{self.task}' function successfully? Please provide a response in just 'yes' or 'no', without additional explanations or details."
+        prompt = f'{task_prompt}\n{question}'
         print(prompt)
         response = self._query_llm(prompt)
         print(f'response: {response}')
@@ -957,33 +997,53 @@ class TaskPolicy(UtgBasedInputPolicy):
         # Second, if not finished, then provide the next action.
         #task_prompt = f"I'm using a smartphone to '{self.task}' in the '{app}' app. My current task requires completing the step '{self.task}'"
         #task_prompt = f"I am working on a test case that involves multiple steps to complete the testing of the '{func}' feature, and I am currently at the step '{self.task}'. "
-        task_prompt = f"I am working on a test case for the '{func}' feature in the '{app}' app. At this stage, I need to choose the next step that will effectively advance the testing process. I've already completed some actions."
-        task_prompt += f"I currently need to choose an action to help me complete this step of {self.task}."
+        #task_prompt = f"I am working on a test case for the '{func}' feature in the '{app}' app. At this stage, I need to choose the next step that will effectively advance the testing process. I've already completed some actions."
+        #task_prompt += f"I currently need to choose an action to help me complete this step of {self.task}."
+        task_prompt = f"I am working on a test case for the '{func}' feature in the '{app}' app. My current task is to {self.task}. I've completed some actions and need to decide the next step that will effectively advance the testing process."
+        #task_prompt += f"I currently need to choose an action id, the one that is closest and most likely to help me complete {self.task}."
         #history_prompt = f'I have already completed the following steps, which should not be performed again: \n ' + ';\n '.join(action_history)
         #history_prompt = f'Below is a list of actions I have already executed, which should not be performed again: \n' + ';\n '.join(action_history)
-        history_prompt = 'Completed Actions (please do not suggest these again): \n' + ';\n '.join(action_history)
+        history_prompt = 'Completed Actions (do not repeat these): \n' + ';\n '.join(action_history)
         state_prompt = 'Current State with Available UI Views and Actions (with Action ID):\n ' + ';\n '.join(view_descs)
+        state_prompt = self.remove_duplicate_lines(state_prompt, history_prompt)
         #state_prompt = 'The current state has the following UI views and corresponding actions, with action id in parentheses:\n ' + ';\n '.join(view_descs)
         #question = "Which action should I choose next? Please only return the action id and nothing else.\n"
         #question = "Based on the information provided, I need a suggestion: Which action (please only return the action's ID) should I execute at this step on the current page to effectively complete my task?"
-        question = f"Given these options, which action (identified by the Action ID) should I perform next to effectively continue testing the '{func}' feature? Please do not suggest any actions that I have already completed, only return the action id."
+        question = f"Given these options, which action (identified by the Action ID) should I perform next to effectively continue testing the '{func}' feature? \nPlease do not suggest any actions that I have already completed."
+        #question += f"If you are unsure which action to choose, consider the necessity of completing the login process(include email and password) or scroll down to access further features of the app."
+        tips = f"Here are a few tips that might help you with your action selection: Please consider that some apps may require login to access main features, but this is not always the case. If considering the login process, please ensure all necessary steps like entering email, password, and then confirming sign-in are included in the recommendation. If you are unsure which action to choose, consider scrolling down to access further features of the app."
         #prompt = f'{task_prompt}\n{state_prompt}\n{history_prompt}\n{question}'
-        prompt = f'{task_prompt}\n{history_prompt}\n{state_prompt}\n{question}'
+        prompt = f'{task_prompt}\n{state_prompt}\n{history_prompt}\n{question}\n{tips}'
         
         # extra_prompt = f"I'm using a smartphone to test the '{func}' functionality in the '{app}' app. I need to determine the appropriate UI action to perform next based on the current state of the app. My objective is to ensure that the chosen action is logically aligned with the potential functionality. \n"
         # prompt = f'{extra_prompt}\n{history_prompt}\n{state_prompt}\n{question}'
         print(prompt)
         response = self._query_llm(prompt)
         print(f'response: {response}')
-
         response = input()
 
     
         match = re.search(r'\d+', response)
         finish = 0
         if not match:
-            selected_action = candidate_actions[-1]
-            return finish, selected_action, candidate_actions
+            after_prompt = f"Please review the following list of future tasks and determine if any have already been completed:\n{self._get_after_task()}"
+            question = f"If any tasks have been completed, please reply with the ID of the last task that was completed; if none have been completed, return -1. Note, please provide a response in just one number, without additional explanations or details.\n"
+            prompt = f'{history_prompt}\n{after_prompt}\n{question}'
+            print(prompt)
+            response = self._query_llm(prompt)
+            print(f'response: {response}')
+            response = input()
+            if response == "-1":
+                selected_action = candidate_actions[-1]
+                return finish, selected_action, candidate_actions
+            else:
+                finish = -1
+                match = re.search(r'\d+', response)
+                if match:
+                    idx = int(match.group(0))
+                    self.step = idx
+                return finish, None, candidate_actions
+
         
         idx = int(match.group(0))
         print(f"lccc idx: {idx}")
@@ -991,11 +1051,16 @@ class TaskPolicy(UtgBasedInputPolicy):
         selected_action = candidate_actions[idx]
         if isinstance(selected_action, SetTextEvent):
             view_text = current_state.get_view_desc(selected_action.view)
-            question = f'I have chosen the action of {view_text}. So I need to type something into the dialog box. What text should I enter to the {view_text}? Just return the text need enter and nothing else.'
+            question = f'I have chosen the action of "{view_text}". So I need to type something into the edit box. What text should I enter? Just return the text need enter and nothing else.'
             #prompt = f'{task_prompt}\n{state_prompt}\n{question}'
             prompt = f'{task_prompt}\n{history_prompt}\n{question}'
-            print(prompt)
-            response = self._query_llm(prompt)
+            if ("email" in view_text.lower()):
+                response = "\"" + self.extracted_info[0]['example_email'] + "\""
+            elif ("password" in view_text.lower()):
+                response = "\"" + self.extracted_info[0]['example_password'] + "\""
+            else:
+                print(prompt)
+                response = self._query_llm(prompt)
             selected_action.text = response
             print(f'response: {response}')
             if "\"" in response:

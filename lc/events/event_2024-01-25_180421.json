@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-25_180421",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/tab_icon",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": "For You",
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          1254,
+          2217
+        ],
+        [
+          1338,
+          2301
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 44,
+      "temp_id": 45,
+      "size": "84*84",
+      "signature": "[class]android.widget.ImageView[resource_id]com.foxnews.android:id/tab_icon[text]None[enabled,,]",
+      "view_str": "cf22698b782d39c05d004f26866692da",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.foxnews.android:id/tab_icon"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "ae06bfbcb565084067ac37e88be2772e",
+  "stop_state": "9ae19d15f20d1d159d67c6582cebef50",
+  "event_str": "TouchEvent(state=ae06bfbcb565084067ac37e88be2772e, view=cf22698b782d39c05d004f26866692da(StartActivity/ImageView-))"
+}

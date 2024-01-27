@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-21_201605",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thirdrock.fivemiles:id/btn_skip",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": "Skip",
+      "bounds": [
+        [
+          633,
+          2046
+        ],
+        [
+          807,
+          2182
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "174*136",
+      "signature": "[class]android.widget.TextView[resource_id]com.thirdrock.fivemiles:id/btn_skip[text]Skip[enabled,,]",
+      "view_str": "a3ff9c44924cd4c302fecdef9d547672",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thirdrock.fivemiles:id/btn_skip"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "2ca98b5e02534737d60a8eed0c875714",
+  "stop_state": "ad3e5080c51af1c3ed74948212d83c5f",
+  "event_str": "TouchEvent(state=2ca98b5e02534737d60a8eed0c875714, view=a3ff9c44924cd4c302fecdef9d547672(AskForContactsActivity/TextView-Skip))"
+}

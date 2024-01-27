@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-24_180408",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thomsonreuters.reuters:id/list_item_reuters_tv_headline",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thomsonreuters.reuters",
+      "text": "Trump bashes Haley as he wins in New Hampshire",
+      "bounds": [
+        [
+          417,
+          1766
+        ],
+        [
+          1408,
+          1881
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 132,
+      "temp_id": 133,
+      "size": "991*115",
+      "signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/list_item_reuters_tv_headline[text]Trump bashes Haley as he wins in New Hampshire[enabled,,]",
+      "view_str": "0f30b425cd9c3a3a780bf6665dd26bc1",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/list_item_reuters_tv_headline"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "3f46d92f7913c93d0db3a50ba234630a",
+  "stop_state": "18bdeb56fc1a9b39863468c181d7038c",
+  "event_str": "TouchEvent(state=3f46d92f7913c93d0db3a50ba234630a, view=0f30b425cd9c3a3a780bf6665dd26bc1(HomepageActivity/TextView-Trump bash))"
+}

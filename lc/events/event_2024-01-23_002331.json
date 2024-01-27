@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-23_002331",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.contextlogic.wish:id/create_account_fragment_password_toggle_button",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.contextlogic.wish",
+      "text": "show",
+      "bounds": [
+        [
+          1234,
+          1252
+        ],
+        [
+          1384,
+          1309
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 31,
+      "temp_id": 33,
+      "size": "150*57",
+      "signature": "[class]android.widget.TextView[resource_id]com.contextlogic.wish:id/create_account_fragment_password_toggle_button[text]show[enabled,,]",
+      "view_str": "0ea57b4c253aaf991469844425a07d5e",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.contextlogic.wish:id/create_account_fragment_password_toggle_button"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "a2afa80f8539e25ec75845b0f595e64d",
+  "stop_state": "d993b6e942f5e7775a97c537dd456f27",
+  "event_str": "TouchEvent(state=a2afa80f8539e25ec75845b0f595e64d, view=0ea57b4c253aaf991469844425a07d5e(CreateAccountActivity/TextView-show))"
+}

@@ -1,0 +1,51 @@
+{
+  "tag": "2024-01-25_165308",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "jp.gocro.smartnews.android:id/search_src_text",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": true,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": "Search News",
+      "bounds": [
+        [
+          224,
+          119
+        ],
+        [
+          1412,
+          245
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "1188*126",
+      "signature": "[class]android.widget.EditText[resource_id]jp.gocro.smartnews.android:id/search_src_text[text]Search News[enabled,,]",
+      "view_str": "4c617e8350f9521b572683f29bf01580",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]jp.gocro.smartnews.android:id/search_src_text"
+    },
+    "x": null,
+    "y": null,
+    "text": "Technology"
+  },
+  "start_state": "6b55e5124d50bbab164be4a77abb7e68",
+  "stop_state": "d54393e1e63c78b39e39ba68d36625cc",
+  "event_str": "SetTextEvent(state=6b55e5124d50bbab164be4a77abb7e68, view=4c617e8350f9521b572683f29bf01580(SearchActivity/EditText-Search New), text=Technology)"
+}

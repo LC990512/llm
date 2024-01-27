@@ -1,0 +1,58 @@
+[
+    {
+        "event_type": "kill_app",
+        "log_lines": null,
+        "prompt": null,
+        "stop_intent": "am force-stop jp.gocro.smartnews.android"
+    },
+    {
+        "event_type": "intent",
+        "log_lines": null,
+        "prompt": null,
+        "intent": "am start jp.gocro.smartnews.android/jp.gocro.smartnews.android.activity.SmartNewsActivity"
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "jp.gocro.smartnews.android:id/settingButton",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.ImageButton",
+            "children": [],
+            "child_count": 0,
+            "package": "jp.gocro.smartnews.android",
+            "text": null,
+            "bounds": [
+                [
+                    1272,
+                    84
+                ],
+                [
+                    1440,
+                    252
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 82,
+            "temp_id": 86,
+            "size": "168*168",
+            "signature": "[class]android.widget.ImageButton[resource_id]jp.gocro.smartnews.android:id/settingButton[text]None[enabled,,]",
+            "view_str": "3247998ad4ee6ec7283c0e5988acbf67",
+            "content_free_signature": "[class]android.widget.ImageButton[resource_id]jp.gocro.smartnews.android:id/settingButton"
+        },
+        "x": null,
+        "y": null
+    }
+]

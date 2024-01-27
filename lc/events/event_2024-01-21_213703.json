@@ -1,0 +1,12 @@
+{
+  "tag": "2024-01-21_213703",
+  "event": {
+    "event_type": "kill_app",
+    "log_lines": null,
+    "prompt": null,
+    "stop_intent": "am force-stop com.thirdrock.fivemiles"
+  },
+  "start_state": "8057d7858a2ee122bfc34cc34d899e2a",
+  "stop_state": "d1c6c7ac05d8eda5b81069c9b76153a8",
+  "event_str": "KillAppEvent()"
+}

@@ -1,0 +1,102 @@
+[
+    {
+        "event_type": "kill_app",
+        "log_lines": null,
+        "prompt": null,
+        "stop_intent": "am force-stop com.thomsonreuters.reuters"
+    },
+    {
+        "event_type": "intent",
+        "log_lines": null,
+        "prompt": null,
+        "intent": "am start com.thomsonreuters.reuters/com.thomsonreuters.reuters.activities.SplashActivity"
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": null,
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": "Open Menu",
+            "focused": false,
+            "class": "android.widget.ImageButton",
+            "children": [],
+            "child_count": 0,
+            "package": "com.thomsonreuters.reuters",
+            "text": null,
+            "bounds": [
+                [
+                    0,
+                    84
+                ],
+                [
+                    196,
+                    280
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 8,
+            "temp_id": 9,
+            "size": "196*196",
+            "signature": "[class]android.widget.ImageButton[resource_id]None[text]None[enabled,,]",
+            "view_str": "28ec20d324d422f5f82e827888ddc9a8",
+            "content_free_signature": "[class]android.widget.ImageButton[resource_id]None"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "com.thomsonreuters.reuters:id/list_item_collection_name",
+            "visible": true,
+            "enabled": true,
+            "clickable": false,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.TextView",
+            "children": [],
+            "child_count": 0,
+            "package": "com.thomsonreuters.reuters",
+            "text": "Settings",
+            "bounds": [
+                [
+                    0,
+                    1128
+                ],
+                [
+                    1216,
+                    1268
+                ]
+            ],
+            "editable": false,
+            "focusable": false,
+            "parent": 170,
+            "temp_id": 171,
+            "size": "1216*140",
+            "signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/list_item_collection_name[text]Settings[enabled,,]",
+            "view_str": "e00e5bc0705f677e2a0ad48c7103765c",
+            "content_free_signature": "[class]android.widget.TextView[resource_id]com.thomsonreuters.reuters:id/list_item_collection_name"
+        },
+        "x": null,
+        "y": null
+    }
+]

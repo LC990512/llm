@@ -9,7 +9,73 @@ from droidbot import env_manager
 from droidbot import DroidBot
 from droidbot.droidmaster import DroidMaster
 
+category_dict = {
+    'abc':'news',
+    'buzzfeed':'news',
+    'fox':'news',  
+    'smartnews':'news',
+    'reuters':'news',
+    'etsy':'shopping',
+    'fivemiles':'shopping',
+    'geek':'shopping',
+    'home':'shopping',
+    'wish':'shopping'
+}
 
+function_dict = {
+    'Account':'Account',
+    'About':'About us or app',
+    'AddBookmark':'Add bookmark for article',  
+    'RemoveBookmark':'Remove bookmark for article',
+    'Category':'one Category',
+    'Contact':'Contact us',
+    'Detail':'Detail information',
+    'Menu':'Menu',
+    'Help':'Help',
+    'Search':'Search something',
+    'Terms':'Terms of use',
+    'TextSize':'change TextSize'
+}
+
+example = {
+    'abc': {
+        'email': '',
+        'password': ''
+    },
+    'fox': {
+        'email': '',
+        'password': ''
+    },
+    'reuters': {
+        'email': '',
+        'password': ''
+    },
+    'smartnews': {
+        'email': '',
+        'password': ''
+    },
+    'etsy': {
+        'email': 'yixueresearch@gmail.com',
+        'password': 'yourresearchiscool'
+    },
+    'fivemiles': {
+        'email': '1372109571@qq.com',
+        'password': 'research'
+    },
+    'geek': {
+        'email': '1372109571@qq.com',
+        'password': 'research'
+    },
+    'home': {
+        'email': '1372109571@qq.com',
+        'password': 'research'
+    },
+    'wish': {
+        'email': '1372109571@qq.com',
+        'password': 'research'
+    }
+    
+}
 def parse_args(extracted_info):
     """
     parse command line input
@@ -76,6 +142,8 @@ def process_files(directory, filename):
     #pattern = re.compile(r'Test Step (\d+):\.\s*\((Event|Assertion)\)\s+(.+)')
 
     extracted_info = []
+    example_email = example[file_prefix]['email']
+    example_password = example[file_prefix]['password']
     with open(os.path.join(directory, filename), 'r') as file:
         for line in file:
             match = pattern.match(line)
@@ -87,18 +155,23 @@ def process_files(directory, filename):
                 status = 1 
             else:
                 step_number = int(line.split(":")[0].split("Test Step ")[1])
+                print(general_step.splitlines()[step_number-1])
                 event_or_assertion = general_step.splitlines()[step_number-1].split(")")[0].split("(")[1]
                 task = general_step.splitlines()[step_number-1].split(") ")[1]
                 status = -1
 
             # 将提取的信息添加到列表
+            #status = -1
+
             extracted_info.append({
                 'app': "apps/" + file_prefix + ".apk",
-                'function': file_suffix,
+                'function': function_dict[file_suffix],
                 'step_number': step_number,
                 'event_or_assertion': event_or_assertion,
                 'task': process_line(task), #+ " in {} app.".format(file_prefix),
-                'status': status
+                'status': status,
+                'example_email': example_email,
+                'example_password': example_password
             })
         step_number = step_number + 1
         extracted_info.append({
@@ -106,8 +179,10 @@ def process_files(directory, filename):
             'function': file_suffix,
             'step_number': step_number,
             'event_or_assertion': event_or_assertion,
-            'task': "could you tell me if I have successfully completed the process of testing the '{}' function?".format(file_suffix), 
-            'status': -1
+            'task': "could you tell me if I have successfully completed the process of visiting the '{}' function?".format(function_dict[file_suffix]), 
+            'status': -1,
+            'example_email': example_email,
+            'example_password': example_password
         })
     return extracted_info
 
@@ -149,7 +224,7 @@ def main():
     directory_path = "../step2/result_steps_text"
     file_list = sorted([f for f in os.listdir(directory_path) if f.endswith('.txt')])
     for filename in file_list:
-        if filename != "etsy_Search.txt":
+        if filename != "abc_Detail.txt":
             continue
         extracted_info = process_files(directory_path, filename)
         for item in extracted_info:
@@ -158,7 +233,9 @@ def main():
             print(f"Step Number: {item['step_number']}")
             print(f"Event/Assertion: {item['event_or_assertion']}")
             print(f"Task: {item['task']}")
-            print(f"Status: {item['status']}\n")
+            print(f"Status: {item['status']}")
+            print(f"example_email: {item['example_email']}")
+            print(f"example_password: {item['example_password']}\n")
 
         explore(extracted_info)
 

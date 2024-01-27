@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-21_214252",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thirdrock.fivemiles:id/right_image_button",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": null,
+      "bounds": [
+        [
+          1286,
+          105
+        ],
+        [
+          1440,
+          259
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 15,
+      "temp_id": 22,
+      "size": "154*154",
+      "signature": "[class]android.widget.ImageView[resource_id]com.thirdrock.fivemiles:id/right_image_button[text]None[enabled,,]",
+      "view_str": "0cb56e8d827a6de1b5ebb12495fcbe78",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.thirdrock.fivemiles:id/right_image_button"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "3e24c8e8f4b1e892bf3bde24b58dffdb",
+  "stop_state": "c91dfb9e109db1c79d3c2daf46dd931a",
+  "event_str": "TouchEvent(state=3e24c8e8f4b1e892bf3bde24b58dffdb, view=0cb56e8d827a6de1b5ebb12495fcbe78(MainTabActivity/ImageView-))"
+}

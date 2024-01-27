@@ -1,0 +1,53 @@
+{
+  "tag": "2024-01-24_192558",
+  "event": {
+    "event_type": "scroll",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": true,
+      "long_clickable": false,
+      "resource_id": "jp.gocro.smartnews.android:id/header",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.HorizontalScrollView",
+      "children": [
+        8
+      ],
+      "child_count": 1,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          252
+        ],
+        [
+          1440,
+          399
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "1440*147",
+      "signature": "[class]android.widget.HorizontalScrollView[resource_id]jp.gocro.smartnews.android:id/header[text]None[enabled,,]",
+      "view_str": "d66cb97be3bd20c1a039a86626ab8758",
+      "content_free_signature": "[class]android.widget.HorizontalScrollView[resource_id]jp.gocro.smartnews.android:id/header"
+    },
+    "x": null,
+    "y": null,
+    "direction": "UP"
+  },
+  "start_state": "5a33b05903a1b4053e9a8592ec309c1d",
+  "stop_state": "04c87c2b685e3f295d5981a6cb27fb12",
+  "event_str": "ScrollEvent(state=5a33b05903a1b4053e9a8592ec309c1d, view=d66cb97be3bd20c1a039a86626ab8758(MainActivity/HorizontalScrollView-), direction=UP)"
+}

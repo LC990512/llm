@@ -1,0 +1,12 @@
+{
+  "tag": "2024-01-22_233617",
+  "event": {
+    "event_type": "intent",
+    "log_lines": null,
+    "prompt": null,
+    "intent": "am start com.contextlogic.home/com.contextlogic.wish.activity.browse.BrowseActivity"
+  },
+  "start_state": "fe720cebee96175049ae24b354d514ee",
+  "stop_state": "2d46aa10a22ea39c480e111f1b0e0ab4",
+  "event_str": "IntentEvent(intent='am start com.contextlogic.home/com.contextlogic.wish.activity.browse.BrowseActivity')"
+}

@@ -1,0 +1,12 @@
+{
+  "tag": "2024-01-25_204304",
+  "event": {
+    "event_type": "kill_app",
+    "log_lines": null,
+    "prompt": null,
+    "stop_intent": "am force-stop com.abc.abcnews"
+  },
+  "start_state": "1246f591514cccf72a8e8bd6e0849972",
+  "stop_state": "e62963759a9432d0cea8579db7e1c27d",
+  "event_str": "KillAppEvent()"
+}

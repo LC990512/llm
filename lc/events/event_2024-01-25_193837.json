@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-25_193837",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": "Lee Cohen",
+      "focused": false,
+      "class": "android.widget.Image",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          276,
+          560
+        ],
+        [
+          1165,
+          1449
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 16,
+      "temp_id": 17,
+      "size": "889*889",
+      "signature": "[class]android.widget.Image[resource_id]None[text]None[enabled,,]",
+      "view_str": "b0a59b563a545efbb366a2782366181b",
+      "content_free_signature": "[class]android.widget.Image[resource_id]None"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "da8c0ff095d7d5d6070369ef687068e9",
+  "stop_state": "da8c0ff095d7d5d6070369ef687068e9",
+  "event_str": "TouchEvent(state=da8c0ff095d7d5d6070369ef687068e9, view=b0a59b563a545efbb366a2782366181b(WebViewActivity/Image-))"
+}

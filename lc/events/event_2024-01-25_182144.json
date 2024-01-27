@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-25_182144",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": "Family of Kansas City Chief fan found dead outside pal's house suspect he was drugged | Fox News",
+      "bounds": [
+        [
+          56,
+          446
+        ],
+        [
+          692,
+          786
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 34,
+      "temp_id": 35,
+      "size": "636*340",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]None[enabled,,]",
+      "view_str": "8b33afe8f435f56d68863cba9a171a46",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "90440b418748f1f020f6dcd3a19c17d7",
+  "stop_state": "855ef76c73ea6d7ef3fc9de556b54ee4",
+  "event_str": "TouchEvent(state=90440b418748f1f020f6dcd3a19c17d7, view=8b33afe8f435f56d68863cba9a171a46(StartActivity/TextView-Family of ))"
+}

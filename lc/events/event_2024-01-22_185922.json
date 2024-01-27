@@ -1,0 +1,51 @@
+{
+  "tag": "2024-01-22_185922",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.contextlogic.geek:id/create_account_fragment_email_text",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "com.contextlogic.geek",
+      "text": "Email",
+      "bounds": [
+        [
+          35,
+          491
+        ],
+        [
+          1405,
+          632
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 16,
+      "temp_id": 21,
+      "size": "1370*141",
+      "signature": "[class]android.widget.EditText[resource_id]com.contextlogic.geek:id/create_account_fragment_email_text[text]Email[enabled,,]",
+      "view_str": "021b65b2f3fe47fd2920e1c5af3cd214",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.contextlogic.geek:id/create_account_fragment_email_text"
+    },
+    "x": null,
+    "y": null,
+    "text": "1372109571@qq.com"
+  },
+  "start_state": "592f089a098d4fd37872b2ef315328ae",
+  "stop_state": "8c43f5e6debbf836faa19251b38ed5e6",
+  "event_str": "SetTextEvent(state=592f089a098d4fd37872b2ef315328ae, view=021b65b2f3fe47fd2920e1c5af3cd214(CreateAccountActivity/EditText-Email), text=1372109571@qq.com)"
+}

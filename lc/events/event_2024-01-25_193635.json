@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-25_193635",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.foxnews.android:id/author",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": "By Lee Cohen | Fox News",
+      "bounds": [
+        [
+          581,
+          1109
+        ],
+        [
+          1184,
+          1182
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 22,
+      "temp_id": 25,
+      "size": "603*73",
+      "signature": "[class]android.widget.TextView[resource_id]com.foxnews.android:id/author[text]By Lee Cohen | Fox News[enabled,,]",
+      "view_str": "dcf30cce3a97e1774cccbb8a996c556e",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.foxnews.android:id/author"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "eda9391ed0a049001fe2e3e387615b33",
+  "stop_state": "a6b18ce9d89824bf917d1075788c6b3d",
+  "event_str": "TouchEvent(state=eda9391ed0a049001fe2e3e387615b33, view=dcf30cce3a97e1774cccbb8a996c556e(ArticleDetailActivity/TextView-By Lee Coh))"
+}

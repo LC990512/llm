@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-25_193524",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.foxnews.android:id/embedded_video_title",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": "King Charles, Kate Middleton's health woes reveal Hollywood influence",
+      "bounds": [
+        [
+          0,
+          2127
+        ],
+        [
+          1440,
+          2320
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 26,
+      "temp_id": 30,
+      "size": "1440*193",
+      "signature": "[class]android.widget.TextView[resource_id]com.foxnews.android:id/embedded_video_title[text]None[enabled,,]",
+      "view_str": "715593b0e4c08f178bd0c907f2bc9ea0",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.foxnews.android:id/embedded_video_title"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "eda9391ed0a049001fe2e3e387615b33",
+  "stop_state": "eda9391ed0a049001fe2e3e387615b33",
+  "event_str": "TouchEvent(state=eda9391ed0a049001fe2e3e387615b33, view=715593b0e4c08f178bd0c907f2bc9ea0(ArticleDetailActivity/TextView-King Charl))"
+}

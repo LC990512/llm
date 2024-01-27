@@ -1,0 +1,299 @@
+[
+    {
+        "event_type": "kill_app",
+        "log_lines": null,
+        "prompt": null,
+        "stop_intent": "am force-stop com.foxnews.android"
+    },
+    {
+        "event_type": "intent",
+        "log_lines": null,
+        "prompt": null,
+        "intent": "am start com.foxnews.android/com.foxnews.android.corenav.StartActivity"
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "com.foxnews.android:id/tab_icon",
+            "visible": true,
+            "enabled": true,
+            "clickable": false,
+            "checked": false,
+            "is_password": false,
+            "content_description": "For You",
+            "focused": false,
+            "class": "android.widget.ImageView",
+            "children": [],
+            "child_count": 0,
+            "package": "com.foxnews.android",
+            "text": null,
+            "bounds": [
+                [
+                    1254,
+                    2217
+                ],
+                [
+                    1338,
+                    2301
+                ]
+            ],
+            "editable": false,
+            "focusable": false,
+            "parent": 44,
+            "temp_id": 45,
+            "size": "84*84",
+            "signature": "[class]android.widget.ImageView[resource_id]com.foxnews.android:id/tab_icon[text]None[enabled,,]",
+            "view_str": "cf22698b782d39c05d004f26866692da",
+            "content_free_signature": "[class]android.widget.ImageView[resource_id]com.foxnews.android:id/tab_icon"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "scroll",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": true,
+            "long_clickable": false,
+            "resource_id": "com.foxnews.android:id/main_recyclerview",
+            "visible": true,
+            "enabled": true,
+            "clickable": false,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "androidx.recyclerview.widget.RecyclerView",
+            "children": [
+                18,
+                21,
+                24
+            ],
+            "child_count": 3,
+            "package": "com.foxnews.android",
+            "text": null,
+            "bounds": [
+                [
+                    0,
+                    280
+                ],
+                [
+                    1440,
+                    2196
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 16,
+            "temp_id": 17,
+            "size": "1440*1916",
+            "signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]com.foxnews.android:id/main_recyclerview[text]None[enabled,,]",
+            "view_str": "7a9d028239e3d71e94b919b1ce046ab8",
+            "content_free_signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]com.foxnews.android:id/main_recyclerview"
+        },
+        "x": null,
+        "y": null,
+        "direction": "DOWN"
+    },
+    {
+        "event_type": "scroll",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": true,
+            "long_clickable": false,
+            "resource_id": "com.foxnews.android:id/main_recyclerview",
+            "visible": true,
+            "enabled": true,
+            "clickable": false,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "androidx.recyclerview.widget.RecyclerView",
+            "children": [
+                18,
+                42
+            ],
+            "child_count": 2,
+            "package": "com.foxnews.android",
+            "text": null,
+            "bounds": [
+                [
+                    0,
+                    84
+                ],
+                [
+                    1440,
+                    2196
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 16,
+            "temp_id": 17,
+            "size": "1440*2112",
+            "signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]com.foxnews.android:id/main_recyclerview[text]None[enabled,,]",
+            "view_str": "764075e70d79b392e42cbb3c85ca1ff1",
+            "content_free_signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]com.foxnews.android:id/main_recyclerview"
+        },
+        "x": null,
+        "y": null,
+        "direction": "DOWN"
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "com.foxnews.android:id/settings_bttn",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.TextView",
+            "children": [],
+            "child_count": 0,
+            "package": "com.foxnews.android",
+            "text": "Settings",
+            "bounds": [
+                [
+                    56,
+                    1948
+                ],
+                [
+                    1384,
+                    2112
+                ]
+            ],
+            "editable": false,
+            "focusable": false,
+            "parent": 40,
+            "temp_id": 42,
+            "size": "1328*164",
+            "signature": "[class]android.widget.TextView[resource_id]com.foxnews.android:id/settings_bttn[text]Settings[enabled,,]",
+            "view_str": "3e0225a4becd832ac46246f74ec9ec30",
+            "content_free_signature": "[class]android.widget.TextView[resource_id]com.foxnews.android:id/settings_bttn"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "scroll",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": true,
+            "long_clickable": false,
+            "resource_id": "com.foxnews.android:id/main_recyclerview",
+            "visible": true,
+            "enabled": true,
+            "clickable": false,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "androidx.recyclerview.widget.RecyclerView",
+            "children": [
+                16,
+                18,
+                20,
+                22,
+                25,
+                28,
+                32,
+                36,
+                38,
+                40
+            ],
+            "child_count": 10,
+            "package": "com.foxnews.android",
+            "text": null,
+            "bounds": [
+                [
+                    0,
+                    280
+                ],
+                [
+                    1440,
+                    2392
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 14,
+            "temp_id": 15,
+            "size": "1440*2112",
+            "signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]com.foxnews.android:id/main_recyclerview[text]None[enabled,,]",
+            "view_str": "cf77ae42b93e18ceb53648b4d3f62a20",
+            "content_free_signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]com.foxnews.android:id/main_recyclerview"
+        },
+        "x": null,
+        "y": null,
+        "direction": "DOWN"
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "com.foxnews.android:id/settings_link",
+            "visible": true,
+            "enabled": true,
+            "clickable": false,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.TextView",
+            "children": [],
+            "child_count": 0,
+            "package": "com.foxnews.android",
+            "text": "About This App",
+            "bounds": [
+                [
+                    56,
+                    130
+                ],
+                [
+                    1384,
+                    206
+                ]
+            ],
+            "editable": false,
+            "focusable": false,
+            "parent": 16,
+            "temp_id": 17,
+            "size": "1328*76",
+            "signature": "[class]android.widget.TextView[resource_id]com.foxnews.android:id/settings_link[text]About This App[enabled,,]",
+            "view_str": "fca02b4b489e4fb71c182241bd112f61",
+            "content_free_signature": "[class]android.widget.TextView[resource_id]com.foxnews.android:id/settings_link"
+        },
+        "x": null,
+        "y": null
+    }
+]

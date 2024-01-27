@@ -693,7 +693,7 @@ class SetTextEvent(UIEvent):
 
         # lccc 发送回车键事件
         device.key_press(66) # 66 是 KEYCODE_ENTER 的常量值
-
+        device.key_press(84)
         return True
 
     def get_event_str(self, state):

@@ -1,0 +1,2874 @@
+{
+  "tag": "2024-01-25_194353",
+  "state_str": "57a1f9283d7e9b1df646edf8948a8118",
+  "state_str_content_free": "a07a5deec2ee76bc112fdded1484de31",
+  "foreground_activity": "com.foxnews.android/.corenav.StartActivity",
+  "activity_stack": [
+    "com.foxnews.android/.corenav.StartActivity"
+  ],
+  "background_services": [
+    "com.android.bluetooth/.hid.HidService",
+    "com.google.android.gms/.ads.identifier.service.AdvertisingIdService",
+    "com.google.android.music/.dial.DialMediaRouteProviderService",
+    "com.huawei.callstatisticsutils/.CallStatisticsService",
+    "org.codeaurora.ims/.ImsService",
+    "com.google.android.gms/.nearby.sharing.ReceiveSurfaceService",
+    "com.google.android.gms/.icing.service.AppIndexingService",
+    "com.google.android.tts/.service.GoogleTTSService",
+    "com.google.android.gms/.deviceconnection.service.DeviceConnectionWatcherService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.google.android.gms/.measurement.service.MeasurementBrokerService",
+    "com.google.android.gms/.cast.media.CastMediaRouteProviderService_Persistent",
+    "com.android.bluetooth/.btservice.AdapterService",
+    "com.android.vending/com.google.android.finsky.developergroupidinfo.DeveloperGroupIdInfoService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.foxnews.android/com.chartbeat.androidsdk.ChartbeatService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps",
+    "com.google.android.gms/.stats.eastworld.EastworldService",
+    "com.google.android.gms/.chimera.PersistentApiService",
+    "com.google.android.music/.download.artwork.ArtDownloadService",
+    "com.google.android.gms/.location.geocode.GeocodeService",
+    "com.android.chrome/org.chromium.content.app.SandboxedProcessService18",
+    "com.android.bluetooth/.gatt.GattService",
+    "com.android.bluetooth/.hdp.HealthService",
+    "com.google.android.music/.preferences.MusicPreferenceService",
+    "com.google.android.gms/.chimera.GmsBoundBrokerService",
+    "com.google.android.gms/.chimera.GmsApiService",
+    "com.android.bluetooth/.sap.SapService",
+    "com.google.android.gms/.fido.fido2.pollux.CableAuthenticatorService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "com.google.android.gms/.nearby.sharing.SendSurfaceService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.android.bluetooth/.pbap.BluetoothPbapService",
+    "com.google.android.music/.wear.WearDataTransferConnectionService",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.android.bluetooth/.a2dp.A2dpService",
+    "com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService",
+    "com.qualcomm.cabl/.CABLService",
+    "com.google.android.gms/.gcm.http.GoogleHttpService",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.google.android.talk/com.google.android.libraries.hangouts.video.CallService",
+    "com.android.systemui/.SystemUIService",
+    "com.android.chrome/org.chromium.content.app.PrivilegedProcessService0",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.google.android.music/.download.cache.ArtCacheService",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.huawei.sarcontrolservice/.SarControlService",
+    "com.google.android.music/.net.NetworkMonitor",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.android.server.telecom/.components.BluetoothPhoneService",
+    "com.google.android.gms/.fido.authenticator.service.AuthenticatorService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.google.android.music/.download.ArtDownloadQueueService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.android.providers.media/.MtpService",
+    "com.android.bluetooth/.hfp.HeadsetService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.getsurfboard/.ui.service.SurfboardVpn",
+    "android/com.android.internal.backup.LocalTransportService",
+    "com.google.android.gms/.lockbox.service.LockboxBrokerService",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.android.vending/com.google.android.finsky.installservice.DevTriggeredUpdateService",
+    "com.android.bluetooth/.map.BluetoothMapService",
+    "com.google.android.gms/.personalsafety.service.PersonalSafetyService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.google.android.gms/.icing.service.IndexService",
+    "com.android.bluetooth/.opp.BluetoothOppService",
+    "com.android.bluetooth/.pan.PanService",
+    "com.google.android.gms/.backup.BackupTransportService",
+    "com.thomsonreuters.reuters/com.chartbeat.androidsdk.ChartbeatService",
+    "com.foxnews.android/.player.service.FoxPlayerService"
+  ],
+  "width": 1440,
+  "height": 2560,
+  "views": [
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        1
+      ],
+      "child_count": 1,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1440*2392",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "c44d969aa05a16d8a4485558ee51060a",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        2
+      ],
+      "child_count": 1,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1440*2392",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "9a94802edf5805a34c5255f057f2b759",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        3
+      ],
+      "child_count": 1,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1440*2392",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "77fe78cde41dd03516eddad293d27eac",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/action_bar_root",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        4
+      ],
+      "child_count": 1,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1440*2392",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.foxnews.android:id/action_bar_root[text]None[enabled,,]",
+      "view_str": "3c51e45701376690eceaf6500fda641e",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.foxnews.android:id/action_bar_root"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/content",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        5
+      ],
+      "child_count": 1,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1440*2392",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text]None[enabled,,]",
+      "view_str": "4038a330a085439c238a727e0d8932a7",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/container",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.ViewGroup",
+      "children": [
+        6,
+        48,
+        71
+      ],
+      "child_count": 3,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1440*2392",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.foxnews.android:id/container[text]None[enabled,,]",
+      "view_str": "7e389716645f745e9f6ae964960e0134",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.foxnews.android:id/container"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/main_fragment_container",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": true,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        7
+      ],
+      "child_count": 1,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1440,
+          2196
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "1440*2196",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.foxnews.android:id/main_fragment_container[text]None[enabled,,]",
+      "view_str": "a35ddb5ff7062f18e6a8842fe15ab378",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.foxnews.android:id/main_fragment_container"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.ViewGroup",
+      "children": [
+        8,
+        9,
+        15
+      ],
+      "child_count": 3,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          84
+        ],
+        [
+          1440,
+          2196
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "1440*2112",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "f8af645830a950512ac661543f8791f9",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          84
+        ],
+        [
+          1440,
+          2196
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "1440*2112",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "c99b2138dd5fa35ea4285360a0b02e13",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/appbar",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        10
+      ],
+      "child_count": 1,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          84
+        ],
+        [
+          1440,
+          280
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 7,
+      "temp_id": 9,
+      "size": "1440*196",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.foxnews.android:id/appbar[text]None[enabled,,]",
+      "view_str": "cc152a18e97f38c0f9ac253eec80f91f",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.foxnews.android:id/appbar"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/toolbar",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.ViewGroup",
+      "children": [
+        11
+      ],
+      "child_count": 1,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          84
+        ],
+        [
+          1440,
+          280
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "1440*196",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.foxnews.android:id/toolbar[text]None[enabled,,]",
+      "view_str": "cbb61d4dcdfdb33151fadf63b638fffe",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.foxnews.android:id/toolbar"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/toolbar_title",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        12,
+        14
+      ],
+      "child_count": 2,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          84
+        ],
+        [
+          1419,
+          280
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "1419*196",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.foxnews.android:id/toolbar_title[text]None[enabled,,]",
+      "view_str": "a0fdd5e1f890e855f1511a97e293dc9d",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.foxnews.android:id/toolbar_title"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        13
+      ],
+      "child_count": 1,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          84
+        ],
+        [
+          1104,
+          280
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "1104*196",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "289a62cbdc3f0d67ecb15cd0c5eb9ba4",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": "For You",
+      "bounds": [
+        [
+          576,
+          126
+        ],
+        [
+          865,
+          238
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "289*112",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]For You[enabled,,]",
+      "view_str": "5f9ea33d7591a59023b2f626138c1563",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/watch_tv_button",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.Button",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": "Watch TV",
+      "bounds": [
+        [
+          1160,
+          140
+        ],
+        [
+          1384,
+          224
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 11,
+      "temp_id": 14,
+      "size": "224*84",
+      "signature": "[class]android.widget.Button[resource_id]com.foxnews.android:id/watch_tv_button[text]Watch TV[enabled,,]",
+      "view_str": "d96cd3f3e78c1aa3580a56e67df3049a",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.foxnews.android:id/watch_tv_button"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/scrolling_view_behavior",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        16
+      ],
+      "child_count": 1,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          280
+        ],
+        [
+          1440,
+          2196
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 7,
+      "temp_id": 15,
+      "size": "1440*1916",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.foxnews.android:id/scrolling_view_behavior[text]None[enabled,,]",
+      "view_str": "5f912421235e921a2ab3a4a58c45f40e",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.foxnews.android:id/scrolling_view_behavior"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/swipe_refresh",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.ViewGroup",
+      "children": [
+        17
+      ],
+      "child_count": 1,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          280
+        ],
+        [
+          1440,
+          2196
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 15,
+      "temp_id": 16,
+      "size": "1440*1916",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.foxnews.android:id/swipe_refresh[text]None[enabled,,]",
+      "view_str": "fbfe39b9023c13af80e6dfa78ff46bc3",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.foxnews.android:id/swipe_refresh"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": true,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/main_recyclerview",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "androidx.recyclerview.widget.RecyclerView",
+      "children": [
+        18,
+        21,
+        24
+      ],
+      "child_count": 3,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          280
+        ],
+        [
+          1440,
+          2196
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 16,
+      "temp_id": 17,
+      "size": "1440*1916",
+      "signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]com.foxnews.android:id/main_recyclerview[text]None[enabled,,]",
+      "view_str": "7a9d028239e3d71e94b919b1ce046ab8",
+      "content_free_signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]com.foxnews.android:id/main_recyclerview"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/standalone_header",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        19
+      ],
+      "child_count": 1,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          280
+        ],
+        [
+          1440,
+          477
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 17,
+      "temp_id": 18,
+      "size": "1440*197",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.foxnews.android:id/standalone_header[text]None[enabled,,]",
+      "view_str": "0a8ae03f46d33896b6d663cfa1ebe7fc",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.foxnews.android:id/standalone_header"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/root_layout",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        20
+      ],
+      "child_count": 1,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          56,
+          364
+        ],
+        [
+          1384,
+          449
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 18,
+      "temp_id": 19,
+      "size": "1328*85",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.foxnews.android:id/root_layout[text]None[enabled,,]",
+      "view_str": "3afafb7897cb02d04febf86c403b9b2d",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.foxnews.android:id/root_layout"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/header_title",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": "Saved",
+      "bounds": [
+        [
+          56,
+          364
+        ],
+        [
+          1384,
+          449
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 19,
+      "temp_id": 20,
+      "size": "1328*85",
+      "signature": "[class]android.widget.TextView[resource_id]com.foxnews.android:id/header_title[text]Saved[enabled,,]",
+      "view_str": "b69a457642e32f10631506171f92960f",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.foxnews.android:id/header_title"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        22,
+        23
+      ],
+      "child_count": 2,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          477
+        ],
+        [
+          1440,
+          906
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 17,
+      "temp_id": 21,
+      "size": "1440*429",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "aa4c6f140159212c3e6ab159061695ae",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": "You haven\u2019t saved anything yet.",
+      "bounds": [
+        [
+          269,
+          589
+        ],
+        [
+          1171,
+          674
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 21,
+      "temp_id": 22,
+      "size": "902*85",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]You haven\u2019t saved anything yet.[enabled,,]",
+      "view_str": "dbd138b6711fedd31917ba84658c99fe",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/message",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": "When reading a story or watching a video,\ntap\u00a0 the \u201csave\u201d icon \u00a0to add it here.",
+      "bounds": [
+        [
+          84,
+          688
+        ],
+        [
+          1356,
+          843
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 21,
+      "temp_id": 23,
+      "size": "1272*155",
+      "signature": "[class]android.widget.TextView[resource_id]com.foxnews.android:id/message[text]None[enabled,,]",
+      "view_str": "481ff8d6a340f15037bfb9353dabbcb4",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.foxnews.android:id/message"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/root_layout",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        25,
+        27
+      ],
+      "child_count": 2,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          962
+        ],
+        [
+          1440,
+          2196
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 17,
+      "temp_id": 24,
+      "size": "1440*1234",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.foxnews.android:id/root_layout[text]None[enabled,,]",
+      "view_str": "0270c60887663341614ffb9291669523",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.foxnews.android:id/root_layout"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        26
+      ],
+      "child_count": 1,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          56,
+          1046
+        ],
+        [
+          1384,
+          1131
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 24,
+      "temp_id": 25,
+      "size": "1328*85",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "e47995f7660d3750fad152cfc3c62050",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/recommended_stories_title",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": "Recommended Stories",
+      "bounds": [
+        [
+          56,
+          1046
+        ],
+        [
+          699,
+          1131
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 25,
+      "temp_id": 26,
+      "size": "643*85",
+      "signature": "[class]android.widget.TextView[resource_id]com.foxnews.android:id/recommended_stories_title[text]Recommended Stories[enabled,,]",
+      "view_str": "92a29400cd6e924a566154407fae0c03",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.foxnews.android:id/recommended_stories_title"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/recommendations_recyclerview",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "androidx.recyclerview.widget.RecyclerView",
+      "children": [
+        28,
+        33,
+        38,
+        43
+      ],
+      "child_count": 4,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          1173
+        ],
+        [
+          1440,
+          2196
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 24,
+      "temp_id": 27,
+      "size": "1440*1023",
+      "signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]com.foxnews.android:id/recommendations_recyclerview[text]None[enabled,,]",
+      "view_str": "57adab3ec3194e7ad7d06d339578f89d",
+      "content_free_signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]com.foxnews.android:id/recommendations_recyclerview"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.ViewGroup",
+      "children": [
+        29,
+        31
+      ],
+      "child_count": 2,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          28,
+          1173
+        ],
+        [
+          720,
+          1983
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 27,
+      "temp_id": 28,
+      "size": "692*810",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "4c0cb90f12dea9e36ad1d46e400e7869",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/storyad_image_wrapper",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": "Recommended story image",
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        30
+      ],
+      "child_count": 1,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          56,
+          1215
+        ],
+        [
+          692,
+          1573
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 28,
+      "temp_id": 29,
+      "size": "636*358",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.foxnews.android:id/storyad_image_wrapper[text]None[enabled,,]",
+      "view_str": "9305a380cdc37655fb09b92b253a6eb8",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.foxnews.android:id/storyad_image_wrapper"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          56,
+          1215
+        ],
+        [
+          692,
+          1573
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 29,
+      "temp_id": 30,
+      "size": "636*358",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "0c3fd01cd101145e87545bbb9cecdfc0",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/storyad_text_wrapper",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        32
+      ],
+      "child_count": 1,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          56,
+          1601
+        ],
+        [
+          692,
+          1941
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 28,
+      "temp_id": 31,
+      "size": "636*340",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.foxnews.android:id/storyad_text_wrapper[text]None[enabled,,]",
+      "view_str": "15b05a1bf369d10f98ff4e9a4d668d73",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.foxnews.android:id/storyad_text_wrapper"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": "US destroyer intercepts Houthi missiles fired at US-owned container ship, official says | Fox News",
+      "bounds": [
+        [
+          56,
+          1601
+        ],
+        [
+          692,
+          1941
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 31,
+      "temp_id": 32,
+      "size": "636*340",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]None[enabled,,]",
+      "view_str": "8b33afe8f435f56d68863cba9a171a46",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.ViewGroup",
+      "children": [
+        34,
+        36
+      ],
+      "child_count": 2,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          720,
+          1173
+        ],
+        [
+          1412,
+          1983
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 27,
+      "temp_id": 33,
+      "size": "692*810",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "4c0cb90f12dea9e36ad1d46e400e7869",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/storyad_image_wrapper",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": "Recommended story image",
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        35
+      ],
+      "child_count": 1,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          748,
+          1215
+        ],
+        [
+          1384,
+          1573
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 33,
+      "temp_id": 34,
+      "size": "636*358",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.foxnews.android:id/storyad_image_wrapper[text]None[enabled,,]",
+      "view_str": "9305a380cdc37655fb09b92b253a6eb8",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.foxnews.android:id/storyad_image_wrapper"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          748,
+          1215
+        ],
+        [
+          1384,
+          1573
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 34,
+      "temp_id": 35,
+      "size": "636*358",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "0c3fd01cd101145e87545bbb9cecdfc0",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/storyad_text_wrapper",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        37
+      ],
+      "child_count": 1,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          748,
+          1601
+        ],
+        [
+          1384,
+          1941
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 33,
+      "temp_id": 36,
+      "size": "636*340",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.foxnews.android:id/storyad_text_wrapper[text]None[enabled,,]",
+      "view_str": "15b05a1bf369d10f98ff4e9a4d668d73",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.foxnews.android:id/storyad_text_wrapper"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": "Judge unseals Fulton County prosecutor's divorce case, Fani Willis deposition delayed | Fox News",
+      "bounds": [
+        [
+          748,
+          1601
+        ],
+        [
+          1384,
+          1941
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 36,
+      "temp_id": 37,
+      "size": "636*340",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]None[enabled,,]",
+      "view_str": "8b33afe8f435f56d68863cba9a171a46",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.ViewGroup",
+      "children": [
+        39,
+        41
+      ],
+      "child_count": 2,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          28,
+          1983
+        ],
+        [
+          720,
+          2196
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 27,
+      "temp_id": 38,
+      "size": "692*213",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "4c0cb90f12dea9e36ad1d46e400e7869",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/storyad_image_wrapper",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": "Recommended story image",
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        40
+      ],
+      "child_count": 1,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          56,
+          2025
+        ],
+        [
+          692,
+          2196
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 38,
+      "temp_id": 39,
+      "size": "636*171",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.foxnews.android:id/storyad_image_wrapper[text]None[enabled,,]",
+      "view_str": "9305a380cdc37655fb09b92b253a6eb8",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.foxnews.android:id/storyad_image_wrapper"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          56,
+          2025
+        ],
+        [
+          692,
+          2196
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 39,
+      "temp_id": 40,
+      "size": "636*171",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "0c3fd01cd101145e87545bbb9cecdfc0",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/storyad_text_wrapper",
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        42
+      ],
+      "child_count": 1,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          56,
+          2411
+        ],
+        [
+          692,
+          2196
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 38,
+      "temp_id": 41,
+      "size": "636*-215",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.foxnews.android:id/storyad_text_wrapper[text]None[enabled,,]",
+      "view_str": "15b05a1bf369d10f98ff4e9a4d668d73",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.foxnews.android:id/storyad_text_wrapper"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": "Family of Kansas City Chief fan found dead outside pal's house suspect he was drugged | Fox News",
+      "bounds": [
+        [
+          56,
+          2411
+        ],
+        [
+          692,
+          2196
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 41,
+      "temp_id": 42,
+      "size": "636*-215",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]None[enabled,,]",
+      "view_str": "8b33afe8f435f56d68863cba9a171a46",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.ViewGroup",
+      "children": [
+        44,
+        46
+      ],
+      "child_count": 2,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          720,
+          1983
+        ],
+        [
+          1412,
+          2196
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 27,
+      "temp_id": 43,
+      "size": "692*213",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "4c0cb90f12dea9e36ad1d46e400e7869",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/storyad_image_wrapper",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": "Recommended story image",
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        45
+      ],
+      "child_count": 1,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          748,
+          2025
+        ],
+        [
+          1384,
+          2196
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 43,
+      "temp_id": 44,
+      "size": "636*171",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.foxnews.android:id/storyad_image_wrapper[text]None[enabled,,]",
+      "view_str": "9305a380cdc37655fb09b92b253a6eb8",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.foxnews.android:id/storyad_image_wrapper"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          748,
+          2025
+        ],
+        [
+          1384,
+          2196
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 44,
+      "temp_id": 45,
+      "size": "636*171",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "0c3fd01cd101145e87545bbb9cecdfc0",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/storyad_text_wrapper",
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        47
+      ],
+      "child_count": 1,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          748,
+          2411
+        ],
+        [
+          1384,
+          2196
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 43,
+      "temp_id": 46,
+      "size": "636*-215",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.foxnews.android:id/storyad_text_wrapper[text]None[enabled,,]",
+      "view_str": "15b05a1bf369d10f98ff4e9a4d668d73",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.foxnews.android:id/storyad_text_wrapper"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": "Supreme Court sides with Biden in Texas border razor wire case | Fox News",
+      "bounds": [
+        [
+          748,
+          2411
+        ],
+        [
+          1384,
+          2196
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 46,
+      "temp_id": 47,
+      "size": "636*-215",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]None[enabled,,]",
+      "view_str": "8b33afe8f435f56d68863cba9a171a46",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/main_bottom_nav_bar",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "androidx.appcompat.widget.LinearLayoutCompat",
+      "children": [
+        49,
+        53,
+        54,
+        58,
+        62,
+        66,
+        70
+      ],
+      "child_count": 7,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2196
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 5,
+      "temp_id": 48,
+      "size": "1440*196",
+      "signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]com.foxnews.android:id/main_bottom_nav_bar[text]None[enabled,,]",
+      "view_str": "45310df618f77e00dc5223846df0b4dd",
+      "content_free_signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]com.foxnews.android:id/main_bottom_nav_bar"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/navbar_home",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "androidx.appcompat.widget.LinearLayoutCompat",
+      "children": [
+        50,
+        52
+      ],
+      "child_count": 2,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2196
+        ],
+        [
+          288,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 48,
+      "temp_id": 49,
+      "size": "288*196",
+      "signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]com.foxnews.android:id/navbar_home[text]None[enabled,,]",
+      "view_str": "c30b26f61b980a49a3f53302ebe123c1",
+      "content_free_signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]com.foxnews.android:id/navbar_home"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        51
+      ],
+      "child_count": 1,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2196
+        ],
+        [
+          288,
+          2301
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 49,
+      "temp_id": 50,
+      "size": "288*105",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "db7a64cde5683a4b05f27b6fa678e668",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/tab_icon",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": "Home",
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          102,
+          2217
+        ],
+        [
+          186,
+          2301
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 50,
+      "temp_id": 51,
+      "size": "84*84",
+      "signature": "[class]android.widget.ImageView[resource_id]com.foxnews.android:id/tab_icon[text]None[enabled,,]",
+      "view_str": "4e4c12759c23fc653167815406f0ef79",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.foxnews.android:id/tab_icon"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/tab_text",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": "Home",
+      "bounds": [
+        [
+          87,
+          2315
+        ],
+        [
+          200,
+          2371
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 49,
+      "temp_id": 52,
+      "size": "113*56",
+      "signature": "[class]android.widget.TextView[resource_id]com.foxnews.android:id/tab_text[text]Home[enabled,,]",
+      "view_str": "36b89d595b795c68fc60712b60f4da22",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.foxnews.android:id/tab_text"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2196
+        ],
+        [
+          0,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 48,
+      "temp_id": 53,
+      "size": "0*196",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "9eeea0f0c1552e6c54120a9310f0fc7e",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/navbar_browse",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "androidx.appcompat.widget.LinearLayoutCompat",
+      "children": [
+        55,
+        57
+      ],
+      "child_count": 2,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          288,
+          2196
+        ],
+        [
+          576,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 48,
+      "temp_id": 54,
+      "size": "288*196",
+      "signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]com.foxnews.android:id/navbar_browse[text]None[enabled,,]",
+      "view_str": "cabdbe6e90e363c606670d860888fc97",
+      "content_free_signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]com.foxnews.android:id/navbar_browse"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        56
+      ],
+      "child_count": 1,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          288,
+          2196
+        ],
+        [
+          576,
+          2301
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 54,
+      "temp_id": 55,
+      "size": "288*105",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "ed6f284558e2dbbf21e3a439b45cd42e",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/tab_icon",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": "Browse",
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          390,
+          2217
+        ],
+        [
+          474,
+          2301
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 55,
+      "temp_id": 56,
+      "size": "84*84",
+      "signature": "[class]android.widget.ImageView[resource_id]com.foxnews.android:id/tab_icon[text]None[enabled,,]",
+      "view_str": "20a027a81e1810ca0611b99736253bca",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.foxnews.android:id/tab_icon"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/tab_text",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": "Browse",
+      "bounds": [
+        [
+          362,
+          2315
+        ],
+        [
+          502,
+          2371
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 54,
+      "temp_id": 57,
+      "size": "140*56",
+      "signature": "[class]android.widget.TextView[resource_id]com.foxnews.android:id/tab_text[text]Browse[enabled,,]",
+      "view_str": "d529e99766a8008e9e82fdb20f9fad57",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.foxnews.android:id/tab_text"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/navbar_watch",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "androidx.appcompat.widget.LinearLayoutCompat",
+      "children": [
+        59,
+        61
+      ],
+      "child_count": 2,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          576,
+          2196
+        ],
+        [
+          864,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 48,
+      "temp_id": 58,
+      "size": "288*196",
+      "signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]com.foxnews.android:id/navbar_watch[text]None[enabled,,]",
+      "view_str": "69d32a4c5e0c573193c9506d9faaf649",
+      "content_free_signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]com.foxnews.android:id/navbar_watch"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        60
+      ],
+      "child_count": 1,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          576,
+          2196
+        ],
+        [
+          864,
+          2301
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 58,
+      "temp_id": 59,
+      "size": "288*105",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "e714979442826b3ca038960fcde5adea",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/tab_icon",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": "Watch",
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          678,
+          2217
+        ],
+        [
+          762,
+          2301
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 59,
+      "temp_id": 60,
+      "size": "84*84",
+      "signature": "[class]android.widget.ImageView[resource_id]com.foxnews.android:id/tab_icon[text]None[enabled,,]",
+      "view_str": "9ab57028c55da997623115180bcab8ba",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.foxnews.android:id/tab_icon"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/tab_text",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": "Watch",
+      "bounds": [
+        [
+          661,
+          2315
+        ],
+        [
+          779,
+          2371
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 58,
+      "temp_id": 61,
+      "size": "118*56",
+      "signature": "[class]android.widget.TextView[resource_id]com.foxnews.android:id/tab_text[text]Watch[enabled,,]",
+      "view_str": "84f0badf7f24af2ddb4ff1cfd92e7ef8",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.foxnews.android:id/tab_text"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/navbar_listen",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "androidx.appcompat.widget.LinearLayoutCompat",
+      "children": [
+        63,
+        65
+      ],
+      "child_count": 2,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          864,
+          2196
+        ],
+        [
+          1152,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 48,
+      "temp_id": 62,
+      "size": "288*196",
+      "signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]com.foxnews.android:id/navbar_listen[text]None[enabled,,]",
+      "view_str": "f64a66b2c34b685ea57be4484e731096",
+      "content_free_signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]com.foxnews.android:id/navbar_listen"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        64
+      ],
+      "child_count": 1,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          864,
+          2196
+        ],
+        [
+          1152,
+          2301
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 62,
+      "temp_id": 63,
+      "size": "288*105",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "66d3ff4827c55fb9ce75360cf14c36dc",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/tab_icon",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": "Listen",
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          966,
+          2217
+        ],
+        [
+          1050,
+          2301
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 63,
+      "temp_id": 64,
+      "size": "84*84",
+      "signature": "[class]android.widget.ImageView[resource_id]com.foxnews.android:id/tab_icon[text]None[enabled,,]",
+      "view_str": "6781507d98a609509cf9284baef629a7",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.foxnews.android:id/tab_icon"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/tab_text",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": "Listen",
+      "bounds": [
+        [
+          951,
+          2315
+        ],
+        [
+          1065,
+          2371
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 62,
+      "temp_id": 65,
+      "size": "114*56",
+      "signature": "[class]android.widget.TextView[resource_id]com.foxnews.android:id/tab_text[text]Listen[enabled,,]",
+      "view_str": "31581185bce292603609a075e27d51f1",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.foxnews.android:id/tab_text"
+    },
+    {
+      "checkable": false,
+      "selected": true,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/navbar_for_you",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "androidx.appcompat.widget.LinearLayoutCompat",
+      "children": [
+        67,
+        69
+      ],
+      "child_count": 2,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          1152,
+          2196
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 48,
+      "temp_id": 66,
+      "size": "288*196",
+      "signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]com.foxnews.android:id/navbar_for_you[text]None[enabled,,selected]",
+      "view_str": "9f38134338d83891992a0af4e68c3f3a",
+      "content_free_signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]com.foxnews.android:id/navbar_for_you"
+    },
+    {
+      "checkable": false,
+      "selected": true,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        68
+      ],
+      "child_count": 1,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          1152,
+          2196
+        ],
+        [
+          1440,
+          2301
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 66,
+      "temp_id": 67,
+      "size": "288*105",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,selected]",
+      "view_str": "f84005755b353ed38f9ab00eae87f4d8",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": true,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/tab_icon",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": "For You",
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          1254,
+          2217
+        ],
+        [
+          1338,
+          2301
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 67,
+      "temp_id": 68,
+      "size": "84*84",
+      "signature": "[class]android.widget.ImageView[resource_id]com.foxnews.android:id/tab_icon[text]None[enabled,,selected]",
+      "view_str": "ffbf2b4fb3db8553edbc143460506ca2",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.foxnews.android:id/tab_icon"
+    },
+    {
+      "checkable": false,
+      "selected": true,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/tab_text",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": "For You",
+      "bounds": [
+        [
+          1225,
+          2315
+        ],
+        [
+          1367,
+          2371
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 66,
+      "temp_id": 69,
+      "size": "142*56",
+      "signature": "[class]android.widget.TextView[resource_id]com.foxnews.android:id/tab_text[text]For You[enabled,,selected]",
+      "view_str": "a611c1b873c8b71d21739a3f616dedbf",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.foxnews.android:id/tab_text"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          1440,
+          2196
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 48,
+      "temp_id": 70,
+      "size": "0*196",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "9eeea0f0c1552e6c54120a9310f0fc7e",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          2392
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 5,
+      "temp_id": 71,
+      "size": "1440*0",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "6423301d32145b478716d40108d143c6",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    }
+  ]
+}

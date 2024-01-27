@@ -1,0 +1,53 @@
+{
+  "tag": "2024-01-25_184102",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/navbar_browse",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "androidx.appcompat.widget.LinearLayoutCompat",
+      "children": [
+        50,
+        52
+      ],
+      "child_count": 2,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          288,
+          2196
+        ],
+        [
+          576,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 43,
+      "temp_id": 49,
+      "size": "288*196",
+      "signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]com.foxnews.android:id/navbar_browse[text]None[enabled,,]",
+      "view_str": "cabdbe6e90e363c606670d860888fc97",
+      "content_free_signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]com.foxnews.android:id/navbar_browse"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "84503b3def9e3d4554e60e5cfd92ddda",
+  "stop_state": "5d0b2e9ae1a2f1add3d0f606d57ae027",
+  "event_str": "TouchEvent(state=84503b3def9e3d4554e60e5cfd92ddda, view=cabdbe6e90e363c606670d860888fc97(StartActivity/LinearLayoutCompat-))"
+}

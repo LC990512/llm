@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-22_231857",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.contextlogic.home:id/create_account_fragment_sign_in_button",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.Button",
+      "children": [],
+      "child_count": 0,
+      "package": "com.contextlogic.home",
+      "text": "Have an account? Sign in",
+      "bounds": [
+        [
+          56,
+          1817
+        ],
+        [
+          1384,
+          1957
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 36,
+      "temp_id": 43,
+      "size": "1328*140",
+      "signature": "[class]android.widget.Button[resource_id]com.contextlogic.home:id/create_account_fragment_sign_in_button[text]Have an account? Sign in[enabled,,]",
+      "view_str": "c2c2174ff670d93a0450264841bab342",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.contextlogic.home:id/create_account_fragment_sign_in_button"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "936dbfe00be1691dc0f528667d767339",
+  "stop_state": "c2c8fed5a0d8c362b3a8ce95f751c8e6",
+  "event_str": "TouchEvent(state=936dbfe00be1691dc0f528667d767339, view=c2c2174ff670d93a0450264841bab342(CreateAccountActivity/Button-Have an ac))"
+}

@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-21_202155",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.thirdrock.fivemiles:id/profile_edit_profile",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": "Edit Profile",
+      "bounds": [
+        [
+          1096,
+          112
+        ],
+        [
+          1384,
+          193
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 16,
+      "temp_id": 17,
+      "size": "288*81",
+      "signature": "[class]android.widget.TextView[resource_id]com.thirdrock.fivemiles:id/profile_edit_profile[text]Edit Profile[enabled,,]",
+      "view_str": "dc7aaa0e1e69b3d550faa78f3fa6c6c7",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.thirdrock.fivemiles:id/profile_edit_profile"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "67eb6189713a4cb4b7f9232dcd54a41d",
+  "stop_state": "895dee2c2f976f780b7aa0d249ff453b",
+  "event_str": "TouchEvent(state=67eb6189713a4cb4b7f9232dcd54a41d, view=dc7aaa0e1e69b3d550faa78f3fa6c6c7(MainTabActivity/TextView-Edit Profi))"
+}

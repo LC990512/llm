@@ -1,160 +1,160 @@
 Activity Resolver Table:
   Schemes:
       fm-internal:
-        2376121 com.thirdrock.fivemiles/.common.InAppDeepLinkResolverActivity
+        4a4fa34 com.thirdrock.fivemiles/.common.InAppDeepLinkResolverActivity
       fivemiles:
-        1b29946 com.thirdrock.fivemiles/com.insthub.fivemiles.Activity.GuidePagerActivity
+        6b2905d com.thirdrock.fivemiles/com.insthub.fivemiles.Activity.GuidePagerActivity
       http:
-        5e2c707 com.thirdrock.fivemiles/.common.IntentRouterActivity
+        6f1fdd2 com.thirdrock.fivemiles/.common.IntentRouterActivity
       fb805850072798512:
-        9d1034 com.thirdrock.fivemiles/com.facebook.CustomTabActivity
+        2cb3ea3 com.thirdrock.fivemiles/com.facebook.CustomTabActivity
       https:
-        5e2c707 com.thirdrock.fivemiles/.common.IntentRouterActivity
+        6f1fdd2 com.thirdrock.fivemiles/.common.IntentRouterActivity
       tagmanager.c.com.thirdrock.fivemiles:
-        a07ee5d com.thirdrock.fivemiles/com.google.android.gms.tagmanager.TagManagerPreviewActivity
+        2b185a0 com.thirdrock.fivemiles/com.google.android.gms.tagmanager.TagManagerPreviewActivity
 
   Non-Data Actions:
       android.intent.action.MAIN:
-        1b29946 com.thirdrock.fivemiles/com.insthub.fivemiles.Activity.GuidePagerActivity
+        6b2905d com.thirdrock.fivemiles/com.insthub.fivemiles.Activity.GuidePagerActivity
       com.google.android.gms.actions.SEARCH_ACTION:
-        5e2c707 com.thirdrock.fivemiles/.common.IntentRouterActivity
+        6f1fdd2 com.thirdrock.fivemiles/.common.IntentRouterActivity
       zopim.action.RESUME_CHAT:
-        8ef03d2 com.thirdrock.fivemiles/com.zopim.android.sdk.prechat.ZopimChatActivity
+        60cd559 com.thirdrock.fivemiles/com.zopim.android.sdk.prechat.ZopimChatActivity
 
 Receiver Resolver Table:
   Non-Data Actions:
       android.intent.action.BATTERY_OKAY:
-        75acca3 com.thirdrock.fivemiles/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+        84e251e com.thirdrock.fivemiles/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
       android.intent.action.ACTION_POWER_DISCONNECTED:
-        514fba0 com.thirdrock.fivemiles/io.mysdk.locs.receiver.InitializeReceiver
-        c5a1359 com.thirdrock.fivemiles/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+        7395bcc com.thirdrock.fivemiles/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+        bc921ff com.thirdrock.fivemiles/io.mysdk.locs.receiver.InitializeReceiver
       android.intent.action.QUICKBOOT_POWERON:
-        4158b1e com.thirdrock.fivemiles/com.evernote.android.job.JobBootReceiver
+        92c6e15 com.thirdrock.fivemiles/com.evernote.android.job.JobBootReceiver
       com.htc.intent.action.QUICKBOOT_POWERON:
-        4158b1e com.thirdrock.fivemiles/com.evernote.android.job.JobBootReceiver
+        92c6e15 com.thirdrock.fivemiles/com.evernote.android.job.JobBootReceiver
       android.intent.action.DEVICE_STORAGE_LOW:
-        4c38fff com.thirdrock.fivemiles/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+        ab3752a com.thirdrock.fivemiles/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
       android.net.conn.CONNECTIVITY_CHANGE:
-        a0f8c15 com.thirdrock.fivemiles/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
-        b5e31cc com.thirdrock.fivemiles/com.vungle.warren.NetworkProviderReceiver
+        48668b8 com.thirdrock.fivemiles/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+        497df1b com.thirdrock.fivemiles/com.vungle.warren.NetworkProviderReceiver
       com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED:
-        28b3b2a com.thirdrock.fivemiles/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+        772d691 com.thirdrock.fivemiles/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
       android.intent.action.DEVICE_STORAGE_OK:
-        4c38fff com.thirdrock.fivemiles/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+        ab3752a com.thirdrock.fivemiles/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
       com.android.vending.INSTALL_REFERRER:
-        2f9dff6 com.thirdrock.fivemiles/com.google.android.gms.analytics.CampaignTrackingReceiver
-        4e57ff7 com.thirdrock.fivemiles/com.facebook.CampaignTrackingReceiver
-        5229eb8 com.thirdrock.fivemiles/io.branch.referral.InstallListener
-        669d491 com.thirdrock.fivemiles/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-        dcb2d1b com.thirdrock.fivemiles/com.appsflyer.MultipleInstallBroadcastReceiver
+        cb51f7 com.thirdrock.fivemiles/io.branch.referral.InstallListener
+        2dd4acd com.thirdrock.fivemiles/com.google.android.gms.analytics.CampaignTrackingReceiver
+        5955864 com.thirdrock.fivemiles/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+        c917f82 com.thirdrock.fivemiles/com.facebook.CampaignTrackingReceiver
+        e6bb9f6 com.thirdrock.fivemiles/com.appsflyer.MultipleInstallBroadcastReceiver
       locationUpdateKey:
-        2beee64 com.thirdrock.fivemiles/io.mysdk.locs.work.workers.loc.LocUpdateReceiver
+        f591693 com.thirdrock.fivemiles/io.mysdk.locs.work.workers.loc.LocUpdateReceiver
       com.google.android.c2dm.intent.RECEIVE:
-        d4628cd com.thirdrock.fivemiles/com.google.firebase.iid.FirebaseInstanceIdReceiver
+        68196d0 com.thirdrock.fivemiles/com.google.firebase.iid.FirebaseInstanceIdReceiver
       android.intent.action.BATTERY_LOW:
-        75acca3 com.thirdrock.fivemiles/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+        84e251e com.thirdrock.fivemiles/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
       android.intent.action.TIMEZONE_CHANGED:
-        2dc0582 com.thirdrock.fivemiles/androidx.work.impl.background.systemalarm.RescheduleReceiver
+        600c6c9 com.thirdrock.fivemiles/androidx.work.impl.background.systemalarm.RescheduleReceiver
       android.intent.action.TIME_SET:
-        2dc0582 com.thirdrock.fivemiles/androidx.work.impl.background.systemalarm.RescheduleReceiver
+        600c6c9 com.thirdrock.fivemiles/androidx.work.impl.background.systemalarm.RescheduleReceiver
       com.evernote.android.job.v14.RUN_JOB:
-        5e82493 com.thirdrock.fivemiles/com.evernote.android.job.v14.PlatformAlarmReceiver
+        35c11ce com.thirdrock.fivemiles/com.evernote.android.job.v14.PlatformAlarmReceiver
       android.intent.action.BOOT_COMPLETED:
-        2dc0582 com.thirdrock.fivemiles/androidx.work.impl.background.systemalarm.RescheduleReceiver
-        4158b1e com.thirdrock.fivemiles/com.evernote.android.job.JobBootReceiver
+        600c6c9 com.thirdrock.fivemiles/androidx.work.impl.background.systemalarm.RescheduleReceiver
+        92c6e15 com.thirdrock.fivemiles/com.evernote.android.job.JobBootReceiver
       com.thirdrock.fm_command_received:
-        bae8cd0 com.thirdrock.fivemiles/.command.CommandReceiver
+        ef488ef com.thirdrock.fivemiles/.command.CommandReceiver
       android.intent.action.ACTION_POWER_CONNECTED:
-        514fba0 com.thirdrock.fivemiles/io.mysdk.locs.receiver.InitializeReceiver
-        c5a1359 com.thirdrock.fivemiles/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+        7395bcc com.thirdrock.fivemiles/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+        bc921ff com.thirdrock.fivemiles/io.mysdk.locs.receiver.InitializeReceiver
       com.thirdrock.fm_push_event:
-        11984c9 com.thirdrock.fivemiles/.util.PushEventReceiver
+        7b14ffc com.thirdrock.fivemiles/.util.PushEventReceiver
       android.intent.action.MY_PACKAGE_REPLACED:
-        4158b1e com.thirdrock.fivemiles/com.evernote.android.job.JobBootReceiver
-        514fba0 com.thirdrock.fivemiles/io.mysdk.locs.receiver.InitializeReceiver
+        92c6e15 com.thirdrock.fivemiles/com.evernote.android.job.JobBootReceiver
+        bc921ff com.thirdrock.fivemiles/io.mysdk.locs.receiver.InitializeReceiver
       androidx.work.impl.background.systemalarm.UpdateProxies:
-        ac8f7ce com.thirdrock.fivemiles/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+        5c60685 com.thirdrock.fivemiles/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
       net.vrallev.android.job.v14.RUN_JOB:
-        5e82493 com.thirdrock.fivemiles/com.evernote.android.job.v14.PlatformAlarmReceiver
+        35c11ce com.thirdrock.fivemiles/com.evernote.android.job.v14.PlatformAlarmReceiver
 
 Service Resolver Table:
   Non-Data Actions:
       android.content.SyncAdapter:
-        a6676ef com.thirdrock.fivemiles/.common.sync.SyncService
+        b2b7cda com.thirdrock.fivemiles/.common.sync.SyncService
       com.google.firebase.INSTANCE_ID_EVENT:
-        1b7a5fc com.thirdrock.fivemiles/com.google.firebase.iid.FirebaseInstanceIdService
+        c2ac50b com.thirdrock.fivemiles/com.google.firebase.iid.FirebaseInstanceIdService
       com.google.android.gms.gcm.ACTION_TASK_READY:
-        caca485 com.thirdrock.fivemiles/com.evernote.android.job.gcm.PlatformGcmService
+        7c16fe8 com.thirdrock.fivemiles/com.evernote.android.job.gcm.PlatformGcmService
       com.google.firebase.MESSAGING_EVENT:
-        380c2da com.thirdrock.fivemiles/.notification.FcmMessagingService
-        7cd930b com.thirdrock.fivemiles/com.google.firebase.messaging.FirebaseMessagingService
+        548ca6 com.thirdrock.fivemiles/com.google.firebase.messaging.FirebaseMessagingService
+        2e58601 com.thirdrock.fivemiles/.notification.FcmMessagingService
       android.accounts.AccountAuthenticator:
-        ad725e8 com.thirdrock.fivemiles/.common.sync.SyncAuthenticatorService
+        53ea6e7 com.thirdrock.fivemiles/.common.sync.SyncAuthenticatorService
 
 Permissions:
-  Permission [com.thirdrock.fivemiles.permission.C2D_MESSAGE] (fb832a6):
+  Permission [com.thirdrock.fivemiles.permission.C2D_MESSAGE] (31a294):
     sourcePackage=com.thirdrock.fivemiles
-    uid=10064 gids=null type=0 prot=signature
-    perm=Permission{34054e7 com.thirdrock.fivemiles.permission.C2D_MESSAGE}
-    packageSetting=PackageSetting{47fdf3d com.thirdrock.fivemiles/10064}
+    uid=10098 gids=null type=0 prot=signature
+    perm=Permission{723813d com.thirdrock.fivemiles.permission.C2D_MESSAGE}
+    packageSetting=PackageSetting{daccd32 com.thirdrock.fivemiles/10098}
 
 Registered ContentProviders:
   com.thirdrock.fivemiles/com.zendesk.belvedere.BelvedereFileProvider:
-    Provider{6a4d332 com.thirdrock.fivemiles/com.zendesk.belvedere.BelvedereFileProvider}
+    Provider{fc4ca83 com.thirdrock.fivemiles/com.zendesk.belvedere.BelvedereFileProvider}
   com.thirdrock.fivemiles/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
-    Provider{7335883 com.thirdrock.fivemiles/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+    Provider{d05400 com.thirdrock.fivemiles/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
   com.thirdrock.fivemiles/androidx.core.content.FileProvider:
-    Provider{e26ca00 com.thirdrock.fivemiles/androidx.core.content.FileProvider}
+    Provider{a4bf439 com.thirdrock.fivemiles/androidx.core.content.FileProvider}
   com.thirdrock.fivemiles/com.facebook.FacebookContentProvider:
-    Provider{4103239 com.thirdrock.fivemiles/com.facebook.FacebookContentProvider}
+    Provider{3d68a7e com.thirdrock.fivemiles/com.facebook.FacebookContentProvider}
   com.thirdrock.fivemiles/com.crashlytics.android.CrashlyticsInitProvider:
-    Provider{b48f07e com.thirdrock.fivemiles/com.crashlytics.android.CrashlyticsInitProvider}
+    Provider{bff8bdf com.thirdrock.fivemiles/com.crashlytics.android.CrashlyticsInitProvider}
   com.thirdrock.fivemiles/com.google.firebase.provider.FirebaseInitProvider:
-    Provider{6c8f9df com.thirdrock.fivemiles/com.google.firebase.provider.FirebaseInitProvider}
+    Provider{5e6b02c com.thirdrock.fivemiles/com.google.firebase.provider.FirebaseInitProvider}
   com.thirdrock.fivemiles/com.facebook.internal.FacebookInitProvider:
-    Provider{12e862c com.thirdrock.fivemiles/com.facebook.internal.FacebookInitProvider}
+    Provider{aee9af5 com.thirdrock.fivemiles/com.facebook.internal.FacebookInitProvider}
   com.thirdrock.fivemiles/io.mysdk.locs.contextprovider.MySdkProvider:
-    Provider{fb8b8f5 com.thirdrock.fivemiles/io.mysdk.locs.contextprovider.MySdkProvider}
+    Provider{94cd08a com.thirdrock.fivemiles/io.mysdk.locs.contextprovider.MySdkProvider}
   com.thirdrock.fivemiles/.common.sync.StubProvider:
-    Provider{c7f968a com.thirdrock.fivemiles/.common.sync.StubProvider}
+    Provider{1fb06fb com.thirdrock.fivemiles/.common.sync.StubProvider}
 
 ContentProvider Authorities:
   [com.thirdrock.fivemiles.FacebookInitProvider]:
-    Provider{12e862c com.thirdrock.fivemiles/com.facebook.internal.FacebookInitProvider}
-      applicationInfo=ApplicationInfo{aed54fb com.thirdrock.fivemiles}
+    Provider{aee9af5 com.thirdrock.fivemiles/com.facebook.internal.FacebookInitProvider}
+      applicationInfo=ApplicationInfo{524a318 com.thirdrock.fivemiles}
   [com.thirdrock.fivemiles.provider]:
-    Provider{e26ca00 com.thirdrock.fivemiles/androidx.core.content.FileProvider}
-      applicationInfo=ApplicationInfo{aed54fb com.thirdrock.fivemiles}
+    Provider{a4bf439 com.thirdrock.fivemiles/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{524a318 com.thirdrock.fivemiles}
   [com.thirdrock.fivemiles.io.mysdk]:
-    Provider{fb8b8f5 com.thirdrock.fivemiles/io.mysdk.locs.contextprovider.MySdkProvider}
-      applicationInfo=ApplicationInfo{aed54fb com.thirdrock.fivemiles}
+    Provider{94cd08a com.thirdrock.fivemiles/io.mysdk.locs.contextprovider.MySdkProvider}
+      applicationInfo=ApplicationInfo{524a318 com.thirdrock.fivemiles}
   [com.thirdrock.fivemiles.crashlyticsinitprovider]:
-    Provider{b48f07e com.thirdrock.fivemiles/com.crashlytics.android.CrashlyticsInitProvider}
-      applicationInfo=ApplicationInfo{aed54fb com.thirdrock.fivemiles}
+    Provider{bff8bdf com.thirdrock.fivemiles/com.crashlytics.android.CrashlyticsInitProvider}
+      applicationInfo=ApplicationInfo{524a318 com.thirdrock.fivemiles}
   [com.thirdrock.fivemiles.lifecycle-process]:
-    Provider{7335883 com.thirdrock.fivemiles/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
-      applicationInfo=ApplicationInfo{aed54fb com.thirdrock.fivemiles}
+    Provider{d05400 com.thirdrock.fivemiles/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{524a318 com.thirdrock.fivemiles}
   [com.thirdrock.fivemiles.sync.provider]:
-    Provider{c7f968a com.thirdrock.fivemiles/.common.sync.StubProvider}
-      applicationInfo=ApplicationInfo{aed54fb com.thirdrock.fivemiles}
+    Provider{1fb06fb com.thirdrock.fivemiles/.common.sync.StubProvider}
+      applicationInfo=ApplicationInfo{524a318 com.thirdrock.fivemiles}
   [com.thirdrock.fivemiles.belvedere.attachments]:
-    Provider{6a4d332 com.thirdrock.fivemiles/com.zendesk.belvedere.BelvedereFileProvider}
-      applicationInfo=ApplicationInfo{aed54fb com.thirdrock.fivemiles}
+    Provider{fc4ca83 com.thirdrock.fivemiles/com.zendesk.belvedere.BelvedereFileProvider}
+      applicationInfo=ApplicationInfo{524a318 com.thirdrock.fivemiles}
   [com.facebook.app.FacebookContentProvider805850072798512]:
-    Provider{4103239 com.thirdrock.fivemiles/com.facebook.FacebookContentProvider}
-      applicationInfo=ApplicationInfo{aed54fb com.thirdrock.fivemiles}
+    Provider{3d68a7e com.thirdrock.fivemiles/com.facebook.FacebookContentProvider}
+      applicationInfo=ApplicationInfo{524a318 com.thirdrock.fivemiles}
   [com.thirdrock.fivemiles.firebaseinitprovider]:
-    Provider{6c8f9df com.thirdrock.fivemiles/com.google.firebase.provider.FirebaseInitProvider}
-      applicationInfo=ApplicationInfo{aed54fb com.thirdrock.fivemiles}
+    Provider{5e6b02c com.thirdrock.fivemiles/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{524a318 com.thirdrock.fivemiles}
 
 Key Set Manager:
   [com.thirdrock.fivemiles]
-      Signing KeySets: 15
+      Signing KeySets: 39
 
 Packages:
-  Package [com.thirdrock.fivemiles] (47fdf3d):
-    userId=10064
-    pkg=Package{c13d918 com.thirdrock.fivemiles}
+  Package [com.thirdrock.fivemiles] (daccd32):
+    userId=10098
+    pkg=Package{6daf171 com.thirdrock.fivemiles}
     codePath=/data/app/com.thirdrock.fivemiles-1
     resourcePath=/data/app/com.thirdrock.fivemiles-1
     legacyNativeLibraryDir=/data/app/com.thirdrock.fivemiles-1/lib
@@ -163,15 +163,15 @@ Packages:
     versionCode=8040 targetSdk=28
     versionName=8.4.0
     splits=[base]
-    applicationInfo=ApplicationInfo{aed54fb com.thirdrock.fivemiles}
+    applicationInfo=ApplicationInfo{524a318 com.thirdrock.fivemiles}
     flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE RESTORE_ANY_VERSION LARGE_HEAP ]
     privateFlags=[ ]
     dataDir=/data/user/0/com.thirdrock.fivemiles
     supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
-    timeStamp=2023-12-31 14:14:31
-    firstInstallTime=2023-12-31 14:14:34
-    lastUpdateTime=2023-12-31 14:14:34
-    signatures=PackageSignatures{128ef71 [53245d7]}
+    timeStamp=2024-01-17 20:00:56
+    firstInstallTime=2024-01-17 20:01:37
+    lastUpdateTime=2024-01-17 20:01:37
+    signatures=PackageSignatures{f2f6b56 [46917d7]}
     installPermissionsFixed=true installStatus=1
     pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE RESTORE_ANY_VERSION LARGE_HEAP ]
     declared permissions:
@@ -233,7 +233,10 @@ Packages:
       gids=[3002, 3003, 3001]
       runtime permissions:
         android.permission.ACCESS_FINE_LOCATION: granted=true
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
         android.permission.ACCESS_COARSE_LOCATION: granted=true
+        android.permission.CAMERA: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true
       disabledComponents:
         com.vungle.warren.NetworkProviderReceiver
         androidx.work.impl.background.systemalarm.SystemAlarmService

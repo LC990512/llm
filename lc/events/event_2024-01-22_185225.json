@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-22_185225",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.contextlogic.geek",
+      "text": "Recently Viewed",
+      "bounds": [
+        [
+          1068,
+          280
+        ],
+        [
+          1440,
+          448
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 150,
+      "temp_id": 154,
+      "size": "372*168",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]Recently Viewed[enabled,,]",
+      "view_str": "11162289ac0353d5125d700a2d80f83f",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "25ebbbe110b54a44320a62baef0c78f8",
+  "stop_state": "f52150f6e74d93518cd6189c0cbbc9d3",
+  "event_str": "TouchEvent(state=25ebbbe110b54a44320a62baef0c78f8, view=11162289ac0353d5125d700a2d80f83f(BrowseActivity/TextView-Recently V))"
+}

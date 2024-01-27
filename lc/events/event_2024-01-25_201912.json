@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-25_201912",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.foxnews.android:id/scale_text",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": "Text Size",
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": null,
+      "bounds": [
+        [
+          973,
+          136
+        ],
+        [
+          1104,
+          227
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "131*91",
+      "signature": "[class]android.widget.ImageView[resource_id]com.foxnews.android:id/scale_text[text]None[enabled,,]",
+      "view_str": "9c892dfa843fad3a97d811d24d8973aa",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.foxnews.android:id/scale_text"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "139a63fe65a88224c7e04324a7444463",
+  "stop_state": "139a63fe65a88224c7e04324a7444463",
+  "event_str": "TouchEvent(state=139a63fe65a88224c7e04324a7444463, view=9c892dfa843fad3a97d811d24d8973aa(ArticleDetailActivity/ImageView-))"
+}

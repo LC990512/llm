@@ -1,0 +1,12 @@
+{
+  "tag": "2024-01-22_182703",
+  "event": {
+    "event_type": "kill_app",
+    "log_lines": null,
+    "prompt": null,
+    "stop_intent": "am force-stop com.contextlogic.geek"
+  },
+  "start_state": "fe720cebee96175049ae24b354d514ee",
+  "stop_state": "fe720cebee96175049ae24b354d514ee",
+  "event_str": "KillAppEvent()"
+}

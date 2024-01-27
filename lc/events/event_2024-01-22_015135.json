@@ -1,0 +1,51 @@
+{
+  "tag": "2024-01-22_015135",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.thirdrock.fivemiles:id/login_password",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": true,
+      "content_description": null,
+      "focused": true,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thirdrock.fivemiles",
+      "text": "research",
+      "bounds": [
+        [
+          84,
+          1091
+        ],
+        [
+          1356,
+          1249
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 20,
+      "temp_id": 21,
+      "size": "1272*158",
+      "signature": "[class]android.widget.EditText[resource_id]com.thirdrock.fivemiles:id/login_password[text]research[enabled,,]",
+      "view_str": "b20508525f7e369f23a588b1f22802db",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.thirdrock.fivemiles:id/login_password"
+    },
+    "x": null,
+    "y": null,
+    "text": "research"
+  },
+  "start_state": "080bc428ce4c680cb19191a168cdc767",
+  "stop_state": "080bc428ce4c680cb19191a168cdc767",
+  "event_str": "SetTextEvent(state=080bc428ce4c680cb19191a168cdc767, view=b20508525f7e369f23a588b1f22802db(RegisterActivity/EditText-research), text=research)"
+}

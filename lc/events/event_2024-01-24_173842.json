@@ -1,0 +1,51 @@
+{
+  "tag": "2024-01-24_173842",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.thomsonreuters.reuters:id/menu_search_text",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": true,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thomsonreuters.reuters",
+      "text": "Search",
+      "bounds": [
+        [
+          270,
+          126
+        ],
+        [
+          1387,
+          238
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 184,
+      "temp_id": 185,
+      "size": "1117*112",
+      "signature": "[class]android.widget.EditText[resource_id]com.thomsonreuters.reuters:id/menu_search_text[text]Search[enabled,,]",
+      "view_str": "c82c516c1da037ca7cd46020447327c1",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.thomsonreuters.reuters:id/menu_search_text"
+    },
+    "x": null,
+    "y": null,
+    "text": "election"
+  },
+  "start_state": "ad59f8bf4b04d226c263da9de5e23e6b",
+  "stop_state": "f10fd3a5926e88abfbee94f96540d543",
+  "event_str": "SetTextEvent(state=ad59f8bf4b04d226c263da9de5e23e6b, view=c82c516c1da037ca7cd46020447327c1(HomepageActivity/EditText-Search), text=election)"
+}

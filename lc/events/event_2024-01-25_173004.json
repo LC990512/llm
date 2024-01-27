@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-25_173004",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": true,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/text1",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.CheckedTextView",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": "International",
+      "bounds": [
+        [
+          92,
+          1302
+        ],
+        [
+          1348,
+          1470
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 8,
+      "temp_id": 11,
+      "size": "1256*168",
+      "signature": "[class]android.widget.CheckedTextView[resource_id]android:id/text1[text]International[enabled,,]",
+      "view_str": "b64f855b2541213154fbc19b6df640c7",
+      "content_free_signature": "[class]android.widget.CheckedTextView[resource_id]android:id/text1"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "c947814a7b3efb8af660323234c42346",
+  "stop_state": "adc7da4684eb6be267a1df4d175add0a",
+  "event_str": "TouchEvent(state=c947814a7b3efb8af660323234c42346, view=b64f855b2541213154fbc19b6df640c7(SettingActivity/CheckedTextView-Internatio))"
+}

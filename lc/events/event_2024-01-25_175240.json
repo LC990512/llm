@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-25_175240",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "jp.gocro.smartnews.android:id/titleTextView",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": "Article font size",
+      "bounds": [
+        [
+          56,
+          936
+        ],
+        [
+          1200,
+          1012
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 19,
+      "temp_id": 20,
+      "size": "1144*76",
+      "signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/titleTextView[text]Article font size[enabled,,]",
+      "view_str": "1867aca9475339fe0ec090062d33c8e4",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]jp.gocro.smartnews.android:id/titleTextView"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "02d476536ae73f5f89122a9aae8d33c7",
+  "stop_state": "0bba761bb35951b6b5343a560b9fb8d1",
+  "event_str": "TouchEvent(state=02d476536ae73f5f89122a9aae8d33c7, view=1867aca9475339fe0ec090062d33c8e4(SettingActivity/TextView-Article fo))"
+}

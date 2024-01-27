@@ -1,107 +1,107 @@
 Activity Resolver Table:
   Schemes:
       http:
-        37ba143 com.contextlogic.wish/.activity.browse.BrowseActivity
-        39843c0 com.contextlogic.wish/.activity.link.DeepLinkActivity
+        47e2531 com.contextlogic.wish/.activity.link.DeepLinkActivity
+        cc94dd8 com.contextlogic.wish/.activity.browse.BrowseActivity
       wish:
-        39843c0 com.contextlogic.wish/.activity.link.DeepLinkActivity
+        47e2531 com.contextlogic.wish/.activity.link.DeepLinkActivity
       https:
-        39843c0 com.contextlogic.wish/.activity.link.DeepLinkActivity
+        47e2531 com.contextlogic.wish/.activity.link.DeepLinkActivity
       com.contextlogic.wish.braintree:
-        2f988f9 com.contextlogic.wish/com.braintreepayments.api.BraintreeBrowserSwitchActivity
+        df0f416 com.contextlogic.wish/com.braintreepayments.api.BraintreeBrowserSwitchActivity
       wish-klarna:
-        591603e com.contextlogic.wish/.activity.webview.KlarnaWebViewActivity
+        8fad197 com.contextlogic.wish/.activity.webview.KlarnaWebViewActivity
 
   Non-Data Actions:
       android.intent.action.MAIN:
-        37ba143 com.contextlogic.wish/.activity.browse.BrowseActivity
-        82d0e9f com.contextlogic.wish/.activity.facebook.WishFacebookDeepLinkActivity
+        716f84 com.contextlogic.wish/.activity.facebook.WishFacebookDeepLinkActivity
+        cc94dd8 com.contextlogic.wish/.activity.browse.BrowseActivity
 
 Receiver Resolver Table:
   Non-Data Actions:
       android.intent.action.BATTERY_OKAY:
-        39ddbec com.contextlogic.wish/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+        45ee36d com.contextlogic.wish/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
       android.intent.action.ACTION_POWER_DISCONNECTED:
-        7c0bbb5 com.contextlogic.wish/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+        9003ba2 com.contextlogic.wish/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
       com.google.firebase.appindexing.UPDATE_INDEX:
-        93f424a com.contextlogic.wish/.receiver.AppIndexingUpdateReceiver
+        890f033 com.contextlogic.wish/.receiver.AppIndexingUpdateReceiver
       android.intent.action.DEVICE_STORAGE_LOW:
-        55df5bb com.contextlogic.wish/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+        957fff0 com.contextlogic.wish/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
       android.net.conn.CONNECTIVITY_CHANGE:
-        382cad8 com.contextlogic.wish/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+        e134969 com.contextlogic.wish/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
       android.intent.action.DEVICE_STORAGE_OK:
-        55df5bb com.contextlogic.wish/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+        957fff0 com.contextlogic.wish/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
       com.android.vending.INSTALL_REFERRER:
-        38e5e31 com.contextlogic.wish/.receiver.InstallReceiver
-        f373916 com.contextlogic.wish/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+        a605c8f com.contextlogic.wish/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+        eca6fee com.contextlogic.wish/.receiver.InstallReceiver
       com.google.android.c2dm.intent.RECEIVE:
-        aec3297 com.contextlogic.wish/com.google.firebase.iid.FirebaseInstanceIdReceiver
+        cd52b1c com.contextlogic.wish/com.google.firebase.iid.FirebaseInstanceIdReceiver
       android.intent.action.BATTERY_LOW:
-        39ddbec com.contextlogic.wish/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+        45ee36d com.contextlogic.wish/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
       android.intent.action.TIMEZONE_CHANGED:
-        5c5bc84 com.contextlogic.wish/androidx.work.impl.background.systemalarm.RescheduleReceiver
+        d8e1325 com.contextlogic.wish/androidx.work.impl.background.systemalarm.RescheduleReceiver
       android.intent.action.TIME_SET:
-        5c5bc84 com.contextlogic.wish/androidx.work.impl.background.systemalarm.RescheduleReceiver
+        d8e1325 com.contextlogic.wish/androidx.work.impl.background.systemalarm.RescheduleReceiver
       android.intent.action.BOOT_COMPLETED:
-        5c5bc84 com.contextlogic.wish/androidx.work.impl.background.systemalarm.RescheduleReceiver
+        d8e1325 com.contextlogic.wish/androidx.work.impl.background.systemalarm.RescheduleReceiver
       android.intent.action.ACTION_POWER_CONNECTED:
-        7c0bbb5 com.contextlogic.wish/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+        9003ba2 com.contextlogic.wish/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
       androidx.work.impl.background.systemalarm.UpdateProxies:
-        6b9ac6d com.contextlogic.wish/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+        2f19cfa com.contextlogic.wish/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
 
 Service Resolver Table:
   Non-Data Actions:
       com.google.firebase.INSTANCE_ID_EVENT:
-        8e5d0a2 com.contextlogic.wish/.notifications.push.PushInstanceIDService
-        eb76133 com.contextlogic.wish/com.google.firebase.iid.FirebaseInstanceIdService
+        21032ab com.contextlogic.wish/.notifications.push.PushInstanceIDService
+        b97dd08 com.contextlogic.wish/com.google.firebase.iid.FirebaseInstanceIdService
       com.google.firebase.MESSAGING_EVENT:
-        4241cf0 com.contextlogic.wish/.notifications.push.PushMessagingService
-        5d1a269 com.contextlogic.wish/com.google.firebase.messaging.FirebaseMessagingService
+        131bca1 com.contextlogic.wish/.notifications.push.PushMessagingService
+        f2c8ec6 com.contextlogic.wish/com.google.firebase.messaging.FirebaseMessagingService
 
 Permissions:
-  Permission [com.contextlogic.wish.permission.C2D_MESSAGE] (ff454ee):
+  Permission [com.contextlogic.wish.permission.C2D_MESSAGE] (c9d4e87):
     sourcePackage=com.contextlogic.wish
-    uid=10067 gids=null type=0 prot=signature
-    perm=Permission{afcdd8f com.contextlogic.wish.permission.C2D_MESSAGE}
-    packageSetting=PackageSetting{4c6181c com.contextlogic.wish/10067}
+    uid=10114 gids=null type=0 prot=signature
+    perm=Permission{51c1b4 com.contextlogic.wish.permission.C2D_MESSAGE}
+    packageSetting=PackageSetting{10c81dd com.contextlogic.wish/10114}
 
 Registered ContentProviders:
   com.contextlogic.wish/androidx.work.impl.WorkManagerInitializer:
-    Provider{558fc25 com.contextlogic.wish/androidx.work.impl.WorkManagerInitializer}
+    Provider{fd2d152 com.contextlogic.wish/androidx.work.impl.WorkManagerInitializer}
   com.contextlogic.wish/com.google.firebase.perf.provider.FirebasePerfProvider:
-    Provider{d54d1fa com.contextlogic.wish/com.google.firebase.perf.provider.FirebasePerfProvider}
+    Provider{ff64c23 com.contextlogic.wish/com.google.firebase.perf.provider.FirebasePerfProvider}
   com.contextlogic.wish/android.arch.lifecycle.ProcessLifecycleOwnerInitializer:
-    Provider{673c3ab com.contextlogic.wish/android.arch.lifecycle.ProcessLifecycleOwnerInitializer}
+    Provider{d234520 com.contextlogic.wish/android.arch.lifecycle.ProcessLifecycleOwnerInitializer}
   com.contextlogic.wish/com.google.firebase.provider.FirebaseInitProvider:
-    Provider{62a9a08 com.contextlogic.wish/com.google.firebase.provider.FirebaseInitProvider}
+    Provider{dd45ed9 com.contextlogic.wish/com.google.firebase.provider.FirebaseInitProvider}
   com.contextlogic.wish/android.support.v4.content.FileProvider:
-    Provider{54235a1 com.contextlogic.wish/android.support.v4.content.FileProvider}
+    Provider{d28b09e com.contextlogic.wish/android.support.v4.content.FileProvider}
 
 ContentProvider Authorities:
   [com.contextlogic.wish.lifecycle-trojan]:
-    Provider{673c3ab com.contextlogic.wish/android.arch.lifecycle.ProcessLifecycleOwnerInitializer}
-      applicationInfo=ApplicationInfo{50e13c6 com.contextlogic.wish}
+    Provider{d234520 com.contextlogic.wish/android.arch.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{857877f com.contextlogic.wish}
   [com.contextlogic.wish.firebaseinitprovider]:
-    Provider{62a9a08 com.contextlogic.wish/com.google.firebase.provider.FirebaseInitProvider}
-      applicationInfo=ApplicationInfo{50e13c6 com.contextlogic.wish}
+    Provider{dd45ed9 com.contextlogic.wish/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{857877f com.contextlogic.wish}
   [com.contextlogic.wish.firebaseperfprovider]:
-    Provider{d54d1fa com.contextlogic.wish/com.google.firebase.perf.provider.FirebasePerfProvider}
-      applicationInfo=ApplicationInfo{50e13c6 com.contextlogic.wish}
+    Provider{ff64c23 com.contextlogic.wish/com.google.firebase.perf.provider.FirebasePerfProvider}
+      applicationInfo=ApplicationInfo{857877f com.contextlogic.wish}
   [com.contextlogic.wish.workmanager-init]:
-    Provider{558fc25 com.contextlogic.wish/androidx.work.impl.WorkManagerInitializer}
-      applicationInfo=ApplicationInfo{50e13c6 com.contextlogic.wish}
+    Provider{fd2d152 com.contextlogic.wish/androidx.work.impl.WorkManagerInitializer}
+      applicationInfo=ApplicationInfo{857877f com.contextlogic.wish}
   [com.contextlogic.wish.fileprovider]:
-    Provider{54235a1 com.contextlogic.wish/android.support.v4.content.FileProvider}
-      applicationInfo=ApplicationInfo{50e13c6 com.contextlogic.wish}
+    Provider{d28b09e com.contextlogic.wish/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{857877f com.contextlogic.wish}
 
 Key Set Manager:
   [com.contextlogic.wish]
-      Signing KeySets: 18
+      Signing KeySets: 55
 
 Packages:
-  Package [com.contextlogic.wish] (4c6181c):
-    userId=10067
-    pkg=Package{228ef87 com.contextlogic.wish}
+  Package [com.contextlogic.wish] (10c81dd):
+    userId=10114
+    pkg=Package{3c7934c com.contextlogic.wish}
     codePath=/data/app/com.contextlogic.wish-1
     resourcePath=/data/app/com.contextlogic.wish-1
     legacyNativeLibraryDir=/data/app/com.contextlogic.wish-1/lib
@@ -110,15 +110,15 @@ Packages:
     versionCode=778 targetSdk=27
     versionName=4.22.6
     splits=[base]
-    applicationInfo=ApplicationInfo{50e13c6 com.contextlogic.wish}
+    applicationInfo=ApplicationInfo{857877f com.contextlogic.wish}
     flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
     privateFlags=[ ]
     dataDir=/data/user/0/com.contextlogic.wish
     supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
-    timeStamp=2023-12-31 21:38:25
-    firstInstallTime=2023-12-31 21:38:28
-    lastUpdateTime=2023-12-31 21:38:28
-    signatures=PackageSignatures{dd34eb4 [82b8add]}
+    timeStamp=2024-01-22 15:32:42
+    firstInstallTime=2024-01-22 15:32:59
+    lastUpdateTime=2024-01-22 15:32:59
+    signatures=PackageSignatures{3a30f95 [d6b38aa]}
     installPermissionsFixed=true installStatus=1
     pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
     declared permissions:

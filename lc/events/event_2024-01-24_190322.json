@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-24_190322",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": "Gabrielle Rockson",
+      "focused": false,
+      "class": "android.view.View",
+      "children": [],
+      "child_count": 0,
+      "package": "jp.gocro.smartnews.android",
+      "text": null,
+      "bounds": [
+        [
+          56,
+          644
+        ],
+        [
+          1386,
+          703
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 30,
+      "temp_id": 32,
+      "size": "1330*59",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "7faf736e5a0f0e965329e23c54017705",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "a946f6a98d883a8808616764e0adffe9",
+  "stop_state": "a946f6a98d883a8808616764e0adffe9",
+  "event_str": "TouchEvent(state=a946f6a98d883a8808616764e0adffe9, view=7faf736e5a0f0e965329e23c54017705(WebBrowserActivity/View-))"
+}

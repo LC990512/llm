@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-24_175747",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": "Navigate up",
+      "focused": false,
+      "class": "android.widget.ImageButton",
+      "children": [],
+      "child_count": 0,
+      "package": "com.thomsonreuters.reuters",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          84
+        ],
+        [
+          196,
+          280
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "196*196",
+      "signature": "[class]android.widget.ImageButton[resource_id]None[text]None[enabled,,]",
+      "view_str": "e673e4910a246927f6861a3cee0e2fee",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]None"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "320b0ebd88e166b4a9f121582d6c7602",
+  "stop_state": "a1dbcd4e45b4b11a125059631835fa9e",
+  "event_str": "TouchEvent(state=320b0ebd88e166b4a9f121582d6c7602, view=e673e4910a246927f6861a3cee0e2fee(SettingsActivity/ImageButton-))"
+}

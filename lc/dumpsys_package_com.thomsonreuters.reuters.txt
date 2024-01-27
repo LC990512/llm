@@ -1,96 +1,96 @@
 Activity Resolver Table:
   Schemes:
       tr-news:
-        6d348d2 com.thomsonreuters.reuters/.activities.DeepLinkActivity (3 filters)
+        5bdd68 com.thomsonreuters.reuters/.activities.DeepLinkActivity (3 filters)
       http:
-        6d348d2 com.thomsonreuters.reuters/.activities.DeepLinkActivity
+        5bdd68 com.thomsonreuters.reuters/.activities.DeepLinkActivity
       https:
-        6d348d2 com.thomsonreuters.reuters/.activities.DeepLinkActivity
+        5bdd68 com.thomsonreuters.reuters/.activities.DeepLinkActivity
       deeplink:
-        6d348d2 com.thomsonreuters.reuters/.activities.DeepLinkActivity
+        5bdd68 com.thomsonreuters.reuters/.activities.DeepLinkActivity
 
   Non-Data Actions:
       android.intent.action.MAIN:
-        33748a0 com.thomsonreuters.reuters/.activities.SettingsActivity
-        c922da3 com.thomsonreuters.reuters/.activities.SplashActivity
+        88a7626 com.thomsonreuters.reuters/.activities.SettingsActivity
+        b032581 com.thomsonreuters.reuters/.activities.SplashActivity
       android.intent.action.VIEW:
-        26adc59 com.thomsonreuters.reuters/.activities.HomepageActivity
+        a581267 com.thomsonreuters.reuters/.activities.HomepageActivity
       com.google.android.gms.actions.SEARCH_ACTION:
-        c79201e com.thomsonreuters.reuters/.activities.NowSearchResultActivity
+        fc56814 com.thomsonreuters.reuters/.activities.NowSearchResultActivity
       com.thomsonreuters.reuters.OPEN_MARKET_DATA:
-        26adc59 com.thomsonreuters.reuters/.activities.HomepageActivity
+        a581267 com.thomsonreuters.reuters/.activities.HomepageActivity
       android.appwidget.action.APPWIDGET_CONFIGURE:
-        c9000ff com.thomsonreuters.reuters/.activities.WidgetConfigurationActivity
+        3b98bd com.thomsonreuters.reuters/.activities.WidgetConfigurationActivity
       com.thomsonreuters.reuters.OPEN_WATCHLIST:
-        dd84ecc com.thomsonreuters.reuters/.activities.watchlist.WatchlistMaterialActivity
+        117ceb2 com.thomsonreuters.reuters/.activities.watchlist.WatchlistMaterialActivity
 
 Receiver Resolver Table:
   Non-Data Actions:
       android.intent.action.QUICKBOOT_POWERON:
-        ae3e515 com.thomsonreuters.reuters/com.evernote.android.job.JobBootReceiver
+        7c96e03 com.thomsonreuters.reuters/com.evernote.android.job.JobBootReceiver
       com.htc.intent.action.QUICKBOOT_POWERON:
-        ae3e515 com.thomsonreuters.reuters/com.evernote.android.job.JobBootReceiver
+        7c96e03 com.thomsonreuters.reuters/com.evernote.android.job.JobBootReceiver
       com.amazon.device.messaging.intent.REGISTRATION:
-        613202a com.thomsonreuters.reuters/.receivers.ADMHandler$MessageAlertReceiver
+        99af180 com.thomsonreuters.reuters/.receivers.ADMHandler$MessageAlertReceiver
       com.android.vending.INSTALL_REFERRER:
-        46dae1b com.thomsonreuters.reuters/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+        58e03b9 com.thomsonreuters.reuters/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
       com.google.android.c2dm.intent.RECEIVE:
-        1a18bb8 com.thomsonreuters.reuters/com.appboy.AppboyGcmReceiver
-        2aabd91 com.thomsonreuters.reuters/com.google.firebase.iid.FirebaseInstanceIdReceiver
+        66ae75f com.thomsonreuters.reuters/com.google.firebase.iid.FirebaseInstanceIdReceiver
+        cb023fe com.thomsonreuters.reuters/com.appboy.AppboyGcmReceiver
       com.evernote.android.job.v14.RUN_JOB:
-        79b14f6 com.thomsonreuters.reuters/com.evernote.android.job.v14.PlatformAlarmReceiver
+        7da5ac com.thomsonreuters.reuters/com.evernote.android.job.v14.PlatformAlarmReceiver
       android.intent.action.BOOT_COMPLETED:
-        ae3e515 com.thomsonreuters.reuters/com.evernote.android.job.JobBootReceiver
+        7c96e03 com.thomsonreuters.reuters/com.evernote.android.job.JobBootReceiver
       com.amazon.device.messaging.intent.RECEIVE:
-        613202a com.thomsonreuters.reuters/.receivers.ADMHandler$MessageAlertReceiver
-        9af10f7 com.thomsonreuters.reuters/com.appboy.AppboyAdmReceiver
+        99af180 com.thomsonreuters.reuters/.receivers.ADMHandler$MessageAlertReceiver
+        d022275 com.thomsonreuters.reuters/com.appboy.AppboyAdmReceiver
       android.appwidget.action.APPWIDGET_UPDATE:
-        cbfab64 com.thomsonreuters.reuters/.receivers.ReutersWidgetProvider
+        be6820a com.thomsonreuters.reuters/.receivers.ReutersWidgetProvider
       android.intent.action.MY_PACKAGE_REPLACED:
-        ae3e515 com.thomsonreuters.reuters/com.evernote.android.job.JobBootReceiver
+        7c96e03 com.thomsonreuters.reuters/com.evernote.android.job.JobBootReceiver
       net.vrallev.android.job.v14.RUN_JOB:
-        79b14f6 com.thomsonreuters.reuters/com.evernote.android.job.v14.PlatformAlarmReceiver
+        7da5ac com.thomsonreuters.reuters/com.evernote.android.job.v14.PlatformAlarmReceiver
 
 Service Resolver Table:
   Non-Data Actions:
       com.google.firebase.INSTANCE_ID_EVENT:
-        72ca1cd com.thomsonreuters.reuters/.services.FirebaseTokenRefreshService
-        8db8a82 com.thomsonreuters.reuters/com.google.firebase.iid.FirebaseInstanceIdService
+        a809a7b com.thomsonreuters.reuters/.services.FirebaseTokenRefreshService
+        df57098 com.thomsonreuters.reuters/com.google.firebase.iid.FirebaseInstanceIdService
       com.google.android.gms.gcm.ACTION_TASK_READY:
-        c39c593 com.thomsonreuters.reuters/com.evernote.android.job.gcm.PlatformGcmService
+        75f70f1 com.thomsonreuters.reuters/com.evernote.android.job.gcm.PlatformGcmService
       com.google.firebase.MESSAGING_EVENT:
-        17e19d0 com.thomsonreuters.reuters/.services.ReutersFirebaseMessagingService
-        56e8dc9 com.thomsonreuters.reuters/com.google.firebase.messaging.FirebaseMessagingService
+        372b4d6 com.thomsonreuters.reuters/.services.ReutersFirebaseMessagingService
+        e746357 com.thomsonreuters.reuters/com.google.firebase.messaging.FirebaseMessagingService
 
 Permissions:
-  Permission [com.thomsonreuters.reuters.permission.RECEIVE_ADM_MESSAGE] (1bbccce):
+  Permission [com.thomsonreuters.reuters.permission.RECEIVE_ADM_MESSAGE] (a1cfe44):
     sourcePackage=com.thomsonreuters.reuters
-    uid=10061 gids=null type=0 prot=signature
-    perm=Permission{ab127ef com.thomsonreuters.reuters.permission.RECEIVE_ADM_MESSAGE}
-    packageSetting=PackageSetting{97302fc com.thomsonreuters.reuters/10061}
-  Permission [com.thomsonreuters.reuters.permission.C2D_MESSAGE] (bc93d85):
+    uid=10117 gids=null type=0 prot=signature
+    perm=Permission{692b2d com.thomsonreuters.reuters.permission.RECEIVE_ADM_MESSAGE}
+    packageSetting=PackageSetting{9bd4862 com.thomsonreuters.reuters/10117}
+  Permission [com.thomsonreuters.reuters.permission.C2D_MESSAGE] (f71ddf3):
     sourcePackage=com.thomsonreuters.reuters
-    uid=10061 gids=null type=0 prot=signature
-    perm=Permission{f4be7da com.thomsonreuters.reuters.permission.C2D_MESSAGE}
-    packageSetting=PackageSetting{97302fc com.thomsonreuters.reuters/10061}
+    uid=10117 gids=null type=0 prot=signature
+    perm=Permission{20dbab0 com.thomsonreuters.reuters.permission.C2D_MESSAGE}
+    packageSetting=PackageSetting{9bd4862 com.thomsonreuters.reuters/10117}
 
 Registered ContentProviders:
   com.thomsonreuters.reuters/com.google.firebase.provider.FirebaseInitProvider:
-    Provider{92540b com.thomsonreuters.reuters/com.google.firebase.provider.FirebaseInitProvider}
+    Provider{2da4d29 com.thomsonreuters.reuters/com.google.firebase.provider.FirebaseInitProvider}
 
 ContentProvider Authorities:
   [com.thomsonreuters.reuters.firebaseinitprovider]:
-    Provider{92540b com.thomsonreuters.reuters/com.google.firebase.provider.FirebaseInitProvider}
-      applicationInfo=ApplicationInfo{f6b52e8 com.thomsonreuters.reuters}
+    Provider{2da4d29 com.thomsonreuters.reuters/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{12b88ae com.thomsonreuters.reuters}
 
 Key Set Manager:
   [com.thomsonreuters.reuters]
-      Signing KeySets: 8
+      Signing KeySets: 56
 
 Packages:
-  Package [com.thomsonreuters.reuters] (97302fc):
-    userId=10061
-    pkg=Package{b652d01 com.thomsonreuters.reuters}
+  Package [com.thomsonreuters.reuters] (9bd4862):
+    userId=10117
+    pkg=Package{7c2664f com.thomsonreuters.reuters}
     codePath=/data/app/com.thomsonreuters.reuters-1
     resourcePath=/data/app/com.thomsonreuters.reuters-1
     legacyNativeLibraryDir=/data/app/com.thomsonreuters.reuters-1/lib
@@ -99,15 +99,15 @@ Packages:
     versionCode=342 targetSdk=26
     versionName=3.4.2
     splits=[base]
-    applicationInfo=ApplicationInfo{f6b52e8 com.thomsonreuters.reuters}
+    applicationInfo=ApplicationInfo{12b88ae com.thomsonreuters.reuters}
     flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
     privateFlags=[ ]
     dataDir=/data/user/0/com.thomsonreuters.reuters
     supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
-    timeStamp=2023-12-27 18:15:43
-    firstInstallTime=2023-12-27 18:15:45
-    lastUpdateTime=2023-12-27 18:15:45
-    signatures=PackageSignatures{d90a7a6 [a1025e7]}
+    timeStamp=2024-01-22 15:35:17
+    firstInstallTime=2024-01-22 15:35:37
+    lastUpdateTime=2024-01-22 15:35:37
+    signatures=PackageSignatures{90bd1dc [2192e5]}
     installPermissionsFixed=true installStatus=1
     pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
     declared permissions:

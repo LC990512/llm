@@ -1,0 +1,53 @@
+{
+  "tag": "2024-01-22_194414",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.contextlogic.geek:id/fragment_filter_listview",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": true,
+      "class": "android.widget.ListView",
+      "children": [
+        289,
+        292
+      ],
+      "child_count": 2,
+      "package": "com.contextlogic.geek",
+      "text": null,
+      "bounds": [
+        [
+          460,
+          263
+        ],
+        [
+          1440,
+          2147
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 284,
+      "temp_id": 288,
+      "size": "980*1884",
+      "signature": "[class]android.widget.ListView[resource_id]com.contextlogic.geek:id/fragment_filter_listview[text]None[enabled,,]",
+      "view_str": "a414e76014c9aa21a879ec876cff3fc8",
+      "content_free_signature": "[class]android.widget.ListView[resource_id]com.contextlogic.geek:id/fragment_filter_listview"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "e098f3e30b6418a55a971107f94adf51",
+  "stop_state": "e098f3e30b6418a55a971107f94adf51",
+  "event_str": "TouchEvent(state=e098f3e30b6418a55a971107f94adf51, view=a414e76014c9aa21a879ec876cff3fc8(BrowseActivity/ListView-))"
+}

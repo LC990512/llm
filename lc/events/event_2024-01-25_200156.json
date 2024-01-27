@@ -1,0 +1,12 @@
+{
+  "tag": "2024-01-25_200156",
+  "event": {
+    "event_type": "kill_app",
+    "log_lines": null,
+    "prompt": null,
+    "stop_intent": "am force-stop com.foxnews.android"
+  },
+  "start_state": "95fc71a73eb951d034ecb872c04de04b",
+  "stop_state": "e62963759a9432d0cea8579db7e1c27d",
+  "event_str": "KillAppEvent()"
+}

@@ -1,0 +1,51 @@
+{
+  "tag": "2024-01-22_184234",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.contextlogic.geek:id/sign_in_fragment_email_text",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "com.contextlogic.geek",
+      "text": "1372109571@qq.com",
+      "bounds": [
+        [
+          35,
+          315
+        ],
+        [
+          1405,
+          469
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 16,
+      "temp_id": 18,
+      "size": "1370*154",
+      "signature": "[class]android.widget.EditText[resource_id]com.contextlogic.geek:id/sign_in_fragment_email_text[text]1372109571@qq.com[enabled,,]",
+      "view_str": "b168124771d9912b10afb52fd9de1c46",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.contextlogic.geek:id/sign_in_fragment_email_text"
+    },
+    "x": null,
+    "y": null,
+    "text": "1372109571@qq.com"
+  },
+  "start_state": "0407b363df198340d5f1ccdb631abab2",
+  "stop_state": "0407b363df198340d5f1ccdb631abab2",
+  "event_str": "SetTextEvent(state=0407b363df198340d5f1ccdb631abab2, view=b168124771d9912b10afb52fd9de1c46(SignInActivity/EditText-1372109571), text=1372109571@qq.com)"
+}

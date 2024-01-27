@@ -1,0 +1,555 @@
+[
+    {
+        "event_type": "kill_app",
+        "log_lines": null,
+        "prompt": null,
+        "stop_intent": "am force-stop com.contextlogic.geek"
+    },
+    {
+        "event_type": "intent",
+        "log_lines": null,
+        "prompt": null,
+        "intent": "am start com.contextlogic.geek/com.contextlogic.wish.activity.browse.BrowseActivity"
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "com.contextlogic.geek:id/login_fragment_relogin_button",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.TextView",
+            "children": [],
+            "child_count": 0,
+            "package": "com.contextlogic.geek",
+            "text": "Sign In",
+            "bounds": [
+                [
+                    387,
+                    1309
+                ],
+                [
+                    1052,
+                    1456
+                ]
+            ],
+            "editable": false,
+            "focusable": false,
+            "parent": 35,
+            "temp_id": 40,
+            "size": "665*147",
+            "signature": "[class]android.widget.TextView[resource_id]com.contextlogic.geek:id/login_fragment_relogin_button[text]Sign In[enabled,,]",
+            "view_str": "4c2411b2b6ff429ab90722d5757553bd",
+            "content_free_signature": "[class]android.widget.TextView[resource_id]com.contextlogic.geek:id/login_fragment_relogin_button"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "set_text",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "com.contextlogic.geek:id/sign_in_fragment_email_text",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": true,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "com.contextlogic.geek",
+            "text": "Email",
+            "bounds": [
+                [
+                    35,
+                    315
+                ],
+                [
+                    1405,
+                    456
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 16,
+            "temp_id": 18,
+            "size": "1370*141",
+            "signature": "[class]android.widget.EditText[resource_id]com.contextlogic.geek:id/sign_in_fragment_email_text[text]Email[enabled,,]",
+            "view_str": "173aa92a92770704a10c47925c106f14",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.contextlogic.geek:id/sign_in_fragment_email_text"
+        },
+        "x": null,
+        "y": null,
+        "text": "1372109571@qq.com"
+    },
+    {
+        "event_type": "set_text",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "com.contextlogic.geek:id/sign_in_fragment_password_text",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": true,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "com.contextlogic.geek",
+            "text": null,
+            "bounds": [
+                [
+                    35,
+                    504
+                ],
+                [
+                    1405,
+                    645
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 16,
+            "temp_id": 19,
+            "size": "1370*141",
+            "signature": "[class]android.widget.EditText[resource_id]com.contextlogic.geek:id/sign_in_fragment_password_text[text]None[enabled,,]",
+            "view_str": "5f1e0b73f66e07102ccead1061bcadfa",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.contextlogic.geek:id/sign_in_fragment_password_text"
+        },
+        "x": null,
+        "y": null,
+        "text": "research"
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "com.contextlogic.geek:id/sign_in_fragment_sign_in_button",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.TextView",
+            "children": [],
+            "child_count": 0,
+            "package": "com.contextlogic.geek",
+            "text": "Sign In",
+            "bounds": [
+                [
+                    35,
+                    693
+                ],
+                [
+                    1405,
+                    833
+                ]
+            ],
+            "editable": false,
+            "focusable": false,
+            "parent": 16,
+            "temp_id": 20,
+            "size": "1370*140",
+            "signature": "[class]android.widget.TextView[resource_id]com.contextlogic.geek:id/sign_in_fragment_sign_in_button[text]Sign In[enabled,,]",
+            "view_str": "5c5a70ce6bf37902ff8d10e280c391f1",
+            "content_free_signature": "[class]android.widget.TextView[resource_id]com.contextlogic.geek:id/sign_in_fragment_sign_in_button"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": null,
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": "Filter",
+            "focused": false,
+            "class": "android.widget.TextView",
+            "children": [],
+            "child_count": 0,
+            "package": "com.contextlogic.geek",
+            "text": null,
+            "bounds": [
+                [
+                    1048,
+                    98
+                ],
+                [
+                    1244,
+                    266
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 12,
+            "temp_id": 15,
+            "size": "196*168",
+            "signature": "[class]android.widget.TextView[resource_id]None[text]None[enabled,,]",
+            "view_str": "f2e646f8fd621209e78b6d6f373726da",
+            "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "scroll",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": true,
+            "long_clickable": false,
+            "resource_id": "com.contextlogic.geek:id/base_product_feed_fragment_view_pager",
+            "visible": true,
+            "enabled": true,
+            "clickable": false,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.support.v4.view.ViewPager",
+            "children": [
+                24,
+                131
+            ],
+            "child_count": 2,
+            "package": "com.contextlogic.geek",
+            "text": null,
+            "bounds": [
+                [
+                    0,
+                    280
+                ],
+                [
+                    1440,
+                    2392
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 22,
+            "temp_id": 23,
+            "size": "1440*2112",
+            "signature": "[class]android.support.v4.view.ViewPager[resource_id]com.contextlogic.geek:id/base_product_feed_fragment_view_pager[text]None[enabled,,]",
+            "view_str": "17b5240b872c0c229323b7a2a39ac65f",
+            "content_free_signature": "[class]android.support.v4.view.ViewPager[resource_id]com.contextlogic.geek:id/base_product_feed_fragment_view_pager"
+        },
+        "x": null,
+        "y": null,
+        "direction": "DOWN"
+    },
+    {
+        "event_type": "scroll",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": true,
+            "long_clickable": false,
+            "resource_id": "com.contextlogic.geek:id/base_product_feed_fragment_view_pager",
+            "visible": true,
+            "enabled": true,
+            "clickable": false,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.support.v4.view.ViewPager",
+            "children": [
+                73,
+                271
+            ],
+            "child_count": 2,
+            "package": "com.contextlogic.geek",
+            "text": null,
+            "bounds": [
+                [
+                    0,
+                    280
+                ],
+                [
+                    1440,
+                    2392
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 22,
+            "temp_id": 72,
+            "size": "1440*2112",
+            "signature": "[class]android.support.v4.view.ViewPager[resource_id]com.contextlogic.geek:id/base_product_feed_fragment_view_pager[text]None[enabled,,]",
+            "view_str": "17b5240b872c0c229323b7a2a39ac65f",
+            "content_free_signature": "[class]android.support.v4.view.ViewPager[resource_id]com.contextlogic.geek:id/base_product_feed_fragment_view_pager"
+        },
+        "x": null,
+        "y": null,
+        "direction": "UP"
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "com.contextlogic.geek:id/fragment_filter_listview",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": true,
+            "class": "android.widget.ListView",
+            "children": [
+                289,
+                292
+            ],
+            "child_count": 2,
+            "package": "com.contextlogic.geek",
+            "text": null,
+            "bounds": [
+                [
+                    460,
+                    263
+                ],
+                [
+                    1440,
+                    2147
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 284,
+            "temp_id": 288,
+            "size": "980*1884",
+            "signature": "[class]android.widget.ListView[resource_id]com.contextlogic.geek:id/fragment_filter_listview[text]None[enabled,,]",
+            "view_str": "a414e76014c9aa21a879ec876cff3fc8",
+            "content_free_signature": "[class]android.widget.ListView[resource_id]com.contextlogic.geek:id/fragment_filter_listview"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "com.contextlogic.geek:id/filter_fragment_row_main_text",
+            "visible": true,
+            "enabled": true,
+            "clickable": false,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.TextView",
+            "children": [],
+            "child_count": 0,
+            "package": "com.contextlogic.geek",
+            "text": "Rating",
+            "bounds": [
+                [
+                    495,
+                    438
+                ],
+                [
+                    634,
+                    504
+                ]
+            ],
+            "editable": false,
+            "focusable": false,
+            "parent": 292,
+            "temp_id": 293,
+            "size": "139*66",
+            "signature": "[class]android.widget.TextView[resource_id]com.contextlogic.geek:id/filter_fragment_row_main_text[text]Rating[enabled,,]",
+            "view_str": "021d39e11f0cb805b50dd3b75011d160",
+            "content_free_signature": "[class]android.widget.TextView[resource_id]com.contextlogic.geek:id/filter_fragment_row_main_text"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "com.contextlogic.geek:id/filter_fragment_row_main_text",
+            "visible": true,
+            "enabled": true,
+            "clickable": false,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.TextView",
+            "children": [],
+            "child_count": 0,
+            "package": "com.contextlogic.geek",
+            "text": "\u2605\u2605\u2605\u2605 & up",
+            "bounds": [
+                [
+                    495,
+                    298
+                ],
+                [
+                    779,
+                    364
+                ]
+            ],
+            "editable": false,
+            "focusable": false,
+            "parent": 290,
+            "temp_id": 291,
+            "size": "284*66",
+            "signature": "[class]android.widget.TextView[resource_id]com.contextlogic.geek:id/filter_fragment_row_main_text[text]\u2605\u2605\u2605\u2605 & up[enabled,,]",
+            "view_str": "f6ef3936277bbd43ecda4f8a18bcc316",
+            "content_free_signature": "[class]android.widget.TextView[resource_id]com.contextlogic.geek:id/filter_fragment_row_main_text"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "com.contextlogic.geek:id/filter_fragment_row_main_text",
+            "visible": true,
+            "enabled": true,
+            "clickable": false,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.TextView",
+            "children": [],
+            "child_count": 0,
+            "package": "com.contextlogic.geek",
+            "text": "\u2605\u2605\u2605 & up",
+            "bounds": [
+                [
+                    495,
+                    438
+                ],
+                [
+                    735,
+                    504
+                ]
+            ],
+            "editable": false,
+            "focusable": false,
+            "parent": 98,
+            "temp_id": 99,
+            "size": "240*66",
+            "signature": "[class]android.widget.TextView[resource_id]com.contextlogic.geek:id/filter_fragment_row_main_text[text]\u2605\u2605\u2605 & up[enabled,,]",
+            "view_str": "d8b773fe9fc6e2de77be1a1aea628973",
+            "content_free_signature": "[class]android.widget.TextView[resource_id]com.contextlogic.geek:id/filter_fragment_row_main_text"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "com.contextlogic.geek:id/fragment_filter_done",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.TextView",
+            "children": [],
+            "child_count": 0,
+            "package": "com.contextlogic.geek",
+            "text": "Apply",
+            "bounds": [
+                [
+                    876,
+                    2182
+                ],
+                [
+                    1405,
+                    2357
+                ]
+            ],
+            "editable": false,
+            "focusable": false,
+            "parent": 104,
+            "temp_id": 106,
+            "size": "529*175",
+            "signature": "[class]android.widget.TextView[resource_id]com.contextlogic.geek:id/fragment_filter_done[text]Apply[enabled,,]",
+            "view_str": "ec2c69b82738a0cf815c79fbc672d544",
+            "content_free_signature": "[class]android.widget.TextView[resource_id]com.contextlogic.geek:id/fragment_filter_done"
+        },
+        "x": null,
+        "y": null
+    }
+]

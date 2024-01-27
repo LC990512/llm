@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-25_193402",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.foxnews.android:id/story_headline",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.foxnews.android",
+      "text": "Don't expect Prince Harry to be there in his family\u2019s current hour of need",
+      "bounds": [
+        [
+          56,
+          445
+        ],
+        [
+          1384,
+          1076
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 19,
+      "temp_id": 21,
+      "size": "1328*631",
+      "signature": "[class]android.widget.TextView[resource_id]com.foxnews.android:id/story_headline[text]None[enabled,,]",
+      "view_str": "824a16a918798794cc5e9fc301c04997",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.foxnews.android:id/story_headline"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "eda9391ed0a049001fe2e3e387615b33",
+  "stop_state": "eda9391ed0a049001fe2e3e387615b33",
+  "event_str": "TouchEvent(state=eda9391ed0a049001fe2e3e387615b33, view=824a16a918798794cc5e9fc301c04997(ArticleDetailActivity/TextView-Don't expe))"
+}

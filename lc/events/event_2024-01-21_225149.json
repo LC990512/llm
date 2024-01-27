@@ -1,0 +1,54 @@
+{
+  "tag": "2024-01-21_225149",
+  "event": {
+    "event_type": "scroll",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": true,
+      "long_clickable": false,
+      "resource_id": "com.thirdrock.fivemiles:id/home_viewpager",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "androidx.viewpager.widget.ViewPager",
+      "children": [
+        46,
+        162
+      ],
+      "child_count": 2,
+      "package": "com.thirdrock.fivemiles",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          690
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 33,
+      "temp_id": 45,
+      "size": "1440*1702",
+      "signature": "[class]androidx.viewpager.widget.ViewPager[resource_id]com.thirdrock.fivemiles:id/home_viewpager[text]None[enabled,,]",
+      "view_str": "fc0df3eb80dd0d8d42c318c1a3d5252d",
+      "content_free_signature": "[class]androidx.viewpager.widget.ViewPager[resource_id]com.thirdrock.fivemiles:id/home_viewpager"
+    },
+    "x": null,
+    "y": null,
+    "direction": "DOWN"
+  },
+  "start_state": "4d253cd065887ece9e8079806f85c5f5",
+  "stop_state": "4d253cd065887ece9e8079806f85c5f5",
+  "event_str": "ScrollEvent(state=4d253cd065887ece9e8079806f85c5f5, view=fc0df3eb80dd0d8d42c318c1a3d5252d(MainTabActivity/ViewPager-), direction=DOWN)"
+}

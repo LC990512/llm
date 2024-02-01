@@ -1,0 +1,357 @@
+Activity Resolver Table:
+  Full MIME Types:
+      */*:
+        3ba415e park.outlook.sign.in.client/ru.mail.ui.writemail.MailToMySelfActivity (2 filters)
+        fe2ba99 park.outlook.sign.in.client/ru.mail.ui.writemail.SharingActivity (2 filters)
+      plain/text:
+        3ba415e park.outlook.sign.in.client/ru.mail.ui.writemail.MailToMySelfActivity
+        fe2ba99 park.outlook.sign.in.client/ru.mail.ui.writemail.SharingActivity
+
+  Base MIME Types:
+      plain:
+        3ba415e park.outlook.sign.in.client/ru.mail.ui.writemail.MailToMySelfActivity
+        fe2ba99 park.outlook.sign.in.client/ru.mail.ui.writemail.SharingActivity
+
+  Wild MIME Types:
+      *:
+        3ba415e park.outlook.sign.in.client/ru.mail.ui.writemail.MailToMySelfActivity (2 filters)
+        fe2ba99 park.outlook.sign.in.client/ru.mail.ui.writemail.SharingActivity (2 filters)
+
+  Schemes:
+      mailto:
+        3ba415e park.outlook.sign.in.client/ru.mail.ui.writemail.MailToMySelfActivity (2 filters)
+        fe2ba99 park.outlook.sign.in.client/ru.mail.ui.writemail.SharingActivity (2 filters)
+      ru.mail.mailapp.SplashScreenActivity:
+        2eca93f park.outlook.sign.in.client/ru.mail.mailapp.SplashScreenActivity
+      https:
+        f720c park.outlook.sign.in.client/net.openid.appauth.RedirectUriReceiverActivity
+
+  Non-Data Actions:
+      park.outlook.sign.in.client.ACTION_NEW_MAIL:
+        c9b6755 park.outlook.sign.in.client/ru.mail.ui.writemail.WriteActivity
+      ru.mail.auth.CHOOSE_EMAIL_SERVICE:
+        865156a park.outlook.sign.in.client/ru.mail.mailapp.MailRuLoginActivity
+      park.outlook.sign.in.client.ACTION_WELCOME:
+        98c9a5b park.outlook.sign.in.client/ru.mail.ui.WelcomeActivity
+      park.outlook.sign.in.client.READ_FIRST_THREAD_MESSAGE:
+        547a2f8 park.outlook.sign.in.client/ru.mail.ui.ReadThreadFirstMailActivity
+      park.outlook.sign.in.client.READ_ORDINAL_MESSAGE:
+        6f823d1 park.outlook.sign.in.client/ru.mail.ui.ReadRegularActivity
+      park.outlook.sign.in.client.ACTION_DRAFT:
+        7371e36 park.outlook.sign.in.client/ru.mail.ui.writemail.DraftActivity
+      park.outlook.sign.in.client.ACTION_REPLY:
+        1708137 park.outlook.sign.in.client/ru.mail.ui.writemail.ReplyActivity
+      android.intent.action.MAIN:
+        2eca93f park.outlook.sign.in.client/ru.mail.mailapp.SplashScreenActivity
+      ru.mail.auth.REGISTRATION:
+        bcff6a4 park.outlook.sign.in.client/ru.mail.mailapp.RegistrationPhoneActivity
+      park.outlook.sign.in.client.EDIT_NEW_MAIL:
+        b8a2c0d park.outlook.sign.in.client/ru.mail.ui.writemail.EditNewMailActivity
+      ru.mail.auth.LOGIN:
+        865156a park.outlook.sign.in.client/ru.mail.mailapp.MailRuLoginActivity
+      com.google.android.gms.appinvite.ACTION_PREVIEW:
+        24ee7c2 park.outlook.sign.in.client/com.google.android.gms.appinvite.PreviewActivity
+      android.intent.action.MANAGE_NETWORK_USAGE:
+        841f9d3 park.outlook.sign.in.client/ru.mail.fragments.settings.SettingsActivity
+      park.outlook.sign.in.client.ACTION_FILLED:
+        a67d910 park.outlook.sign.in.client/ru.mail.ui.writemail.FilledMailActivity
+      park.outlook.sign.in.client.ACTION_ADD_FILTER:
+        4ba7c09 park.outlook.sign.in.client/ru.mail.ui.NewFilterActivity
+      park.outlook.sign.in.client.ACTION_NEW_MAIL_PHOTO:
+        c9b6755 park.outlook.sign.in.client/ru.mail.ui.writemail.WriteActivity
+      park.outlook.sign.in.client.OPEN_MESSAGES_FOLDER:
+        d27be0e park.outlook.sign.in.client/ru.mail.ui.SlideStackActivity
+      park.outlook.sign.in.client.ACTION_REDIRECT:
+        2a8602f park.outlook.sign.in.client/ru.mail.ui.writemail.RedirectActivity
+      com.my.auth.LOGIN_SMS:
+        865156a park.outlook.sign.in.client/ru.mail.mailapp.MailRuLoginActivity
+      park.outlook.sign.in.client.READ_SEARCH_MESSAGE:
+        259763c park.outlook.sign.in.client/ru.mail.ui.ReadSearchActivity
+      park.outlook.sign.in.client.ACTION_VIEW_THREAD:
+        85cfc5 park.outlook.sign.in.client/ru.mail.ui.ThreadMessagesActivity
+      park.outlook.sign.in.client.ACTION_FORWARD:
+        5a5ad1a park.outlook.sign.in.client/ru.mail.ui.writemail.ForwardActivity
+      park.outlook.sign.in.client.ACTION_FEEDBACK:
+        e64d04b park.outlook.sign.in.client/ru.mail.ui.writemail.FeedbackActivity
+      park.outlook.sign.in.client.SHOW_PUSH_THREAD_MESSAGE:
+        d65ba28 park.outlook.sign.in.client/ru.mail.ui.ReadThreadMailsActivity
+      park.outlook.sign.in.client.SHOW_PUSH_MESSAGES_IN_FOLDER:
+        d27be0e park.outlook.sign.in.client/ru.mail.ui.SlideStackActivity
+      park.outlook.sign.in.client.ACTION_EDIT_FILTER:
+        4ba7c09 park.outlook.sign.in.client/ru.mail.ui.NewFilterActivity
+      park.outlook.sign.in.client.READ_THREAD_MESSAGE:
+        d65ba28 park.outlook.sign.in.client/ru.mail.ui.ReadThreadMailsActivity
+      park.outlook.sign.in.client.ACCOUNT_MANAGER_LOGIN:
+        5f8a341 park.outlook.sign.in.client/ru.mail.mailapp.MailRuAccountManagerPickerActivity
+      park.outlook.sign.in.client.SHOW_PUSH_MESSAGE:
+        6f823d1 park.outlook.sign.in.client/ru.mail.ui.ReadRegularActivity
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        3ba415e park.outlook.sign.in.client/ru.mail.ui.writemail.MailToMySelfActivity (2 filters)
+        fe2ba99 park.outlook.sign.in.client/ru.mail.ui.writemail.SharingActivity (2 filters)
+      android.intent.action.SEND_MULTIPLE:
+        3ba415e park.outlook.sign.in.client/ru.mail.ui.writemail.MailToMySelfActivity
+        fe2ba99 park.outlook.sign.in.client/ru.mail.ui.writemail.SharingActivity
+
+Receiver Resolver Table:
+  Schemes:
+      package:
+        1e180e6 park.outlook.sign.in.client/ru.mail.libverify.utils.PackageStateReceiver (3 filters)
+
+  Non-Data Actions:
+      android.intent.action.SCREEN_OFF:
+        a2e2627 park.outlook.sign.in.client/ru.mail.libverify.utils.ScreenStateReceiver
+      android.intent.action.BATTERY_OKAY:
+        e7050d4 park.outlook.sign.in.client/ru.mail.libverify.utils.BatteryLevelReceiver
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        e7050d4 park.outlook.sign.in.client/ru.mail.libverify.utils.BatteryLevelReceiver
+      android.intent.action.SCREEN_ON:
+        a2e2627 park.outlook.sign.in.client/ru.mail.libverify.utils.ScreenStateReceiver
+      android.intent.action.PHONE_STATE:
+        66b327d park.outlook.sign.in.client/ru.mail.libverify.sms.IncomingCallReceiver
+      android.net.conn.CONNECTIVITY_CHANGE:
+        eb4c572 park.outlook.sign.in.client/ru.mail.mailapp.service.NetworkStateChangeBroadcastReceiver
+        f4cfdc3 park.outlook.sign.in.client/ru.mail.libverify.utils.network.NetworkStateReceiver
+      com.android.vending.INSTALL_REFERRER:
+        eba640 park.outlook.sign.in.client/com.appsflyer.MultipleInstallBroadcastReceiver
+        67d7979 park.outlook.sign.in.client/com.google.android.gms.analytics.CampaignTrackingReceiver
+        8f7b31f park.outlook.sign.in.client/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+        b05c6be park.outlook.sign.in.client/com.my.tracker.campaign.CampaignReceiver
+      park.outlook.sign.in.client.ACTION_CLEAR_NOTIFICATION:
+        304e66c park.outlook.sign.in.client/ru.mail.util.push.ClearStatusBarReceiver
+      com.google.android.c2dm.intent.RECEIVE:
+        ad33435 park.outlook.sign.in.client/com.google.firebase.iid.FirebaseInstanceIdReceiver
+      android.intent.action.BATTERY_LOW:
+        e7050d4 park.outlook.sign.in.client/ru.mail.libverify.utils.BatteryLevelReceiver
+      android.intent.action.TIMEZONE_CHANGED:
+        bd390ca park.outlook.sign.in.client/ru.mail.timezone.TimeZoneChangedReceiver
+      park.outlook.sign.in.client.ACTION_PUSH_TOKEN_CHECK:
+        56e623b park.outlook.sign.in.client/ru.mail.util.push.PushTokenAlarmReceiver
+      android.intent.action.BOOT_COMPLETED:
+        68ffd58 park.outlook.sign.in.client/ru.mail.libverify.utils.SystemRestartReceiver
+      android.intent.action.ACTION_POWER_CONNECTED:
+        e7050d4 park.outlook.sign.in.client/ru.mail.libverify.utils.BatteryLevelReceiver
+      android.provider.Telephony.SMS_RECEIVED:
+        48fdeb1 park.outlook.sign.in.client/ru.mail.libverify.sms.IncomingSmsReceiver
+      ru.mail.libverify.utils.PackageStateReceiver:
+        1e180e6 park.outlook.sign.in.client/ru.mail.libverify.utils.PackageStateReceiver
+      park.outlook.sign.in.client.OPEN_PUSH_URL:
+        501ef96 park.outlook.sign.in.client/ru.mail.util.push.PushUrlReceiver
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.content.SyncAdapter:
+        4b39704 park.outlook.sign.in.client/ru.mail.sync.SyncServiceStub
+        992b4ed park.outlook.sign.in.client/ru.mail.sync.PrefetcherSyncService
+        cd6e717 park.outlook.sign.in.client/ru.mail.sync.SyncService
+      ru.mail.util.log.ACTION_SEND_LOGS:
+        2e56f22 park.outlook.sign.in.client/ru.mail.util.log.logger.SendLogsService
+      park.outlook.sign.in.client.EDIT_NEW_MAIL:
+        9d8ddb3 park.outlook.sign.in.client/ru.mail.mailapp.service.sendmessage.SendMailService
+      com.google.firebase.INSTANCE_ID_EVENT:
+        551f70 park.outlook.sign.in.client/ru.mail.util.push.gcm.MailInstanceIDService
+        8f5b6e park.outlook.sign.in.client/com.google.firebase.iid.FirebaseInstanceIdService
+        472b2e9 park.outlook.sign.in.client/ru.mail.libverify.gcm.GcmInstanceIDListenerService
+      ru.mail.mailapp.service.MARK_FLAG_MAIL:
+        ff9a20f park.outlook.sign.in.client/ru.mail.mailapp.service.MailServiceImpl
+      ru.mail.mailapp.service.REMOVE_MAIL:
+        ff9a20f park.outlook.sign.in.client/ru.mail.mailapp.service.MailServiceImpl
+      ru.mail.mailapp.service.MARK_READ_MAIL:
+        ff9a20f park.outlook.sign.in.client/ru.mail.mailapp.service.MailServiceImpl
+      com.google.android.gms.gcm.ACTION_TASK_READY:
+        344c29c park.outlook.sign.in.client/com.firebase.jobdispatcher.GooglePlayReceiver
+      ru.mail.mailapp.service.profilesharing.IProfileSharingService:
+        83a94a5 park.outlook.sign.in.client/ru.mail.mailapp.service.profilesharing.ProfileSharingService
+      ru.mail.notifications.NotificationService:
+        6d9c07a park.outlook.sign.in.client/ru.mail.libverify.notifications.NotificationService
+      com.google.firebase.MESSAGING_EVENT:
+        2296c88 park.outlook.sign.in.client/ru.mail.libverify.gcm.GcmMessageHandlerService
+        3e4d621 park.outlook.sign.in.client/com.google.firebase.messaging.FirebaseMessagingService
+        bb8502b park.outlook.sign.in.client/ru.mail.util.push.gcm.MailMessagingService
+      ru.mail.mailapp.service.MARK_SPAM_MAIL:
+        ff9a20f park.outlook.sign.in.client/ru.mail.mailapp.service.MailServiceImpl
+      ru.mail.libverify.ipc.IpcMessageService:
+        336a46 park.outlook.sign.in.client/ru.mail.libverify.ipc.IpcMessageService
+      park.outlook.sign.in.client.CANCEL_MAIL:
+        9d8ddb3 park.outlook.sign.in.client/ru.mail.mailapp.service.sendmessage.SendMailService
+      ru.mail.mailapp.service.REPLY_MAIL:
+        ff9a20f park.outlook.sign.in.client/ru.mail.mailapp.service.MailServiceImpl
+      ru.mail.libverify.ipc.IpcNotificationService:
+        869c407 park.outlook.sign.in.client/ru.mail.libverify.ipc.IpcNotificationService
+      park.outlook.sign.in.client.RETRY_MAIL:
+        9d8ddb3 park.outlook.sign.in.client/ru.mail.mailapp.service.sendmessage.SendMailService
+      com.firebase.jobdispatcher.ACTION_EXECUTE:
+        32cc934 park.outlook.sign.in.client/ru.mail.util.scheduling.UniversalFirebaseJobService
+      android.accounts.AccountAuthenticator:
+        197b35d park.outlook.sign.in.client/ru.mail.auth.AuthenticationService
+      ru.mail.sms.SmsHandlingService:
+        d2be4d2 park.outlook.sign.in.client/ru.mail.libverify.sms.SmsHandlingService
+      ru.mail.mailapp.service.ARCHIVE_MAIL:
+        ff9a20f park.outlook.sign.in.client/ru.mail.mailapp.service.MailServiceImpl
+      android.service.chooser.ChooserTargetService:
+        7d499a3 park.outlook.sign.in.client/ru.mail.share.DirectShareChooser
+      park.outlook.sign.in.client.ACCOUNT_LOGOUT:
+        9d8ddb3 park.outlook.sign.in.client/ru.mail.mailapp.service.sendmessage.SendMailService
+      ru.mail.util.log.logger.httplog.SendHttpLogService.ACTION_SEND_LOG_RECORD:
+        36744a0 park.outlook.sign.in.client/ru.mail.util.log.logger.httplog.SendHttpLogService
+      park.outlook.sign.in.client.SEND_NEW_MAIL:
+        9d8ddb3 park.outlook.sign.in.client/ru.mail.mailapp.service.sendmessage.SendMailService
+
+Permissions:
+  Permission [park.outlook.sign.in.client.contacts.permission.write_contacts] (da12859):
+    sourcePackage=park.outlook.sign.in.client
+    uid=10171 gids=null type=0 prot=dangerous
+    perm=Permission{5bf7c1e park.outlook.sign.in.client.contacts.permission.write_contacts}
+    packageSetting=PackageSetting{78d2cff park.outlook.sign.in.client/10171}
+  Permission [park.outlook.sign.in.client.images.cache.permission.write] (70c0acc):
+    sourcePackage=park.outlook.sign.in.client
+    uid=10171 gids=null type=0 prot=dangerous
+    perm=Permission{132f115 park.outlook.sign.in.client.images.cache.permission.write}
+    packageSetting=PackageSetting{78d2cff park.outlook.sign.in.client/10171}
+  Permission [park.outlook.sign.in.client.permission.C2D_MESSAGE] (3633c2a):
+    sourcePackage=park.outlook.sign.in.client
+    uid=10171 gids=null type=0 prot=signature
+    perm=Permission{119a1b park.outlook.sign.in.client.permission.C2D_MESSAGE}
+    packageSetting=PackageSetting{78d2cff park.outlook.sign.in.client/10171}
+
+Registered ContentProviders:
+  park.outlook.sign.in.client/ru.mail.share.MailFileProvider:
+    Provider{5507b8 park.outlook.sign.in.client/ru.mail.share.MailFileProvider}
+  park.outlook.sign.in.client/ru.mail.mailbox.content.MailContentProvider:
+    Provider{cde8991 park.outlook.sign.in.client/ru.mail.mailbox.content.MailContentProvider}
+  park.outlook.sign.in.client/ru.mail.sync.AdvertisingProviderStub:
+    Provider{fd0f0f6 park.outlook.sign.in.client/ru.mail.sync.AdvertisingProviderStub}
+  park.outlook.sign.in.client/ru.mail.mailbox.content.contact.ContactsProvider:
+    Provider{9a5bcf7 park.outlook.sign.in.client/ru.mail.mailbox.content.contact.ContactsProvider}
+  park.outlook.sign.in.client/com.google.firebase.perf.provider.FirebasePerfProvider:
+    Provider{92ee764 park.outlook.sign.in.client/com.google.firebase.perf.provider.FirebasePerfProvider}
+  park.outlook.sign.in.client/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{ed12dcd park.outlook.sign.in.client/com.google.firebase.provider.FirebaseInitProvider}
+  park.outlook.sign.in.client/ru.mail.util.push.NotificationSoundProvider:
+    Provider{4932682 park.outlook.sign.in.client/ru.mail.util.push.NotificationSoundProvider}
+  park.outlook.sign.in.client/com.facebook.internal.FacebookInitProvider:
+    Provider{2ef3193 park.outlook.sign.in.client/com.facebook.internal.FacebookInitProvider}
+  park.outlook.sign.in.client/ru.mail.util.bitmapfun.upgrade.DiskCacheContentProvider:
+    Provider{ba515d0 park.outlook.sign.in.client/ru.mail.util.bitmapfun.upgrade.DiskCacheContentProvider}
+  park.outlook.sign.in.client/ru.mail.sync.OfflineProviderStub:
+    Provider{cfd9c9 park.outlook.sign.in.client/ru.mail.sync.OfflineProviderStub}
+
+ContentProvider Authorities:
+  [park.outlook.sign.in.client.firebaseperfprovider]:
+    Provider{92ee764 park.outlook.sign.in.client/com.google.firebase.perf.provider.FirebasePerfProvider}
+      applicationInfo=ApplicationInfo{75128ce park.outlook.sign.in.client}
+  [park.outlook.sign.in.client.content]:
+    Provider{cde8991 park.outlook.sign.in.client/ru.mail.mailbox.content.MailContentProvider}
+      applicationInfo=ApplicationInfo{75128ce park.outlook.sign.in.client}
+  [park.outlook.sign.in.client.files]:
+    Provider{5507b8 park.outlook.sign.in.client/ru.mail.share.MailFileProvider}
+      applicationInfo=ApplicationInfo{75128ce park.outlook.sign.in.client}
+  [park.outlook.sign.in.client.sound]:
+    Provider{4932682 park.outlook.sign.in.client/ru.mail.util.push.NotificationSoundProvider}
+      applicationInfo=ApplicationInfo{75128ce park.outlook.sign.in.client}
+  [park.outlook.sign.in.client.content.advertising]:
+    Provider{fd0f0f6 park.outlook.sign.in.client/ru.mail.sync.AdvertisingProviderStub}
+      applicationInfo=ApplicationInfo{75128ce park.outlook.sign.in.client}
+  [park.outlook.sign.in.client.contacts]:
+    Provider{9a5bcf7 park.outlook.sign.in.client/ru.mail.mailbox.content.contact.ContactsProvider}
+      applicationInfo=ApplicationInfo{75128ce park.outlook.sign.in.client}
+  [park.outlook.sign.in.client.offline]:
+    Provider{cfd9c9 park.outlook.sign.in.client/ru.mail.sync.OfflineProviderStub}
+      applicationInfo=ApplicationInfo{75128ce park.outlook.sign.in.client}
+  [park.outlook.sign.in.client.firebaseinitprovider]:
+    Provider{ed12dcd park.outlook.sign.in.client/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{75128ce park.outlook.sign.in.client}
+  [park.outlook.sign.in.client.FacebookInitProvider]:
+    Provider{2ef3193 park.outlook.sign.in.client/com.facebook.internal.FacebookInitProvider}
+      applicationInfo=ApplicationInfo{75128ce park.outlook.sign.in.client}
+  [park.outlook.sign.in.client.images.cache]:
+    Provider{ba515d0 park.outlook.sign.in.client/ru.mail.util.bitmapfun.upgrade.DiskCacheContentProvider}
+      applicationInfo=ApplicationInfo{75128ce park.outlook.sign.in.client}
+
+Key Set Manager:
+  [park.outlook.sign.in.client]
+      Signing KeySets: 110
+
+Packages:
+  Package [park.outlook.sign.in.client] (78d2cff):
+    userId=10171
+    pkg=Package{55153ef park.outlook.sign.in.client}
+    codePath=/data/app/park.outlook.sign.in.client-1
+    resourcePath=/data/app/park.outlook.sign.in.client-1
+    legacyNativeLibraryDir=/data/app/park.outlook.sign.in.client-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=24788 targetSdk=26
+    versionName=6.6.0.24788
+    splits=[base]
+    applicationInfo=ApplicationInfo{75128ce park.outlook.sign.in.client}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ ]
+    dataDir=/data/user/0/park.outlook.sign.in.client
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2024-01-28 20:08:25
+    firstInstallTime=2024-01-28 20:08:51
+    lastUpdateTime=2024-01-28 20:08:51
+    signatures=PackageSignatures{50dbefc [9f34985]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    declared permissions:
+      park.outlook.sign.in.client.permission.C2D_MESSAGE: prot=signature, INSTALLED
+      park.outlook.sign.in.client.contacts.permission.write_contacts: prot=dangerous, INSTALLED
+      park.outlook.sign.in.client.images.cache.permission.write: prot=dangerous, INSTALLED
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.VIBRATE
+      android.permission.WAKE_LOCK
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_CONTACTS
+      com.google.android.gallery3d.permission.GALLERY_PROVIDER
+      com.android.gallery3d.permission.GALLERY_PROVIDER
+      android.permission.USE_FINGERPRINT
+      android.permission.GET_ACCOUNTS
+      android.permission.USE_CREDENTIALS
+      android.permission.MANAGE_ACCOUNTS
+      android.permission.AUTHENTICATE_ACCOUNTS
+      android.permission.WRITE_SETTINGS
+      android.permission.WRITE_CONTACTS
+      android.permission.READ_SYNC_STATS
+      android.permission.READ_SYNC_SETTINGS
+      android.permission.WRITE_SYNC_SETTINGS
+      android.permission.READ_SOCIAL_STREAM
+      android.permission.WRITE_SOCIAL_STREAM
+      park.outlook.sign.in.client.permission.C2D_MESSAGE
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.REQUEST_INSTALL_PACKAGES
+      com.sec.android.provider.badge.permission.READ
+      com.sec.android.provider.badge.permission.WRITE
+      com.htc.launcher.permission.READ_SETTINGS
+      com.htc.launcher.permission.UPDATE_SHORTCUT
+      com.sonyericsson.home.permission.BROADCAST_BADGE
+      com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+      com.anddoes.launcher.permission.UPDATE_COUNT
+      com.majeur.launcher.permission.UPDATE_BADGE
+      com.google.android.providers.gsf.permission.READ_GSERVICES
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.USE_CREDENTIALS: granted=true
+      com.google.android.providers.gsf.permission.READ_GSERVICES: granted=true
+      android.permission.MANAGE_ACCOUNTS: granted=true
+      android.permission.WRITE_SYNC_SETTINGS: granted=true
+      android.permission.AUTHENTICATE_ACCOUNTS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.WRITE_SOCIAL_STREAM: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.READ_SYNC_STATS: granted=true
+      android.permission.READ_SYNC_SETTINGS: granted=true
+      android.permission.VIBRATE: granted=true
+      park.outlook.sign.in.client.permission.C2D_MESSAGE: granted=true
+      android.permission.REQUEST_INSTALL_PACKAGES: granted=true
+      android.permission.READ_SOCIAL_STREAM: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0:  installed=true hidden=false stopped=false notLaunched=false enabled=0
+      gids=[3003]
+      runtime permissions:

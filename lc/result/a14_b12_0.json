@@ -1,0 +1,296 @@
+[
+    {
+        "event_type": "kill_app",
+        "log_lines": null,
+        "prompt": null,
+        "stop_intent": "am force-stop de.baumann.browser"
+    },
+    {
+        "event_type": "intent",
+        "log_lines": null,
+        "prompt": null,
+        "intent": "am start de.baumann.browser/de.baumann.browser.Activity.BrowserActivity"
+    },
+    {
+        "event_type": "set_text",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "de.baumann.browser:id/main_omnibox_input",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "de.baumann.browser",
+            "text": "Search or type URL",
+            "bounds": [
+                [
+                    56,
+                    2196
+                ],
+                [
+                    1160,
+                    2392
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 26,
+            "temp_id": 27,
+            "size": "1104*196",
+            "signature": "[class]android.widget.EditText[resource_id]de.baumann.browser:id/main_omnibox_input[text]Search or type URL[enabled,,]",
+            "view_str": "d6a9839bb4225ee3d81296de26f8d135",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]de.baumann.browser:id/main_omnibox_input"
+        },
+        "x": null,
+        "y": null,
+        "text": ""
+    },
+    {
+        "event_type": "set_text",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "android:id/search_src_text",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": true,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "de.baumann.browser",
+            "text": "   Search",
+            "bounds": [
+                [
+                    231,
+                    103
+                ],
+                [
+                    1412,
+                    229
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 11,
+            "temp_id": 12,
+            "size": "1181*126",
+            "signature": "[class]android.widget.EditText[resource_id]android:id/search_src_text[text]   Search[enabled,,]",
+            "view_str": "8e2b823424d824bb6d569e03038258d4",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]android:id/search_src_text"
+        },
+        "x": null,
+        "y": null,
+        "text": "https://www.ics.uci.edu"
+    },
+    {
+        "event_type": "oracle/in the state",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": true,
+            "long_clickable": false,
+            "resource_id": null,
+            "visible": true,
+            "enabled": true,
+            "clickable": false,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": true,
+            "class": "android.webkit.WebView",
+            "children": [
+                11
+            ],
+            "child_count": 1,
+            "package": "de.baumann.browser",
+            "text": "Home - UC Irvine Donald Bren School of Information & Computer Sciences",
+            "bounds": [
+                [
+                    0,
+                    84
+                ],
+                [
+                    1445,
+                    2198
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 9,
+            "temp_id": 10,
+            "size": "1445*2114",
+            "signature": "[class]android.webkit.WebView[resource_id]None[text]None[enabled,,]",
+            "view_str": "53a6373e3624028368379248f0242617",
+            "content_free_signature": "[class]android.webkit.WebView[resource_id]None"
+        },
+        "x": null,
+        "y": null,
+        "direction": "UP"
+    },
+    {
+        "event_type": "set_text",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "de.baumann.browser:id/main_omnibox_input",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "de.baumann.browser",
+            "text": "https://ics.uci.edu/",
+            "bounds": [
+                [
+                    56,
+                    2196
+                ],
+                [
+                    1160,
+                    2392
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 386,
+            "temp_id": 387,
+            "size": "1104*196",
+            "signature": "[class]android.widget.EditText[resource_id]de.baumann.browser:id/main_omnibox_input[text]https://ics.uci.edu/[enabled,,]",
+            "view_str": "1a18c1aa02bc172bd8198134de184ae3",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]de.baumann.browser:id/main_omnibox_input"
+        },
+        "x": null,
+        "y": null,
+        "text": "https://uci.edu"
+    },
+    {
+        "event_type": "oracle/in the state",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": null,
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": "UCI homepage",
+            "focused": false,
+            "class": "android.view.View",
+            "children": [
+                25,
+                26
+            ],
+            "child_count": 2,
+            "package": "de.baumann.browser",
+            "text": null,
+            "bounds": [
+                [
+                    0,
+                    84
+                ],
+                [
+                    227,
+                    273
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 19,
+            "temp_id": 24,
+            "size": "227*189",
+            "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+            "view_str": "0d7090754944e04c895232b45f58208f",
+            "content_free_signature": "[class]android.view.View[resource_id]None"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "key",
+        "log_lines": null,
+        "prompt": null,
+        "name": "BACK"
+    },
+    {
+        "event_type": "oracle/in the state",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": true,
+            "long_clickable": false,
+            "resource_id": null,
+            "visible": true,
+            "enabled": true,
+            "clickable": false,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": true,
+            "class": "android.webkit.WebView",
+            "children": [
+                11
+            ],
+            "child_count": 1,
+            "package": "de.baumann.browser",
+            "text": "Home - UC Irvine Donald Bren School of Information & Computer Sciences",
+            "bounds": [
+                [
+                    0,
+                    84
+                ],
+                [
+                    1445,
+                    2198
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 9,
+            "temp_id": 10,
+            "size": "1445*2114",
+            "signature": "[class]android.webkit.WebView[resource_id]None[text]None[enabled,,]",
+            "view_str": "53a6373e3624028368379248f0242617",
+            "content_free_signature": "[class]android.webkit.WebView[resource_id]None"
+        },
+        "x": null,
+        "y": null,
+        "direction": "UP"
+    }
+]

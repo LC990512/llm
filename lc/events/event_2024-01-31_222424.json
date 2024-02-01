@@ -1,0 +1,12 @@
+{
+  "tag": "2024-01-31_222424",
+  "event": {
+    "event_type": "kill_app",
+    "log_lines": null,
+    "prompt": null,
+    "stop_intent": "am force-stop com.stoutner.privacybrowser.standard"
+  },
+  "start_state": "857a48d09537f05abdb93790921c87a8",
+  "stop_state": "ca0b05b7ddec06461c7a009508292fe5",
+  "event_str": "KillAppEvent()"
+}

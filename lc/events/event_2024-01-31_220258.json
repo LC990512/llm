@@ -1,0 +1,12 @@
+{
+  "tag": "2024-01-31_220258",
+  "event": {
+    "event_type": "intent",
+    "log_lines": null,
+    "prompt": null,
+    "intent": "am start org.easyweb.browser/com.ijoysoft.browser.activity.ActivityWelcome"
+  },
+  "start_state": "7a8d24bd89c99d7e69cd5d468993fe8b",
+  "stop_state": "ee16504f700acb4ae9905c2206b02b5d",
+  "event_str": "IntentEvent(intent='am start org.easyweb.browser/com.ijoysoft.browser.activity.ActivityWelcome')"
+}

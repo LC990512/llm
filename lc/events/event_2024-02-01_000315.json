@@ -1,0 +1,50 @@
+{
+  "tag": "2024-02-01_000315",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.contextlogic.geek:id/sign_in_fragment_sign_in_button",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.contextlogic.geek",
+      "text": "Sign In",
+      "bounds": [
+        [
+          35,
+          693
+        ],
+        [
+          1405,
+          833
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 16,
+      "temp_id": 20,
+      "size": "1370*140",
+      "signature": "[class]android.widget.TextView[resource_id]com.contextlogic.geek:id/sign_in_fragment_sign_in_button[text]Sign In[enabled,,]",
+      "view_str": "162128ce0bac9d9aeb5d32a83d0686c8",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.contextlogic.geek:id/sign_in_fragment_sign_in_button"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "dfbda5feb2cb5d5baca07c79aeadc68e",
+  "stop_state": "37a8942eb2cadc3d3024c54a3d024169",
+  "event_str": "TouchEvent(state=dfbda5feb2cb5d5baca07c79aeadc68e, view=162128ce0bac9d9aeb5d32a83d0686c8(LoginActivity/TextView-Sign In))"
+}

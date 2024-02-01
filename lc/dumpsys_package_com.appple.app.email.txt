@@ -1,0 +1,188 @@
+Activity Resolver Table:
+  Full MIME Types:
+      */*:
+        4d85b4e com.appple.app.email/com.fsck.k9.activity.MessageCompose (2 filters)
+      application/x-k9settings:
+        844d46f com.appple.app.email/com.fsck.k9.activity.Accounts
+
+  Base MIME Types:
+      application:
+        844d46f com.appple.app.email/com.fsck.k9.activity.Accounts
+
+  Wild MIME Types:
+      *:
+        4d85b4e com.appple.app.email/com.fsck.k9.activity.MessageCompose (2 filters)
+
+  Schemes:
+      mailto:
+        4d85b4e com.appple.app.email/com.fsck.k9.activity.MessageCompose (2 filters)
+      email:
+        ae2757c com.appple.app.email/com.fsck.k9.activity.MessageList
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        844d46f com.appple.app.email/com.fsck.k9.activity.Accounts
+        ae2757c com.appple.app.email/com.fsck.k9.activity.MessageList
+        c1ffe05 com.appple.app.email/com.fsck.k9.activity.FolderList
+      android.appwidget.action.APPWIDGET_CONFIGURE:
+        5e2de5a com.appple.app.email/.activity.UnreadWidgetConfiguration
+      android.intent.action.CREATE_SHORTCUT:
+        4f4488b com.appple.app.email/com.fsck.k9.activity.LauncherShortcuts
+      android.intent.action.SEARCH:
+        9f6d68 com.appple.app.email/com.fsck.k9.activity.Search
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        4d85b4e com.appple.app.email/com.fsck.k9.activity.MessageCompose
+      android.intent.action.VIEW:
+        844d46f com.appple.app.email/com.fsck.k9.activity.Accounts
+      android.intent.action.SEND_MULTIPLE:
+        4d85b4e com.appple.app.email/com.fsck.k9.activity.MessageCompose
+
+Receiver Resolver Table:
+  Schemes:
+      file:
+        da77581 com.appple.app.email/com.fsck.k9.service.StorageReceiver
+
+  Non-Data Actions:
+      com.fsck.k9.K9RemoteControl.requestAccounts:
+        8e08626 com.appple.app.email/com.fsck.k9.service.RemoteControlReceiver
+      android.intent.action.DEVICE_STORAGE_LOW:
+        7dce267 com.appple.app.email/com.fsck.k9.service.BootReceiver
+      android.net.conn.CONNECTIVITY_CHANGE:
+        7dce267 com.appple.app.email/com.fsck.k9.service.BootReceiver
+      android.intent.action.DEVICE_STORAGE_OK:
+        7dce267 com.appple.app.email/com.fsck.k9.service.BootReceiver
+      android.net.conn.BACKGROUND_DATA_SETTING_CHANGED:
+        7dce267 com.appple.app.email/com.fsck.k9.service.BootReceiver
+      android.intent.action.BOOT_COMPLETED:
+        7dce267 com.appple.app.email/com.fsck.k9.service.BootReceiver
+      android.appwidget.action.APPWIDGET_UPDATE:
+        8b1f814 com.appple.app.email/com.fsck.k9.provider.UnreadWidgetProvider
+      com.android.sync.SYNC_CONN_STATUS_CHANGED:
+        7dce267 com.appple.app.email/com.fsck.k9.service.BootReceiver
+      com.fsck.k9.K9RemoteControl.set:
+        8e08626 com.appple.app.email/com.fsck.k9.service.RemoteControlReceiver
+
+Permissions:
+  Permission [com.fsck.k9.permission.MY_READ_MESSAGES] (d4e8bd):
+    sourcePackage=com.appple.app.email
+    uid=10169 gids=null type=0 prot=dangerous
+    perm=Permission{8bedeb2 com.fsck.k9.permission.MY_READ_MESSAGES}
+    packageSetting=PackageSetting{cb3e03 com.appple.app.email/10169}
+  Permission [com.fsck.k9.permission.MY_REMOTE_CONTROL] (cc08180):
+    sourcePackage=com.appple.app.email
+    uid=10169 gids=null type=0 prot=dangerous
+    perm=Permission{e6c53b9 com.fsck.k9.permission.MY_REMOTE_CONTROL}
+    packageSetting=PackageSetting{cb3e03 com.appple.app.email/10169}
+  Permission [com.fsck.k9.permission.MY_READ_ATTACHMENT] (fb833fe):
+    sourcePackage=com.appple.app.email
+    uid=10169 gids=null type=0 prot=dangerous
+    perm=Permission{5b9b75f com.fsck.k9.permission.MY_READ_ATTACHMENT}
+    packageSetting=PackageSetting{cb3e03 com.appple.app.email/10169}
+  Permission [com.fsck.k9.permission.MY_DELETE_MESSAGES] (86c35ac):
+    sourcePackage=com.appple.app.email
+    uid=10169 gids=null type=0 prot=dangerous
+    perm=Permission{d757275 com.fsck.k9.permission.MY_DELETE_MESSAGES}
+    packageSetting=PackageSetting{cb3e03 com.appple.app.email/10169}
+
+Registered ContentProviders:
+  com.appple.app.email/com.fsck.k9.provider.EmailProvider:
+    Provider{f5f920a com.appple.app.email/com.fsck.k9.provider.EmailProvider}
+  com.appple.app.email/com.fsck.k9.provider.AttachmentProvider:
+    Provider{7ec6a7b com.appple.app.email/com.fsck.k9.provider.AttachmentProvider}
+  com.appple.app.email/com.fsck.k9.provider.MessageProvider:
+    Provider{e3d0098 com.appple.app.email/com.fsck.k9.provider.MessageProvider}
+  com.appple.app.email/com.fsck.k9.provider.K9FileProvider:
+    Provider{3b7c0f1 com.appple.app.email/com.fsck.k9.provider.K9FileProvider}
+
+ContentProvider Authorities:
+  [com.fsck.k9.provider.tohemail]:
+    Provider{f5f920a com.appple.app.email/com.fsck.k9.provider.EmailProvider}
+      applicationInfo=ApplicationInfo{d6cc4d6 com.appple.app.email}
+  [com.fsck.k9.tohfileprovider]:
+    Provider{3b7c0f1 com.appple.app.email/com.fsck.k9.provider.K9FileProvider}
+      applicationInfo=ApplicationInfo{d6cc4d6 com.appple.app.email}
+  [com.fsck.k9.tohmessageprovider]:
+    Provider{e3d0098 com.appple.app.email/com.fsck.k9.provider.MessageProvider}
+      applicationInfo=ApplicationInfo{d6cc4d6 com.appple.app.email}
+  [com.fsck.k9.tohattachmentprovider]:
+    Provider{7ec6a7b com.appple.app.email/com.fsck.k9.provider.AttachmentProvider}
+      applicationInfo=ApplicationInfo{d6cc4d6 com.appple.app.email}
+
+Key Set Manager:
+  [com.appple.app.email]
+      Signing KeySets: 108
+
+Packages:
+  Package [com.appple.app.email] (cb3e03):
+    userId=10169
+    pkg=Package{ecd3357 com.appple.app.email}
+    codePath=/data/app/com.appple.app.email-1
+    resourcePath=/data/app/com.appple.app.email-1
+    legacyNativeLibraryDir=/data/app/com.appple.app.email-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=12 targetSdk=21
+    versionName=1.12.20
+    splits=[base]
+    applicationInfo=ApplicationInfo{d6cc4d6 com.appple.app.email}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    dataDir=/data/user/0/com.appple.app.email
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2024-01-28 20:06:51
+    firstInstallTime=2024-01-28 20:07:04
+    lastUpdateTime=2024-01-28 20:07:04
+    signatures=PackageSignatures{f4d8e44 [1f67b2d]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    declared permissions:
+      com.fsck.k9.permission.MY_READ_ATTACHMENT: prot=dangerous, INSTALLED
+      com.fsck.k9.permission.MY_REMOTE_CONTROL: prot=dangerous, INSTALLED
+      com.fsck.k9.permission.MY_READ_MESSAGES: prot=dangerous, INSTALLED
+      com.fsck.k9.permission.MY_DELETE_MESSAGES: prot=dangerous, INSTALLED
+    requested permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.READ_CONTACTS
+      android.permission.READ_SYNC_SETTINGS
+      android.permission.WRITE_CONTACTS
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.INTERNET
+      android.permission.VIBRATE
+      android.permission.WAKE_LOCK
+      android.permission.WRITE_EXTERNAL_STORAGE
+      com.sonyericsson.home.permission.BROADCAST_BADGE
+      com.android.launcher.permission.READ_SETTINGS
+      com.android.launcher.permission.WRITE_SETTINGS
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.ACCESS_WIFI_STATE
+      com.sec.android.provider.badge.permission.READ
+      com.sec.android.provider.badge.permission.WRITE
+      com.htc.launcher.permission.READ_SETTINGS
+      com.htc.launcher.permission.UPDATE_SHORTCUT
+      com.anddoes.launcher.permission.UPDATE_COUNT
+      com.fsck.k9.permission.MY_READ_ATTACHMENT
+      com.fsck.k9.permission.MY_REMOTE_CONTROL
+      com.fsck.k9.permission.MY_READ_MESSAGES
+      com.fsck.k9.permission.MY_DELETE_MESSAGES
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      com.fsck.k9.permission.MY_READ_MESSAGES: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      com.fsck.k9.permission.MY_REMOTE_CONTROL: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.READ_EXTERNAL_STORAGE: granted=true
+      android.permission.WRITE_CONTACTS: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.fsck.k9.permission.MY_READ_ATTACHMENT: granted=true
+      android.permission.READ_SYNC_SETTINGS: granted=true
+      android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      android.permission.READ_CONTACTS: granted=true
+      com.fsck.k9.permission.MY_DELETE_MESSAGES: granted=true
+    User 0:  installed=true hidden=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:

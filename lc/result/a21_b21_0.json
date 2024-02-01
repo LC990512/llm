@@ -1,0 +1,191 @@
+[
+    {
+        "event_type": "kill_app",
+        "log_lines": null,
+        "prompt": null,
+        "stop_intent": "am force-stop com.rubenroy.minimaltodo"
+    },
+    {
+        "event_type": "intent",
+        "log_lines": null,
+        "prompt": null,
+        "intent": "am start com.rubenroy.minimaltodo/com.rubenroy.minimaltodo.MainActivity"
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "com.rubenroy.minimaltodo:id/addToDoItemFAB",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.ImageButton",
+            "children": [],
+            "child_count": 0,
+            "package": "com.rubenroy.minimaltodo",
+            "text": null,
+            "bounds": [
+                [
+                    1188,
+                    2140
+                ],
+                [
+                    1384,
+                    2336
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 6,
+            "temp_id": 15,
+            "size": "196*196",
+            "signature": "[class]android.widget.ImageButton[resource_id]com.rubenroy.minimaltodo:id/addToDoItemFAB[text]None[enabled,,]",
+            "view_str": "666696467a8db50a7d32bc15b7381f5e",
+            "content_free_signature": "[class]android.widget.ImageButton[resource_id]com.rubenroy.minimaltodo:id/addToDoItemFAB"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "set_text",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "com.rubenroy.minimaltodo:id/userToDoEditText",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": true,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "com.rubenroy.minimaltodo",
+            "text": null,
+            "bounds": [
+                [
+                    112,
+                    487
+                ],
+                [
+                    1328,
+                    645
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 12,
+            "temp_id": 13,
+            "size": "1216*158",
+            "signature": "[class]android.widget.EditText[resource_id]com.rubenroy.minimaltodo:id/userToDoEditText[text]None[enabled,,]",
+            "view_str": "d36863eb99a1dfc6f5615145f314d574",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.rubenroy.minimaltodo:id/userToDoEditText"
+        },
+        "x": null,
+        "y": null,
+        "text": "sample to do"
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "com.rubenroy.minimaltodo:id/makeToDoFloatingActionButton",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": true,
+            "class": "android.widget.ImageButton",
+            "children": [],
+            "child_count": 0,
+            "package": "com.rubenroy.minimaltodo",
+            "text": null,
+            "bounds": [
+                [
+                    1188,
+                    710
+                ],
+                [
+                    1384,
+                    906
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 9,
+            "temp_id": 19,
+            "size": "196*196",
+            "signature": "[class]android.widget.ImageButton[resource_id]com.rubenroy.minimaltodo:id/makeToDoFloatingActionButton[text]None[enabled,,]",
+            "view_str": "5a8adde9b53e5c93717451e08a49a66e",
+            "content_free_signature": "[class]android.widget.ImageButton[resource_id]com.rubenroy.minimaltodo:id/makeToDoFloatingActionButton"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "oracle/in the state",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "com.rubenroy.minimaltodo:id/toDoListItemTextview",
+            "visible": true,
+            "enabled": true,
+            "clickable": false,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.TextView",
+            "children": [],
+            "child_count": 0,
+            "package": "com.rubenroy.minimaltodo",
+            "text": "Sample to do",
+            "bounds": [
+                [
+                    270,
+                    354
+                ],
+                [
+                    1440,
+                    430
+                ]
+            ],
+            "editable": false,
+            "focusable": false,
+            "parent": 15,
+            "temp_id": 16,
+            "size": "1170*76",
+            "signature": "[class]android.widget.TextView[resource_id]com.rubenroy.minimaltodo:id/toDoListItemTextview[text]Sample to do[enabled,,]",
+            "view_str": "ee6dca25bc8e0ac1b6d7a55bab4c41b5",
+            "content_free_signature": "[class]android.widget.TextView[resource_id]com.rubenroy.minimaltodo:id/toDoListItemTextview"
+        },
+        "x": null,
+        "y": null
+    }
+]

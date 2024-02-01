@@ -56,11 +56,15 @@ class Minicap(Adapter):
         device = self.device
 
         try:
-            minicap_files = device.adb.shell("ls %s 2>/dev/null" % self.remote_minicap_path).split()
+            minicap_files = device.adb.shell("ls %s" % self.remote_minicap_path).split()
+            print(f"lccc {self.remote_minicap_path}")
+
+            #minicap_files = device.adb.shell("ls %s 2>/dev/null" % self.remote_minicap_path).split()
             if "minicap.so" in minicap_files and ("minicap" in minicap_files or "minicap-nopie" in minicap_files):
                 self.logger.debug("minicap was already installed.")
                 return
-        except:
+        except Exception as e:
+            print("lccc set_up 发生错误:", e)
             pass
 
         if device is not None:

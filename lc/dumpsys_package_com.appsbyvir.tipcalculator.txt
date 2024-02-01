@@ -1,0 +1,49 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        6f5f93d com.appsbyvir.tipcalculator/.MainActivity
+      :
+        ad9e532 com.appsbyvir.tipcalculator/com.appflood.AFListActivity
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.android.vending.INSTALL_REFERRER:
+        9480283 com.appsbyvir.tipcalculator/com.appflood.AFReferralReceiver
+
+Key Set Manager:
+  [com.appsbyvir.tipcalculator]
+      Signing KeySets: 112
+
+Packages:
+  Package [com.appsbyvir.tipcalculator] (8bf2c00):
+    userId=10173
+    pkg=Package{cdec39 com.appsbyvir.tipcalculator}
+    codePath=/data/app/com.appsbyvir.tipcalculator-1
+    resourcePath=/data/app/com.appsbyvir.tipcalculator-1
+    legacyNativeLibraryDir=/data/app/com.appsbyvir.tipcalculator-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=3 targetSdk=19
+    versionName=1.11
+    splits=[base]
+    applicationInfo=ApplicationInfo{2bd227e com.appsbyvir.tipcalculator}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    dataDir=/data/user/0/com.appsbyvir.tipcalculator
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2024-01-28 20:26:43
+    firstInstallTime=2024-01-28 20:26:44
+    lastUpdateTime=2024-01-28 20:26:44
+    signatures=PackageSignatures{67e43df [9eb082c]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.INTERNET: granted=true
+      android.permission.READ_EXTERNAL_STORAGE: granted=true
+      android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+    User 0:  installed=true hidden=false stopped=false notLaunched=false enabled=0
+      gids=[3003]
+      runtime permissions:

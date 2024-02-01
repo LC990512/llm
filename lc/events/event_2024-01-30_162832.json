@@ -1,0 +1,51 @@
+{
+  "tag": "2024-01-30_162832",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "douzifly.list:id/edit_text_content",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "douzifly.list",
+      "text": "Content",
+      "bounds": [
+        [
+          35,
+          229
+        ],
+        [
+          1405,
+          1884
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 7,
+      "temp_id": 9,
+      "size": "1370*1655",
+      "signature": "[class]android.widget.EditText[resource_id]douzifly.list:id/edit_text_content[text]Content[enabled,,]",
+      "view_str": "70c196603cdeb8d22faf8d9f83d19d44",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]douzifly.list:id/edit_text_content"
+    },
+    "x": null,
+    "y": null,
+    "text": "sample to do"
+  },
+  "start_state": "309ed17e23525c2a4a839942904bee6e",
+  "stop_state": "2d5a1ec179ef647c5cc3211fc93d645c",
+  "event_str": "SetTextEvent(state=309ed17e23525c2a4a839942904bee6e, view=70c196603cdeb8d22faf8d9f83d19d44(MainActivity/EditText-Content), text=sample to do)"
+}

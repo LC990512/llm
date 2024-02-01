@@ -1,0 +1,51 @@
+{
+  "tag": "2024-01-29_215855",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "org.mozilla.focus:id/urlView",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": true,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "org.mozilla.focus",
+      "text": "Search or enter address",
+      "bounds": [
+        [
+          28,
+          115
+        ],
+        [
+          1272,
+          255
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "1244*140",
+      "signature": "[class]android.widget.EditText[resource_id]org.mozilla.focus:id/urlView[text]Search or enter address[enabled,,]",
+      "view_str": "37a19a151299402f1e68e56963e8bb99",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]org.mozilla.focus:id/urlView"
+    },
+    "x": null,
+    "y": null,
+    "text": "https://www.ics.uci.edu"
+  },
+  "start_state": "20e2118fd98b8189fad57b4b5042fd5e",
+  "stop_state": "1676fc3d256761ce282b120027eaef51",
+  "event_str": "SetTextEvent(state=20e2118fd98b8189fad57b4b5042fd5e, view=37a19a151299402f1e68e56963e8bb99(MainActivity/EditText-Search or ), text=https://www.ics.uci.edu)"
+}

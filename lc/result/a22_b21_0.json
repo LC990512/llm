@@ -1,0 +1,191 @@
+[
+    {
+        "event_type": "kill_app",
+        "log_lines": null,
+        "prompt": null,
+        "stop_intent": "am force-stop douzifly.list"
+    },
+    {
+        "event_type": "intent",
+        "log_lines": null,
+        "prompt": null,
+        "intent": "am start douzifly.list/douzifly.list.ui.home.MainActivity"
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "douzifly.list:id/fab_add",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.ImageButton",
+            "children": [],
+            "child_count": 0,
+            "package": "douzifly.list",
+            "text": null,
+            "bounds": [
+                [
+                    1152,
+                    2090
+                ],
+                [
+                    1384,
+                    2336
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 5,
+            "temp_id": 12,
+            "size": "232*246",
+            "signature": "[class]android.widget.ImageButton[resource_id]douzifly.list:id/fab_add[text]None[enabled,,]",
+            "view_str": "7bdc4ffbf0a98a3a195bbc7a41f0ab18",
+            "content_free_signature": "[class]android.widget.ImageButton[resource_id]douzifly.list:id/fab_add"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "set_text",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "douzifly.list:id/edit_text",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": true,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "douzifly.list",
+            "text": "Title",
+            "bounds": [
+                [
+                    35,
+                    84
+                ],
+                [
+                    1405,
+                    229
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 7,
+            "temp_id": 8,
+            "size": "1370*145",
+            "signature": "[class]android.widget.EditText[resource_id]douzifly.list:id/edit_text[text]Title[enabled,,]",
+            "view_str": "9462e8b3722fd80afac3cd0cfd167c90",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]douzifly.list:id/edit_text"
+        },
+        "x": null,
+        "y": null,
+        "text": "sample to do"
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "douzifly.list:id/fab_add",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.ImageButton",
+            "children": [],
+            "child_count": 0,
+            "package": "douzifly.list",
+            "text": null,
+            "bounds": [
+                [
+                    1152,
+                    2090
+                ],
+                [
+                    1384,
+                    2336
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 5,
+            "temp_id": 28,
+            "size": "232*246",
+            "signature": "[class]android.widget.ImageButton[resource_id]douzifly.list:id/fab_add[text]None[enabled,,]",
+            "view_str": "7bdc4ffbf0a98a3a195bbc7a41f0ab18",
+            "content_free_signature": "[class]android.widget.ImageButton[resource_id]douzifly.list:id/fab_add"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "oracle/in the state",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "douzifly.list:id/txt_thing",
+            "visible": true,
+            "enabled": true,
+            "clickable": false,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.TextView",
+            "children": [],
+            "child_count": 0,
+            "package": "douzifly.list",
+            "text": "sample to do",
+            "bounds": [
+                [
+                    122,
+                    349
+                ],
+                [
+                    1339,
+                    422
+                ]
+            ],
+            "editable": false,
+            "focusable": false,
+            "parent": 17,
+            "temp_id": 18,
+            "size": "1217*73",
+            "signature": "[class]android.widget.TextView[resource_id]douzifly.list:id/txt_thing[text]sample to do[enabled,,]",
+            "view_str": "38d0589aca7f12436e0e40afb53f29bd",
+            "content_free_signature": "[class]android.widget.TextView[resource_id]douzifly.list:id/txt_thing"
+        },
+        "x": null,
+        "y": null
+    }
+]

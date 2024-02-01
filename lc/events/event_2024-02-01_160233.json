@@ -1,0 +1,12 @@
+{
+  "tag": "2024-02-01_160233",
+  "event": {
+    "event_type": "Clear",
+    "log_lines": null,
+    "prompt": null,
+    "intent": "am start com.tleapps.simpletipcalculator/com.tleapps.simpletipcalculator.MainActivity"
+  },
+  "start_state": "3795d760f08e9e91a86e545c84adfd8a",
+  "stop_state": "346d25d2ed8bcf7fd6950071264d6397",
+  "event_str": "IntentEvent(intent='am start com.tleapps.simpletipcalculator/com.tleapps.simpletipcalculator.MainActivity')"
+}

@@ -186,11 +186,20 @@ class DroidBot(object):
         print("-----------------------------")
         print(len(self.input_manager.events))
         events_list = [event.__dict__ for event in self.input_manager.events]
-        self.extracted_info[0]['app']
-        file_name = f"{self.extracted_info[0]['app'].split('.')[0].split('/')[1]}_{self.extracted_info[0]['function']}.json"
+        app_name = self.extracted_info[0]['app'].split('.')[0].split('/')[1]
+        function_name = self.extracted_info[-1]['function']
         file_path = self.output_dir + "/result"
         os.makedirs(file_path, exist_ok=True)
-        file_path = os.path.join(file_path, file_name)
+
+        num = 0
+        while True:
+            file_name = f"{app_name}_{function_name}_{num}.json"
+            file_path = os.path.join(file_path, file_name)
+            if not os.path.exists(file_path):
+                break
+            num = num + 1
+
+
         with open(file_path, 'w') as file:
             json.dump(events_list, file, indent=4)
 

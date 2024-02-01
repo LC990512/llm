@@ -49,19 +49,20 @@ class InputManager(object):
         self.policy_name = policy_name
         self.random_input = random_input
         self.events = []
-        #
+    
+        self.api = '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'
 
-        self.api = [
-            {'key': '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', 'last_used': 0},
-            {'key': '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', 'last_used': 0},
-            {'key': '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', 'last_used': 0},
-            {'key': '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', 'last_used': 0},
-            {'key': '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', 'last_used': 0},
-            {'key': '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', 'last_used': 0},
-            {'key': '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', 'last_used': 0},
-            {'key': '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', 'last_used': 0},
-            {'key': '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', 'last_used': 0}
-        ]
+            # {'key': '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', 'last_used': 0},
+            # {'key': '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', 'last_used': 0},
+            # {'key': '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', 'last_used': 0},
+            # {'key': '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', 'last_used': 0},
+            # {'key': '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', 'last_used': 0},
+            # {'key': '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', 'last_used': 0},
+            # {'key': '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', 'last_used': 0},
+            # {'key': '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', 'last_used': 0},
+            # {'key': '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', 'last_used': 0},
+            # {'key': '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', 'last_used': 0}
+        
         self.policy = None
         self.script = None
         self.event_count = event_count
@@ -106,7 +107,7 @@ class InputManager(object):
             input_policy.master = master
         return input_policy
 
-    def add_event(self, event):
+    def add_event(self, event, condition):
         """
         add one event to the event list
         :param event: the event to be added, should be subclass of AppEvent
@@ -114,9 +115,20 @@ class InputManager(object):
         """
         if event is None:
             return
-        self.events.append(event)
-        print(f"lccc add_event: event:[{event}] / -1: [ {self.events[-1]} ]")
+        
+        print(f"lccc add_event: event:[{event}]")
+        
+        append_event = event
+        if condition != "Event":
+            append_event.event_type = "oracle/" + condition
+            self.events.append(append_event)
+            return 
+       
+        if self.task.split()[0].lower() == "clear":
+            append_event.event_type = "Clear"
 
+        self.events.append(append_event)
+        
         event_log = EventLog(self.device, self.app, event, self.profiling_method)
 
         event_log.start()

@@ -1,0 +1,51 @@
+{
+  "tag": "2024-02-01_000220",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.contextlogic.geek:id/sign_in_fragment_email_text",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": true,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "com.contextlogic.geek",
+      "text": "Email",
+      "bounds": [
+        [
+          35,
+          315
+        ],
+        [
+          1405,
+          456
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 16,
+      "temp_id": 18,
+      "size": "1370*141",
+      "signature": "[class]android.widget.EditText[resource_id]com.contextlogic.geek:id/sign_in_fragment_email_text[text]Email[enabled,,]",
+      "view_str": "aa88d5fb88b8654e2e481734e682691b",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.contextlogic.geek:id/sign_in_fragment_email_text"
+    },
+    "x": null,
+    "y": null,
+    "text": "temdroid@163.com"
+  },
+  "start_state": "9bc21af1af2f00839112c75309ac4559",
+  "stop_state": "dfbda5feb2cb5d5baca07c79aeadc68e",
+  "event_str": "SetTextEvent(state=9bc21af1af2f00839112c75309ac4559, view=aa88d5fb88b8654e2e481734e682691b(LoginActivity/EditText-Email), text=temdroid@163.com)"
+}

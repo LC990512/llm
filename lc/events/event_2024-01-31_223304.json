@@ -1,0 +1,51 @@
+{
+  "tag": "2024-01-31_223304",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "package": "com.stoutner.privacybrowser.standard",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          281,
+          151
+        ],
+        [
+          831,
+          275
+        ]
+      ],
+      "resource_id": "com.stoutner.privacybrowser.standard:id/url_edittext",
+      "checked": false,
+      "text": "https://html.duckduckgo.com/html",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 12,
+      "temp_id": 14,
+      "size": "550*124",
+      "signature": "[class]android.widget.EditText[resource_id]com.stoutner.privacybrowser.standard:id/url_edittext[text]https://html.duckduckgo.com/html[enabled,,]",
+      "view_str": "a60e173d6bc682ce0c9ce745cae2af9b",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.stoutner.privacybrowser.standard:id/url_edittext"
+    },
+    "x": null,
+    "y": null,
+    "text": "https://www.ics.uci.edu"
+  },
+  "start_state": "c26be5d6d9ba2bd0b1b0d672339ba091",
+  "stop_state": "d1bfccef69dc60b02c35b0c3e84dcd6b",
+  "event_str": "SetTextEvent(state=c26be5d6d9ba2bd0b1b0d672339ba091, view=a60e173d6bc682ce0c9ce745cae2af9b(MainWebViewActivity/EditText-https://ht), text=https://www.ics.uci.edu)"
+}

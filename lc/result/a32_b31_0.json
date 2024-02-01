@@ -1,0 +1,371 @@
+[
+    {
+        "event_type": "kill_app",
+        "log_lines": null,
+        "prompt": null,
+        "stop_intent": "am force-stop com.contextlogic.wish"
+    },
+    {
+        "event_type": "intent",
+        "log_lines": null,
+        "prompt": null,
+        "intent": "am start com.contextlogic.wish/com.contextlogic.wish.activity.browse.BrowseActivity"
+    },
+    {
+        "event_type": "oracle/in the state",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "com.contextlogic.wish:id/create_account_fragment_create_account_button",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.Button",
+            "children": [],
+            "child_count": 0,
+            "package": "com.contextlogic.wish",
+            "text": "Create an Account",
+            "bounds": [
+                [
+                    56,
+                    1379
+                ],
+                [
+                    1384,
+                    1519
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 26,
+            "temp_id": 33,
+            "size": "1328*140",
+            "signature": "[class]android.widget.Button[resource_id]com.contextlogic.wish:id/create_account_fragment_create_account_button[text]Create an Account[enabled,,]",
+            "view_str": "27e714510f2fe3eaca1846cbca262a77",
+            "content_free_signature": "[class]android.widget.Button[resource_id]com.contextlogic.wish:id/create_account_fragment_create_account_button"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "com.contextlogic.wish:id/create_account_fragment_create_account_button",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.Button",
+            "children": [],
+            "child_count": 0,
+            "package": "com.contextlogic.wish",
+            "text": "Create an Account",
+            "bounds": [
+                [
+                    56,
+                    1379
+                ],
+                [
+                    1384,
+                    1519
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 26,
+            "temp_id": 33,
+            "size": "1328*140",
+            "signature": "[class]android.widget.Button[resource_id]com.contextlogic.wish:id/create_account_fragment_create_account_button[text]Create an Account[enabled,,]",
+            "view_str": "27e714510f2fe3eaca1846cbca262a77",
+            "content_free_signature": "[class]android.widget.Button[resource_id]com.contextlogic.wish:id/create_account_fragment_create_account_button"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "oracle/in the state",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "com.contextlogic.wish:id/create_account_fragment_email_text",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "com.contextlogic.wish",
+            "text": "Email Address",
+            "bounds": [
+                [
+                    56,
+                    1043
+                ],
+                [
+                    1384,
+                    1183
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 26,
+            "temp_id": 30,
+            "size": "1328*140",
+            "signature": "[class]android.widget.EditText[resource_id]com.contextlogic.wish:id/create_account_fragment_email_text[text]Email Address[enabled,,]",
+            "view_str": "843d0f3a71a9af78125a67dbc4b34183",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.contextlogic.wish:id/create_account_fragment_email_text"
+        },
+        "x": null,
+        "y": null,
+        "text": ""
+    },
+    {
+        "event_type": "set_text",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "com.contextlogic.wish:id/create_account_fragment_email_text",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "com.contextlogic.wish",
+            "text": "Email Address",
+            "bounds": [
+                [
+                    56,
+                    1043
+                ],
+                [
+                    1384,
+                    1183
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 26,
+            "temp_id": 30,
+            "size": "1328*140",
+            "signature": "[class]android.widget.EditText[resource_id]com.contextlogic.wish:id/create_account_fragment_email_text[text]Email Address[enabled,,]",
+            "view_str": "843d0f3a71a9af78125a67dbc4b34183",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.contextlogic.wish:id/create_account_fragment_email_text"
+        },
+        "x": null,
+        "y": null,
+        "text": "temdroid@163.com"
+    },
+    {
+        "event_type": "set_text",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "com.contextlogic.wish:id/create_account_fragment_password_text",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": true,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "com.contextlogic.wish",
+            "text": null,
+            "bounds": [
+                [
+                    56,
+                    1211
+                ],
+                [
+                    1384,
+                    1350
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 31,
+            "temp_id": 32,
+            "size": "1328*139",
+            "signature": "[class]android.widget.EditText[resource_id]com.contextlogic.wish:id/create_account_fragment_password_text[text]None[enabled,,]",
+            "view_str": "f022283b166b6b2b55f7362d8ec303ec",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.contextlogic.wish:id/create_account_fragment_password_text"
+        },
+        "x": null,
+        "y": null,
+        "text": "guiresearch1="
+    },
+    {
+        "event_type": "set_text",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "com.contextlogic.wish:id/create_account_fragment_last_name_text",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "com.contextlogic.wish",
+            "text": "Last Name",
+            "bounds": [
+                [
+                    734,
+                    875
+                ],
+                [
+                    1384,
+                    1015
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 27,
+            "temp_id": 29,
+            "size": "650*140",
+            "signature": "[class]android.widget.EditText[resource_id]com.contextlogic.wish:id/create_account_fragment_last_name_text[text]Last Name[enabled,,]",
+            "view_str": "4cec86f74c23d612a37c091d12f5959a",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.contextlogic.wish:id/create_account_fragment_last_name_text"
+        },
+        "x": null,
+        "y": null,
+        "text": "smith"
+    },
+    {
+        "event_type": "set_text",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "com.contextlogic.wish:id/create_account_fragment_first_name_text",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "com.contextlogic.wish",
+            "text": "First Name",
+            "bounds": [
+                [
+                    56,
+                    875
+                ],
+                [
+                    706,
+                    1015
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 27,
+            "temp_id": 28,
+            "size": "650*140",
+            "signature": "[class]android.widget.EditText[resource_id]com.contextlogic.wish:id/create_account_fragment_first_name_text[text]First Name[enabled,,]",
+            "view_str": "15e25a6068c58882224d94db2ea4e5d5",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.contextlogic.wish:id/create_account_fragment_first_name_text"
+        },
+        "x": null,
+        "y": null,
+        "text": "alice"
+    },
+    {
+        "event_type": "oracle/in the state",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "com.contextlogic.wish:id/create_account_fragment_create_account_button",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.Button",
+            "children": [],
+            "child_count": 0,
+            "package": "com.contextlogic.wish",
+            "text": "Create an Account",
+            "bounds": [
+                [
+                    56,
+                    1379
+                ],
+                [
+                    1384,
+                    1519
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 26,
+            "temp_id": 33,
+            "size": "1328*140",
+            "signature": "[class]android.widget.Button[resource_id]com.contextlogic.wish:id/create_account_fragment_create_account_button[text]Create an Account[enabled,,]",
+            "view_str": "27e714510f2fe3eaca1846cbca262a77",
+            "content_free_signature": "[class]android.widget.Button[resource_id]com.contextlogic.wish:id/create_account_fragment_create_account_button"
+        },
+        "x": null,
+        "y": null
+    }
+]

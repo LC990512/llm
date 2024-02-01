@@ -1,0 +1,237 @@
+[
+    {
+        "event_type": "kill_app",
+        "log_lines": null,
+        "prompt": null,
+        "stop_intent": "am force-stop org.easyweb.browser"
+    },
+    {
+        "event_type": "intent",
+        "log_lines": null,
+        "prompt": null,
+        "intent": "am start org.easyweb.browser/com.ijoysoft.browser.activity.ActivityWelcome"
+    },
+    {
+        "event_type": "set_text",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "org.easyweb.browser:id/main_title_url",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "org.easyweb.browser",
+            "text": "Search or type url",
+            "bounds": [
+                [
+                    231,
+                    146
+                ],
+                [
+                    1258,
+                    217
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 12,
+            "temp_id": 13,
+            "size": "1027*71",
+            "signature": "[class]android.widget.EditText[resource_id]org.easyweb.browser:id/main_title_url[text]Search or type url[enabled,,]",
+            "view_str": "1acae534d618523fadb4dffecda41310",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]org.easyweb.browser:id/main_title_url"
+        },
+        "x": null,
+        "y": null,
+        "text": "https://www.google.com"
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "org.easyweb.browser:id/search_go",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.ImageView",
+            "children": [],
+            "child_count": 0,
+            "package": "org.easyweb.browser",
+            "text": null,
+            "bounds": [
+                [
+                    1272,
+                    112
+                ],
+                [
+                    1412,
+                    252
+                ]
+            ],
+            "editable": false,
+            "focusable": false,
+            "parent": 9,
+            "temp_id": 13,
+            "size": "140*140",
+            "signature": "[class]android.widget.ImageView[resource_id]org.easyweb.browser:id/search_go[text]None[enabled,,]",
+            "view_str": "b9b2646c586434e26b7de13baf0b86dc",
+            "content_free_signature": "[class]android.widget.ImageView[resource_id]org.easyweb.browser:id/search_go"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "set_text",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "org.easyweb.browser:id/main_title_url",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "org.easyweb.browser",
+            "text": "Google",
+            "bounds": [
+                [
+                    231,
+                    146
+                ],
+                [
+                    1132,
+                    217
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 12,
+            "temp_id": 13,
+            "size": "901*71",
+            "signature": "[class]android.widget.EditText[resource_id]org.easyweb.browser:id/main_title_url[text]Google[enabled,,]",
+            "view_str": "66eb0342ffc171a8706dbe86d997d3c9",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]org.easyweb.browser:id/main_title_url"
+        },
+        "x": null,
+        "y": null,
+        "text": "https://www.ics.uci.edu"
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "org.easyweb.browser:id/search_go",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.ImageView",
+            "children": [],
+            "child_count": 0,
+            "package": "org.easyweb.browser",
+            "text": null,
+            "bounds": [
+                [
+                    1272,
+                    112
+                ],
+                [
+                    1412,
+                    252
+                ]
+            ],
+            "editable": false,
+            "focusable": false,
+            "parent": 8,
+            "temp_id": 12,
+            "size": "140*140",
+            "signature": "[class]android.widget.ImageView[resource_id]org.easyweb.browser:id/search_go[text]None[enabled,,]",
+            "view_str": "b9b2646c586434e26b7de13baf0b86dc",
+            "content_free_signature": "[class]android.widget.ImageView[resource_id]org.easyweb.browser:id/search_go"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "oracle/in the state",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "org.easyweb.browser:id/main_title_url",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "org.easyweb.browser",
+            "text": "Home - UC Irvine Donald Bren School of Information & Computer Sciences",
+            "bounds": [
+                [
+                    231,
+                    146
+                ],
+                [
+                    1132,
+                    217
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 12,
+            "temp_id": 13,
+            "size": "901*71",
+            "signature": "[class]android.widget.EditText[resource_id]org.easyweb.browser:id/main_title_url[text]None[enabled,,]",
+            "view_str": "1159a0bd3ef5b42c3e5c2eb8f9ec9dd2",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]org.easyweb.browser:id/main_title_url"
+        },
+        "x": null,
+        "y": null,
+        "text": ""
+    }
+]

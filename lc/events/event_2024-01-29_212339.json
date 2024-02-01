@@ -1,0 +1,12 @@
+{
+  "tag": "2024-01-29_212339",
+  "event": {
+    "event_type": "intent",
+    "log_lines": null,
+    "prompt": null,
+    "intent": "am start acr.browser.lightning/acr.browser.lightning.MainActivity"
+  },
+  "start_state": "3795d760f08e9e91a86e545c84adfd8a",
+  "stop_state": "a31bd54ece7780e5743abcd49077046b",
+  "event_str": "IntentEvent(intent='am start acr.browser.lightning/acr.browser.lightning.MainActivity')"
+}

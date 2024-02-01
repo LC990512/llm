@@ -1,0 +1,51 @@
+{
+  "tag": "2024-02-01_145206",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.appsbyvir.tipcalculator:id/tipEditText",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": "15.0",
+      "bounds": [
+        [
+          930,
+          464
+        ],
+        [
+          1380,
+          620
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 12,
+      "temp_id": 16,
+      "size": "450*156",
+      "signature": "[class]android.widget.EditText[resource_id]com.appsbyvir.tipcalculator:id/tipEditText[text]15.0[enabled,,]",
+      "view_str": "77a0302f36c00acb20b98c0291ae29f7",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.appsbyvir.tipcalculator:id/tipEditText"
+    },
+    "x": null,
+    "y": null,
+    "text": "15"
+  },
+  "start_state": "999cf2c528b6695d32b000c1faa841b4",
+  "stop_state": "c66935b320238d3142d44e78cc25d4c5",
+  "event_str": "SetTextEvent(state=999cf2c528b6695d32b000c1faa841b4, view=77a0302f36c00acb20b98c0291ae29f7(MainActivity/EditText-15.0), text=15)"
+}

@@ -110,7 +110,7 @@ Packages:
       android.permission.ACCESS_NETWORK_STATE: granted=true
       android.permission.VIBRATE: granted=true
       android.permission.WAKE_LOCK: granted=true
-    User 0:  installed=true hidden=false stopped=false notLaunched=false enabled=0
+    User 0:  installed=true hidden=false stopped=true notLaunched=false enabled=0
       gids=[3003]
       runtime permissions:
         android.permission.READ_EXTERNAL_STORAGE: granted=true

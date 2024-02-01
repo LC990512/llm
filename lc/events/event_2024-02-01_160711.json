@@ -1,0 +1,50 @@
+{
+  "tag": "2024-02-01_160711",
+  "event": {
+    "event_type": "Clear",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.tleapps.simpletipcalculator:id/buttonShare",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.Button",
+      "children": [],
+      "child_count": 0,
+      "package": "com.tleapps.simpletipcalculator",
+      "text": "Share",
+      "bounds": [
+        [
+          566,
+          1109
+        ],
+        [
+          874,
+          1277
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 51,
+      "temp_id": 53,
+      "size": "308*168",
+      "signature": "[class]android.widget.Button[resource_id]com.tleapps.simpletipcalculator:id/buttonShare[text]Share[enabled,,]",
+      "view_str": "e5eab4db3c3ae162cd2b8217eda56636",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.tleapps.simpletipcalculator:id/buttonShare"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "00d6546c1adce0db000e5696cfa9fbe6",
+  "stop_state": "134c841c31c1e026dee82ee6d220d8e6",
+  "event_str": "TouchEvent(state=00d6546c1adce0db000e5696cfa9fbe6, view=e5eab4db3c3ae162cd2b8217eda56636(MainActivity/Button-Share))"
+}

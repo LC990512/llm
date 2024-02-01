@@ -1,0 +1,51 @@
+{
+  "tag": "2024-01-31_231138",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "de.baumann.browser:id/main_omnibox_input",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "de.baumann.browser",
+      "text": "https://ics.uci.edu/",
+      "bounds": [
+        [
+          56,
+          2196
+        ],
+        [
+          1160,
+          2392
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 386,
+      "temp_id": 387,
+      "size": "1104*196",
+      "signature": "[class]android.widget.EditText[resource_id]de.baumann.browser:id/main_omnibox_input[text]https://ics.uci.edu/[enabled,,]",
+      "view_str": "1a18c1aa02bc172bd8198134de184ae3",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]de.baumann.browser:id/main_omnibox_input"
+    },
+    "x": null,
+    "y": null,
+    "text": "https://uci.edu"
+  },
+  "start_state": "cc5135569e2f953fccbc945b9e62d4bc",
+  "stop_state": "dc174da9ebc74d8b2b95dd961d7e98bd",
+  "event_str": "SetTextEvent(state=cc5135569e2f953fccbc945b9e62d4bc, view=1a18c1aa02bc172bd8198134de184ae3(BrowserActivity/EditText-https://ic), text=https://uci.edu)"
+}

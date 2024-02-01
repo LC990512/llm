@@ -1,0 +1,51 @@
+{
+  "tag": "2024-01-31_232735",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.contextlogic.geek:id/create_account_fragment_password_text",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": true,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "com.contextlogic.geek",
+      "text": null,
+      "bounds": [
+        [
+          35,
+          856
+        ],
+        [
+          1405,
+          997
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 16,
+      "temp_id": 23,
+      "size": "1370*141",
+      "signature": "[class]android.widget.EditText[resource_id]com.contextlogic.geek:id/create_account_fragment_password_text[text]None[enabled,,]",
+      "view_str": "aefd4b69b92d2b530cfed837ba014e20",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.contextlogic.geek:id/create_account_fragment_password_text"
+    },
+    "x": null,
+    "y": null,
+    "text": "guiresearch1="
+  },
+  "start_state": "3c847560dd3fe01a2e05082357306a5e",
+  "stop_state": "3c847560dd3fe01a2e05082357306a5e",
+  "event_str": "SetTextEvent(state=3c847560dd3fe01a2e05082357306a5e, view=aefd4b69b92d2b530cfed837ba014e20(LoginActivity/EditText-), text=guiresearch1=)"
+}

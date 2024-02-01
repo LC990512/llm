@@ -1,0 +1,51 @@
+{
+  "tag": "2024-02-01_003557",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.etsy.android:id/edit_email",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "com.etsy.android",
+      "text": "Your Email",
+      "bounds": [
+        [
+          174,
+          892
+        ],
+        [
+          1266,
+          1024
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 11,
+      "temp_id": 17,
+      "size": "1092*132",
+      "signature": "[class]android.widget.EditText[resource_id]com.etsy.android:id/edit_email[text]Your Email[enabled,,]",
+      "view_str": "b13b163e3134ce383c8f344c6e63f6d9",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.etsy.android:id/edit_email"
+    },
+    "x": null,
+    "y": null,
+    "text": "temdroid@163.com"
+  },
+  "start_state": "21bb9213aa59b242fcdf0dae6f4df7f6",
+  "stop_state": "d6143306f1fa370d01d8a437df929ab0",
+  "event_str": "SetTextEvent(state=21bb9213aa59b242fcdf0dae6f4df7f6, view=b13b163e3134ce383c8f344c6e63f6d9(HomescreenTabsActivity/EditText-Your Email), text=temdroid@163.com)"
+}

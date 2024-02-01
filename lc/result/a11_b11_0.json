@@ -1,0 +1,150 @@
+[
+    {
+        "event_type": "kill_app",
+        "log_lines": null,
+        "prompt": null,
+        "stop_intent": "am force-stop acr.browser.lightning"
+    },
+    {
+        "event_type": "intent",
+        "log_lines": null,
+        "prompt": null,
+        "intent": "am start acr.browser.lightning/acr.browser.lightning.MainActivity"
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "search_submit",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.Button",
+            "children": [],
+            "child_count": 0,
+            "package": "acr.browser.lightning",
+            "text": "Search",
+            "bounds": [
+                [
+                    1151,
+                    1396
+                ],
+                [
+                    1372,
+                    1529
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 15,
+            "temp_id": 16,
+            "size": "221*133",
+            "signature": "[class]android.widget.Button[resource_id]search_submit[text]Search[enabled,,]",
+            "view_str": "33b47b3caa252814315b3f406cf5d729",
+            "content_free_signature": "[class]android.widget.Button[resource_id]search_submit"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "set_text",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "acr.browser.lightning:id/search",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "acr.browser.lightning",
+            "text": "Search",
+            "bounds": [
+                [
+                    203,
+                    112
+                ],
+                [
+                    1265,
+                    259
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 25,
+            "temp_id": 26,
+            "size": "1062*147",
+            "signature": "[class]android.widget.EditText[resource_id]acr.browser.lightning:id/search[text]Search[enabled,,]",
+            "view_str": "21977774601168901a46f94f7d3bb3fa",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]acr.browser.lightning:id/search"
+        },
+        "x": null,
+        "y": null,
+        "text": "https://www.ics.uci.edu"
+    },
+    {
+        "event_type": "oracle/in the state",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": true,
+            "long_clickable": false,
+            "resource_id": null,
+            "visible": true,
+            "enabled": true,
+            "clickable": false,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": true,
+            "class": "android.webkit.WebView",
+            "children": [
+                11
+            ],
+            "child_count": 1,
+            "package": "acr.browser.lightning",
+            "text": "Home - UC Irvine Donald Bren School of Information & Computer Sciences",
+            "bounds": [
+                [
+                    0,
+                    287
+                ],
+                [
+                    1445,
+                    2597
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 9,
+            "temp_id": 10,
+            "size": "1445*2310",
+            "signature": "[class]android.webkit.WebView[resource_id]None[text]None[enabled,,]",
+            "view_str": "e86359752e8b7acd7c2425082016ec0f",
+            "content_free_signature": "[class]android.webkit.WebView[resource_id]None"
+        },
+        "x": null,
+        "y": null,
+        "direction": "UP"
+    }
+]

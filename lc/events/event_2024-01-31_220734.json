@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-31_220734",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "package": "org.easyweb.browser",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          948,
+          99
+        ],
+        [
+          1058,
+          209
+        ]
+      ],
+      "resource_id": "org.easyweb.browser:id/search_go",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 43,
+      "temp_id": 47,
+      "size": "110*110",
+      "signature": "[class]android.widget.ImageView[resource_id]org.easyweb.browser:id/search_go[text]None[enabled,,]",
+      "view_str": "b9b2646c586434e26b7de13baf0b86dc",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.easyweb.browser:id/search_go"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "bc56487e1eb6fdd39ad5d13f685119fd",
+  "stop_state": "94010884e46f58f8c2500a5dc4ba3030",
+  "event_str": "TouchEvent(state=bc56487e1eb6fdd39ad5d13f685119fd, view=b9b2646c586434e26b7de13baf0b86dc(ActivityMain/ImageView-))"
+}

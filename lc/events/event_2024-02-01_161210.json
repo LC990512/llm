@@ -1,0 +1,51 @@
+{
+  "tag": "2024-02-01_161210",
+  "event": {
+    "event_type": "Clear",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.tleapps.simpletipcalculator:id/editTextSplit",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": true,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "com.tleapps.simpletipcalculator",
+      "text": "1",
+      "bounds": [
+        [
+          949,
+          931
+        ],
+        [
+          1280,
+          1079
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 46,
+      "temp_id": 50,
+      "size": "331*148",
+      "signature": "[class]android.widget.EditText[resource_id]com.tleapps.simpletipcalculator:id/editTextSplit[text]1[enabled,,]",
+      "view_str": "84f6d2a2ac43a7bb5176db723fc2f1b9",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.tleapps.simpletipcalculator:id/editTextSplit"
+    },
+    "x": null,
+    "y": null,
+    "text": ""
+  },
+  "start_state": "1ce445b79b68bc76e0f77253dbc895bf",
+  "stop_state": "33ffe0884111092234cab3573b0eab36",
+  "event_str": "SetTextEvent(state=1ce445b79b68bc76e0f77253dbc895bf, view=84f6d2a2ac43a7bb5176db723fc2f1b9(MainActivity/EditText-1), text=)"
+}

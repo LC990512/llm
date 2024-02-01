@@ -9,18 +9,6 @@ from droidbot import env_manager
 from droidbot import DroidBot
 from droidbot.droidmaster import DroidMaster
 
-category_dict = {
-    'abc':'news',
-    'buzzfeed':'news',
-    'fox':'news',  
-    'smartnews':'news',
-    'reuters':'news',
-    'etsy':'shopping',
-    'fivemiles':'shopping',
-    'geek':'shopping',
-    'home':'shopping',
-    'wish':'shopping'
-}
 
 function_dict = {
     'Account':'Account',
@@ -34,10 +22,27 @@ function_dict = {
     'Help':'Help',
     'Search':'Search something',
     'Terms':'Terms of use',
-    'TextSize':'change TextSize'
+    'TextSize':'change TextSize',
+    'b11':'Search something',
+    'b12':'Search something',
+    'b21':'visit to do list',
+    'b22':'visit to do list',
+    'b31':'sign up',
+    'b32':'sign in',
+    'b41':'reset password',
+    'b51':'caculate bill',
+    'b52':'caculate bill'
+
+}
+app_dict = {
+    'a11': 'browser'
 }
 
 example = {
+    'a31': {
+        'email': 'temdroid@163.com',
+        'password': ''
+    },
     'abc': {
         'email': '',
         'password': ''
@@ -142,8 +147,11 @@ def process_files(directory, filename):
     #pattern = re.compile(r'Test Step (\d+):\.\s*\((Event|Assertion)\)\s+(.+)')
 
     extracted_info = []
-    example_email = example[file_prefix]['email']
-    example_password = example[file_prefix]['password']
+    example_email = ""
+    example_password = ""
+    if file_prefix in example:
+        example_email = example[file_prefix]['email']
+        example_password = example[file_prefix]['password']
     with open(os.path.join(directory, filename), 'r') as file:
         for line in file:
             match = pattern.match(line)
@@ -224,7 +232,7 @@ def main():
     directory_path = "../step2/result_steps_text"
     file_list = sorted([f for f in os.listdir(directory_path) if f.endswith('.txt')])
     for filename in file_list:
-        if filename != "abc_Detail.txt":
+        if filename != "a53_b52.txt":
             continue
         extracted_info = process_files(directory_path, filename)
         for item in extracted_info:

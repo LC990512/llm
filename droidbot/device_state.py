@@ -444,7 +444,8 @@ class DeviceState(object):
 
         for view_id in enabled_view_ids:
             if self.__safe_dict_get(self.views[view_id], 'editable'):
-                possible_events.append(SetTextEvent(view=self.views[view_id], text="HelloWorld"))
+                #possible_events.append(SetTextEvent(view=self.views[view_id], text="HelloWorld"))
+                possible_events.append(SetTextEvent(view=self.views[view_id], text=""))
                 touch_exclude_view_ids.add(view_id)
                 # TODO figure out what event can be sent to editable views
                 pass
@@ -529,7 +530,9 @@ class DeviceState(object):
                 view_actions = []
                 if editable:
                     view_actions.append(f'edit ({len(available_actions)})')
-                    available_actions.append(SetTextEvent(view=view, text='HelloWorld'))
+                    #available_actions.append(SetTextEvent(view=view, text='HelloWorld'))                    
+                    available_actions.append(SetTextEvent(view=view, text=''))
+
                 # if long_clickable:
                 #     view_actions.append(f'long click ({len(available_actions)})')
                 #     available_actions.append(LongTouchEvent(view=view))
@@ -561,8 +564,9 @@ class DeviceState(object):
     def contains_jump(self, sentence):
         # 使用正则表达式搜索独立的单词
         # \b 是一个单词边界，确保 'me' 或 'my' 是独立的单词
+        #makeToDoFloatingActionButton_minimal
         p1 = bool("icon" in sentence)
-        p2 = bool("action" in sentence)
+        p2 = bool("action" in sentence and "actionbutton" not in sentence)
         p3 = bool("layout" in sentence)
         p4 = bool("viewgroup" in sentence)
         p5 = bool("imageview" in sentence)
@@ -610,7 +614,9 @@ class DeviceState(object):
                 resourse_id = self.__safe_dict_get(view, 'resource_id')
                 class_view = self.__safe_dict_get(view, 'class')
                 if resourse_id:
-                    resourse_id = resourse_id.split("/")[1].replace('_', ' ')
+                    if "/" in resourse_id:
+                        resourse_id = resourse_id.split("/")[1]
+                    resourse_id = resourse_id.replace('_', ' ')
                     if not self.contains_jump(resourse_id.lower()):
                         view_desc = f' to go "{resourse_id}"'
                 elif class_view:

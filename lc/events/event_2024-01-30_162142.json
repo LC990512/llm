@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-30_162142",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "douzifly.list:id/fab_add_reminder",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageButton",
+      "children": [],
+      "child_count": 0,
+      "package": "douzifly.list",
+      "text": null,
+      "bounds": [
+        [
+          35,
+          2133
+        ],
+        [
+          231,
+          2329
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 7,
+      "temp_id": 20,
+      "size": "196*196",
+      "signature": "[class]android.widget.ImageButton[resource_id]douzifly.list:id/fab_add_reminder[text]None[enabled,,]",
+      "view_str": "8d1ade37d4316a0dea978ee2f827d55d",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]douzifly.list:id/fab_add_reminder"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "fdc3bbf41e68c09deaea42a46555214c",
+  "stop_state": "9980cb36a3a245b06f92471511356d65",
+  "event_str": "TouchEvent(state=fdc3bbf41e68c09deaea42a46555214c, view=8d1ade37d4316a0dea978ee2f827d55d(MainActivity/ImageButton-))"
+}

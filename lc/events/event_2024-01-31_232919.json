@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-31_232919",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.Button",
+      "children": [],
+      "child_count": 0,
+      "package": "com.contextlogic.geek",
+      "text": "OK",
+      "bounds": [
+        [
+          192,
+          1252
+        ],
+        [
+          1248,
+          1420
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "1056*168",
+      "signature": "[class]android.widget.Button[resource_id]None[text]OK[enabled,,]",
+      "view_str": "e282a13ef4fb93ae6fad92052cec3583",
+      "content_free_signature": "[class]android.widget.Button[resource_id]None"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "92608585b17935a6a71bd0ca1ab95a42",
+  "stop_state": "ba587dac2a150e6e5f1b74648b158f25",
+  "event_str": "TouchEvent(state=92608585b17935a6a71bd0ca1ab95a42, view=e282a13ef4fb93ae6fad92052cec3583(LoginActivity/Button-OK))"
+}

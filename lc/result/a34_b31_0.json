@@ -1,0 +1,459 @@
+[
+    {
+        "event_type": "kill_app",
+        "log_lines": null,
+        "prompt": null,
+        "stop_intent": "am force-stop com.etsy.android"
+    },
+    {
+        "event_type": "intent",
+        "log_lines": null,
+        "prompt": null,
+        "intent": "am start com.etsy.android/com.etsy.android.ui.homescreen.HomescreenTabsActivity"
+    },
+    {
+        "event_type": "oracle/in the state",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "com.etsy.android:id/btn_link",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.Button",
+            "children": [],
+            "child_count": 0,
+            "package": "com.etsy.android",
+            "text": "Get Started",
+            "bounds": [
+                [
+                    451,
+                    1603
+                ],
+                [
+                    988,
+                    1778
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 22,
+            "temp_id": 25,
+            "size": "537*175",
+            "signature": "[class]android.widget.Button[resource_id]com.etsy.android:id/btn_link[text]Get Started[enabled,,]",
+            "view_str": "70d195556ee3bbc1b90e02ef79153f54",
+            "content_free_signature": "[class]android.widget.Button[resource_id]com.etsy.android:id/btn_link"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "com.etsy.android:id/btn_link",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.Button",
+            "children": [],
+            "child_count": 0,
+            "package": "com.etsy.android",
+            "text": "Get Started",
+            "bounds": [
+                [
+                    451,
+                    1603
+                ],
+                [
+                    988,
+                    1778
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 22,
+            "temp_id": 25,
+            "size": "537*175",
+            "signature": "[class]android.widget.Button[resource_id]com.etsy.android:id/btn_link[text]Get Started[enabled,,]",
+            "view_str": "70d195556ee3bbc1b90e02ef79153f54",
+            "content_free_signature": "[class]android.widget.Button[resource_id]com.etsy.android:id/btn_link"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "com.etsy.android:id/btn_register_dialog",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.Button",
+            "children": [],
+            "child_count": 0,
+            "package": "com.etsy.android",
+            "text": "Register",
+            "bounds": [
+                [
+                    286,
+                    1412
+                ],
+                [
+                    706,
+                    1580
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 12,
+            "temp_id": 13,
+            "size": "420*168",
+            "signature": "[class]android.widget.Button[resource_id]com.etsy.android:id/btn_register_dialog[text]Register[enabled,,]",
+            "view_str": "4e4c23f25871fef776eb83517601a972",
+            "content_free_signature": "[class]android.widget.Button[resource_id]com.etsy.android:id/btn_register_dialog"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "oracle/in the state",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "com.etsy.android:id/edit_email",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "com.etsy.android",
+            "text": "Your Email",
+            "bounds": [
+                [
+                    174,
+                    892
+                ],
+                [
+                    1266,
+                    1024
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 11,
+            "temp_id": 17,
+            "size": "1092*132",
+            "signature": "[class]android.widget.EditText[resource_id]com.etsy.android:id/edit_email[text]Your Email[enabled,,]",
+            "view_str": "b13b163e3134ce383c8f344c6e63f6d9",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.etsy.android:id/edit_email"
+        },
+        "x": null,
+        "y": null,
+        "text": ""
+    },
+    {
+        "event_type": "set_text",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "com.etsy.android:id/edit_email",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "com.etsy.android",
+            "text": "Your Email",
+            "bounds": [
+                [
+                    174,
+                    892
+                ],
+                [
+                    1266,
+                    1024
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 11,
+            "temp_id": 17,
+            "size": "1092*132",
+            "signature": "[class]android.widget.EditText[resource_id]com.etsy.android:id/edit_email[text]Your Email[enabled,,]",
+            "view_str": "b13b163e3134ce383c8f344c6e63f6d9",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.etsy.android:id/edit_email"
+        },
+        "x": null,
+        "y": null,
+        "text": "temdroid@163.com"
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "com.etsy.android:id/text_terms_of_use",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.TextView",
+            "children": [],
+            "child_count": 0,
+            "package": "com.etsy.android",
+            "text": "By registering, you confirm that you accept our Terms of Use and Privacy Policy.",
+            "bounds": [
+                [
+                    174,
+                    1744
+                ],
+                [
+                    1266,
+                    1848
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 11,
+            "temp_id": 24,
+            "size": "1092*104",
+            "signature": "[class]android.widget.TextView[resource_id]com.etsy.android:id/text_terms_of_use[text]None[enabled,,]",
+            "view_str": "45312abca54ee1e07d2b9e36f0ed2b5f",
+            "content_free_signature": "[class]android.widget.TextView[resource_id]com.etsy.android:id/text_terms_of_use"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "set_text",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "com.etsy.android:id/edit_register_password",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": true,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "com.etsy.android",
+            "text": null,
+            "bounds": [
+                [
+                    174,
+                    1339
+                ],
+                [
+                    692,
+                    1471
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 20,
+            "temp_id": 21,
+            "size": "518*132",
+            "signature": "[class]android.widget.EditText[resource_id]com.etsy.android:id/edit_register_password[text]None[enabled,,]",
+            "view_str": "288eb79fc034ed31ea85d9b76c5133a0",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.etsy.android:id/edit_register_password"
+        },
+        "x": null,
+        "y": null,
+        "text": "guiresearch1="
+    },
+    {
+        "event_type": "set_text",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "com.etsy.android:id/edit_last_name",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "com.etsy.android",
+            "text": "Last Name",
+            "bounds": [
+                [
+                    748,
+                    633
+                ],
+                [
+                    1266,
+                    765
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 13,
+            "temp_id": 15,
+            "size": "518*132",
+            "signature": "[class]android.widget.EditText[resource_id]com.etsy.android:id/edit_last_name[text]Last Name[enabled,,]",
+            "view_str": "6265f821c979ef8061c830bbe0ba379d",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.etsy.android:id/edit_last_name"
+        },
+        "x": null,
+        "y": null,
+        "text": "smith"
+    },
+    {
+        "event_type": "set_text",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "com.etsy.android:id/edit_first_name",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "com.etsy.android",
+            "text": "First Name",
+            "bounds": [
+                [
+                    174,
+                    633
+                ],
+                [
+                    692,
+                    765
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 13,
+            "temp_id": 14,
+            "size": "518*132",
+            "signature": "[class]android.widget.EditText[resource_id]com.etsy.android:id/edit_first_name[text]First Name[enabled,,]",
+            "view_str": "8785e1617877c8d1b6a1c045496ea956",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.etsy.android:id/edit_first_name"
+        },
+        "x": null,
+        "y": null,
+        "text": "alice"
+    },
+    {
+        "event_type": "oracle/in the state",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "com.etsy.android:id/button_register",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.Button",
+            "children": [],
+            "child_count": 0,
+            "package": "com.etsy.android",
+            "text": "Register",
+            "bounds": [
+                [
+                    174,
+                    1527
+                ],
+                [
+                    1266,
+                    1702
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 11,
+            "temp_id": 23,
+            "size": "1092*175",
+            "signature": "[class]android.widget.Button[resource_id]com.etsy.android:id/button_register[text]Register[enabled,,]",
+            "view_str": "b2d804a6f51b7e0e1004a0b82d8401bb",
+            "content_free_signature": "[class]android.widget.Button[resource_id]com.etsy.android:id/button_register"
+        },
+        "x": null,
+        "y": null
+    }
+]

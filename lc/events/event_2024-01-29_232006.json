@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-29_232006",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "org.mozilla.focus:id/display_url",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "org.mozilla.focus",
+      "text": "https://ics.uci.edu/",
+      "bounds": [
+        [
+          175,
+          84
+        ],
+        [
+          1230,
+          280
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 12,
+      "temp_id": 14,
+      "size": "1055*196",
+      "signature": "[class]android.widget.TextView[resource_id]org.mozilla.focus:id/display_url[text]https://ics.uci.edu/[enabled,,]",
+      "view_str": "949f2c97b2cab1fe963585aafde49e77",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.mozilla.focus:id/display_url"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "996bdd4810299d523290ab3764527ce0",
+  "stop_state": "6573f51550455046db6376549c8ba421",
+  "event_str": "TouchEvent(state=996bdd4810299d523290ab3764527ce0, view=949f2c97b2cab1fe963585aafde49e77(MainActivity/TextView-https://ic))"
+}

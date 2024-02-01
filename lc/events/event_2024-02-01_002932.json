@@ -1,0 +1,51 @@
+{
+  "tag": "2024-02-01_002932",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.contextlogic.wish:id/create_account_fragment_last_name_text",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "com.contextlogic.wish",
+      "text": "Last Name",
+      "bounds": [
+        [
+          734,
+          875
+        ],
+        [
+          1384,
+          1015
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 27,
+      "temp_id": 29,
+      "size": "650*140",
+      "signature": "[class]android.widget.EditText[resource_id]com.contextlogic.wish:id/create_account_fragment_last_name_text[text]Last Name[enabled,,]",
+      "view_str": "4cec86f74c23d612a37c091d12f5959a",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.contextlogic.wish:id/create_account_fragment_last_name_text"
+    },
+    "x": null,
+    "y": null,
+    "text": "smith"
+  },
+  "start_state": "c9609bec95f41afcd34b631382f21994",
+  "stop_state": "5a2166a04b253b46cd8c14b4176099cb",
+  "event_str": "SetTextEvent(state=c9609bec95f41afcd34b631382f21994, view=4cec86f74c23d612a37c091d12f5959a(CreateAccountActivity/EditText-Last Name), text=smith)"
+}

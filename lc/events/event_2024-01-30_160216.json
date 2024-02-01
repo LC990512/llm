@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-30_160216",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.rubenroy.minimaltodo:id/makeToDoFloatingActionButton",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": true,
+      "class": "android.widget.ImageButton",
+      "children": [],
+      "child_count": 0,
+      "package": "com.rubenroy.minimaltodo",
+      "text": null,
+      "bounds": [
+        [
+          1188,
+          710
+        ],
+        [
+          1384,
+          906
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 9,
+      "temp_id": 19,
+      "size": "196*196",
+      "signature": "[class]android.widget.ImageButton[resource_id]com.rubenroy.minimaltodo:id/makeToDoFloatingActionButton[text]None[enabled,,]",
+      "view_str": "5a8adde9b53e5c93717451e08a49a66e",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]com.rubenroy.minimaltodo:id/makeToDoFloatingActionButton"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "d420c850e2f385a86022ebb380911427",
+  "stop_state": "722c2a316a1e793a7f37a1426093b84a",
+  "event_str": "TouchEvent(state=d420c850e2f385a86022ebb380911427, view=5a8adde9b53e5c93717451e08a49a66e(AddToDoActivity/ImageButton-))"
+}

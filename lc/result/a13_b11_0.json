@@ -1,0 +1,108 @@
+[
+    {
+        "event_type": "kill_app",
+        "log_lines": null,
+        "prompt": null,
+        "stop_intent": "am force-stop com.stoutner.privacybrowser.standard"
+    },
+    {
+        "event_type": "intent",
+        "log_lines": null,
+        "prompt": null,
+        "intent": "am start com.stoutner.privacybrowser.standard/com.stoutner.privacybrowser.activities.MainWebViewActivity"
+    },
+    {
+        "event_type": "set_text",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "com.stoutner.privacybrowser.standard:id/url_edittext",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "com.stoutner.privacybrowser.standard",
+            "text": "https://duckduckgo.com/?kao=-1&kak=-1",
+            "bounds": [
+                [
+                    357,
+                    103
+                ],
+                [
+                    1125,
+                    261
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 12,
+            "temp_id": 14,
+            "size": "768*158",
+            "signature": "[class]android.widget.EditText[resource_id]com.stoutner.privacybrowser.standard:id/url_edittext[text]https://duckduckgo.com/?kao=-1&kak=-1[enabled,,]",
+            "view_str": "fc679c5c65d416cc4a456fcb1fd1800d",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.stoutner.privacybrowser.standard:id/url_edittext"
+        },
+        "x": null,
+        "y": null,
+        "text": "https://www.ics.uci.edu"
+    },
+    {
+        "event_type": "oracle/in the state",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": true,
+            "long_clickable": false,
+            "resource_id": null,
+            "visible": true,
+            "enabled": true,
+            "clickable": false,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": true,
+            "class": "android.webkit.WebView",
+            "children": [
+                22,
+                38,
+                197
+            ],
+            "child_count": 3,
+            "package": "com.stoutner.privacybrowser.standard",
+            "text": "Home - UC Irvine Donald Bren School of Information & Computer Sciences",
+            "bounds": [
+                [
+                    0,
+                    280
+                ],
+                [
+                    1445,
+                    2394
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 20,
+            "temp_id": 21,
+            "size": "1445*2114",
+            "signature": "[class]android.webkit.WebView[resource_id]None[text]None[enabled,,]",
+            "view_str": "ca21ae8fe5c8ee6b7992593cf614ab64",
+            "content_free_signature": "[class]android.webkit.WebView[resource_id]None"
+        },
+        "x": null,
+        "y": null,
+        "direction": "UP"
+    }
+]

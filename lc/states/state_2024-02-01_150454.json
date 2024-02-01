@@ -1,0 +1,1194 @@
+{
+  "tag": "2024-02-01_150454",
+  "state_str": "dfae7217638a3a704c43ef887d096a30",
+  "state_str_content_free": "82b9d40071eee8574b806ac7a0fca101",
+  "foreground_activity": "com.appsbyvir.tipcalculator/.MainActivity",
+  "activity_stack": [
+    "com.appsbyvir.tipcalculator/.MainActivity"
+  ],
+  "background_services": [
+    "com.android.bluetooth/.hid.HidService",
+    "com.google.android.apps.messaging/com.google.android.ims.service.JibeService",
+    "com.huawei.callstatisticsutils/.CallStatisticsService",
+    "org.codeaurora.ims/.ImsService",
+    "com.google.android.gms/.nearby.sharing.ReceiveSurfaceService",
+    "com.google.android.gms/.deviceconnection.service.DeviceConnectionWatcherService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.google.android.gms/.measurement.service.MeasurementBrokerService",
+    "com.android.bluetooth/.btservice.AdapterService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.google.android.inputmethod.latin/com.android.inputmethod.latin.spellcheck.AndroidSpellCheckerService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.auth.proximity.firstparty.SystemMemoryCacheService",
+    "com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps",
+    "com.google.android.gms/.stats.eastworld.EastworldService",
+    "com.google.android.gms/.chimera.PersistentApiService",
+    "com.google.android.gms/.location.geocode.GeocodeService",
+    "com.android.bluetooth/.gatt.GattService",
+    "com.android.bluetooth/.hdp.HealthService",
+    "com.google.android.gms/.chimera.GmsBoundBrokerService",
+    "com.android.bluetooth/.sap.SapService",
+    "com.fsck.k9/.service.PushService",
+    "com.google.android.gms/.fido.fido2.pollux.CableAuthenticatorService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "com.google.android.gms/.nearby.sharing.SendSurfaceService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.android.bluetooth/.pbap.BluetoothPbapService",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.android.bluetooth/.a2dp.A2dpService",
+    "com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService",
+    "com.qualcomm.cabl/.CABLService",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.android.chrome/org.chromium.content.app.SandboxedProcessService0",
+    "com.android.systemui/.SystemUIService",
+    "com.android.chrome/org.chromium.content.app.PrivilegedProcessService0",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.huawei.sarcontrolservice/.SarControlService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.android.server.telecom/.components.BluetoothPhoneService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.search.core.service.SearchService",
+    "com.google.android.gms/.fido.authenticator.service.AuthenticatorService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService",
+    "com.android.providers.media/.MtpService",
+    "com.android.bluetooth/.hfp.HeadsetService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.my.mail/ru.mail.auth.AuthenticationService",
+    "com.getsurfboard/.ui.service.SurfboardVpn",
+    "android/com.android.internal.backup.LocalTransportService",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/.auth.account.authenticator.GoogleAccountAuthenticatorService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.android.bluetooth/.map.BluetoothMapService",
+    "com.google.android.gms/.personalsafety.service.PersonalSafetyService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.android.bluetooth/.opp.BluetoothOppService",
+    "com.android.bluetooth/.pan.PanService",
+    "com.google.android.gms/.backup.BackupTransportService",
+    "com.thomsonreuters.reuters/com.chartbeat.androidsdk.ChartbeatService"
+  ],
+  "width": 1440,
+  "height": 2560,
+  "views": [
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        1
+      ],
+      "child_count": 1,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1440*2392",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "dba869975e2e1faab5b528c05a6181d4",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/decor_content_parent",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.ViewGroup",
+      "children": [
+        2,
+        10
+      ],
+      "child_count": 2,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1440*2392",
+      "signature": "[class]android.view.ViewGroup[resource_id]android:id/decor_content_parent[text]None[enabled,,]",
+      "view_str": "86137e61f0e4235f09feb9177d193586",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]android:id/decor_content_parent"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/action_bar_container",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        3
+      ],
+      "child_count": 1,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          84
+        ],
+        [
+          1440,
+          252
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1440*168",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/action_bar_container[text]None[enabled,,]",
+      "view_str": "5a4170b6499d96924c847a1551f6307c",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/action_bar_container"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/action_bar",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.view.ViewGroup",
+      "children": [
+        4,
+        9
+      ],
+      "child_count": 2,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          84
+        ],
+        [
+          1440,
+          252
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1440*168",
+      "signature": "[class]android.view.ViewGroup[resource_id]android:id/action_bar[text]None[enabled,,]",
+      "view_str": "220d50b9b5c7be17b75522910721f773",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]android:id/action_bar"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": false,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        5,
+        7
+      ],
+      "child_count": 2,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": null,
+      "bounds": [
+        [
+          29,
+          84
+        ],
+        [
+          585,
+          252
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "556*168",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[,,]",
+      "view_str": "6fb12df225b4b878cc0f2438971787ac",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        6
+      ],
+      "child_count": 1,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": null,
+      "bounds": [
+        [
+          29,
+          84
+        ],
+        [
+          169,
+          252
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "140*168",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "b07bf85158fd28f7b462517111a02fa6",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/home",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ImageView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": null,
+      "bounds": [
+        [
+          43,
+          112
+        ],
+        [
+          155,
+          224
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "112*112",
+      "signature": "[class]android.widget.ImageView[resource_id]android:id/home[text]None[enabled,,]",
+      "view_str": "58e8aadf255d67fb65f961a7d8da2b91",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]android:id/home"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [
+        8
+      ],
+      "child_count": 1,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": null,
+      "bounds": [
+        [
+          169,
+          125
+        ],
+        [
+          585,
+          210
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 4,
+      "temp_id": 7,
+      "size": "416*85",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "feb858910fba862621d19d6caf981e23",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/action_bar_title",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": "Tip Calculator",
+      "bounds": [
+        [
+          169,
+          125
+        ],
+        [
+          557,
+          210
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "388*85",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/action_bar_title[text]Tip Calculator[enabled,,]",
+      "view_str": "afc8e1d6dcf6ca916c33128e7b204984",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/action_bar_title"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": false,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.LinearLayout",
+      "children": [],
+      "child_count": 0,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": null,
+      "bounds": [
+        [
+          1440,
+          84
+        ],
+        [
+          1440,
+          252
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 3,
+      "temp_id": 9,
+      "size": "0*168",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "2cad15b96117ebf45fc44b1cfe939ace",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "android:id/content",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.FrameLayout",
+      "children": [
+        11,
+        28
+      ],
+      "child_count": 2,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          252
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 1,
+      "temp_id": 10,
+      "size": "1440*2140",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text]None[enabled,,]",
+      "view_str": "401a350b4c6e80dc36870b26f51b8b1e",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.ScrollView",
+      "children": [
+        12
+      ],
+      "child_count": 1,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          252
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "1440*2140",
+      "signature": "[class]android.widget.ScrollView[resource_id]None[text]None[enabled,,]",
+      "view_str": "14c0221161e78ae1a4b3979da481d228",
+      "content_free_signature": "[class]android.widget.ScrollView[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "child_count": 15,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          252
+        ],
+        [
+          1440,
+          2392
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "1440*2140",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "1f892b4eb62084be4ea4e66b722f16da",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]None"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.appsbyvir.tipcalculator:id/billTextView",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": "Bill",
+      "bounds": [
+        [
+          60,
+          323
+        ],
+        [
+          165,
+          426
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "105*103",
+      "signature": "[class]android.widget.TextView[resource_id]com.appsbyvir.tipcalculator:id/billTextView[text]Bill[enabled,,]",
+      "view_str": "f2fa1b5fc235608ef5ea9358e90ed0a4",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.appsbyvir.tipcalculator:id/billTextView"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.appsbyvir.tipcalculator:id/billEditText",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": null,
+      "bounds": [
+        [
+          930,
+          270
+        ],
+        [
+          1380,
+          426
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 12,
+      "temp_id": 14,
+      "size": "450*156",
+      "signature": "[class]android.widget.EditText[resource_id]com.appsbyvir.tipcalculator:id/billEditText[text]None[enabled,,]",
+      "view_str": "42509d29d1b8c52285ded78e8e22677f",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.appsbyvir.tipcalculator:id/billEditText"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.appsbyvir.tipcalculator:id/tipTextView",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": "Tip %",
+      "bounds": [
+        [
+          60,
+          489
+        ],
+        [
+          243,
+          592
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 12,
+      "temp_id": 15,
+      "size": "183*103",
+      "signature": "[class]android.widget.TextView[resource_id]com.appsbyvir.tipcalculator:id/tipTextView[text]Tip %[enabled,,]",
+      "view_str": "cdfd70e8d20d4dae5c5f6aea3ec09ade",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.appsbyvir.tipcalculator:id/tipTextView"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.appsbyvir.tipcalculator:id/tipEditText",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": "15.0",
+      "bounds": [
+        [
+          930,
+          464
+        ],
+        [
+          1380,
+          620
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 12,
+      "temp_id": 16,
+      "size": "450*156",
+      "signature": "[class]android.widget.EditText[resource_id]com.appsbyvir.tipcalculator:id/tipEditText[text]15.0[enabled,,]",
+      "view_str": "77a0302f36c00acb20b98c0291ae29f7",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.appsbyvir.tipcalculator:id/tipEditText"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.appsbyvir.tipcalculator:id/changeTipSeekBar",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.SeekBar",
+      "children": [],
+      "child_count": 0,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": null,
+      "bounds": [
+        [
+          4,
+          697
+        ],
+        [
+          1436,
+          809
+        ]
+      ],
+      "editable": false,
+      "focusable": true,
+      "parent": 12,
+      "temp_id": 17,
+      "size": "1432*112",
+      "signature": "[class]android.widget.SeekBar[resource_id]com.appsbyvir.tipcalculator:id/changeTipSeekBar[text]None[enabled,,]",
+      "view_str": "3e99d8751e33a3b402c8834b87ad3919",
+      "content_free_signature": "[class]android.widget.SeekBar[resource_id]com.appsbyvir.tipcalculator:id/changeTipSeekBar"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.appsbyvir.tipcalculator:id/splitBillTextView",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": "Split Bill",
+      "bounds": [
+        [
+          60,
+          900
+        ],
+        [
+          336,
+          1003
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 12,
+      "temp_id": 18,
+      "size": "276*103",
+      "signature": "[class]android.widget.TextView[resource_id]com.appsbyvir.tipcalculator:id/splitBillTextView[text]Split Bill[enabled,,]",
+      "view_str": "c80fdb57d53d2fd8f887f9f9a5bc0f47",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.appsbyvir.tipcalculator:id/splitBillTextView"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.appsbyvir.tipcalculator:id/splitBillEditText",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": true,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": "# of ways",
+      "bounds": [
+        [
+          930,
+          847
+        ],
+        [
+          1380,
+          1003
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 12,
+      "temp_id": 19,
+      "size": "450*156",
+      "signature": "[class]android.widget.EditText[resource_id]com.appsbyvir.tipcalculator:id/splitBillEditText[text]# of ways[enabled,,]",
+      "view_str": "6e62d561ba0248762a8d4238c9bac85b",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.appsbyvir.tipcalculator:id/splitBillEditText"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.appsbyvir.tipcalculator:id/finalBillTextView",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": "Final Bill: Verified by Vir",
+      "bounds": [
+        [
+          60,
+          1115
+        ],
+        [
+          858,
+          1218
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 12,
+      "temp_id": 20,
+      "size": "798*103",
+      "signature": "[class]android.widget.TextView[resource_id]com.appsbyvir.tipcalculator:id/finalBillTextView[text]Final Bill: Verified by Vir[enabled,,]",
+      "view_str": "c8ffe1358750a942193b464474f18b67",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.appsbyvir.tipcalculator:id/finalBillTextView"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.appsbyvir.tipcalculator:id/finalTipTextView",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": "Tip:",
+      "bounds": [
+        [
+          60,
+          1295
+        ],
+        [
+          187,
+          1398
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 12,
+      "temp_id": 21,
+      "size": "127*103",
+      "signature": "[class]android.widget.TextView[resource_id]com.appsbyvir.tipcalculator:id/finalTipTextView[text]Tip:[enabled,,]",
+      "view_str": "0a11cd0b9abb4debb74ee17ff643ec06",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.appsbyvir.tipcalculator:id/finalTipTextView"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.appsbyvir.tipcalculator:id/finalTipEditText",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": "0.0",
+      "bounds": [
+        [
+          930,
+          1242
+        ],
+        [
+          1380,
+          1398
+        ]
+      ],
+      "editable": true,
+      "focusable": false,
+      "parent": 12,
+      "temp_id": 22,
+      "size": "450*156",
+      "signature": "[class]android.widget.EditText[resource_id]com.appsbyvir.tipcalculator:id/finalTipEditText[text]0.0[enabled,,]",
+      "view_str": "4bfea38109f0388223d01287f33f1992",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.appsbyvir.tipcalculator:id/finalTipEditText"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.appsbyvir.tipcalculator:id/finalTextView",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": "Total:",
+      "bounds": [
+        [
+          60,
+          1461
+        ],
+        [
+          251,
+          1564
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 12,
+      "temp_id": 23,
+      "size": "191*103",
+      "signature": "[class]android.widget.TextView[resource_id]com.appsbyvir.tipcalculator:id/finalTextView[text]Total:[enabled,,]",
+      "view_str": "f4756c7e4565ac5ed4c60c4804365e7f",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.appsbyvir.tipcalculator:id/finalTextView"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.appsbyvir.tipcalculator:id/finalBillEditText",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": "0.0",
+      "bounds": [
+        [
+          930,
+          1408
+        ],
+        [
+          1380,
+          1564
+        ]
+      ],
+      "editable": true,
+      "focusable": false,
+      "parent": 12,
+      "temp_id": 24,
+      "size": "450*156",
+      "signature": "[class]android.widget.EditText[resource_id]com.appsbyvir.tipcalculator:id/finalBillEditText[text]0.0[enabled,,]",
+      "view_str": "5b9c03ed63dbed9f7fb3d6ea91e86230",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.appsbyvir.tipcalculator:id/finalBillEditText"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.appsbyvir.tipcalculator:id/perPersonTextView",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": "Per Person:",
+      "bounds": [
+        [
+          60,
+          1627
+        ],
+        [
+          456,
+          1730
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 12,
+      "temp_id": 25,
+      "size": "396*103",
+      "signature": "[class]android.widget.TextView[resource_id]com.appsbyvir.tipcalculator:id/perPersonTextView[text]Per Person:[enabled,,]",
+      "view_str": "c94792da6606a09689ade565439c18e0",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.appsbyvir.tipcalculator:id/perPersonTextView"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "com.appsbyvir.tipcalculator:id/perPersonEditText",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": "0.0",
+      "bounds": [
+        [
+          930,
+          1574
+        ],
+        [
+          1380,
+          1730
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 12,
+      "temp_id": 26,
+      "size": "450*156",
+      "signature": "[class]android.widget.EditText[resource_id]com.appsbyvir.tipcalculator:id/perPersonEditText[text]0.0[enabled,,]",
+      "view_str": "ab97b6166c9cf8aca95d04e3933d608c",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.appsbyvir.tipcalculator:id/perPersonEditText"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.appsbyvir.tipcalculator:id/signoffTextView",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": "Thanks for tipping your waiter/waitress!",
+      "bounds": [
+        [
+          445,
+          1797
+        ],
+        [
+          1380,
+          1868
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 12,
+      "temp_id": 27,
+      "size": "935*71",
+      "signature": "[class]android.widget.TextView[resource_id]com.appsbyvir.tipcalculator:id/signoffTextView[text]Thanks for tipping your waiter/waitress![enabled,,]",
+      "view_str": "b7556f3fdedd04d46b1b98609bae6533",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.appsbyvir.tipcalculator:id/signoffTextView"
+    },
+    {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": null,
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.RelativeLayout",
+      "children": [],
+      "child_count": 0,
+      "package": "com.appsbyvir.tipcalculator",
+      "text": null,
+      "bounds": [
+        [
+          0,
+          252
+        ],
+        [
+          1440,
+          325
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 10,
+      "temp_id": 28,
+      "size": "1440*73",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "74fba108a253657d5916d2c37011b5de",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]None"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "tag": "2024-01-31_225445",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "package": "de.baumann.browser",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": true,
+      "bounds": [
+        [
+          183,
+          151
+        ],
+        [
+          1058,
+          250
+        ]
+      ],
+      "resource_id": "android:id/search_src_text",
+      "checked": false,
+      "text": "   Search",
+      "class": "android.widget.AutoCompleteTextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "875*99",
+      "signature": "[class]android.widget.AutoCompleteTextView[resource_id]android:id/search_src_text[text]   Search[enabled,,]",
+      "view_str": "aef177ebe0c3842bd498872e73229e8c",
+      "content_free_signature": "[class]android.widget.AutoCompleteTextView[resource_id]android:id/search_src_text"
+    },
+    "x": null,
+    "y": null,
+    "text": "https://www.ics.uci.edu"
+  },
+  "start_state": "ac5add6b2aac977da7c64d4a2014e7d1",
+  "stop_state": "ac5add6b2aac977da7c64d4a2014e7d1",
+  "event_str": "SetTextEvent(state=ac5add6b2aac977da7c64d4a2014e7d1, view=aef177ebe0c3842bd498872e73229e8c(BrowserActivity/AutoCompleteTextView-   Search), text=https://www.ics.uci.edu)"
+}

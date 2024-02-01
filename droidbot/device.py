@@ -18,6 +18,7 @@ from .intent import Intent
 
 DEFAULT_NUM = '1234567890'
 DEFAULT_CONTENT = 'Hello world!'
+DEFAULT_CONTENT = ''
 
 
 class Device(object):
@@ -505,6 +506,8 @@ class Device(object):
         """
         r = self.adb.shell("dumpsys activity activities")
         activity_line_re = re.compile('\* Hist #\d+: ActivityRecord{[^ ]+ [^ ]+ ([^ ]+) t(\d+)}')
+        #lccc sdk 32
+        activity_line_re = re.compile(r'ActivityRecord\{[^ ]+ u0 ([^ ]+) t\d+\}')
         m = activity_line_re.search(r)
         if m:
             return m.group(1)
@@ -523,6 +526,7 @@ class Device(object):
         """
         task_to_activities = self.get_task_activities()
         top_activity = self.get_top_activity_name()
+
         if top_activity:
             for task_id in task_to_activities:
                 activities = task_to_activities[task_id]
@@ -542,6 +546,30 @@ class Device(object):
 
         lines = self.adb.shell("dumpsys activity activities").splitlines()
         activity_line_re = re.compile('\* Hist #\d+: ActivityRecord{[^ ]+ [^ ]+ ([^ ]+) t(\d+)}')
+        #lccc sdk 32
+        # task_re = re.compile(r'\* Task\{[a-zA-Z0-9]+ #(\d+)')
+        # activity_line_re = re.compile(r'\* Hist\s+#(\d+): ActivityRecord\{[^ ]+ u0 ([^ ]+) t(\d+)\}')
+        # current_task_id = None
+        # for line in lines:
+        #     line = line.strip()
+        #     task_match = task_re.match(line)
+        #     activity_match = activity_line_re.match(line)
+
+        #     # 如果遇到新的任务描述，则更新当前任务 ID
+        #     if task_match:
+        #         current_task_id = int(task_match.group(1))
+        #         if current_task_id not in task_to_activities:
+        #             task_to_activities[current_task_id] = []
+
+        #     # 如果当前行描述了一个活动，并且我们已经确定了任务 ID
+        #     if activity_match and current_task_id:
+        #         activity = activity_match.group(2)
+        #         task_id_from_activity = int(activity_match.group(3))
+        #         if task_id_from_activity == current_task_id:
+        #             task_to_activities[current_task_id].append(activity)
+    
+        # return task_to_activities
+
 
         for line in lines:
             line = line.strip()
@@ -723,7 +751,7 @@ class Device(object):
         ps_out_lines = ps_out.splitlines()
         ps_out_head = ps_out_lines[0].split()
         if ps_out_head[1] != "PID" or ps_out_head[-1] != "NAME":
-            self.logger.warning("ps command output format error lccc: %s" % ps_out_head)
+            self.logger.warning("ps command output format error: %s" % ps_out_head)
         for ps_out_line in ps_out_lines[1:]:
             segs = ps_out_line.split()
             if len(segs) < 4:
@@ -753,6 +781,8 @@ class Device(object):
         """
         if not os.path.exists(local_file):
             self.logger.warning("push_file file does not exist: %s" % local_file)
+        
+        print(f"lccc {local_file} {remote_dir}")
         self.adb.run_cmd(["push", local_file, remote_dir])
 
     def pull_file(self, remote_file, local_file):

@@ -1,0 +1,12 @@
+{
+  "tag": "2024-01-31_203729",
+  "event": {
+    "event_type": "kill_app",
+    "log_lines": null,
+    "prompt": null,
+    "stop_intent": "am force-stop org.easyweb.browser"
+  },
+  "start_state": "b4bc7b8aa98d67140c176c794980b2f2",
+  "stop_state": "b4bc7b8aa98d67140c176c794980b2f2",
+  "event_str": "KillAppEvent()"
+}

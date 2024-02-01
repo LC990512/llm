@@ -1,0 +1,40 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        225ce0f com.tleapps.simpletipcalculator/.MainActivity
+
+Key Set Manager:
+  [com.tleapps.simpletipcalculator]
+      Signing KeySets: 113
+
+Packages:
+  Package [com.tleapps.simpletipcalculator] (d7b7e9c):
+    userId=10174
+    pkg=Package{6d0a0a5 com.tleapps.simpletipcalculator}
+    codePath=/data/app/com.tleapps.simpletipcalculator-1
+    resourcePath=/data/app/com.tleapps.simpletipcalculator-1
+    legacyNativeLibraryDir=/data/app/com.tleapps.simpletipcalculator-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=3 targetSdk=26
+    versionName=1.2
+    splits=[base]
+    applicationInfo=ApplicationInfo{c64dc7a com.tleapps.simpletipcalculator}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    dataDir=/data/user/0/com.tleapps.simpletipcalculator
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2024-01-28 20:26:51
+    firstInstallTime=2024-01-28 20:27:00
+    lastUpdateTime=2024-01-28 20:27:00
+    signatures=PackageSignatures{27b3c2b [f0fe888]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+    install permissions:
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+    User 0:  installed=true hidden=false stopped=false notLaunched=false enabled=0
+      gids=[3003]
+      runtime permissions:

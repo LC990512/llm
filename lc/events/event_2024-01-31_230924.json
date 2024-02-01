@@ -1,0 +1,51 @@
+{
+  "tag": "2024-01-31_230924",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "de.baumann.browser:id/main_omnibox_input",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "de.baumann.browser",
+      "text": "Search or type URL",
+      "bounds": [
+        [
+          56,
+          2196
+        ],
+        [
+          1160,
+          2392
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 26,
+      "temp_id": 27,
+      "size": "1104*196",
+      "signature": "[class]android.widget.EditText[resource_id]de.baumann.browser:id/main_omnibox_input[text]Search or type URL[enabled,,]",
+      "view_str": "d6a9839bb4225ee3d81296de26f8d135",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]de.baumann.browser:id/main_omnibox_input"
+    },
+    "x": null,
+    "y": null,
+    "text": ""
+  },
+  "start_state": "3de88444148783bcaa98570d6a374ea1",
+  "stop_state": "dc174da9ebc74d8b2b95dd961d7e98bd",
+  "event_str": "SetTextEvent(state=3de88444148783bcaa98570d6a374ea1, view=d6a9839bb4225ee3d81296de26f8d135(BrowserActivity/EditText-Search or ), text=)"
+}

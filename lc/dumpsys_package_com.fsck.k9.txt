@@ -1,0 +1,176 @@
+Activity Resolver Table:
+  Full MIME Types:
+      */*:
+        8c12d6c com.fsck.k9/.activity.MessageCompose (2 filters)
+
+  Wild MIME Types:
+      *:
+        8c12d6c com.fsck.k9/.activity.MessageCompose (2 filters)
+
+  Schemes:
+      mailto:
+        8c12d6c com.fsck.k9/.activity.MessageCompose (2 filters)
+      email:
+        39f6f35 com.fsck.k9/.activity.MessageList
+
+  Non-Data Actions:
+      org.autocrypt.PEER_ACTION:
+        8c12d6c com.fsck.k9/.activity.MessageCompose
+      android.intent.action.MAIN:
+        2b0953b com.fsck.k9/.activity.FolderList
+        39f6f35 com.fsck.k9/.activity.MessageList
+        6c2afca com.fsck.k9/.activity.Accounts
+      android.appwidget.action.APPWIDGET_CONFIGURE:
+        949b458 com.fsck.k9/.activity.UnreadWidgetConfiguration
+      android.intent.action.CREATE_SHORTCUT:
+        d64c9b1 com.fsck.k9/.activity.LauncherShortcuts
+      android.intent.action.SEARCH:
+        943fe96 com.fsck.k9/.activity.Search
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        8c12d6c com.fsck.k9/.activity.MessageCompose
+      android.intent.action.SEND_MULTIPLE:
+        8c12d6c com.fsck.k9/.activity.MessageCompose
+
+Receiver Resolver Table:
+  Schemes:
+      file:
+        7894a17 com.fsck.k9/.service.StorageReceiver
+
+  Non-Data Actions:
+      com.fsck.k9.K9RemoteControl.requestAccounts:
+        ed1be04 com.fsck.k9/.service.RemoteControlReceiver
+      android.intent.action.DEVICE_STORAGE_LOW:
+        24b4fed com.fsck.k9/.service.BootReceiver
+      android.net.conn.CONNECTIVITY_CHANGE:
+        24b4fed com.fsck.k9/.service.BootReceiver
+      android.intent.action.DEVICE_STORAGE_OK:
+        24b4fed com.fsck.k9/.service.BootReceiver
+      android.net.conn.BACKGROUND_DATA_SETTING_CHANGED:
+        24b4fed com.fsck.k9/.service.BootReceiver
+      android.intent.action.BOOT_COMPLETED:
+        24b4fed com.fsck.k9/.service.BootReceiver
+      android.appwidget.action.APPWIDGET_UPDATE:
+        ce70b3 com.fsck.k9/.widget.list.MessageListWidgetProvider
+        ab96e22 com.fsck.k9/.provider.UnreadWidgetProvider
+      com.android.sync.SYNC_CONN_STATUS_CHANGED:
+        24b4fed com.fsck.k9/.service.BootReceiver
+      com.fsck.k9.K9RemoteControl.set:
+        ed1be04 com.fsck.k9/.service.RemoteControlReceiver
+
+Permissions:
+  Permission [com.fsck.k9.permission.DELETE_MESSAGES] (baeb670):
+    sourcePackage=com.fsck.k9
+    uid=10168 gids=null type=0 prot=dangerous
+    perm=Permission{f99fde9 com.fsck.k9.permission.DELETE_MESSAGES}
+    packageSetting=PackageSetting{b244a6e com.fsck.k9/10168}
+  Permission [com.fsck.k9.permission.READ_MESSAGES] (c35650f):
+    sourcePackage=com.fsck.k9
+    uid=10168 gids=null type=0 prot=dangerous
+    perm=Permission{20c99c com.fsck.k9.permission.READ_MESSAGES}
+    packageSetting=PackageSetting{b244a6e com.fsck.k9/10168}
+  Permission [com.fsck.k9.permission.READ_ATTACHMENT] (60b8fa5):
+    sourcePackage=com.fsck.k9
+    uid=10168 gids=null type=0 prot=dangerous
+    perm=Permission{74e9f7a com.fsck.k9.permission.READ_ATTACHMENT}
+    packageSetting=PackageSetting{b244a6e com.fsck.k9/10168}
+  Permission [com.fsck.k9.permission.REMOTE_CONTROL] (36d432b):
+    sourcePackage=com.fsck.k9
+    uid=10168 gids=null type=0 prot=dangerous
+    perm=Permission{e3ee388 com.fsck.k9.permission.REMOTE_CONTROL}
+    packageSetting=PackageSetting{b244a6e com.fsck.k9/10168}
+
+Registered ContentProviders:
+  com.fsck.k9/.provider.AttachmentTempFileProvider:
+    Provider{d4a8121 com.fsck.k9/.provider.AttachmentTempFileProvider}
+  com.fsck.k9/.provider.EmailProvider:
+    Provider{c973946 com.fsck.k9/.provider.EmailProvider}
+  com.fsck.k9/.provider.DecryptedFileProvider:
+    Provider{1fae707 com.fsck.k9/.provider.DecryptedFileProvider}
+  com.fsck.k9/.provider.AttachmentProvider:
+    Provider{a2b034 com.fsck.k9/.provider.AttachmentProvider}
+  com.fsck.k9/.provider.MessageProvider:
+    Provider{32d0e5d com.fsck.k9/.provider.MessageProvider}
+
+ContentProvider Authorities:
+  [com.fsck.k9.decryptedfileprovider]:
+    Provider{1fae707 com.fsck.k9/.provider.DecryptedFileProvider}
+      applicationInfo=ApplicationInfo{d7da3d2 com.fsck.k9}
+  [com.fsck.k9.messageprovider]:
+    Provider{32d0e5d com.fsck.k9/.provider.MessageProvider}
+      applicationInfo=ApplicationInfo{d7da3d2 com.fsck.k9}
+  [com.fsck.k9.provider.email]:
+    Provider{c973946 com.fsck.k9/.provider.EmailProvider}
+      applicationInfo=ApplicationInfo{d7da3d2 com.fsck.k9}
+  [com.fsck.k9.tempfileprovider]:
+    Provider{d4a8121 com.fsck.k9/.provider.AttachmentTempFileProvider}
+      applicationInfo=ApplicationInfo{d7da3d2 com.fsck.k9}
+  [com.fsck.k9.attachmentprovider]:
+    Provider{a2b034 com.fsck.k9/.provider.AttachmentProvider}
+      applicationInfo=ApplicationInfo{d7da3d2 com.fsck.k9}
+
+Key Set Manager:
+  [com.fsck.k9]
+      Signing KeySets: 107
+
+Packages:
+  Package [com.fsck.k9] (b244a6e):
+    userId=10168
+    pkg=Package{cd4eca3 com.fsck.k9}
+    codePath=/data/app/com.fsck.k9-1
+    resourcePath=/data/app/com.fsck.k9-1
+    legacyNativeLibraryDir=/data/app/com.fsck.k9-1/lib
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    versionCode=23630 targetSdk=22
+    versionName=5.403
+    splits=[base]
+    applicationInfo=ApplicationInfo{d7da3d2 com.fsck.k9}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    dataDir=/data/user/0/com.fsck.k9
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2024-01-28 20:02:47
+    firstInstallTime=2024-01-28 20:02:54
+    lastUpdateTime=2024-01-28 20:02:54
+    signatures=PackageSignatures{fd49ba0 [2b13359]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    declared permissions:
+      com.fsck.k9.permission.READ_ATTACHMENT: prot=dangerous, INSTALLED
+      com.fsck.k9.permission.REMOTE_CONTROL: prot=dangerous, INSTALLED
+      com.fsck.k9.permission.READ_MESSAGES: prot=dangerous, INSTALLED
+      com.fsck.k9.permission.DELETE_MESSAGES: prot=dangerous, INSTALLED
+    requested permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.READ_CONTACTS
+      android.permission.READ_SYNC_SETTINGS
+      android.permission.WRITE_CONTACTS
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.INTERNET
+      android.permission.VIBRATE
+      android.permission.WAKE_LOCK
+      android.permission.WRITE_EXTERNAL_STORAGE
+      com.fsck.k9.permission.READ_ATTACHMENT
+      com.fsck.k9.permission.REMOTE_CONTROL
+      com.fsck.k9.permission.READ_MESSAGES
+      com.fsck.k9.permission.DELETE_MESSAGES
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      com.fsck.k9.permission.DELETE_MESSAGES: granted=true
+      com.fsck.k9.permission.READ_MESSAGES: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.READ_EXTERNAL_STORAGE: granted=true
+      android.permission.WRITE_CONTACTS: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.READ_SYNC_SETTINGS: granted=true
+      android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+      android.permission.VIBRATE: granted=true
+      com.fsck.k9.permission.READ_ATTACHMENT: granted=true
+      com.fsck.k9.permission.REMOTE_CONTROL: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      android.permission.READ_CONTACTS: granted=true
+    User 0:  installed=true hidden=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:

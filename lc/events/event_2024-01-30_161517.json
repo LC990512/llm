@@ -1,0 +1,50 @@
+{
+  "tag": "2024-01-30_161517",
+  "event": {
+    "event_type": "click",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": false,
+      "resource_id": "com.rubenroy.minimaltodo:id/toDoListItemTextview",
+      "visible": true,
+      "enabled": true,
+      "clickable": false,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": false,
+      "class": "android.widget.TextView",
+      "children": [],
+      "child_count": 0,
+      "package": "com.rubenroy.minimaltodo",
+      "text": "Sample to do",
+      "bounds": [
+        [
+          270,
+          354
+        ],
+        [
+          1440,
+          430
+        ]
+      ],
+      "editable": false,
+      "focusable": false,
+      "parent": 15,
+      "temp_id": 16,
+      "size": "1170*76",
+      "signature": "[class]android.widget.TextView[resource_id]com.rubenroy.minimaltodo:id/toDoListItemTextview[text]Sample to do[enabled,,]",
+      "view_str": "ee6dca25bc8e0ac1b6d7a55bab4c41b5",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.rubenroy.minimaltodo:id/toDoListItemTextview"
+    },
+    "x": null,
+    "y": null
+  },
+  "start_state": "722c2a316a1e793a7f37a1426093b84a",
+  "stop_state": "a645ed10b6bfbf97fc9bd4962e2f064c",
+  "event_str": "TouchEvent(state=722c2a316a1e793a7f37a1426093b84a, view=ee6dca25bc8e0ac1b6d7a55bab4c41b5(MainActivity/TextView-Sample to ))"
+}

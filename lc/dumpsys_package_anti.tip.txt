@@ -1,0 +1,49 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        566407b anti.tip/.Tip
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.android.vending.INSTALL_REFERRER:
+        e511e98 anti.tip/com.admob.android.ads.analytics.InstallReceiver
+
+Key Set Manager:
+  [anti.tip]
+      Signing KeySets: 111
+
+Packages:
+  Package [anti.tip] (16c86f1):
+    userId=10172
+    pkg=Package{bb912d6 anti.tip}
+    codePath=/data/app/anti.tip-1
+    resourcePath=/data/app/anti.tip-1
+    legacyNativeLibraryDir=/data/app/anti.tip-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=2 targetSdk=1
+    versionName=1.1
+    splits=[base]
+    applicationInfo=ApplicationInfo{90e6957 anti.tip}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    dataDir=/data/user/0/anti.tip
+    supportsScreens=[medium]
+    timeStamp=2024-01-28 20:26:39
+    firstInstallTime=2024-01-28 20:26:39
+    lastUpdateTime=2024-01-28 20:26:39
+    signatures=PackageSignatures{f858c44 [d31a12d]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_PHONE_STATE
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.INTERNET: granted=true
+      android.permission.READ_EXTERNAL_STORAGE: granted=true
+      android.permission.READ_PHONE_STATE: granted=true
+      android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+    User 0:  installed=true hidden=false stopped=true notLaunched=true enabled=0
+      gids=[3003]
+      runtime permissions:

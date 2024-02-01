@@ -2,148 +2,206 @@ var utg =
 {
   "nodes": [
     {
-      "id": "e62963759a9432d0cea8579db7e1c27d",
+      "id": "3795d760f08e9e91a86e545c84adfd8a",
       "shape": "image",
-      "image": "states/screen_2024-01-25_204312.jpg",
+      "image": "states/screen_2024-02-01_161008.jpg",
       "label": "GEL\n<FIRST>",
       "package": "com.google.android.googlequicksearchbox",
       "activity": "com.google.android.launcher.GEL",
-      "state_str": "e62963759a9432d0cea8579db7e1c27d",
+      "state_str": "3795d760f08e9e91a86e545c84adfd8a",
       "structure_str": "6bdcc09d45d08636337009694e9d7aa5",
-      "title": "<table class=\"table\">\n<tr><th>package</th><td>com.google.android.googlequicksearchbox</td></tr>\n<tr><th>activity</th><td>com.google.android.launcher.GEL</td></tr>\n<tr><th>state_str</th><td>e62963759a9432d0cea8579db7e1c27d</td></tr>\n<tr><th>structure_str</th><td>6bdcc09d45d08636337009694e9d7aa5</td></tr>\n</table>",
-      "content": "com.google.android.googlequicksearchbox\ncom.google.android.launcher.GEL\ne62963759a9432d0cea8579db7e1c27d\ncom.google.android.googlequicksearchbox:id/search_widget_dynamic_icon_container,com.google.android.googlequicksearchbox:id/search_edit_frame,com.google.android.googlequicksearchbox:id/active,com.google.android.googlequicksearchbox:id/workspace,com.google.android.googlequicksearchbox:id/preview_background,com.google.android.googlequicksearchbox:id/search_widget_background_protection,com.google.android.googlequicksearchbox:id/search_widget_google_logo,com.google.android.googlequicksearchbox:id/search_widget_background,com.google.android.googlequicksearchbox:id/search_plate,com.google.android.googlequicksearchbox:id/hotseat,com.google.android.googlequicksearchbox:id/qsb_widget,android:id/content,com.google.android.googlequicksearchbox:id/search_plate_padding_frame,com.google.android.googlequicksearchbox:id/search_widget_dynamic_right_icon,com.google.android.googlequicksearchbox:id/search_widget_super_g,com.google.android.googlequicksearchbox:id/inactive,com.google.android.googlequicksearchbox:id/search_widget_container_frame_layout,com.google.android.googlequicksearchbox:id/search_widget_border,com.google.android.googlequicksearchbox:id/search_widget_dynamic_left_icon,com.google.android.googlequicksearchbox:id/layout,com.google.android.googlequicksearchbox:id/launcher,com.google.android.googlequicksearchbox:id/hint_text_alignment,com.google.android.googlequicksearchbox:id/search_plate_container,com.google.android.googlequicksearchbox:id/folder_icon_name,com.google.android.googlequicksearchbox:id/drag_layer,com.google.android.googlequicksearchbox:id/page_indicator,com.google.android.googlequicksearchbox:id/hint_flipper,com.google.android.googlequicksearchbox:id/focus_indicator,com.google.android.googlequicksearchbox:id/search_drop_target_bar,com.google.android.googlequicksearchbox:id/search_widget_container\nPlay,Chrome,Camera,Google,Play Store,Messenger,Phone",
+      "title": "<table class=\"table\">\n<tr><th>package</th><td>com.google.android.googlequicksearchbox</td></tr>\n<tr><th>activity</th><td>com.google.android.launcher.GEL</td></tr>\n<tr><th>state_str</th><td>3795d760f08e9e91a86e545c84adfd8a</td></tr>\n<tr><th>structure_str</th><td>6bdcc09d45d08636337009694e9d7aa5</td></tr>\n</table>",
+      "content": "com.google.android.googlequicksearchbox\ncom.google.android.launcher.GEL\n3795d760f08e9e91a86e545c84adfd8a\ncom.google.android.googlequicksearchbox:id/search_plate_container,com.google.android.googlequicksearchbox:id/preview_background,com.google.android.googlequicksearchbox:id/search_widget_super_g,com.google.android.googlequicksearchbox:id/page_indicator,com.google.android.googlequicksearchbox:id/launcher,com.google.android.googlequicksearchbox:id/search_widget_background,com.google.android.googlequicksearchbox:id/workspace,com.google.android.googlequicksearchbox:id/qsb_widget,com.google.android.googlequicksearchbox:id/active,com.google.android.googlequicksearchbox:id/drag_layer,com.google.android.googlequicksearchbox:id/search_drop_target_bar,com.google.android.googlequicksearchbox:id/search_widget_dynamic_right_icon,com.google.android.googlequicksearchbox:id/focus_indicator,com.google.android.googlequicksearchbox:id/search_widget_container,com.google.android.googlequicksearchbox:id/hotseat,com.google.android.googlequicksearchbox:id/search_widget_google_logo,com.google.android.googlequicksearchbox:id/search_plate_padding_frame,com.google.android.googlequicksearchbox:id/inactive,com.google.android.googlequicksearchbox:id/hint_flipper,com.google.android.googlequicksearchbox:id/hint_text_alignment,com.google.android.googlequicksearchbox:id/search_widget_dynamic_left_icon,com.google.android.googlequicksearchbox:id/layout,com.google.android.googlequicksearchbox:id/search_edit_frame,com.google.android.googlequicksearchbox:id/folder_icon_name,com.google.android.googlequicksearchbox:id/search_widget_background_protection,com.google.android.googlequicksearchbox:id/search_widget_dynamic_icon_container,com.google.android.googlequicksearchbox:id/search_widget_container_frame_layout,com.google.android.googlequicksearchbox:id/search_plate,com.google.android.googlequicksearchbox:id/search_widget_border,android:id/content\nPhone,Play Store,Messages,Google,Camera,Chrome,Play Games",
       "font": "14px Arial red"
     },
     {
-      "id": "1ffabe648cb12b1da781960866019330",
+      "id": "346d25d2ed8bcf7fd6950071264d6397",
       "shape": "image",
-      "image": "states/screen_2024-01-25_204320.jpg",
-      "label": "MainNavigationActivity",
-      "package": "com.abc.abcnews",
-      "activity": ".ui.navigation.MainNavigationActivity",
-      "state_str": "1ffabe648cb12b1da781960866019330",
-      "structure_str": "4b4ad30a8b666bda15cd0085d7d76a55",
-      "title": "<table class=\"table\">\n<tr><th>package</th><td>com.abc.abcnews</td></tr>\n<tr><th>activity</th><td>.ui.navigation.MainNavigationActivity</td></tr>\n<tr><th>state_str</th><td>1ffabe648cb12b1da781960866019330</td></tr>\n<tr><th>structure_str</th><td>4b4ad30a8b666bda15cd0085d7d76a55</td></tr>\n</table>",
-      "content": "com.abc.abcnews\n.ui.navigation.MainNavigationActivity\n1ffabe648cb12b1da781960866019330\ncom.abc.abcnews:id/cinematic_related_title_one,com.abc.abcnews:id/cinematic_gradient,com.abc.abcnews:id/cinematic_image_credit,com.abc.abcnews:id/cinematic_background_image,com.abc.abcnews:id/tab_title,com.abc.abcnews:id/cinematic_related_title_two,com.abc.abcnews:id/main_navigation_container,com.abc.abcnews:id/cinematic_title,com.abc.abcnews:id/generic_action_bar_title_and_button_layout,com.abc.abcnews:id/cinematic_related_container_two,com.abc.abcnews:id/tab_icon,android:id/content,com.abc.abcnews:id/featured_content_caption,com.abc.abcnews:id/featured_content_container,com.abc.abcnews:id/cinematic_related_divider,com.abc.abcnews:id/featured_content_pub_date,com.abc.abcnews:id/action_bar_abcnews_logo,com.abc.abcnews:id/top_stories_module_recycler_view,com.abc.abcnews:id/status_bar_view,com.abc.abcnews:id/drawer_container,com.abc.abcnews:id/main_root,android:id/statusBarBackground,com.abc.abcnews:id/content_container,com.abc.abcnews:id/top_stories_module_spacing_container,com.abc.abcnews:id/featured_content_type_icon,com.abc.abcnews:id/fragment_base,com.abc.abcnews:id/section_view_pager_tabs,com.abc.abcnews:id/abc_toolbar,com.abc.abcnews:id/featured_content_text_container,com.abc.abcnews:id/cinematic_container,com.abc.abcnews:id/featured_content_onclick,com.abc.abcnews:id/featured_content_subcontainer,android:id/navigationBarBackground,com.abc.abcnews:id/cinematic_related_container_one,com.abc.abcnews:id/featured_content_title,com.abc.abcnews:id/main_navigation_divider,com.abc.abcnews:id/swipe_refresh_layout,com.abc.abcnews:id/cinematic_main_onclick,com.abc.abcnews:id/featured_content_background_image,com.abc.abcnews:id/title,com.abc.abcnews:id/action_bar_root,com.abc.abcnews:id/cinematic_pub_date\nINTERESTS,John Moore/Getty Images,2h,\u00a028m\u00a0ago,Immigration emerges as key 2024 wedge issue for Trump, vulnerability for Biden,NEWS,LISTEN,ABC News Live,ABC News,Migrant crisis explained: What's behind the border surge,LIVE,Here's where the 2024 presidential candidates stand on immigration,SHOWS,+"
+      "image": "states/screen_2024-02-01_161019.jpg",
+      "label": "MainActivity",
+      "package": "com.tleapps.simpletipcalculator",
+      "activity": ".MainActivity",
+      "state_str": "346d25d2ed8bcf7fd6950071264d6397",
+      "structure_str": "33ccfa858d87a823eb867b50c32391d9",
+      "title": "<table class=\"table\">\n<tr><th>package</th><td>com.tleapps.simpletipcalculator</td></tr>\n<tr><th>activity</th><td>.MainActivity</td></tr>\n<tr><th>state_str</th><td>346d25d2ed8bcf7fd6950071264d6397</td></tr>\n<tr><th>structure_str</th><td>33ccfa858d87a823eb867b50c32391d9</td></tr>\n</table>",
+      "content": "com.tleapps.simpletipcalculator\n.MainActivity\n346d25d2ed8bcf7fd6950071264d6397\ncom.tleapps.simpletipcalculator:id/buttonSplitMinus,com.tleapps.simpletipcalculator:id/adView,com.tleapps.simpletipcalculator:id/textViewTotalToPay,com.tleapps.simpletipcalculator:id/action_bar_root,com.tleapps.simpletipcalculator:id/buttonShare,com.tleapps.simpletipcalculator:id/editTextTip,com.tleapps.simpletipcalculator:id/buttonSplitPlus,com.tleapps.simpletipcalculator:id/textViewTotalTip,com.tleapps.simpletipcalculator:id/buttonTipMinus,android:id/navigationBarBackground,com.tleapps.simpletipcalculator:id/textViewTotalPerPerson,com.tleapps.simpletipcalculator:id/buttonTipPlus,com.tleapps.simpletipcalculator:id/buttonCalculate,com.tleapps.simpletipcalculator:id/toolbar,com.tleapps.simpletipcalculator:id/content_main,com.tleapps.simpletipcalculator:id/buttonCopyResult,com.tleapps.simpletipcalculator:id/editTextBill,com.tleapps.simpletipcalculator:id/editTextSplit,android:id/content\nCalculate,$0.00,Total Tip,-,Split,1,15,Total Bill,Per person,Simple Tip Calculator,Bill,+,Copy,100.00,Share,Tip (%)"
     },
     {
-      "id": "c71a7ae2dd315b55b4144028df8bf5a3",
+      "id": "1ce445b79b68bc76e0f77253dbc895bf",
       "shape": "image",
-      "image": "states/screen_2024-01-25_204332.jpg",
-      "label": "MainNavigationActivity",
-      "package": "com.abc.abcnews",
-      "activity": ".ui.navigation.MainNavigationActivity",
-      "state_str": "c71a7ae2dd315b55b4144028df8bf5a3",
-      "structure_str": "129dbc17e82acd30267f123edfbd5608",
-      "title": "<table class=\"table\">\n<tr><th>package</th><td>com.abc.abcnews</td></tr>\n<tr><th>activity</th><td>.ui.navigation.MainNavigationActivity</td></tr>\n<tr><th>state_str</th><td>c71a7ae2dd315b55b4144028df8bf5a3</td></tr>\n<tr><th>structure_str</th><td>129dbc17e82acd30267f123edfbd5608</td></tr>\n</table>",
-      "content": "com.abc.abcnews\n.ui.navigation.MainNavigationActivity\nc71a7ae2dd315b55b4144028df8bf5a3\ncom.abc.abcnews:id/cinematic_related_title_one,com.abc.abcnews:id/cinematic_gradient,com.abc.abcnews:id/cinematic_image_credit,com.abc.abcnews:id/cinematic_background_image,com.abc.abcnews:id/tab_title,com.abc.abcnews:id/cinematic_related_title_two,com.abc.abcnews:id/drawer_item_textview,com.abc.abcnews:id/main_navigation_container,com.abc.abcnews:id/drawer_item_icon,com.abc.abcnews:id/cinematic_title,com.abc.abcnews:id/generic_action_bar_title_and_button_layout,com.abc.abcnews:id/cinematic_related_container_two,com.abc.abcnews:id/tab_icon,android:id/content,com.abc.abcnews:id/featured_content_caption,com.abc.abcnews:id/drawer_search,com.abc.abcnews:id/featured_content_container,com.abc.abcnews:id/cinematic_related_divider,com.abc.abcnews:id/featured_content_pub_date,com.abc.abcnews:id/action_bar_abcnews_logo,com.abc.abcnews:id/top_stories_module_recycler_view,com.abc.abcnews:id/status_bar_view,com.abc.abcnews:id/drawer_container,com.abc.abcnews:id/drawer_listview,com.abc.abcnews:id/main_root,android:id/statusBarBackground,com.abc.abcnews:id/content_container,com.abc.abcnews:id/top_stories_module_spacing_container,com.abc.abcnews:id/featured_content_type_icon,com.abc.abcnews:id/fragment_base,com.abc.abcnews:id/section_view_pager_tabs,com.abc.abcnews:id/abc_toolbar,com.abc.abcnews:id/bubble_nav,com.abc.abcnews:id/tabs,com.abc.abcnews:id/icon_wrapper,com.abc.abcnews:id/featured_content_text_container,com.abc.abcnews:id/drawer_drag_handle,com.abc.abcnews:id/cinematic_container,com.abc.abcnews:id/featured_content_onclick,com.abc.abcnews:id/featured_content_subcontainer,android:id/navigationBarBackground,com.abc.abcnews:id/cinematic_related_container_one,com.abc.abcnews:id/featured_content_title,com.abc.abcnews:id/main_navigation_divider,com.abc.abcnews:id/swipe_refresh_layout,com.abc.abcnews:id/cinematic_main_onclick,com.abc.abcnews:id/featured_content_background_image,com.abc.abcnews:id/title,com.abc.abcnews:id/action_bar_root,com.abc.abcnews:id/cinematic_pub_date,com.abc.abcnews:id/drawer_linear_layout\nPolitics,NEWS,Top Stories,ABC News,Search,+,INTERESTS,U.S.,John Moore/Getty Images,ABC News Live,Migrant crisis explained: What's behind the border surge,Election 2020,2h,\u00a028m\u00a0ago,Shows,LIVE,Sections,Local Video,SHOWS,Investigative,International,Video,Immigration emerges as key 2024 wedge issue for Trump, vulnerability for Biden,Trending,LISTEN,Saved,Here's where the 2024 presidential candidates stand on immigration"
+      "image": "states/screen_2024-02-01_161050.jpg",
+      "label": "MainActivity",
+      "package": "com.tleapps.simpletipcalculator",
+      "activity": ".MainActivity",
+      "state_str": "1ce445b79b68bc76e0f77253dbc895bf",
+      "structure_str": "4164f24fc554e8461d6e102287f12968",
+      "title": "<table class=\"table\">\n<tr><th>package</th><td>com.tleapps.simpletipcalculator</td></tr>\n<tr><th>activity</th><td>.MainActivity</td></tr>\n<tr><th>state_str</th><td>1ce445b79b68bc76e0f77253dbc895bf</td></tr>\n<tr><th>structure_str</th><td>4164f24fc554e8461d6e102287f12968</td></tr>\n</table>",
+      "content": "com.tleapps.simpletipcalculator\n.MainActivity\n1ce445b79b68bc76e0f77253dbc895bf\nimg_anch_CK3wgbPYiYQDFSbZFgUdU4QMAw,com.tleapps.simpletipcalculator:id/buttonSplitMinus,com.tleapps.simpletipcalculator:id/adView,com.tleapps.simpletipcalculator:id/textViewTotalToPay,com.tleapps.simpletipcalculator:id/action_bar_root,com.tleapps.simpletipcalculator:id/buttonShare,com.tleapps.simpletipcalculator:id/editTextTip,com.tleapps.simpletipcalculator:id/buttonSplitPlus,com.tleapps.simpletipcalculator:id/textViewTotalTip,com.tleapps.simpletipcalculator:id/buttonTipMinus,android:id/navigationBarBackground,gcc_5VG7Ze3pD6ay29gP04iyGA,com.tleapps.simpletipcalculator:id/textViewTotalPerPerson,com.tleapps.simpletipcalculator:id/buttonTipPlus,DfaVisibilityIdentifier_1954602641,com.tleapps.simpletipcalculator:id/buttonCalculate,com.tleapps.simpletipcalculator:id/toolbar,com.tleapps.simpletipcalculator:id/content_main,com.tleapps.simpletipcalculator:id/buttonCopyResult,com.tleapps.simpletipcalculator:id/editTextBill,J5B1E6TGxmVre_UZCypl_0,com.tleapps.simpletipcalculator:id/editTextSplit,android:id/content\n56.6,Calculate,$0.00,Total Tip,-,Split,1,15,Total Bill,Per person,Simple Tip Calculator,Bill,+,Copy,Advertisement,Share,Tip (%)"
     },
     {
-      "id": "01702d07d61bcdc0738ed4e1079ccf54",
+      "id": "33ffe0884111092234cab3573b0eab36",
       "shape": "image",
-      "image": "states/screen_2024-01-25_204406.jpg",
-      "label": "MainNavigationActivity",
-      "package": "com.abc.abcnews",
-      "activity": ".ui.navigation.MainNavigationActivity",
-      "state_str": "01702d07d61bcdc0738ed4e1079ccf54",
-      "structure_str": "129dbc17e82acd30267f123edfbd5608",
-      "title": "<table class=\"table\">\n<tr><th>package</th><td>com.abc.abcnews</td></tr>\n<tr><th>activity</th><td>.ui.navigation.MainNavigationActivity</td></tr>\n<tr><th>state_str</th><td>01702d07d61bcdc0738ed4e1079ccf54</td></tr>\n<tr><th>structure_str</th><td>129dbc17e82acd30267f123edfbd5608</td></tr>\n</table>",
-      "content": "com.abc.abcnews\n.ui.navigation.MainNavigationActivity\n01702d07d61bcdc0738ed4e1079ccf54\ncom.abc.abcnews:id/cinematic_related_title_one,com.abc.abcnews:id/cinematic_gradient,com.abc.abcnews:id/cinematic_image_credit,com.abc.abcnews:id/cinematic_background_image,com.abc.abcnews:id/tab_title,com.abc.abcnews:id/cinematic_related_title_two,com.abc.abcnews:id/drawer_item_textview,com.abc.abcnews:id/main_navigation_container,com.abc.abcnews:id/drawer_item_icon,com.abc.abcnews:id/cinematic_title,com.abc.abcnews:id/generic_action_bar_title_and_button_layout,com.abc.abcnews:id/cinematic_related_container_two,com.abc.abcnews:id/tab_icon,android:id/content,com.abc.abcnews:id/featured_content_caption,com.abc.abcnews:id/drawer_search,com.abc.abcnews:id/featured_content_container,com.abc.abcnews:id/cinematic_related_divider,com.abc.abcnews:id/featured_content_pub_date,com.abc.abcnews:id/action_bar_abcnews_logo,com.abc.abcnews:id/top_stories_module_recycler_view,com.abc.abcnews:id/status_bar_view,com.abc.abcnews:id/drawer_container,com.abc.abcnews:id/drawer_listview,com.abc.abcnews:id/main_root,android:id/statusBarBackground,com.abc.abcnews:id/content_container,com.abc.abcnews:id/top_stories_module_spacing_container,com.abc.abcnews:id/featured_content_type_icon,com.abc.abcnews:id/fragment_base,com.abc.abcnews:id/section_view_pager_tabs,com.abc.abcnews:id/abc_toolbar,com.abc.abcnews:id/bubble_nav,com.abc.abcnews:id/tabs,com.abc.abcnews:id/icon_wrapper,com.abc.abcnews:id/featured_content_text_container,com.abc.abcnews:id/drawer_drag_handle,com.abc.abcnews:id/cinematic_container,com.abc.abcnews:id/featured_content_onclick,com.abc.abcnews:id/featured_content_subcontainer,android:id/navigationBarBackground,com.abc.abcnews:id/cinematic_related_container_one,com.abc.abcnews:id/featured_content_title,com.abc.abcnews:id/main_navigation_divider,com.abc.abcnews:id/swipe_refresh_layout,com.abc.abcnews:id/cinematic_main_onclick,com.abc.abcnews:id/featured_content_background_image,com.abc.abcnews:id/title,com.abc.abcnews:id/action_bar_root,com.abc.abcnews:id/cinematic_pub_date,com.abc.abcnews:id/drawer_linear_layout\nPolitics,NEWS,Top Stories,ABC News,sanders feels the heat,+,INTERESTS,U.S.,John Moore/Getty Images,ABC News Live,Migrant crisis explained: What's behind the border surge,Election 2020,2h,\u00a028m\u00a0ago,Shows,LIVE,Sections,Local Video,SHOWS,Investigative,International,Video,Immigration emerges as key 2024 wedge issue for Trump, vulnerability for Biden,Trending,LISTEN,Saved,Here's where the 2024 presidential candidates stand on immigration"
+      "image": "states/screen_2024-02-01_161223.jpg",
+      "label": "MainActivity",
+      "package": "com.tleapps.simpletipcalculator",
+      "activity": ".MainActivity",
+      "state_str": "33ffe0884111092234cab3573b0eab36",
+      "structure_str": "75d6f7d35281d5c87c51677151c59c2b",
+      "title": "<table class=\"table\">\n<tr><th>package</th><td>com.tleapps.simpletipcalculator</td></tr>\n<tr><th>activity</th><td>.MainActivity</td></tr>\n<tr><th>state_str</th><td>33ffe0884111092234cab3573b0eab36</td></tr>\n<tr><th>structure_str</th><td>75d6f7d35281d5c87c51677151c59c2b</td></tr>\n</table>",
+      "content": "com.tleapps.simpletipcalculator\n.MainActivity\n33ffe0884111092234cab3573b0eab36\ncom.tleapps.simpletipcalculator:id/buttonSplitMinus,com.tleapps.simpletipcalculator:id/adView,com.tleapps.simpletipcalculator:id/textViewTotalToPay,img_anch_COW7-t3YiYQDFa5YDwIdXFELBw,com.tleapps.simpletipcalculator:id/action_bar_root,com.tleapps.simpletipcalculator:id/buttonShare,com.tleapps.simpletipcalculator:id/editTextTip,com.tleapps.simpletipcalculator:id/buttonSplitPlus,com.tleapps.simpletipcalculator:id/textViewTotalTip,com.tleapps.simpletipcalculator:id/buttonTipMinus,android:id/navigationBarBackground,fGFwDjqIeZ_zQkcq42Gd_0,com.tleapps.simpletipcalculator:id/textViewTotalPerPerson,com.tleapps.simpletipcalculator:id/buttonTipPlus,DfaVisibilityIdentifier_1769812048,com.tleapps.simpletipcalculator:id/buttonCalculate,com.tleapps.simpletipcalculator:id/toolbar,com.tleapps.simpletipcalculator:id/content_main,com.tleapps.simpletipcalculator:id/buttonCopyResult,com.tleapps.simpletipcalculator:id/editTextBill,com.tleapps.simpletipcalculator:id/editTextSplit,gcc_P1K7ZaWgE66xvcAP3KKtOA,android:id/content\n56.6,Calculate,$0.00,Total Tip,-,Split,1,15,Total Bill,Per person,Simple Tip Calculator,Bill,+,Copy,Advertisement,Share,Tip (%)"
     },
     {
-      "id": "bf19d921083be2d3adb7d94bc7de2660",
+      "id": "da01da5055985709a0a96e6cd27ad7b8",
       "shape": "image",
-      "image": "states/screen_2024-01-25_204547.jpg",
-      "label": "MainNavigationActivity\n<LAST>",
-      "package": "com.abc.abcnews",
-      "activity": ".ui.navigation.MainNavigationActivity",
-      "state_str": "bf19d921083be2d3adb7d94bc7de2660",
-      "structure_str": "129dbc17e82acd30267f123edfbd5608",
-      "title": "<table class=\"table\">\n<tr><th>package</th><td>com.abc.abcnews</td></tr>\n<tr><th>activity</th><td>.ui.navigation.MainNavigationActivity</td></tr>\n<tr><th>state_str</th><td>bf19d921083be2d3adb7d94bc7de2660</td></tr>\n<tr><th>structure_str</th><td>129dbc17e82acd30267f123edfbd5608</td></tr>\n</table>",
-      "content": "com.abc.abcnews\n.ui.navigation.MainNavigationActivity\nbf19d921083be2d3adb7d94bc7de2660\ncom.abc.abcnews:id/cinematic_related_title_one,com.abc.abcnews:id/cinematic_gradient,com.abc.abcnews:id/cinematic_image_credit,com.abc.abcnews:id/cinematic_background_image,com.abc.abcnews:id/tab_title,com.abc.abcnews:id/cinematic_related_title_two,com.abc.abcnews:id/drawer_item_textview,com.abc.abcnews:id/main_navigation_container,com.abc.abcnews:id/drawer_item_icon,com.abc.abcnews:id/cinematic_title,com.abc.abcnews:id/generic_action_bar_title_and_button_layout,com.abc.abcnews:id/cinematic_related_container_two,com.abc.abcnews:id/tab_icon,android:id/content,com.abc.abcnews:id/featured_content_caption,com.abc.abcnews:id/drawer_search,com.abc.abcnews:id/featured_content_container,com.abc.abcnews:id/cinematic_related_divider,com.abc.abcnews:id/featured_content_pub_date,com.abc.abcnews:id/action_bar_abcnews_logo,com.abc.abcnews:id/top_stories_module_recycler_view,com.abc.abcnews:id/status_bar_view,com.abc.abcnews:id/drawer_container,com.abc.abcnews:id/drawer_listview,com.abc.abcnews:id/main_root,android:id/statusBarBackground,com.abc.abcnews:id/content_container,com.abc.abcnews:id/top_stories_module_spacing_container,com.abc.abcnews:id/featured_content_type_icon,com.abc.abcnews:id/fragment_base,com.abc.abcnews:id/section_view_pager_tabs,com.abc.abcnews:id/abc_toolbar,com.abc.abcnews:id/bubble_nav,com.abc.abcnews:id/tabs,com.abc.abcnews:id/icon_wrapper,com.abc.abcnews:id/featured_content_text_container,com.abc.abcnews:id/drawer_drag_handle,com.abc.abcnews:id/cinematic_container,com.abc.abcnews:id/featured_content_onclick,com.abc.abcnews:id/featured_content_subcontainer,android:id/navigationBarBackground,com.abc.abcnews:id/cinematic_related_container_one,com.abc.abcnews:id/featured_content_title,com.abc.abcnews:id/main_navigation_divider,com.abc.abcnews:id/swipe_refresh_layout,com.abc.abcnews:id/cinematic_main_onclick,com.abc.abcnews:id/featured_content_background_image,com.abc.abcnews:id/title,com.abc.abcnews:id/action_bar_root,com.abc.abcnews:id/cinematic_pub_date,com.abc.abcnews:id/drawer_linear_layout\nPolitics,NEWS,Top Stories,ABC News,+,INTERESTS,U.S.,John Moore/Getty Images,ABC News Live,Migrant crisis explained: What's behind the border surge,Election 2020,2h,\u00a028m\u00a0ago,Shows,sanders,LIVE,Sections,Local Video,SHOWS,Investigative,International,Video,Immigration emerges as key 2024 wedge issue for Trump, vulnerability for Biden,Trending,LISTEN,Saved,Here's where the 2024 presidential candidates stand on immigration",
+      "image": "states/screen_2024-02-01_161328.jpg",
+      "label": "MainActivity",
+      "package": "com.tleapps.simpletipcalculator",
+      "activity": ".MainActivity",
+      "state_str": "da01da5055985709a0a96e6cd27ad7b8",
+      "structure_str": "75d6f7d35281d5c87c51677151c59c2b",
+      "title": "<table class=\"table\">\n<tr><th>package</th><td>com.tleapps.simpletipcalculator</td></tr>\n<tr><th>activity</th><td>.MainActivity</td></tr>\n<tr><th>state_str</th><td>da01da5055985709a0a96e6cd27ad7b8</td></tr>\n<tr><th>structure_str</th><td>75d6f7d35281d5c87c51677151c59c2b</td></tr>\n</table>",
+      "content": "com.tleapps.simpletipcalculator\n.MainActivity\nda01da5055985709a0a96e6cd27ad7b8\ncom.tleapps.simpletipcalculator:id/buttonSplitMinus,com.tleapps.simpletipcalculator:id/adView,com.tleapps.simpletipcalculator:id/textViewTotalToPay,img_anch_COW7-t3YiYQDFa5YDwIdXFELBw,com.tleapps.simpletipcalculator:id/action_bar_root,com.tleapps.simpletipcalculator:id/buttonShare,com.tleapps.simpletipcalculator:id/editTextTip,com.tleapps.simpletipcalculator:id/buttonSplitPlus,com.tleapps.simpletipcalculator:id/textViewTotalTip,com.tleapps.simpletipcalculator:id/buttonTipMinus,android:id/navigationBarBackground,fGFwDjqIeZ_zQkcq42Gd_0,com.tleapps.simpletipcalculator:id/textViewTotalPerPerson,com.tleapps.simpletipcalculator:id/buttonTipPlus,DfaVisibilityIdentifier_1769812048,com.tleapps.simpletipcalculator:id/buttonCalculate,com.tleapps.simpletipcalculator:id/toolbar,com.tleapps.simpletipcalculator:id/content_main,com.tleapps.simpletipcalculator:id/buttonCopyResult,com.tleapps.simpletipcalculator:id/editTextBill,com.tleapps.simpletipcalculator:id/editTextSplit,gcc_P1K7ZaWgE66xvcAP3KKtOA,android:id/content\n56.6,Calculate,$0.00,Total Tip,-,Split,4,15,Total Bill,Per person,Simple Tip Calculator,Bill,+,Copy,Advertisement,Share,Tip (%)"
+    },
+    {
+      "id": "fde45e53e10d49727ad0cacd8bb1d882",
+      "shape": "image",
+      "image": "states/screen_2024-02-01_161427.jpg",
+      "label": "MainActivity",
+      "package": "com.tleapps.simpletipcalculator",
+      "activity": ".MainActivity",
+      "state_str": "fde45e53e10d49727ad0cacd8bb1d882",
+      "structure_str": "646e74d6f241f067d9932752fc79201f",
+      "title": "<table class=\"table\">\n<tr><th>package</th><td>com.tleapps.simpletipcalculator</td></tr>\n<tr><th>activity</th><td>.MainActivity</td></tr>\n<tr><th>state_str</th><td>fde45e53e10d49727ad0cacd8bb1d882</td></tr>\n<tr><th>structure_str</th><td>646e74d6f241f067d9932752fc79201f</td></tr>\n</table>",
+      "content": "com.tleapps.simpletipcalculator\n.MainActivity\nfde45e53e10d49727ad0cacd8bb1d882\ncom.tleapps.simpletipcalculator:id/buttonSplitMinus,com.tleapps.simpletipcalculator:id/adView,com.tleapps.simpletipcalculator:id/textViewTotalToPay,com.tleapps.simpletipcalculator:id/action_bar_root,DfaVisibilityIdentifier_1255981591,com.tleapps.simpletipcalculator:id/buttonShare,com.tleapps.simpletipcalculator:id/editTextTip,com.tleapps.simpletipcalculator:id/buttonSplitPlus,com.tleapps.simpletipcalculator:id/textViewTotalTip,gcc_mlK7ZZW2A9mRpt8PvrqLqAY,com.tleapps.simpletipcalculator:id/buttonTipMinus,CY78ZmLUIdXMchdM5wb0_0,android:id/navigationBarBackground,com.tleapps.simpletipcalculator:id/textViewTotalPerPerson,com.tleapps.simpletipcalculator:id/buttonTipPlus,com.tleapps.simpletipcalculator:id/buttonCalculate,img_anch_CJXrnInZiYQDFdmI6QUdPt0CZQ,com.tleapps.simpletipcalculator:id/toolbar,com.tleapps.simpletipcalculator:id/content_main,com.tleapps.simpletipcalculator:id/buttonCopyResult,com.tleapps.simpletipcalculator:id/editTextBill,com.tleapps.simpletipcalculator:id/editTextSplit,android:id/content\n56.6,$16.27,$65.09,Total Tip,-,Split,Per person,+,Bill,Advertisement,Share,Tip (%),Calculate,15,Total Bill,Simple Tip Calculator,4,$8.49,Copy"
+    },
+    {
+      "id": "3a5d259345b45d859896b6b014fc2b08",
+      "shape": "image",
+      "image": "states/screen_2024-02-01_161515.jpg",
+      "label": "MainActivity\n<LAST>",
+      "package": "com.tleapps.simpletipcalculator",
+      "activity": ".MainActivity",
+      "state_str": "3a5d259345b45d859896b6b014fc2b08",
+      "structure_str": "2702405f70a4fd68ec220ac64b4af0c1",
+      "title": "<table class=\"table\">\n<tr><th>package</th><td>com.tleapps.simpletipcalculator</td></tr>\n<tr><th>activity</th><td>.MainActivity</td></tr>\n<tr><th>state_str</th><td>3a5d259345b45d859896b6b014fc2b08</td></tr>\n<tr><th>structure_str</th><td>2702405f70a4fd68ec220ac64b4af0c1</td></tr>\n</table>",
+      "content": "com.tleapps.simpletipcalculator\n.MainActivity\n3a5d259345b45d859896b6b014fc2b08\ncom.tleapps.simpletipcalculator:id/buttonSplitMinus,com.tleapps.simpletipcalculator:id/adView,com.tleapps.simpletipcalculator:id/textViewTotalToPay,DfaVisibilityIdentifier_3031155391,img_anch_CKKnwrTZiYQDFYHJFgUdGAYFlQ,com.tleapps.simpletipcalculator:id/action_bar_root,com.tleapps.simpletipcalculator:id/buttonShare,com.tleapps.simpletipcalculator:id/editTextTip,com.tleapps.simpletipcalculator:id/buttonSplitPlus,com.tleapps.simpletipcalculator:id/textViewTotalTip,com.tleapps.simpletipcalculator:id/buttonTipMinus,gcc_9FK7ZaLdM4GT29gPmIyUqAk,android:id/navigationBarBackground,com.tleapps.simpletipcalculator:id/textViewTotalPerPerson,com.tleapps.simpletipcalculator:id/buttonTipPlus,com.tleapps.simpletipcalculator:id/buttonCalculate,gewWoPi6lb-66LF9Kotp_0,com.tleapps.simpletipcalculator:id/toolbar,com.tleapps.simpletipcalculator:id/content_main,com.tleapps.simpletipcalculator:id/buttonCopyResult,com.tleapps.simpletipcalculator:id/editTextBill,com.tleapps.simpletipcalculator:id/editTextSplit,android:id/content\n56.6,$16.27,$65.09,Total Tip,-,Split,Per person,+,Bill,Advertisement,Share,Tip (%),Calculate,15,Total Bill,Simple Tip Calculator,4,$8.49,Copy",
       "font": "14px Arial red"
     }
   ],
   "edges": [
     {
-      "from": "e62963759a9432d0cea8579db7e1c27d",
-      "to": "1ffabe648cb12b1da781960866019330",
-      "id": "e62963759a9432d0cea8579db7e1c27d-->1ffabe648cb12b1da781960866019330",
-      "title": "<table class=\"table\">\n<tr><th>1</th><td>IntentEvent(intent='am start com.abc.abcnews/com.abc.abcnews.ui.StartActivity')</td></tr>\n</table>",
+      "from": "3795d760f08e9e91a86e545c84adfd8a",
+      "to": "346d25d2ed8bcf7fd6950071264d6397",
+      "id": "3795d760f08e9e91a86e545c84adfd8a-->346d25d2ed8bcf7fd6950071264d6397",
+      "title": "<table class=\"table\">\n<tr><th>1</th><td>IntentEvent(intent='am start com.tleapps.simpletipcalculator/com.tleapps.simpletipcalculator.MainActivity')</td></tr>\n</table>",
       "label": "1",
       "events": [
         {
-          "event_str": "IntentEvent(intent='am start com.abc.abcnews/com.abc.abcnews.ui.StartActivity')",
+          "event_str": "IntentEvent(intent='am start com.tleapps.simpletipcalculator/com.tleapps.simpletipcalculator.MainActivity')",
           "event_id": 1,
-          "event_type": "intent",
+          "event_type": "Clear",
           "view_images": []
         }
       ]
     },
     {
-      "from": "1ffabe648cb12b1da781960866019330",
-      "to": "c71a7ae2dd315b55b4144028df8bf5a3",
-      "id": "1ffabe648cb12b1da781960866019330-->c71a7ae2dd315b55b4144028df8bf5a3",
-      "title": "<table class=\"table\">\n<tr><th>2</th><td>TouchEvent(state=1ffabe648cb12b1da781960866019330, view=15eda600418b2443417683892a8a2cbb(MainNavigationActivity/ImageButton-))</td></tr>\n</table>",
+      "from": "346d25d2ed8bcf7fd6950071264d6397",
+      "to": "1ce445b79b68bc76e0f77253dbc895bf",
+      "id": "346d25d2ed8bcf7fd6950071264d6397-->1ce445b79b68bc76e0f77253dbc895bf",
+      "title": "<table class=\"table\">\n<tr><th>2</th><td>SetTextEvent(state=346d25d2ed8bcf7fd6950071264d6397, view=a7c470eb1b187ac72bb44678ca6bea5d(MainActivity/EditText-100.00), text=56.6)</td></tr>\n</table>",
       "label": "2",
       "events": [
         {
-          "event_str": "TouchEvent(state=1ffabe648cb12b1da781960866019330, view=15eda600418b2443417683892a8a2cbb(MainNavigationActivity/ImageButton-))",
+          "event_str": "SetTextEvent(state=346d25d2ed8bcf7fd6950071264d6397, view=a7c470eb1b187ac72bb44678ca6bea5d(MainActivity/EditText-100.00), text=56.6)",
           "event_id": 2,
-          "event_type": "click",
+          "event_type": "Clear",
           "view_images": [
-            "views/view_15eda600418b2443417683892a8a2cbb.jpg"
+            "views/view_a7c470eb1b187ac72bb44678ca6bea5d.jpg"
           ]
         }
       ]
     },
     {
-      "from": "c71a7ae2dd315b55b4144028df8bf5a3",
-      "to": "01702d07d61bcdc0738ed4e1079ccf54",
-      "id": "c71a7ae2dd315b55b4144028df8bf5a3-->01702d07d61bcdc0738ed4e1079ccf54",
-      "title": "<table class=\"table\">\n<tr><th>3</th><td>SetTextEvent(state=c71a7ae2dd315b55b4144028df8bf5a3, view=d3a42a34dc508f29a04e07c4188fd8e0(MainNavigationActivity/EditText-Search), text=sanders feels the heat)</td></tr>\n</table>",
+      "from": "1ce445b79b68bc76e0f77253dbc895bf",
+      "to": "33ffe0884111092234cab3573b0eab36",
+      "id": "1ce445b79b68bc76e0f77253dbc895bf-->33ffe0884111092234cab3573b0eab36",
+      "title": "<table class=\"table\">\n<tr><th>3</th><td>SetTextEvent(state=1ce445b79b68bc76e0f77253dbc895bf, view=84f6d2a2ac43a7bb5176db723fc2f1b9(MainActivity/EditText-1), text=)</td></tr>\n</table>",
       "label": "3",
       "events": [
         {
-          "event_str": "SetTextEvent(state=c71a7ae2dd315b55b4144028df8bf5a3, view=d3a42a34dc508f29a04e07c4188fd8e0(MainNavigationActivity/EditText-Search), text=sanders feels the heat)",
+          "event_str": "SetTextEvent(state=1ce445b79b68bc76e0f77253dbc895bf, view=84f6d2a2ac43a7bb5176db723fc2f1b9(MainActivity/EditText-1), text=)",
           "event_id": 3,
-          "event_type": "set_text",
+          "event_type": "Clear",
           "view_images": [
-            "views/view_d3a42a34dc508f29a04e07c4188fd8e0.jpg"
+            "views/view_84f6d2a2ac43a7bb5176db723fc2f1b9.jpg"
           ]
         }
       ]
     },
     {
-      "from": "01702d07d61bcdc0738ed4e1079ccf54",
-      "to": "bf19d921083be2d3adb7d94bc7de2660",
-      "id": "01702d07d61bcdc0738ed4e1079ccf54-->bf19d921083be2d3adb7d94bc7de2660",
-      "title": "<table class=\"table\">\n<tr><th>4</th><td>SetTextEvent(state=01702d07d61bcdc0738ed4e1079ccf54, view=a663471be153b178347fd01a4b8da21c(MainNavigationActivity/EditText-sanders fe), text=sanders)</td></tr>\n</table>",
+      "from": "33ffe0884111092234cab3573b0eab36",
+      "to": "da01da5055985709a0a96e6cd27ad7b8",
+      "id": "33ffe0884111092234cab3573b0eab36-->da01da5055985709a0a96e6cd27ad7b8",
+      "title": "<table class=\"table\">\n<tr><th>4</th><td>SetTextEvent(state=33ffe0884111092234cab3573b0eab36, view=84f6d2a2ac43a7bb5176db723fc2f1b9(MainActivity/EditText-1), text=4)</td></tr>\n</table>",
       "label": "4",
       "events": [
         {
-          "event_str": "SetTextEvent(state=01702d07d61bcdc0738ed4e1079ccf54, view=a663471be153b178347fd01a4b8da21c(MainNavigationActivity/EditText-sanders fe), text=sanders)",
+          "event_str": "SetTextEvent(state=33ffe0884111092234cab3573b0eab36, view=84f6d2a2ac43a7bb5176db723fc2f1b9(MainActivity/EditText-1), text=4)",
           "event_id": 4,
-          "event_type": "set_text",
+          "event_type": "Clear",
           "view_images": [
-            "views/view_a663471be153b178347fd01a4b8da21c.jpg"
+            "views/view_84f6d2a2ac43a7bb5176db723fc2f1b9.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "da01da5055985709a0a96e6cd27ad7b8",
+      "to": "fde45e53e10d49727ad0cacd8bb1d882",
+      "id": "da01da5055985709a0a96e6cd27ad7b8-->fde45e53e10d49727ad0cacd8bb1d882",
+      "title": "<table class=\"table\">\n<tr><th>5</th><td>TouchEvent(state=da01da5055985709a0a96e6cd27ad7b8, view=b9390aba00ee552fd6611d17c47ba165(MainActivity/Button-Calculate))</td></tr>\n</table>",
+      "label": "5",
+      "events": [
+        {
+          "event_str": "TouchEvent(state=da01da5055985709a0a96e6cd27ad7b8, view=b9390aba00ee552fd6611d17c47ba165(MainActivity/Button-Calculate))",
+          "event_id": 5,
+          "event_type": "Clear",
+          "view_images": [
+            "views/view_b9390aba00ee552fd6611d17c47ba165.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "fde45e53e10d49727ad0cacd8bb1d882",
+      "to": "3a5d259345b45d859896b6b014fc2b08",
+      "id": "fde45e53e10d49727ad0cacd8bb1d882-->3a5d259345b45d859896b6b014fc2b08",
+      "title": "<table class=\"table\">\n<tr><th>6</th><td>ScrollEvent(state=fde45e53e10d49727ad0cacd8bb1d882, view=dc47cfc5cc214fd51426d37d9d2456ce(MainActivity/WebView-), direction=DOWN)</td></tr>\n</table>",
+      "label": "6",
+      "events": [
+        {
+          "event_str": "ScrollEvent(state=fde45e53e10d49727ad0cacd8bb1d882, view=dc47cfc5cc214fd51426d37d9d2456ce(MainActivity/WebView-), direction=DOWN)",
+          "event_id": 6,
+          "event_type": "Clear",
+          "view_images": [
+            "views/view_dc47cfc5cc214fd51426d37d9d2456ce.jpg"
           ]
         }
       ]
     }
   ],
-  "num_nodes": 5,
-  "num_edges": 4,
-  "num_effective_events": 4,
+  "num_nodes": 7,
+  "num_edges": 6,
+  "num_effective_events": 6,
   "num_reached_activities": 1,
-  "test_date": "2024-01-25 20:42:55",
-  "time_spent": 171.675288,
-  "num_transitions": 4,
+  "test_date": "2024-02-01 16:09:34",
+  "time_spent": 341.003763,
+  "num_transitions": 9,
   "device_serial": "ENU7N15A20000853",
   "device_model_number": "Nexus 6P",
   "device_sdk_version": 23,
-  "app_sha256": "ee392424bac8a167f7ade9f375a4857d43f10ffb99e4c1c35808a778eab39877",
-  "app_package": "com.abc.abcnews",
-  "app_main_activity": "com.abc.abcnews.ui.StartActivity",
-  "app_num_total_activities": 50
+  "app_sha256": "45e3066f855980a169feab26df9ae73940878e2fade7a61e13aa3a021a9ff4d0",
+  "app_package": "com.tleapps.simpletipcalculator",
+  "app_main_activity": "com.tleapps.simpletipcalculator.MainActivity",
+  "app_num_total_activities": 2
 }

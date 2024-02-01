@@ -1,0 +1,12 @@
+{
+  "tag": "2024-01-31_214855",
+  "event": {
+    "event_type": "kill_app",
+    "log_lines": null,
+    "prompt": null,
+    "stop_intent": "am force-stop acr.browser.lightning"
+  },
+  "start_state": "e36c629155778dfd860d9731ef5422ef",
+  "stop_state": "237e2fc2533dc86ca5096b961724fe41",
+  "event_str": "KillAppEvent()"
+}

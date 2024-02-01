@@ -1,0 +1,12 @@
+{
+  "tag": "2024-01-29_213049",
+  "event": {
+    "event_type": "key",
+    "log_lines": null,
+    "prompt": null,
+    "name": "BACK"
+  },
+  "start_state": "a9174ee9445c6f72bf2c3e1eff556cc6",
+  "stop_state": "a9174ee9445c6f72bf2c3e1eff556cc6",
+  "event_str": "KeyEvent(state=a9174ee9445c6f72bf2c3e1eff556cc6, name=BACK)"
+}

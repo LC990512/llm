@@ -1,0 +1,51 @@
+{
+  "tag": "2024-01-29_212515",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "checkable": false,
+      "selected": false,
+      "scrollable": false,
+      "long_clickable": true,
+      "resource_id": "acr.browser.lightning:id/search",
+      "visible": true,
+      "enabled": true,
+      "clickable": true,
+      "checked": false,
+      "is_password": false,
+      "content_description": null,
+      "focused": true,
+      "class": "android.widget.EditText",
+      "children": [],
+      "child_count": 0,
+      "package": "acr.browser.lightning",
+      "text": "https://www.ics.uci.edu",
+      "bounds": [
+        [
+          203,
+          112
+        ],
+        [
+          1265,
+          259
+        ]
+      ],
+      "editable": true,
+      "focusable": true,
+      "parent": 390,
+      "temp_id": 391,
+      "size": "1062*147",
+      "signature": "[class]android.widget.EditText[resource_id]acr.browser.lightning:id/search[text]https://www.ics.uci.edu[enabled,,]",
+      "view_str": "1f2b5ffb52985e6bff78fa4ad3d1811c",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]acr.browser.lightning:id/search"
+    },
+    "x": null,
+    "y": null,
+    "text": "https://uci.edu"
+  },
+  "start_state": "57baebbe75d5697d2d254c2b76ce0b12",
+  "stop_state": "d3de61dc3611a59ea158f4a1da4cfb1d",
+  "event_str": "SetTextEvent(state=57baebbe75d5697d2d254c2b76ce0b12, view=1f2b5ffb52985e6bff78fa4ad3d1811c(MainActivity/EditText-https://ww), text=https://uci.edu)"
+}

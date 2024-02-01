@@ -1,0 +1,469 @@
+[
+    {
+        "event_type": "Clear",
+        "log_lines": null,
+        "prompt": null,
+        "stop_intent": "am force-stop com.tleapps.simpletipcalculator"
+    },
+    {
+        "event_type": "Clear",
+        "log_lines": null,
+        "prompt": null,
+        "intent": "am start com.tleapps.simpletipcalculator/com.tleapps.simpletipcalculator.MainActivity"
+    },
+    {
+        "event_type": "Clear",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "com.tleapps.simpletipcalculator:id/editTextBill",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "com.tleapps.simpletipcalculator",
+            "text": "100.00",
+            "bounds": [
+                [
+                    685,
+                    406
+                ],
+                [
+                    1280,
+                    554
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 16,
+            "temp_id": 18,
+            "size": "595*148",
+            "signature": "[class]android.widget.EditText[resource_id]com.tleapps.simpletipcalculator:id/editTextBill[text]100.00[enabled,,]",
+            "view_str": "a7c470eb1b187ac72bb44678ca6bea5d",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.tleapps.simpletipcalculator:id/editTextBill"
+        },
+        "x": null,
+        "y": null,
+        "text": ""
+    },
+    {
+        "event_type": "Clear",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "com.tleapps.simpletipcalculator:id/editTextBill",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "com.tleapps.simpletipcalculator",
+            "text": "100.00",
+            "bounds": [
+                [
+                    685,
+                    406
+                ],
+                [
+                    1280,
+                    554
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 16,
+            "temp_id": 18,
+            "size": "595*148",
+            "signature": "[class]android.widget.EditText[resource_id]com.tleapps.simpletipcalculator:id/editTextBill[text]100.00[enabled,,]",
+            "view_str": "a7c470eb1b187ac72bb44678ca6bea5d",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.tleapps.simpletipcalculator:id/editTextBill"
+        },
+        "x": null,
+        "y": null,
+        "text": "56.6"
+    },
+    {
+        "event_type": "Clear",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "com.tleapps.simpletipcalculator:id/editTextTip",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": true,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "com.tleapps.simpletipcalculator",
+            "text": "15",
+            "bounds": [
+                [
+                    949,
+                    756
+                ],
+                [
+                    1280,
+                    904
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 41,
+            "temp_id": 45,
+            "size": "331*148",
+            "signature": "[class]android.widget.EditText[resource_id]com.tleapps.simpletipcalculator:id/editTextTip[text]15[enabled,,]",
+            "view_str": "b17787460ecdadee96d0dea30fb418e7",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.tleapps.simpletipcalculator:id/editTextTip"
+        },
+        "x": null,
+        "y": null,
+        "text": ""
+    },
+    {
+        "event_type": "Clear",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "com.tleapps.simpletipcalculator:id/editTextTip",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "com.tleapps.simpletipcalculator",
+            "text": "15",
+            "bounds": [
+                [
+                    949,
+                    756
+                ],
+                [
+                    1280,
+                    904
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 41,
+            "temp_id": 45,
+            "size": "331*148",
+            "signature": "[class]android.widget.EditText[resource_id]com.tleapps.simpletipcalculator:id/editTextTip[text]15[enabled,,]",
+            "view_str": "b17787460ecdadee96d0dea30fb418e7",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.tleapps.simpletipcalculator:id/editTextTip"
+        },
+        "x": null,
+        "y": null,
+        "text": "15"
+    },
+    {
+        "event_type": "Clear",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "com.tleapps.simpletipcalculator:id/editTextSplit",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": true,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "com.tleapps.simpletipcalculator",
+            "text": "1",
+            "bounds": [
+                [
+                    949,
+                    931
+                ],
+                [
+                    1280,
+                    1079
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 46,
+            "temp_id": 50,
+            "size": "331*148",
+            "signature": "[class]android.widget.EditText[resource_id]com.tleapps.simpletipcalculator:id/editTextSplit[text]1[enabled,,]",
+            "view_str": "84f6d2a2ac43a7bb5176db723fc2f1b9",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.tleapps.simpletipcalculator:id/editTextSplit"
+        },
+        "x": null,
+        "y": null,
+        "text": ""
+    },
+    {
+        "event_type": "Clear",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "com.tleapps.simpletipcalculator:id/editTextSplit",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "com.tleapps.simpletipcalculator",
+            "text": "1",
+            "bounds": [
+                [
+                    949,
+                    931
+                ],
+                [
+                    1280,
+                    1079
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 46,
+            "temp_id": 50,
+            "size": "331*148",
+            "signature": "[class]android.widget.EditText[resource_id]com.tleapps.simpletipcalculator:id/editTextSplit[text]1[enabled,,]",
+            "view_str": "84f6d2a2ac43a7bb5176db723fc2f1b9",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.tleapps.simpletipcalculator:id/editTextSplit"
+        },
+        "x": null,
+        "y": null,
+        "text": "4"
+    },
+    {
+        "event_type": "Clear",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "com.tleapps.simpletipcalculator:id/buttonCalculate",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.Button",
+            "children": [],
+            "child_count": 0,
+            "package": "com.tleapps.simpletipcalculator",
+            "text": "Calculate",
+            "bounds": [
+                [
+                    240,
+                    1109
+                ],
+                [
+                    548,
+                    1277
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 51,
+            "temp_id": 52,
+            "size": "308*168",
+            "signature": "[class]android.widget.Button[resource_id]com.tleapps.simpletipcalculator:id/buttonCalculate[text]Calculate[enabled,,]",
+            "view_str": "b9390aba00ee552fd6611d17c47ba165",
+            "content_free_signature": "[class]android.widget.Button[resource_id]com.tleapps.simpletipcalculator:id/buttonCalculate"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "Clear",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": true,
+            "long_clickable": false,
+            "resource_id": null,
+            "visible": true,
+            "enabled": true,
+            "clickable": false,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": true,
+            "class": "android.webkit.WebView",
+            "children": [
+                20
+            ],
+            "child_count": 1,
+            "package": "com.tleapps.simpletipcalculator",
+            "text": "",
+            "bounds": [
+                [
+                    160,
+                    336
+                ],
+                [
+                    1280,
+                    512
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 18,
+            "temp_id": 19,
+            "size": "1120*176",
+            "signature": "[class]android.webkit.WebView[resource_id]None[text][enabled,,]",
+            "view_str": "dc47cfc5cc214fd51426d37d9d2456ce",
+            "content_free_signature": "[class]android.webkit.WebView[resource_id]None"
+        },
+        "x": null,
+        "y": null,
+        "direction": "DOWN"
+    },
+    {
+        "event_type": "Clear",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": true,
+            "long_clickable": false,
+            "resource_id": null,
+            "visible": true,
+            "enabled": true,
+            "clickable": false,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": true,
+            "class": "android.webkit.WebView",
+            "children": [
+                20
+            ],
+            "child_count": 1,
+            "package": "com.tleapps.simpletipcalculator",
+            "text": "",
+            "bounds": [
+                [
+                    160,
+                    336
+                ],
+                [
+                    1280,
+                    512
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 18,
+            "temp_id": 19,
+            "size": "1120*176",
+            "signature": "[class]android.webkit.WebView[resource_id]None[text][enabled,,]",
+            "view_str": "dc47cfc5cc214fd51426d37d9d2456ce",
+            "content_free_signature": "[class]android.webkit.WebView[resource_id]None"
+        },
+        "x": null,
+        "y": null,
+        "direction": "UP"
+    },
+    {
+        "event_type": "Clear",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": true,
+            "long_clickable": false,
+            "resource_id": null,
+            "visible": true,
+            "enabled": true,
+            "clickable": false,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": true,
+            "class": "android.view.View",
+            "children": [
+                31
+            ],
+            "child_count": 1,
+            "package": "com.tleapps.simpletipcalculator",
+            "text": "Advertisement",
+            "bounds": [
+                [
+                    160,
+                    336
+                ],
+                [
+                    1280,
+                    512
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 29,
+            "temp_id": 30,
+            "size": "1120*176",
+            "signature": "[class]android.view.View[resource_id]None[text]Advertisement[enabled,,]",
+            "view_str": "512c0273c3e627b3023e289df088a20c",
+            "content_free_signature": "[class]android.view.View[resource_id]None"
+        },
+        "x": null,
+        "y": null,
+        "direction": "UP"
+    }
+]

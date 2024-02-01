@@ -1,0 +1,340 @@
+[
+    {
+        "event_type": "kill_app",
+        "log_lines": null,
+        "prompt": null,
+        "stop_intent": "am force-stop org.mozilla.focus"
+    },
+    {
+        "event_type": "intent",
+        "log_lines": null,
+        "prompt": null,
+        "intent": "am start org.mozilla.focus/org.mozilla.focus.activity.MainActivity"
+    },
+    {
+        "event_type": "set_text",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "org.mozilla.focus:id/urlView",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": true,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "org.mozilla.focus",
+            "text": "Search or enter address",
+            "bounds": [
+                [
+                    28,
+                    115
+                ],
+                [
+                    1272,
+                    255
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 9,
+            "temp_id": 10,
+            "size": "1244*140",
+            "signature": "[class]android.widget.EditText[resource_id]org.mozilla.focus:id/urlView[text]Search or enter address[enabled,,]",
+            "view_str": "37a19a151299402f1e68e56963e8bb99",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]org.mozilla.focus:id/urlView"
+        },
+        "x": null,
+        "y": null,
+        "text": ""
+    },
+    {
+        "event_type": "set_text",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "org.mozilla.focus:id/urlView",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": true,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "org.mozilla.focus",
+            "text": "Search or enter address",
+            "bounds": [
+                [
+                    28,
+                    115
+                ],
+                [
+                    1272,
+                    255
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 9,
+            "temp_id": 10,
+            "size": "1244*140",
+            "signature": "[class]android.widget.EditText[resource_id]org.mozilla.focus:id/urlView[text]Search or enter address[enabled,,]",
+            "view_str": "37a19a151299402f1e68e56963e8bb99",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]org.mozilla.focus:id/urlView"
+        },
+        "x": null,
+        "y": null,
+        "text": "https://www.ics.uci.edu"
+    },
+    {
+        "event_type": "oracle/in the state",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": true,
+            "long_clickable": false,
+            "resource_id": null,
+            "visible": true,
+            "enabled": true,
+            "clickable": false,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": true,
+            "class": "android.webkit.WebView",
+            "children": [
+                21
+            ],
+            "child_count": 1,
+            "package": "org.mozilla.focus",
+            "text": "Home - UC Irvine Donald Bren School of Information & Computer Sciences",
+            "bounds": [
+                [
+                    0,
+                    280
+                ],
+                [
+                    1445,
+                    2590
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 19,
+            "temp_id": 20,
+            "size": "1445*2310",
+            "signature": "[class]android.webkit.WebView[resource_id]None[text]None[enabled,,]",
+            "view_str": "d689715a32f5c3b434def3a62ddd8332",
+            "content_free_signature": "[class]android.webkit.WebView[resource_id]None"
+        },
+        "x": null,
+        "y": null,
+        "direction": "UP"
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "org.mozilla.focus:id/display_url",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": false,
+            "class": "android.widget.TextView",
+            "children": [],
+            "child_count": 0,
+            "package": "org.mozilla.focus",
+            "text": "https://ics.uci.edu/",
+            "bounds": [
+                [
+                    175,
+                    84
+                ],
+                [
+                    1230,
+                    280
+                ]
+            ],
+            "editable": false,
+            "focusable": false,
+            "parent": 12,
+            "temp_id": 14,
+            "size": "1055*196",
+            "signature": "[class]android.widget.TextView[resource_id]org.mozilla.focus:id/display_url[text]https://ics.uci.edu/[enabled,,]",
+            "view_str": "949f2c97b2cab1fe963585aafde49e77",
+            "content_free_signature": "[class]android.widget.TextView[resource_id]org.mozilla.focus:id/display_url"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "set_text",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": true,
+            "resource_id": "org.mozilla.focus:id/urlView",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": true,
+            "class": "android.widget.EditText",
+            "children": [],
+            "child_count": 0,
+            "package": "org.mozilla.focus",
+            "text": "https://ics.uci.edu/",
+            "bounds": [
+                [
+                    28,
+                    115
+                ],
+                [
+                    1272,
+                    255
+                ]
+            ],
+            "editable": true,
+            "focusable": true,
+            "parent": 401,
+            "temp_id": 402,
+            "size": "1244*140",
+            "signature": "[class]android.widget.EditText[resource_id]org.mozilla.focus:id/urlView[text]https://ics.uci.edu/[enabled,,]",
+            "view_str": "339e433a66f9d325cc14789fd7b46432",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]org.mozilla.focus:id/urlView"
+        },
+        "x": null,
+        "y": null,
+        "text": "https://uci.edu"
+    },
+    {
+        "event_type": "oracle/in the state",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": null,
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": "UCI homepage",
+            "focused": false,
+            "class": "android.view.View",
+            "children": [
+                34,
+                35
+            ],
+            "child_count": 2,
+            "package": "org.mozilla.focus",
+            "text": null,
+            "bounds": [
+                [
+                    0,
+                    280
+                ],
+                [
+                    227,
+                    469
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 28,
+            "temp_id": 33,
+            "size": "227*189",
+            "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+            "view_str": "bb6a01ecb94323288ffc0401e1d98851",
+            "content_free_signature": "[class]android.view.View[resource_id]None"
+        },
+        "x": null,
+        "y": null
+    },
+    {
+        "event_type": "key",
+        "log_lines": null,
+        "prompt": null,
+        "name": "BACK"
+    },
+    {
+        "event_type": "oracle/in the state",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": true,
+            "long_clickable": false,
+            "resource_id": null,
+            "visible": true,
+            "enabled": true,
+            "clickable": false,
+            "checked": false,
+            "is_password": false,
+            "content_description": null,
+            "focused": true,
+            "class": "android.webkit.WebView",
+            "children": [
+                20
+            ],
+            "child_count": 1,
+            "package": "org.mozilla.focus",
+            "text": "Home - UC Irvine Donald Bren School of Information & Computer Sciences",
+            "bounds": [
+                [
+                    0,
+                    280
+                ],
+                [
+                    1445,
+                    2590
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 18,
+            "temp_id": 19,
+            "size": "1445*2310",
+            "signature": "[class]android.webkit.WebView[resource_id]None[text]None[enabled,,]",
+            "view_str": "d689715a32f5c3b434def3a62ddd8332",
+            "content_free_signature": "[class]android.webkit.WebView[resource_id]None"
+        },
+        "x": null,
+        "y": null,
+        "direction": "UP"
+    }
+]

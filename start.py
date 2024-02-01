@@ -232,7 +232,7 @@ def main():
     directory_path = "../step2/result_steps_text"
     file_list = sorted([f for f in os.listdir(directory_path) if f.endswith('.txt')])
     for filename in file_list:
-        if filename != "a53_b52.txt":
+        if filename != "a55_b52.txt":
             continue
         extracted_info = process_files(directory_path, filename)
         for item in extracted_info:

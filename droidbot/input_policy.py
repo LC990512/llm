@@ -705,6 +705,8 @@ class TaskPolicy(UtgBasedInputPolicy):
                             condition = "in the state"
                             if "not in the state" in self.task:
                                 condition = "not in the state"
+                        if self.task.split()[0].lower() == "clear":
+                            condition = "Clear"
                     input_manager.add_event(event, condition)
                     self.attempt_count += 1
                     time.sleep(8)
@@ -836,7 +838,7 @@ class TaskPolicy(UtgBasedInputPolicy):
 
                 system_prompt = {
                     "role": "system",
-                    "content": f"You are ChatGPT, a large language model trained by OpenAI.\nKnowledge cutoff: 2021-09\nCurrent date: {current_date}"
+                    "content": "You are ChatGPT, a large language model trained by OpenAI.\nKnowledge cutoff: 2021-09\nCurrent date: 2024-02-01"
                 }
                 messages = [system_prompt] + messages
                 response = openai.ChatCompletion.create(
@@ -845,6 +847,7 @@ class TaskPolicy(UtgBasedInputPolicy):
                     temperature=0.4,
                     messages = messages
                 )
+                time.sleep(20)
                 return response
             except openai.error.OpenAIError as oe:
                 print(f"OpenAI API 错误: {oe}")
@@ -1089,12 +1092,13 @@ class TaskPolicy(UtgBasedInputPolicy):
 
 
         # Second, if not finished, then provide the next action.
+        history_prompt = 'Completed Actions (do not repeat these): \n' + ';\n '.join(action_history)
+        state_prompt = 'Current State with Available UI Views and Actions (with Action ID):\n ' + ';\n '.join(view_descs)
+        state_prompt = self.remove_duplicate_lines(state_prompt, history_prompt)
+        
         if self.task.split()[0].lower() == "identify":
             # indentify
             task_prompt = f"I have performed some actions in the current app. Now, I want to identify a text '659' in the current UI state, but I couldn't find the corresponding component. Therefore, I need to perform new actions to navigate to a new page for inspection. Based on the actions I have already executed, please suggest the action ID that I might perform next.\n"
-            history_prompt = 'Completed Actions (do not repeat these): \n' + ';\n '.join(action_history)
-            state_prompt = 'Current State with Available UI Views and Actions (with Action ID):\n ' + ';\n '.join(view_descs)
-            state_prompt = self.remove_duplicate_lines(state_prompt, history_prompt)
             prompt = f'{task_prompt}\n{history_prompt}\n{state_prompt}'
         else:
             # event

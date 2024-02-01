@@ -50,7 +50,8 @@ class InputManager(object):
         self.random_input = random_input
         self.events = []
     
-        self.api = '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'
+        self.api = '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'
+        #'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'
 
             # {'key': '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', 'last_used': 0},
             # {'key': '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', 'last_used': 0},
@@ -116,17 +117,16 @@ class InputManager(object):
         if event is None:
             return
         
-        print(f"lccc add_event: event:[{event}]")
+        print(f"lccc add_event: event:[{event}], task:[{condition}]")
         
         append_event = event
         if condition != "Event":
-            append_event.event_type = "oracle/" + condition
-            self.events.append(append_event)
-            return 
-       
-        if self.task.split()[0].lower() == "clear":
-            append_event.event_type = "Clear"
-
+            if condition == "Clear":
+                append_event.event_type = "Clear"
+            else:
+                append_event.event_type = "oracle/" + condition
+                self.events.append(append_event)
+                return 
         self.events.append(append_event)
         
         event_log = EventLog(self.device, self.app, event, self.profiling_method)

@@ -1,12 +1,12 @@
 [
     {
-        "event_type": "Clear",
+        "event_type": "kill_app",
         "log_lines": null,
         "prompt": null,
         "stop_intent": "am force-stop com.tleapps.simpletipcalculator"
     },
     {
-        "event_type": "Clear",
+        "event_type": "intent",
         "log_lines": null,
         "prompt": null,
         "intent": "am start com.tleapps.simpletipcalculator/com.tleapps.simpletipcalculator.MainActivity"
@@ -57,7 +57,7 @@
         "text": ""
     },
     {
-        "event_type": "Clear",
+        "event_type": "set_text",
         "log_lines": null,
         "prompt": null,
         "view": {
@@ -147,7 +147,7 @@
         "text": ""
     },
     {
-        "event_type": "Clear",
+        "event_type": "set_text",
         "log_lines": null,
         "prompt": null,
         "view": {
@@ -192,7 +192,7 @@
         "text": "15"
     },
     {
-        "event_type": "Clear",
+        "event_type": "click",
         "log_lines": null,
         "prompt": null,
         "view": {
@@ -236,7 +236,7 @@
         "y": null
     },
     {
-        "event_type": "Clear",
+        "event_type": "click",
         "log_lines": null,
         "prompt": null,
         "view": {
@@ -280,7 +280,7 @@
         "y": null
     },
     {
-        "event_type": "Clear",
+        "event_type": "scoll",
         "log_lines": null,
         "prompt": null,
         "view": {
@@ -327,7 +327,7 @@
         "direction": "UP"
     },
     {
-        "event_type": "Clear",
+        "event_type": "click",
         "log_lines": null,
         "prompt": null,
         "view": {

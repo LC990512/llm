@@ -3,13 +3,13 @@
         "event_type": "kill_app",
         "log_lines": null,
         "prompt": null,
-        "stop_intent": "am force-stop com.appsbyvir.tipcalculator"
+        "stop_intent": "am force-stop com.jpstudiosonline.tipcalculator"
     },
     {
         "event_type": "intent",
         "log_lines": null,
         "prompt": null,
-        "intent": "am start com.appsbyvir.tipcalculator/com.appsbyvir.tipcalculator.MainActivity"
+        "intent": "am start com.jpstudiosonline.tipcalculator/com.jpstudiosonline.tipcalculator.MainActivity"
     },
     {
         "event_type": "Clear",
@@ -20,7 +20,7 @@
             "selected": false,
             "scrollable": false,
             "long_clickable": true,
-            "resource_id": "com.appsbyvir.tipcalculator:id/billEditText",
+            "resource_id": "com.jpstudiosonline.tipcalculator:id/etBillTotal",
             "visible": true,
             "enabled": true,
             "clickable": true,
@@ -31,26 +31,26 @@
             "class": "android.widget.EditText",
             "children": [],
             "child_count": 0,
-            "package": "com.appsbyvir.tipcalculator",
-            "text": null,
+            "package": "com.jpstudiosonline.tipcalculator",
+            "text": "1",
             "bounds": [
                 [
-                    930,
-                    270
+                    684,
+                    733
                 ],
                 [
-                    1380,
-                    426
+                    1384,
+                    891
                 ]
             ],
             "editable": true,
             "focusable": true,
-            "parent": 12,
-            "temp_id": 14,
-            "size": "450*156",
-            "signature": "[class]android.widget.EditText[resource_id]com.appsbyvir.tipcalculator:id/billEditText[text]None[enabled,,]",
-            "view_str": "42509d29d1b8c52285ded78e8e22677f",
-            "content_free_signature": "[class]android.widget.EditText[resource_id]com.appsbyvir.tipcalculator:id/billEditText"
+            "parent": 31,
+            "temp_id": 33,
+            "size": "700*158",
+            "signature": "[class]android.widget.EditText[resource_id]com.jpstudiosonline.tipcalculator:id/etBillTotal[text]1[enabled,,]",
+            "view_str": "6748319b49395f4b55ca0a945bfd59f6",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.jpstudiosonline.tipcalculator:id/etBillTotal"
         },
         "x": null,
         "y": null,
@@ -65,7 +65,7 @@
             "selected": false,
             "scrollable": false,
             "long_clickable": true,
-            "resource_id": "com.appsbyvir.tipcalculator:id/billEditText",
+            "resource_id": "com.jpstudiosonline.tipcalculator:id/etBillTotal",
             "visible": true,
             "enabled": true,
             "clickable": true,
@@ -76,26 +76,26 @@
             "class": "android.widget.EditText",
             "children": [],
             "child_count": 0,
-            "package": "com.appsbyvir.tipcalculator",
-            "text": null,
+            "package": "com.jpstudiosonline.tipcalculator",
+            "text": "1",
             "bounds": [
                 [
-                    930,
-                    270
+                    684,
+                    733
                 ],
                 [
-                    1380,
-                    426
+                    1384,
+                    891
                 ]
             ],
             "editable": true,
             "focusable": true,
-            "parent": 12,
-            "temp_id": 14,
-            "size": "450*156",
-            "signature": "[class]android.widget.EditText[resource_id]com.appsbyvir.tipcalculator:id/billEditText[text]None[enabled,,]",
-            "view_str": "42509d29d1b8c52285ded78e8e22677f",
-            "content_free_signature": "[class]android.widget.EditText[resource_id]com.appsbyvir.tipcalculator:id/billEditText"
+            "parent": 31,
+            "temp_id": 33,
+            "size": "700*158",
+            "signature": "[class]android.widget.EditText[resource_id]com.jpstudiosonline.tipcalculator:id/etBillTotal[text]1[enabled,,]",
+            "view_str": "6748319b49395f4b55ca0a945bfd59f6",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.jpstudiosonline.tipcalculator:id/etBillTotal"
         },
         "x": null,
         "y": null,
@@ -110,37 +110,37 @@
             "selected": false,
             "scrollable": false,
             "long_clickable": true,
-            "resource_id": "com.appsbyvir.tipcalculator:id/tipEditText",
+            "resource_id": "com.jpstudiosonline.tipcalculator:id/etTipAmount",
             "visible": true,
             "enabled": true,
             "clickable": true,
             "checked": false,
             "is_password": false,
             "content_description": null,
-            "focused": true,
+            "focused": false,
             "class": "android.widget.EditText",
             "children": [],
             "child_count": 0,
-            "package": "com.appsbyvir.tipcalculator",
-            "text": "15.0",
+            "package": "com.jpstudiosonline.tipcalculator",
+            "text": "15",
             "bounds": [
                 [
-                    930,
-                    464
+                    684,
+                    575
                 ],
                 [
-                    1380,
-                    620
+                    1384,
+                    733
                 ]
             ],
             "editable": true,
             "focusable": true,
-            "parent": 12,
-            "temp_id": 16,
-            "size": "450*156",
-            "signature": "[class]android.widget.EditText[resource_id]com.appsbyvir.tipcalculator:id/tipEditText[text]15.0[enabled,,]",
-            "view_str": "77a0302f36c00acb20b98c0291ae29f7",
-            "content_free_signature": "[class]android.widget.EditText[resource_id]com.appsbyvir.tipcalculator:id/tipEditText"
+            "parent": 25,
+            "temp_id": 27,
+            "size": "700*158",
+            "signature": "[class]android.widget.EditText[resource_id]com.jpstudiosonline.tipcalculator:id/etTipAmount[text]15[enabled,,]",
+            "view_str": "636f22fe479ae2aab6c4b67b095592ff",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.jpstudiosonline.tipcalculator:id/etTipAmount"
         },
         "x": null,
         "y": null,
@@ -155,7 +155,7 @@
             "selected": false,
             "scrollable": false,
             "long_clickable": true,
-            "resource_id": "com.appsbyvir.tipcalculator:id/tipEditText",
+            "resource_id": "com.jpstudiosonline.tipcalculator:id/etTipAmount",
             "visible": true,
             "enabled": true,
             "clickable": true,
@@ -166,74 +166,73 @@
             "class": "android.widget.EditText",
             "children": [],
             "child_count": 0,
-            "package": "com.appsbyvir.tipcalculator",
-            "text": "15.0",
+            "package": "com.jpstudiosonline.tipcalculator",
+            "text": "15",
             "bounds": [
                 [
-                    930,
-                    464
+                    684,
+                    575
                 ],
                 [
-                    1380,
-                    620
+                    1384,
+                    733
                 ]
             ],
             "editable": true,
             "focusable": true,
-            "parent": 12,
-            "temp_id": 16,
-            "size": "450*156",
-            "signature": "[class]android.widget.EditText[resource_id]com.appsbyvir.tipcalculator:id/tipEditText[text]15.0[enabled,,]",
-            "view_str": "77a0302f36c00acb20b98c0291ae29f7",
-            "content_free_signature": "[class]android.widget.EditText[resource_id]com.appsbyvir.tipcalculator:id/tipEditText"
+            "parent": 25,
+            "temp_id": 27,
+            "size": "700*158",
+            "signature": "[class]android.widget.EditText[resource_id]com.jpstudiosonline.tipcalculator:id/etTipAmount[text]15[enabled,,]",
+            "view_str": "636f22fe479ae2aab6c4b67b095592ff",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.jpstudiosonline.tipcalculator:id/etTipAmount"
         },
         "x": null,
         "y": null,
         "text": "15"
     },
     {
-        "event_type": "oracle/in the state",
+        "event_type": "click",
         "log_lines": null,
         "prompt": null,
         "view": {
             "checkable": false,
             "selected": false,
             "scrollable": false,
-            "long_clickable": true,
-            "resource_id": "com.appsbyvir.tipcalculator:id/finalBillEditText",
+            "long_clickable": false,
+            "resource_id": "com.jpstudiosonline.tipcalculator:id/btCalculate",
             "visible": true,
             "enabled": true,
-            "clickable": false,
+            "clickable": true,
             "checked": false,
             "is_password": false,
             "content_description": null,
             "focused": false,
-            "class": "android.widget.EditText",
+            "class": "android.widget.Button",
             "children": [],
             "child_count": 0,
-            "package": "com.appsbyvir.tipcalculator",
-            "text": "65.09",
+            "package": "com.jpstudiosonline.tipcalculator",
+            "text": "Calculate",
             "bounds": [
                 [
-                    930,
-                    1408
+                    370,
+                    1329
                 ],
                 [
-                    1380,
-                    1564
+                    1070,
+                    1497
                 ]
             ],
-            "editable": true,
-            "focusable": false,
-            "parent": 12,
-            "temp_id": 24,
-            "size": "450*156",
-            "signature": "[class]android.widget.EditText[resource_id]com.appsbyvir.tipcalculator:id/finalBillEditText[text]65.09[enabled,,]",
-            "view_str": "7d5b1eb236696690e255c5cea4592c61",
-            "content_free_signature": "[class]android.widget.EditText[resource_id]com.appsbyvir.tipcalculator:id/finalBillEditText"
+            "editable": false,
+            "focusable": true,
+            "parent": 44,
+            "temp_id": 45,
+            "size": "700*168",
+            "signature": "[class]android.widget.Button[resource_id]com.jpstudiosonline.tipcalculator:id/btCalculate[text]Calculate[enabled,,]",
+            "view_str": "667609b591262f5b1277abb8c2d2c5db",
+            "content_free_signature": "[class]android.widget.Button[resource_id]com.jpstudiosonline.tipcalculator:id/btCalculate"
         },
         "x": null,
-        "y": null,
-        "text": ""
+        "y": null
     }
 ]

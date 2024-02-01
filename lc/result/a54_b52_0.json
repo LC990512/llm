@@ -3,13 +3,13 @@
         "event_type": "kill_app",
         "log_lines": null,
         "prompt": null,
-        "stop_intent": "am force-stop com.tleapps.simpletipcalculator"
+        "stop_intent": "am force-stop com.zaidisoft.teninone"
     },
     {
         "event_type": "intent",
         "log_lines": null,
         "prompt": null,
-        "intent": "am start com.tleapps.simpletipcalculator/com.tleapps.simpletipcalculator.MainActivity"
+        "intent": "am start com.zaidisoft.teninone/com.zaidisoft.teninone.Calculator"
     },
     {
         "event_type": "Clear",
@@ -20,37 +20,37 @@
             "selected": false,
             "scrollable": false,
             "long_clickable": true,
-            "resource_id": "com.tleapps.simpletipcalculator:id/editTextBill",
+            "resource_id": "com.zaidisoft.teninone:id/billAmountET",
             "visible": true,
             "enabled": true,
             "clickable": true,
             "checked": false,
             "is_password": false,
             "content_description": null,
-            "focused": false,
+            "focused": true,
             "class": "android.widget.EditText",
             "children": [],
             "child_count": 0,
-            "package": "com.tleapps.simpletipcalculator",
-            "text": "100.00",
+            "package": "com.zaidisoft.teninone",
+            "text": "0",
             "bounds": [
                 [
-                    685,
-                    406
+                    858,
+                    1198
                 ],
                 [
-                    1280,
-                    554
+                    1412,
+                    1339
                 ]
             ],
             "editable": true,
             "focusable": true,
-            "parent": 16,
-            "temp_id": 18,
-            "size": "595*148",
-            "signature": "[class]android.widget.EditText[resource_id]com.tleapps.simpletipcalculator:id/editTextBill[text]100.00[enabled,,]",
-            "view_str": "a7c470eb1b187ac72bb44678ca6bea5d",
-            "content_free_signature": "[class]android.widget.EditText[resource_id]com.tleapps.simpletipcalculator:id/editTextBill"
+            "parent": 59,
+            "temp_id": 61,
+            "size": "554*141",
+            "signature": "[class]android.widget.EditText[resource_id]com.zaidisoft.teninone:id/billAmountET[text]0[enabled,,]",
+            "view_str": "d8977e68402d2c1757590b0af28c5aa8",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.zaidisoft.teninone:id/billAmountET"
         },
         "x": null,
         "y": null,
@@ -65,7 +65,7 @@
             "selected": false,
             "scrollable": false,
             "long_clickable": true,
-            "resource_id": "com.tleapps.simpletipcalculator:id/editTextBill",
+            "resource_id": "com.zaidisoft.teninone:id/billAmountET",
             "visible": true,
             "enabled": true,
             "clickable": true,
@@ -76,26 +76,26 @@
             "class": "android.widget.EditText",
             "children": [],
             "child_count": 0,
-            "package": "com.tleapps.simpletipcalculator",
-            "text": "100.00",
+            "package": "com.zaidisoft.teninone",
+            "text": "0",
             "bounds": [
                 [
-                    685,
-                    406
+                    858,
+                    1198
                 ],
                 [
-                    1280,
-                    554
+                    1412,
+                    1339
                 ]
             ],
             "editable": true,
             "focusable": true,
-            "parent": 16,
-            "temp_id": 18,
-            "size": "595*148",
-            "signature": "[class]android.widget.EditText[resource_id]com.tleapps.simpletipcalculator:id/editTextBill[text]100.00[enabled,,]",
-            "view_str": "a7c470eb1b187ac72bb44678ca6bea5d",
-            "content_free_signature": "[class]android.widget.EditText[resource_id]com.tleapps.simpletipcalculator:id/editTextBill"
+            "parent": 59,
+            "temp_id": 61,
+            "size": "554*141",
+            "signature": "[class]android.widget.EditText[resource_id]com.zaidisoft.teninone:id/billAmountET[text]0[enabled,,]",
+            "view_str": "d8977e68402d2c1757590b0af28c5aa8",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.zaidisoft.teninone:id/billAmountET"
         },
         "x": null,
         "y": null,
@@ -110,7 +110,7 @@
             "selected": false,
             "scrollable": false,
             "long_clickable": true,
-            "resource_id": "com.tleapps.simpletipcalculator:id/editTextTip",
+            "resource_id": "com.zaidisoft.teninone:id/tipPercentET",
             "visible": true,
             "enabled": true,
             "clickable": true,
@@ -121,26 +121,26 @@
             "class": "android.widget.EditText",
             "children": [],
             "child_count": 0,
-            "package": "com.tleapps.simpletipcalculator",
-            "text": "15",
+            "package": "com.zaidisoft.teninone",
+            "text": "0",
             "bounds": [
                 [
-                    949,
-                    756
+                    858,
+                    1403
                 ],
                 [
-                    1280,
-                    904
+                    1412,
+                    1544
                 ]
             ],
             "editable": true,
             "focusable": true,
-            "parent": 41,
-            "temp_id": 45,
-            "size": "331*148",
-            "signature": "[class]android.widget.EditText[resource_id]com.tleapps.simpletipcalculator:id/editTextTip[text]15[enabled,,]",
-            "view_str": "b17787460ecdadee96d0dea30fb418e7",
-            "content_free_signature": "[class]android.widget.EditText[resource_id]com.tleapps.simpletipcalculator:id/editTextTip"
+            "parent": 62,
+            "temp_id": 64,
+            "size": "554*141",
+            "signature": "[class]android.widget.EditText[resource_id]com.zaidisoft.teninone:id/tipPercentET[text]0[enabled,,]",
+            "view_str": "98158fb6b00c2a7d62eb8211b5023b5e",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.zaidisoft.teninone:id/tipPercentET"
         },
         "x": null,
         "y": null,
@@ -155,7 +155,7 @@
             "selected": false,
             "scrollable": false,
             "long_clickable": true,
-            "resource_id": "com.tleapps.simpletipcalculator:id/editTextTip",
+            "resource_id": "com.zaidisoft.teninone:id/tipPercentET",
             "visible": true,
             "enabled": true,
             "clickable": true,
@@ -166,26 +166,26 @@
             "class": "android.widget.EditText",
             "children": [],
             "child_count": 0,
-            "package": "com.tleapps.simpletipcalculator",
-            "text": "15",
+            "package": "com.zaidisoft.teninone",
+            "text": "0",
             "bounds": [
                 [
-                    949,
-                    756
+                    858,
+                    1403
                 ],
                 [
-                    1280,
-                    904
+                    1412,
+                    1544
                 ]
             ],
             "editable": true,
             "focusable": true,
-            "parent": 41,
-            "temp_id": 45,
-            "size": "331*148",
-            "signature": "[class]android.widget.EditText[resource_id]com.tleapps.simpletipcalculator:id/editTextTip[text]15[enabled,,]",
-            "view_str": "b17787460ecdadee96d0dea30fb418e7",
-            "content_free_signature": "[class]android.widget.EditText[resource_id]com.tleapps.simpletipcalculator:id/editTextTip"
+            "parent": 55,
+            "temp_id": 57,
+            "size": "554*141",
+            "signature": "[class]android.widget.EditText[resource_id]com.zaidisoft.teninone:id/tipPercentET[text]0[enabled,,]",
+            "view_str": "98158fb6b00c2a7d62eb8211b5023b5e",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.zaidisoft.teninone:id/tipPercentET"
         },
         "x": null,
         "y": null,
@@ -200,7 +200,7 @@
             "selected": false,
             "scrollable": false,
             "long_clickable": true,
-            "resource_id": "com.tleapps.simpletipcalculator:id/editTextSplit",
+            "resource_id": "com.zaidisoft.teninone:id/guestNumberET",
             "visible": true,
             "enabled": true,
             "clickable": true,
@@ -211,26 +211,26 @@
             "class": "android.widget.EditText",
             "children": [],
             "child_count": 0,
-            "package": "com.tleapps.simpletipcalculator",
+            "package": "com.zaidisoft.teninone",
             "text": "1",
             "bounds": [
                 [
-                    949,
-                    931
+                    858,
+                    1608
                 ],
                 [
-                    1280,
-                    1079
+                    1412,
+                    1749
                 ]
             ],
             "editable": true,
             "focusable": true,
-            "parent": 46,
-            "temp_id": 50,
-            "size": "331*148",
-            "signature": "[class]android.widget.EditText[resource_id]com.tleapps.simpletipcalculator:id/editTextSplit[text]1[enabled,,]",
-            "view_str": "84f6d2a2ac43a7bb5176db723fc2f1b9",
-            "content_free_signature": "[class]android.widget.EditText[resource_id]com.tleapps.simpletipcalculator:id/editTextSplit"
+            "parent": 58,
+            "temp_id": 60,
+            "size": "554*141",
+            "signature": "[class]android.widget.EditText[resource_id]com.zaidisoft.teninone:id/guestNumberET[text]1[enabled,,]",
+            "view_str": "1daac430ab1fe742aa366bf39051ed10",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.zaidisoft.teninone:id/guestNumberET"
         },
         "x": null,
         "y": null,
@@ -245,7 +245,7 @@
             "selected": false,
             "scrollable": false,
             "long_clickable": true,
-            "resource_id": "com.tleapps.simpletipcalculator:id/editTextSplit",
+            "resource_id": "com.zaidisoft.teninone:id/guestNumberET",
             "visible": true,
             "enabled": true,
             "clickable": true,
@@ -256,26 +256,26 @@
             "class": "android.widget.EditText",
             "children": [],
             "child_count": 0,
-            "package": "com.tleapps.simpletipcalculator",
+            "package": "com.zaidisoft.teninone",
             "text": "1",
             "bounds": [
                 [
-                    949,
-                    931
+                    858,
+                    1608
                 ],
                 [
-                    1280,
-                    1079
+                    1412,
+                    1749
                 ]
             ],
             "editable": true,
             "focusable": true,
-            "parent": 46,
-            "temp_id": 50,
-            "size": "331*148",
-            "signature": "[class]android.widget.EditText[resource_id]com.tleapps.simpletipcalculator:id/editTextSplit[text]1[enabled,,]",
-            "view_str": "84f6d2a2ac43a7bb5176db723fc2f1b9",
-            "content_free_signature": "[class]android.widget.EditText[resource_id]com.tleapps.simpletipcalculator:id/editTextSplit"
+            "parent": 58,
+            "temp_id": 60,
+            "size": "554*141",
+            "signature": "[class]android.widget.EditText[resource_id]com.zaidisoft.teninone:id/guestNumberET[text]1[enabled,,]",
+            "view_str": "1daac430ab1fe742aa366bf39051ed10",
+            "content_free_signature": "[class]android.widget.EditText[resource_id]com.zaidisoft.teninone:id/guestNumberET"
         },
         "x": null,
         "y": null,
@@ -290,37 +290,37 @@
             "selected": false,
             "scrollable": false,
             "long_clickable": false,
-            "resource_id": "com.tleapps.simpletipcalculator:id/buttonCalculate",
+            "resource_id": "com.zaidisoft.teninone:id/calculateBtn",
             "visible": true,
             "enabled": true,
             "clickable": true,
             "checked": false,
             "is_password": false,
             "content_description": null,
-            "focused": false,
+            "focused": true,
             "class": "android.widget.Button",
             "children": [],
             "child_count": 0,
-            "package": "com.tleapps.simpletipcalculator",
+            "package": "com.zaidisoft.teninone",
             "text": "Calculate",
             "bounds": [
                 [
-                    240,
-                    1109
+                    734,
+                    1820
                 ],
                 [
-                    548,
-                    1277
+                    1398,
+                    1988
                 ]
             ],
             "editable": false,
             "focusable": true,
-            "parent": 51,
-            "temp_id": 52,
-            "size": "308*168",
-            "signature": "[class]android.widget.Button[resource_id]com.tleapps.simpletipcalculator:id/buttonCalculate[text]Calculate[enabled,,]",
-            "view_str": "b9390aba00ee552fd6611d17c47ba165",
-            "content_free_signature": "[class]android.widget.Button[resource_id]com.tleapps.simpletipcalculator:id/buttonCalculate"
+            "parent": 61,
+            "temp_id": 63,
+            "size": "664*168",
+            "signature": "[class]android.widget.Button[resource_id]com.zaidisoft.teninone:id/calculateBtn[text]Calculate[enabled,,]",
+            "view_str": "9e623a04efa9fdcd77f490b88124aaa2",
+            "content_free_signature": "[class]android.widget.Button[resource_id]com.zaidisoft.teninone:id/calculateBtn"
         },
         "x": null,
         "y": null
@@ -344,75 +344,28 @@
             "focused": true,
             "class": "android.webkit.WebView",
             "children": [
-                20
+                17
             ],
             "child_count": 1,
-            "package": "com.tleapps.simpletipcalculator",
+            "package": "com.zaidisoft.teninone",
             "text": "",
             "bounds": [
                 [
-                    160,
-                    336
+                    0,
+                    280
                 ],
                 [
-                    1280,
-                    512
+                    1445,
+                    456
                 ]
             ],
             "editable": false,
             "focusable": true,
-            "parent": 18,
-            "temp_id": 19,
-            "size": "1120*176",
+            "parent": 15,
+            "temp_id": 16,
+            "size": "1445*176",
             "signature": "[class]android.webkit.WebView[resource_id]None[text][enabled,,]",
-            "view_str": "dc47cfc5cc214fd51426d37d9d2456ce",
-            "content_free_signature": "[class]android.webkit.WebView[resource_id]None"
-        },
-        "x": null,
-        "y": null,
-        "direction": "DOWN"
-    },
-    {
-        "event_type": "scroll",
-        "log_lines": null,
-        "prompt": null,
-        "view": {
-            "checkable": false,
-            "selected": false,
-            "scrollable": true,
-            "long_clickable": false,
-            "resource_id": null,
-            "visible": true,
-            "enabled": true,
-            "clickable": false,
-            "checked": false,
-            "is_password": false,
-            "content_description": null,
-            "focused": true,
-            "class": "android.webkit.WebView",
-            "children": [
-                20
-            ],
-            "child_count": 1,
-            "package": "com.tleapps.simpletipcalculator",
-            "text": "",
-            "bounds": [
-                [
-                    160,
-                    336
-                ],
-                [
-                    1280,
-                    512
-                ]
-            ],
-            "editable": false,
-            "focusable": true,
-            "parent": 18,
-            "temp_id": 19,
-            "size": "1120*176",
-            "signature": "[class]android.webkit.WebView[resource_id]None[text][enabled,,]",
-            "view_str": "dc47cfc5cc214fd51426d37d9d2456ce",
+            "view_str": "bb53dfa40f3e8643fb7b60c3efc24e03",
             "content_free_signature": "[class]android.webkit.WebView[resource_id]None"
         },
         "x": null,
@@ -420,7 +373,7 @@
         "direction": "UP"
     },
     {
-        "event_type": "scroll",
+        "event_type": "click",
         "log_lines": null,
         "prompt": null,
         "view": {
@@ -438,32 +391,77 @@
             "focused": true,
             "class": "android.view.View",
             "children": [
-                31
+                30
             ],
             "child_count": 1,
-            "package": "com.tleapps.simpletipcalculator",
+            "package": "com.zaidisoft.teninone",
             "text": "Advertisement",
             "bounds": [
                 [
-                    160,
-                    336
+                    161,
+                    280
                 ],
                 [
-                    1280,
-                    512
+                    1284,
+                    456
                 ]
             ],
             "editable": false,
             "focusable": true,
-            "parent": 29,
-            "temp_id": 30,
-            "size": "1120*176",
+            "parent": 28,
+            "temp_id": 29,
+            "size": "1123*176",
             "signature": "[class]android.view.View[resource_id]None[text]Advertisement[enabled,,]",
-            "view_str": "512c0273c3e627b3023e289df088a20c",
+            "view_str": "a10d7120de4d67e1a03c6d59ff1f17fe",
             "content_free_signature": "[class]android.view.View[resource_id]None"
         },
         "x": null,
-        "y": null,
-        "direction": "UP"
+        "y": null
+    },
+    {
+        "event_type": "click",
+        "log_lines": null,
+        "prompt": null,
+        "view": {
+            "checkable": false,
+            "selected": false,
+            "scrollable": false,
+            "long_clickable": false,
+            "resource_id": "img_anch_CO7akevniYQDFRPuFgUdy_oORA",
+            "visible": true,
+            "enabled": true,
+            "clickable": true,
+            "checked": false,
+            "is_password": false,
+            "content_description": "Advertisement",
+            "focused": true,
+            "class": "android.view.View",
+            "children": [
+                33
+            ],
+            "child_count": 1,
+            "package": "com.zaidisoft.teninone",
+            "text": null,
+            "bounds": [
+                [
+                    161,
+                    280
+                ],
+                [
+                    1284,
+                    456
+                ]
+            ],
+            "editable": false,
+            "focusable": true,
+            "parent": 31,
+            "temp_id": 32,
+            "size": "1123*176",
+            "signature": "[class]android.view.View[resource_id]img_anch_CO7akevniYQDFRPuFgUdy_oORA[text]None[enabled,,]",
+            "view_str": "d88f87287e3a3681d22538c9734c2039",
+            "content_free_signature": "[class]android.view.View[resource_id]img_anch_CO7akevniYQDFRPuFgUdy_oORA"
+        },
+        "x": null,
+        "y": null
     }
 ]
